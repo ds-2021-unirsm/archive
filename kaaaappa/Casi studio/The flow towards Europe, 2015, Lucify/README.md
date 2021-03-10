@@ -1,6 +1,6 @@
 # The flow towards Europe, 2015, Lucify
 
-![The flow towards Europe](https://www.google.com/search?q=the+flow+through+europe+lucify&tbm=isch&ved=2ahUKEwjKv6rqz6bvAhUI16QKHfToB_UQ2-cCegQIABAA&oq=the+flow+through+europe+lucify&gs_lcp=CgNpbWcQAzoECCMQJ1DzLli1MmDOM2gAcAB4AIABXIgBjwKSAQEzmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=-TNJYIrfAYiukwX00Z-oDw&bih=722&biw=1536#imgrc=M3kRIXzppX36zM)
+![The flow towards Europe](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.informationisbeautifulawards.com%2Fshowcase%2F872-the-flow-towards-europe&psig=AOvVaw3khwUwN7tWc-pgu-TZzvaK&ust=1615496577485000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDp8_HPpu8CFQAAAAAdAAAAABAZ)
 
 ## Cos'è?
 
