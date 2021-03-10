@@ -1,6 +1,6 @@
-# *The flow towards Europe*, 2015, Lucify
+# *Immaterials: Light painting WiFi*, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
 
-[![The flow towards Europe](https://www.healthonthemove.net/wp-content/uploads/2019/04/the-flow-towards-europe.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.lucify.com/the-flow-towards-europe/)
+[![Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen](http://farm6.static.flickr.com/5174/5481685046_200e866b3b_z.jpg "Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen")](http://yourban.no/2011/02/22/immaterials-light-painting-wifi/)
 
 - ## Cos'è?
 *The flow towards Europe* è un progetto di data visualization, il quale permette di avere un overview delle immigrazioni in Europa dal 2012 in poi. 
