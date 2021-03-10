@@ -1,4 +1,5 @@
-# *Immaterials: Light painting WiFi*, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
+# *Immaterials: Light painting WiFi*
+## 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
 
 [![Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen](http://farm6.static.flickr.com/5174/5481685046_200e866b3b_z.jpg "Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen")](http://yourban.no/2011/02/22/immaterials-light-painting-wifi/)
 
