@@ -1,6 +1,6 @@
-# *The flow towards Europe*, 2015, Lucify
+# *Monument*, 2006, Caleb Larsen
 
-[![The flow towards Europe](https://www.healthonthemove.net/wp-content/uploads/2019/04/the-flow-towards-europe.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.lucify.com/the-flow-towards-europe/)
+[![Monument](http://media.rhizome.org/blog/1933/small.jpg "Monument, 2006, Caleb Larsen")](http://classic.rhizome.org/portfolios/artwork/43859/)
 
 - ## Cos'è?
 *The flow towards Europe* è un progetto di data visualization, il quale permette di avere un overview delle immigrazioni in Europa dal 2012 in poi. 
