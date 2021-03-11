@@ -2,6 +2,8 @@
 
 ![743e91b82580238fc322577b77df97cb](https://user-images.githubusercontent.com/79698172/110754026-9b9d5380-8247-11eb-82fb-8e12194bc9c0.jpg)
 
+http://yourban.no/2011/02/22/immaterials-light-painting-wifi/
+
 ### Che cos’è?
 Si tratta di un progetto di dataphysicalization dove viene mostrato il livello del segnale wifi 
 in prossimità di alcuni edifici attraverso delle luci.
