@@ -1,4 +1,4 @@
-# Monument, 2006, Caleb Larsen
+# _Monument_, 2006, Caleb Larsen
 
 ## What is?
 _Monument (If it bleeds, it lead)_ è un’installazione di Caleb M. Larsen composta da palline da Soft Air gialle contenute in una struttura cubica trasparente appesa al soffitto, e collegata a un computer con un programma.
