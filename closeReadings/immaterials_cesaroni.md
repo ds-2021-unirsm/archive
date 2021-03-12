@@ -1,4 +1,4 @@
-# Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
+# _Immaterials: Light painting WiFi_, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
 
 ## What is?
 _Immaterials: Light painting WiFi_ è un video composto da fotografie a lunga esposizione, realizzato da Timo Arnall, Jørn Knutsen e Einar Sneve Martinussen, nel 2012. Il progetto vuole rendere visibile il paesaggio immateriale del WiFi e come questo si relaziona alla città.
