@@ -17,4 +17,4 @@ Cosa succederebbe se le palline non avessero questo colore ma fossero rosse? Pot
 --- 
 
 ### Reference
-- _Monument_, 2006, Caleb Larsen [+](https://we-make-money-not-art.com/monument_if_it/)
+- _Monument_, 2006, Caleb Larsen [+](https://we-make-money-not-art.com/monument_if_it/)[+](https://books.google.sm/books?id=UgREV9O8sNAC&pg=PA178&lpg=PA178&dq=Caleb+larsen+yellow&source=bl&ots=gkAZiBFlN6&sig=ACfU3U3x5l4MUhsGyDO2jULwAMIOPcr9Zw&hl=en&sa=X&ved=2ahUKEwj4ibK4iavvAhXK16QKHetKAGoQ6AEwEXoECBAQAw#v=onepage&q=Caleb%20larsen%20yellow&f=false)
