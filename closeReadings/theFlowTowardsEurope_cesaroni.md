@@ -1,4 +1,4 @@
-# The Flow Towards Europe, 2015, Lucify 
+# _The Flow Towards Europe_, 2015, Lucify 
 
 ## What is?
 _The Flow Towards Europe_ è un progetto di _data visualization_ dell’agenzia di comunicazione finlandese Lucify, del 2015. 
