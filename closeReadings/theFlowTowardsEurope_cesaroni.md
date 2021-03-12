@@ -22,5 +22,5 @@ Cosa succederebbe se ci fosse una sezione che permetta alle persone di confronta
 
 --- 
 
-### Reference
+### References
 - _The Flow Towards Europe_, 2015, Lucify [+](https://www.lucify.com/the-flow-towards-europe/)[+](https://dublin.sciencegallery.com/trauma-exhibits/the-flow-towards-europe)
