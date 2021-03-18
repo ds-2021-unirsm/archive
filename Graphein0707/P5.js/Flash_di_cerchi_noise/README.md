@@ -1,4 +1,5 @@
-## Flash di cerchi con Perlin noise
+## Flash di cerchi 
+Cerchi controllati dal Perlin noise e dai metodi translate(), push(), pop() e scale()
 
 ![1](https://user-images.githubusercontent.com/76476654/110701884-0de34900-81f2-11eb-885f-b61f22bee098.png)
 ![2](https://user-images.githubusercontent.com/76476654/110701954-23f10980-81f2-11eb-846e-505138d0a390.png)
