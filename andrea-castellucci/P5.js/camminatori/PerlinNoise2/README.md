@@ -1,4 +1,5 @@
 # Camminatore con Perlin Noise
 
-https://editor.p5js.org/andrea-castellucci/full/Wnp9qUA23
-![the source](https://github.com/andrea-castellucci/archive/blob/main/andrea-castellucci/esercizi/camminatori/1%20-%20camminatori/2_variazione.jpg)
+Variazione 2: https://editor.p5js.org/andrea-castellucci/full/Wnp9qUA23
+
+![2_variazione](https://user-images.githubusercontent.com/75098849/111697172-828f3680-8835-11eb-9b11-07476104be0a.jpg)
