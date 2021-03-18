@@ -4,3 +4,4 @@ Gli esercizi presenti in questa cartella prevedono alcune modifiche di esempi pr
 
 1. *Walker Perlin noise - 1*
 2. *Walker Perlin noise - 2*
+3. *Circle moving with noise*
