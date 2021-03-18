@@ -54,6 +54,4 @@ function draw() {
     x=0;
     y+=modulo;
   }
-  
-  //y1+=0.5;
 }
