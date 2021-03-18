@@ -1,4 +1,4 @@
-## Flower Ghost
+## ✹ Flower Ghost ✹
 Per questo esercizio ho sperimentato con **translate, rotate, scale e la funzione noise()**. 
 ![alt text](https://github.com/irenecrln/foto/blob/main/1PerlinNoise.JPG)
 
