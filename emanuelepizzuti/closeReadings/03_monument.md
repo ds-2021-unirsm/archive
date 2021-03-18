@@ -17,7 +17,7 @@ Questo ci porta alla seconda parte del titolo: "**_if it bleeds, it leads_**". �
 nel riportare notizie violente per attirare pubblico. A proposito di quest'ultimo, si nota che il meccanismo crea una sorta di attesa nello spettatore. 
 Questa attitudine si potrebbe tradurre nell'accettazione forse inconsapevole, da parte del pubblico, della spettacolarizzazione creata dai giornali quando si parla di 
 queste notizie.
-Probabilmente il vero significato dell'opera non viene rivelato subito al pubblico, così da portarlo a riflettere poi in un secondo momento sulla propria attitudine verso l'opera stessa.
+Probabilmente il vero significato dell'opera non viene rivelato subito al pubblico, così da portarlo a **riflettere poi in un secondo momento sulla propria attitudine** verso l'opera stessa.
 
 ### What if..?
 Se uno degli obiettivi dell'opera sta nel creare attesa e interesse nello spettatore, si potrebbe cercare di spettacolarizzare ancora di più la caduta delle palline. 
