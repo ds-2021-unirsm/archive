@@ -1,4 +1,4 @@
-### 02 - Linee connesse
+# 02 - Linee connesse
 
 In questo esercizio i camminatori rappresentano gli estremi di segmenti connessi tra di loro.
 Questi si muovono in maniera fluida tramite noise, lasciando i segni del loro passaggio sulla tela.
