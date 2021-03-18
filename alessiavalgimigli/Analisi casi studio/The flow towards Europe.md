@@ -21,3 +21,8 @@ Il progetto vuole trasmettere la grandezza di una delle più importanti crisi di
 
 ### What if?
 Sarebbe interessante poter vedere tutti i continenti in modo da avere una visione globale del fenomeno e non solamente a livello Europeo. 
+
+#### Reference
+https://www.lucify.com/the-flow-towards-europe/
+https://dublin.sciencegallery.com/trauma-exhibits/the-flow-towards-europe
+
