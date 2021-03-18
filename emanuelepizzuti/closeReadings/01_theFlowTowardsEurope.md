@@ -3,7 +3,7 @@
 ![screenshot of the website](https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivJOmI9lhVlo/v0/1800x-1.png)
 
 ### Cos'è?
-"*The flow toward Europe*" è una *data-visualization* interattiva, sviluppata da Juho Ojala e Ville Saarinen dello studio Lucify, che mette in mostra la **crisi dei flussi di migranti** dai loro paesi di origine e verso diversi paesi europei. I dati rappresentati fanno riferimento alle informazioni sul numero di richiedenti asilo politico, rilasciate dalla Agenzia delle Nazioni Unite per i Rifugiati (UNHCR), coprendo un periodo temporale che va dal 01 gennaio 2012 al 24 ottobre 2018.
+"*The flow toward Europe*" è una *data-visualization* interattiva, sviluppata da Juho Ojala e Ville Saarinen dello studio *Lucify*, che mette in mostra la **crisi dei flussi di migranti** dai loro paesi di origine e verso diversi paesi europei. I dati rappresentati fanno riferimento alle informazioni sul numero di richiedenti asilo politico, rilasciate dalla *Agenzia delle Nazioni Unite per i Rifugiati* (UNHCR), coprendo un periodo temporale che va dal 01 gennaio 2012 al 24 ottobre 2018.
 
 ### Come funziona?
 Il sito web è composto da tre diversi grafici.
