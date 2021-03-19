@@ -1,5 +1,4 @@
 IMMATERIALS: LIGHT PAINTING WIFI
-
 http://yourban.no/2011/02/22/immaterials-light-painting-wifi/
 
 WHAT IS?  
