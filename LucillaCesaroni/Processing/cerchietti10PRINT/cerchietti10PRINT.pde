@@ -1,3 +1,6 @@
+// cerchietti 10PRINT
+// Lucilla Cesaroni
+
 //quando il programma inizia, le variabili fuori i blocchi sotto sono dichiarate e assegnate
 int w = 16;
 int h = 16;
