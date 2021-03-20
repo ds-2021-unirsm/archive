@@ -1,4 +1,6 @@
-// random walker OOP
+// camminatore laser
+// Lucilla Cesaroni
+
 var w, h;
 var quanti = 10; // vertici
 var c = []; // array vuoto che contiene gli oggetti che sono i camminatori
