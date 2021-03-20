@@ -1,4 +1,6 @@
-// random walker OOP
+// camminatore nebulosa
+// Lucilla Cesaroni
+
 var w, h;
 var d = 2; // diametro ellisse
 var quanti = 1000 // numero pallini
