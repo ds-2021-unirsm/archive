@@ -1,4 +1,4 @@
-// Variazione 10PRINT
+// variazione 10PRINT
 // Lucilla Cesaroni
 
 let w, h;
