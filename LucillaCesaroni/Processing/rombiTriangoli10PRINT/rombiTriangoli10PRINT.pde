@@ -1,3 +1,6 @@
+// rombi triangoli 10PRINT
+// Lucilla Cesaroni
+
 //Il numero di righe e
 ///colonne nella griglia è variabile, 
 //la direzione della linea ne definisce il colore (nero o bianco), 
