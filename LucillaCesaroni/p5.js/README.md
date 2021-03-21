@@ -3,3 +3,4 @@
 - ### Camminatore Nebulosa	
 - ### Camminatore Laser
 - ### Variazione 10PRINT
+- ### Generatore casuale di parole
