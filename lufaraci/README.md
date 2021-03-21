@@ -3,6 +3,7 @@
 questa cartella contiene:
 
 * P5
+   * camminatore
    * 2D Perlin noise
    * Combining_transformation_functions
    * pop_push
