@@ -11,3 +11,4 @@
 
 *Cosa succederebbe se?*
 <br/>Cosa succederebbe se l’installazione fosse ancora più dettagliata ed andasse ad evidenziare le cause di morte di queste persone? Le persone potrebbero prendere ancora più coscienza della gravità del tema trattato o ne sarebbero spaventate? 
+Le cause degli omicidi potrebbero essere inserite nell'installazione ed evidenziate attraverso il suono, nel momento in cui una pallina cade, un suono puntuale, legato alla causa di morte, viene liberato dentro alla stanza. La stimolazione uditiva accompagna quella visiva. 
