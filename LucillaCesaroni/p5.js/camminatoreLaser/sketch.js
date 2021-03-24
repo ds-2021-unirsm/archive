@@ -68,5 +68,5 @@ function Camminatore(_id) {
 }
 
 function windowResized() {
-    resizeCanvas(w, h);
+    resizeCanvas(windowWidth, windowHeight);
 }
