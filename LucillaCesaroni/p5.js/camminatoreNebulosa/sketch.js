@@ -64,3 +64,7 @@ function Camminatore(_id) { // _id = variabile locale che definisce la singola p
     ellipse(this.x, this.y, d);
   }
 }
+
+function windowResized() {
+    resizeCanvas(w, h);
+}
