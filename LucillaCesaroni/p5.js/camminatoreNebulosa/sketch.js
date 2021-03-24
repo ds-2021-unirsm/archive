@@ -66,5 +66,5 @@ function Camminatore(_id) { // _id = variabile locale che definisce la singola p
 }
 
 function windowResized() {
-    resizeCanvas(w, h);
+    resizeCanvas(windowWidth, windowHeight);
 }
