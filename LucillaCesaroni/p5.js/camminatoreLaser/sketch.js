@@ -66,3 +66,7 @@ function Camminatore(_id) {
         ellipse(c[this.qualeAltro].x, c[this.qualeAltro].y, 5);
     }
 }
+
+function windowResized() {
+    resizeCanvas(w, h);
+}
