@@ -56,7 +56,7 @@ function draw() {
 
 }
 
-//premi tasto screen del poster
+//premi tasto, refresh
 function mousePressed() {
   mouse = true;
 }
