@@ -1,3 +1,3 @@
+![Immagine](https://user-images.githubusercontent.com/60677625/112503973-a7326380-8d8b-11eb-802e-48bedd0b63d5.jpg)
 
-![Immagine](https://user-images.githubusercontent.com/60677625/112503853-8f5adf80-8d8b-11eb-9794-f0e90129346f.jpg)
 
