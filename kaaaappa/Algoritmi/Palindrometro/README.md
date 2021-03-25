@@ -1,4 +1,4 @@
-# 10 Print_1
+# Palindrometro
 
 *Clicca sull'immagine per visualizzare il fullscreen dell'esercizio*
 
