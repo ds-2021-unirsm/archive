@@ -5,3 +5,4 @@
 - ### Variazione 10PRINT
 - ### Generatore casuale di parole
 - ### Table Of Random Digits
+- ### Pattern con modulo
