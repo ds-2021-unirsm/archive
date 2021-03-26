@@ -1,4 +1,6 @@
-// random walker OOP
+// camminatore nebulosa
+// Lucilla Cesaroni
+
 var w, h;
 var d = 2; // diametro ellisse
 var quanti = 1000 // numero pallini
@@ -61,4 +63,8 @@ function Camminatore(_id) { // _id = variabile locale che definisce la singola p
     fill(map(this.x, 0, w, 0, 255), map(this.y, 0, h, 0, 255), map(this.speed, 0, speedMax, 0, 255));
     ellipse(this.x, this.y, d);
   }
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }

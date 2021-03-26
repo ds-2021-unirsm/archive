@@ -1,4 +1,6 @@
-// random walker OOP
+// camminatore laser
+// Lucilla Cesaroni
+
 var w, h;
 var quanti = 10; // vertici
 var c = []; // array vuoto che contiene gli oggetti che sono i camminatori
@@ -63,4 +65,8 @@ function Camminatore(_id) {
         fill(map(this.y, 0, h, 0, 255), map(this.x, 0, w, 0, 255), map(this.speed, 0, speedMax, 0, 255));
         ellipse(c[this.qualeAltro].x, c[this.qualeAltro].y, 5);
     }
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }
