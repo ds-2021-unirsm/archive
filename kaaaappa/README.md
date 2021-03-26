@@ -1,5 +1,3 @@
-# Questa _non_ è una simulazione
+# Ianiro Carmen
 
 _work in progress_
-
-**non so che scrivere**
