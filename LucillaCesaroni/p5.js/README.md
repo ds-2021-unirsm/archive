@@ -19,5 +19,4 @@
 <img width="1440" alt="Schermata 2021-03-25 alle 16 45 12" src="https://user-images.githubusercontent.com/76476647/112503441-3723dd80-8d8b-11eb-8a8e-8fa457fd8d88.png">
 
 - ### Camminatore drawer indipendente :point_right: [+](https://editor.p5js.org/Lucilla/sketches/rLL64Eppv)
-
 <img width="1424" alt="Schermata 2021-04-03 alle 10 41 40" src="https://user-images.githubusercontent.com/76476647/113505209-a349d280-953d-11eb-8be7-473a9037f637.png">
