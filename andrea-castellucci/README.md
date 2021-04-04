@@ -1,1 +1,0 @@
-## Cartella di Andrea Castellucci
