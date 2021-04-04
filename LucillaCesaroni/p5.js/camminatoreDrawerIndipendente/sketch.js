@@ -1,4 +1,3 @@
-// inspired by https://openprocessing.org/sketch/94545
 // camminatore indipendente che disegna
 // Lucilla Cesaroni
 
@@ -30,19 +29,11 @@ function draw() {
         c[i].move();
         c[i].display();
     }
-
-    // cancello i camminatori 
-    if (quanti == 11) {
-        quanti = 1;
-        c = [];
-    }
 }
 
 function Camminatore(_id) {
 
     this.id = _id;
-
-    console.log(_id);
 
     this.x = random(w); // x inizio
     this.y = random(h); // y inizio
@@ -50,6 +41,7 @@ function Camminatore(_id) {
     this.xcontenitore = [];
     this.ycontenitore = [];
     this.conta = 0;
+
     this.speed = random(0, speedMax);
 
     this.noiseX = random(1000);
@@ -67,13 +59,6 @@ function Camminatore(_id) {
         this.xcontenitore.push(a);
         this.ycontenitore.push(b);
         this.conta += 1; // quanto è lungo questo array?
-
-        // la lunghezza del conta è max 250 
-        if (this.conta == 250) {
-            this.conta = 0;
-            this.xcontenitore = [];
-            this.ycontenitore = [];
-        }
     }
 
     background(255);
