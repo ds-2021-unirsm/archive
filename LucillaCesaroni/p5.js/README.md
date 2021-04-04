@@ -23,3 +23,6 @@
 
 - ### Incontri/scontri tra camminatori che cambiano la via :point_right: [+](https://editor.p5js.org/Lucilla/full/6DHJORxwr)
 <img width="1422" alt="Schermata 2021-04-04 alle 15 22 52" src="https://user-images.githubusercontent.com/76476647/113510164-be2a4000-9559-11eb-9a4e-eeb1eb5735ee.png">
+
+- ### Sol Lewitt :point_right: [+](https://editor.p5js.org/Lucilla/sketches/_pgwB3LS8)
+<img width="1360" alt="Schermata 2021-04-04 alle 15 49 18" src="https://user-images.githubusercontent.com/76476647/113511084-5f1afa00-955e-11eb-8206-066d0ce3a738.png">
