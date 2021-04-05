@@ -25,4 +25,4 @@
 <img width="1422" alt="Schermata 2021-04-04 alle 15 22 52" src="https://user-images.githubusercontent.com/76476647/113510164-be2a4000-9559-11eb-9a4e-eeb1eb5735ee.png">
 
 - ### Sol Lewitt :point_right: [+](https://editor.p5js.org/Lucilla/sketches/_pgwB3LS8)
-<img width="675" alt="Schermata 2021-04-05 alle 12 27 44" src="https://user-images.githubusercontent.com/76476647/113564985-8f1fd700-960a-11eb-8f01-c6d83d5ec57c.png">
+<img width="1440" alt="Schermata 2021-04-05 alle 20 44 10" src="https://user-images.githubusercontent.com/76476647/113612317-f7dd7280-964f-11eb-9e4f-b49591d53469.png">
