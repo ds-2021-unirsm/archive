@@ -1,9 +1,17 @@
+// Sol Lewitt
+// Lucilla Cesaroni
+
+var w, h;
+
 function setup() {
-  createCanvas(680, 240);
+  createCanvas(w = windowWidth, h = windowHeight);
   background(0);
 }
 
 function draw() {
+
+  background(0);
+  translate(w / 2 - 340, h / 2 - 100);
 
   // primo quadro
   fill(160, 0, 0);
