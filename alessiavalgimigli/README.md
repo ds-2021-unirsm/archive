@@ -1,7 +1,7 @@
 # Contenuti cartella
 
 ### - Esercizi p5.js 
-      esercizi di base, camminatori, generatori di parole, pattern 
+      esercizi di base, camminatori, generatori di parole, pattern, 10print
 ### - Analisi casi studio
       lettura critica di casi studio proposti dal prof
 ### - 10Print
