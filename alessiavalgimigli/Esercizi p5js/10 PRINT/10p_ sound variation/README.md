@@ -8,5 +8,4 @@ dei cerchi, la loro grandezza e la tonalità del suono.
 ![sliders](https://user-images.githubusercontent.com/79698172/113992206-1f4c5f00-984b-11eb-88b2-10c8b0467a08.png)
 
 
-
-https://editor.p5js.org/Alessia97/full/2UyYdhjX
+Code :point_right: [+](https://editor.p5js.org/Alessia97/full/2UyYdhjX)
