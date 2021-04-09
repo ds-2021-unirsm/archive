@@ -30,5 +30,5 @@
 - ### Foto Pixel :point_right: [+](https://editor.p5js.org/Lucilla/full/ZtOJiqVRj)
 ![Schermata 2021-03-18 alle 00 43 37](https://user-images.githubusercontent.com/76476647/113616725-c4054b80-9655-11eb-9ca5-28e122867b00.jpg)
 
-- ### Camminatori che disegnano mondi :point_right: [+](https://editor.p5js.org/Lucilla/full/gqLZYp3y5)
+- ### Camminatori che disegnano mondi, scappano :point_right: [+](https://editor.p5js.org/Lucilla/full/gqLZYp3y5)
 <img width="1440" alt="Schermata 2021-04-10 alle 00 09 52" src="https://user-images.githubusercontent.com/76476647/114245668-36956480-9991-11eb-8c9e-8e89750cdc4c.png">
