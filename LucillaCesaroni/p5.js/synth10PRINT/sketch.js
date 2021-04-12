@@ -93,10 +93,9 @@ function draw() {
     ellipse(x, y, spacing.value());
     ellipse(x, y, random(dim));
     playSynth(440 * x / spacing.value());
-    if (x % 4 == 0) {
+    if (x % 13 == 0) {
       stroke(r, g, b);
       strokeWeight(map(mouseY, 0, h, 0.5, 2));
-
       line(x, y + dim, x + dim, y);
     }
   } else {
@@ -105,7 +104,7 @@ function draw() {
     stroke(r, g, b);
     rect(x, y, random(1, dim));
     playSynth(440 * y / spacing.value());
-    if (x % 5 == 0) {
+    if (x % 8 == 0) {
       stroke(r, g, b);
       strokeWeight(map(mouseX, 0, w, 0.5, 2));
       line(x, y, x + dim, y + dim);
