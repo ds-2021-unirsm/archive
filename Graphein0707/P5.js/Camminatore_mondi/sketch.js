@@ -4,19 +4,21 @@
 
 let movers = [];
 let num = 5;
-let d = 70;
+let d = 0.2;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+  createCanvas(windowWidth, windowHeight);
+  blendMode(SCREEN);
+  
   smooth();
   background(0);
   for (var i = 0; i < num; i++) {
     movers[i] = new Mover();
+    ellipseMode(CORNERS);
   }
 }
 
 function draw() {
-  //background(255);
 
   for (var i = 0; i < num; i++) {
     movers[i].move();
@@ -27,9 +29,9 @@ function draw() {
 
 function Mover(x, y) {
 
-  this.location = createVector(random(width), random(height));
+  this.location = createVector(10, 10);
   this.velocity = createVector(0, 0);
-  this.speed = 5;
+  this.speed = 2;
 
   //move
   this.move = function() {
@@ -50,8 +52,8 @@ function Mover(x, y) {
 
   //display
   this.display = function() {
-    stroke(random(255), 0, random(255), 30);
-    strokeWeight(3);
+    stroke(random(255), 20, random(255), 20);
+    strokeWeight(0.5);
     noFill();
     ellipse(this.location.x, this.location.y, d);
   }
