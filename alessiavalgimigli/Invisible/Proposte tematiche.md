@@ -3,8 +3,8 @@
 ### TEMA 1
 ### _Le emozioni della città_
 Questo tema vuole analizzare la città attraverso le emozioni che provano i suoi cittadini. 
-Si tratta quindi di scoprire i diversi sentimenti che la popolano, quali appartengono a determinati luoghi, e in quali momenti si manifestano. 
-Lo scopo è quello di delineare le caratteristiche di una città viva.
+Si tratta quindi di scoprire i diversi sentimenti che la popolano, in quali momenti della giornata si manifestano e in quali luoghi. 
+Lo scopo è mostrare una città che vive e pulsa, grazie ai suoi abitanti. 
 
 #### Reference
 The City Lab (Domestic Data Streamers) 👉🏻 [+](https://domesticstreamers.com/project/the-city-lab/)
