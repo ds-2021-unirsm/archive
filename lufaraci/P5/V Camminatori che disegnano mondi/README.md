@@ -11,5 +11,6 @@
 <img width="577" alt="camminatori che disegnano mondi 2" src="https://user-images.githubusercontent.com/63911437/114778200-d9285b80-9d74-11eb-84be-737c1efc48ca.png">
 
 Disegna muovendo le frecce della tastiera.
+Blocca con la barra spaziatrice.
 
 [Live](https://editor.p5js.org/lfaraci/full/fHumhReMU)
