@@ -1,5 +1,7 @@
 RISATA
 
+
+
 Da tempo la scienza ha dimostrato che l'ottimismo e il buon umore sono un toccasana per la nostra salute psicofisica.  
 
 Un team di ricercatori dell'Università di Basilea (Svizzera) ha verificato come ridere frequentemente riduca i sintomi psicologici e fisiologici scatenati dagli eventi stressanti della vita di tutti i giorni e che questo fenomeno non è all’intensità delle risate (bassa, media, alta).
@@ -13,6 +15,7 @@ https://www.focus.it/comportamento/scuola-e-universita/ridere-rinforza-la-memori
 Come il rilevamento della risata potrebbe aumentare la produttività di un team di lavoro o l’apprendimento di uno studente?
 
 
+
 MUSICA
 
 Può capitare di vedere un’immagine, una fotografia o una scena di vita quotidiana e pensare “sarebbe bello se quello che vedo fosse musica”. 
@@ -22,6 +25,7 @@ Funge da esempio un video della Nasa dove l’audio non è altro che la trasposi
 https://www.nasa.gov/mission_pages/chandra/news/data-sonification-sounds-from-around-the-milky-way.html
 
 È perciò possibile rendere le immagini musica attraverso il machine learning?
+
 
 
 ODORE
