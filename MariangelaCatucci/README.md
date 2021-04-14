@@ -1,5 +1,5 @@
 #ds-2021-unirsm
 
-CODECODECODE
+CARTELLA PERSONALE
 
-work in progress
+work in progress: presentazione da definire, chi sono?
