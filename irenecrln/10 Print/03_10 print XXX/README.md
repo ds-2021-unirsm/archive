@@ -2,7 +2,7 @@
 ---
 Variazione del 10 print che crea delle "non-censure" su immagini di nudo prese da alcuni vecchi Playboy degli anni '60-'70-'80 🔥
 
-**Interazione:** cliccando sull'immagine si creeerà un nuovo poster (DA SISTEMARE), premendo 's' sulla tastiera l'immagina potrà essere salvata.
+**Interazione:** cliccando sull'immagine si creeerà un nuovo poster, premendo 's' sulla tastiera l'immagina potrà essere salvata.
 
 [Link per l'esercizio](https://editor.p5js.org/irene.crln/full/sattVpDtd)
 
