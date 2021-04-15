@@ -26,7 +26,7 @@
 ![Anteprime sketch_Tavola disegno 1 copia](https://user-images.githubusercontent.com/76455356/114795669-6a0c3080-9d8f-11eb-8889-03c7dfd90558.png)
 
 
-## Variazioni 10Print
+# Variazioni 10Print
 ### 01. Generatore di città [+](https://editor.p5js.org/RobertoAlesi/full/SWTgiAhlq)
 >10Print è stato usato per creare delle città generative posizionando casualmente cubi come fossero palazzi, forme bidimensionali come strade e sfere come nuvole. 
 
@@ -37,7 +37,7 @@
 
 ![Anteprime sketch_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/114696998-a141f980-9d1d-11eb-9e53-5c37d6d818d2.png)
 
-## Space Walkers
+# Space Walkers
 ### Walkers_01 [+](https://editor.p5js.org/alesi.roberto@gmail.com/full/ybRyoYsi3)
 >I walker sono collegati tra loro creando delle forme chiuse, che mutano al variare del numero dei walker.
 
