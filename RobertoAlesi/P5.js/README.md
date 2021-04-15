@@ -1,3 +1,15 @@
-Giochi senza frontiere
-Walkers
-Variazioni 10 Print
+## Generatore di parole [+](https://editor.p5js.org/RobertoAlesi/full/yXwQHHwp0)
+![Screenshot 2021-03-26 013549](https://user-images.githubusercontent.com/76455356/112560527-b76e3100-8dd3-11eb-8e3f-201c40d99773.png)
+
+## Generatore di pattern [+](https://editor.p5js.org/RobertoAlesi/full/FPuxAqtbw)
+![PatternModulo_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/112561935-83483f80-8dd6-11eb-819d-03940c38eeba.png)
+
+## Giochi senza frontiere
+### Victor Vasarely 3D [+](https://editor.p5js.org/RobertoAlesi/full/yU2Y_lBqq)
+![Anteprime sketch_Tavola disegno 1 copia 3](https://user-images.githubusercontent.com/76455356/114693352-cd5b7b80-9d19-11eb-9d08-fcbfdcb6a90a.png)
+
+### Jean Tinguely [+](https://editor.p5js.org/RobertoAlesi/full/dQpX76My6)
+![Anteprime sketch_Tavola disegno 1 copia 7](https://user-images.githubusercontent.com/76455356/114695114-879fb280-9d1b-11eb-8607-f1fca6c65f21.png)
+## Sperimentazioni
+## Variazioni 10Print
+## Walkers
