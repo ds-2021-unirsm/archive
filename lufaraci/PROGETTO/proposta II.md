@@ -28,4 +28,4 @@ Un altro aspetto interessante della vista delle api è che loro vedono a rallent
 **GATTI -**
 I gatti hanno un campo visivo leggermente più esteso del nostro. Ciò vuol dire che, quando soffermano lo sguardo su un singolo punto, l’area circostante appare a loro più ampia. Una particolarità degli occhi dei gatti è quella di brillare al buio. Merito di uno strato posto dietro la retina, chiamato “tapetum lucidum“, che riflette la luce come uno specchio, aumentando la capacità visiva in condizioni di scarsa luminosità.
 
-[Altra reference.](https://www.youtube.com/watch?v=E1lq0lBcyOE&ab_channel=ILLATOPOSITIVO)
+[Altra reference.](https://www.youtube.com/watch?v=-ss-nmT7oAA&ab_channel=BRIGHTSIDE)
