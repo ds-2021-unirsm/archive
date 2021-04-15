@@ -20,11 +20,14 @@ La 19enne Alessia Martino vince il bando nazionale "Mano(d)opera" con una scultu
 
 ### MOSTRA - *The Moon: From Inner Worlds to Outer Space* [+](http://www.yvesklein.com/en/expositions/view/1574/the-moon-from-inner-worlds-to-outer-space/?of=23#:~:text=This%20large%2Dscale%20exhibition%20will,and%20object%20of%20scientific%20inquiry.&text=The%20Louisiana's%20exhibition%20explores%20how,recent%20history%20of%20the%20Moon.)
 
-#### GENERATIVE ART - *Black Moon* [+](https://www.motorefisico.com/audio-video/)
+#### ARTE GENERATIVA - *Black Moon* [+](https://www.motorefisico.com/audio-video/)
 
 
 
-# 2. 
+# 2. La nudità/Mettersi a nudo
+
+
+# 3. Il piacere
 
 
 
