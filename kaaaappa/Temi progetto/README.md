@@ -8,9 +8,9 @@ La rotazione sincrona fa sì che la Luna mostri sempre la stessa faccia al corpo
 ###1. *The Dark Side of the Moon* - MUSICA
 *The Dark Side of the Moon* (in un primo momento chiamatao Eclipse) è l'ottavo album dei Pink Floyd e il primo patrocinato da Roger Waters. Ogni traccia, come fossero fasi lunari, fa riferimento ad un lato oscuro della vita umana come la vecchiaia, la morte, l'ansia, la paura, la malattia mentale e ciò che la provoca. Chiaro riferimento alla vita di Syd Barret, primo leader della band, portato alla follia dalle droghe e dagli acidi. 
 
-###2. *A trip to the Moon* - ARTE MULTIMEDIALE
-*A trip to the Moon* è un'opera d'arte multimediale degli artisti Laurie Anderson e Hsin-Chien Huang che utilizza la tecnologia del VR. L'utente visulizza immagini della mitologia greca, della letteratura, della scienza, dei film di fantascienza spaziale e della politica per creare una luna nuova ed immaginaria. 
-https://channel.louisiana.dk/video/laurie-anderson-hsin-chien-huang-a-trip-to-the-moon
+### - *A trip to the Moon* - ARTE MULTIMEDIALE
+*A trip to the Moon* è un'opera d'arte multimediale degli artisti Laurie Anderson e Hsin-Chien Huang che utilizza la tecnologia del VR. L'utente visulizza immagini della mitologia greca, della letteratura, della scienza, dei film di fantascienza spaziale e della politica per creare una luna nuova ed immaginaria. [+]
+(https://channel.louisiana.dk/video/laurie-anderson-hsin-chien-huang-a-trip-to-the-moon)
 
 ###3. *Earth-Moon-Earth* - ARTE E MUSICA 
 Il progetto *Earth-Moon-Earth* di Katie Paterson utilizza la forma di comunicazione satellitare E.M.E. per trasmettere la Moonlight Sonata di Beethoven in codice Morse dalla Terra alla Luna. Questo segnale torna di riflesso sulla Terra ma subendo delle frammentazioni dalla superficie lunare. La composizione alterata viene così ritradotta in una nuova partitura e fatta suonare su un pianoforte a coda automatizzato. http://katiepaterson.org/portfolio/earth-moon-earth/
