@@ -24,10 +24,22 @@ La 19enne Alessia Martino vince il bando nazionale "Mano(d)opera" con una scultu
 
 
 
-# 2. La nudità/Mettersi a nudo
+# 2. La nudità e il pudore
+Pur essendo la normale condizione biologica del corpo umano, il concetto di nudità assume un significato diverso in base a implicazioni culturali, sociali, etiche e di contesto. Il senso comune vuole che gli organi riproduttivi siano protetti dalla vista degli estranei, anche a costo di una sanzione penale. Paradossalmente però è considerato irrilevante in un ambito naturista. Trovo interessante come spesso il contesto cambi radicalmente la percezione che abbiamo delle cose e la reazione ad esse.
 
+### PERFORMANCE ART - *Imponderabilia* [+](https://www.theartnewspaper.com/news/abramovic-at-the-ra)
+La performance vede il pubblico costretto a entrare nel museo oltrepassando i corpi nudi dei due artisti Marina Abramovic e Ulay. Dal momento che lo spazio è strettissimo, i visitatori non hanno la possibilità di passare guardando dritti davanti a loro, ma devono per forza scegliere a quale dei due artisti rivolgersi. La performance avrebbe dovuto durare tre ore, ma viene poi interrotta a metà da due giovani agenti di polizia che la ritengono oscena e quindi passibile di censura. 
 
-# 3. Il piacere
+### ARTE GENERATIVA - Nude portraiture
+"Penso che l'arte creata dall'intelligenza artificiale sarà uno dei principali movimenti artistici imminenti nel prossimo futuro" by Robbie Barrat.
+
+### SOCIAL - Censura algoritmica [+](https://www.artnome.com/news/2018/12/6/ai-artists-expose-kinks-in-algorithmic-censorship)
+L'intelligenza artificiale di Tumbler confonde quadri astratti come contenuti per adulti. 
+
+### SOCIAL - Free nipples [+](https://www.vice.com/it/article/gyyneb/11-modi-per-postare-capezzoli-su-instagram-senza-venire-censurati)
+Grazie alla policy anti-capezzoli di Instagram è emerso un intero account dedicato a capezzoli genderless, ovvero senza un genere di riferimento direttamente associato per confondere l'algoritmo.
+
+# 3. Il piacere (?)
 
 
 
