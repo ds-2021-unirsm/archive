@@ -6,6 +6,5 @@ Variazione del 10 print che crea delle "non-censure" su immagini di nudo prese d
 
 [Link per l'esercizio](https://editor.p5js.org/irene.crln/full/sattVpDtd)
 
-![2index](https://user-images.githubusercontent.com/79697764/114805032-8f566a00-9da2-11eb-9bd2-3a01f3790c47.png)
-
-![3index](https://user-images.githubusercontent.com/79697764/114805038-91202d80-9da2-11eb-89c4-d3506fa3e80b.png)
+![3GIT](https://user-images.githubusercontent.com/79697764/114952750-398fc980-9e57-11eb-89c9-3ac9f507b92d.png)
+![4GIT](https://user-images.githubusercontent.com/79697764/114952752-3a286000-9e57-11eb-8b1e-dcbc5406a747.png)
