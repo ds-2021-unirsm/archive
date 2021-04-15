@@ -27,7 +27,7 @@ La 19enne Alessia Martino vince il bando nazionale "Mano(d)opera" con una scultu
 # 2. La nudità/Mettersi a nudo
 
 
-# 3. Il piacere
+# 3 Il piacere
 
 
 
