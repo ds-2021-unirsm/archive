@@ -4,6 +4,13 @@ https://editor.p5js.org/andrea-castellucci/full/Y9cqWRg7w
 
 ![camminatori_indipendenti2](https://user-images.githubusercontent.com/75098849/114776938-5b178500-9d73-11eb-9770-38906d0bfda5.jpg)
 
+# Camminatori che generano mondi 2
+
+https://editor.p5js.org/andrea-castellucci/full/FmLb3MK1V
+
+![camminatori_mondi2](https://user-images.githubusercontent.com/75098849/114777848-70d97a00-9d74-11eb-8eb6-28d7c82f6057.jpg)
+
+
 # Incontri e scontri tra camminatori
 
 https://editor.p5js.org/andrea-castellucci/full/YlyFB3HoE
