@@ -1,16 +1,29 @@
 # Come possiamo rendere visibile l’invisibile? 
 
-### 1# Rendere visibili i percorsi per la creazione di immagini nella nostra mente
-Spesso la filosofia è arrivata a credere che le cose che si vedono sono in fondo solamente delle illusioni e inganni, mentre la vera realtà è dietro le cose, quasi nascosta. 
+### 1# Rendere visibile il significato delle parole
+Spesso la filosofia (vedi mito della caverna di Platone) è arrivata a credere che le cose che si vedono sono in fondo solamente delle illusioni e inganni, mentre la vera realtà è dietro le cose, quasi nascosta. 
 L’immagine che vediamo nella nostra mente non è una rappresentazione diretta del mondo esterno o di ciò che i nostri sensi trasmettono, ma è frutto di un mondo simulato che ricostruiamo in base ai nostri vissuti e alle nostre esperienze. Vissuti ed esperienze che derivano non solo dal mondo reale, ma anche da quello cibernetico. 
 Abbiamo dei percorsi reali all’interno di internet, ma molto spesso non ce ne rendiamo neanche conto. 
 Potremmo rendere visibili questi collegamenti che spaziano tra il reale e l'immateriale, facendoci comprendere che questi due mondi non sono del tutto distaccati.
 Questi movimenti potrebbero essere un mezzo per riflettere su noi stessi e su come diamo un senso al mondo. 
-Da dove siamo partiti, dove potremmo arrivare? Cosa potremmo diventare?
+Da dove siamo partiti? Dove potremmo arrivare? Cosa potremmo diventare?
+
+#### Update
+Significato [da Treccani]: indica il contenuto espressivo di qualsiasi mezzo di comunicazione (parole o frasi, gesti, segni grafici, ecc.).
+Partendo della riflessione precedentemente esposta mi sono soffermata sui problemi della comprensione delle parole in differenti linguaggi, quindi con differenti contesti culturali e le "parole intraducibili". Molto spesso ormai si interagisce con persone di nazionalità diversa, che parlano lingue diverse e vivono in fusi orari completamente diversi. Quante volte ci è capitato di non trovare la giusta parola per esprimere il concetto che si voleva in un'altra lingua? Si parla infatti di _lost in translation_ quando si perde qualcosa nella traduzione. Ad esempio, più sali geograficamente nel mondo, più ci sono parole per descrivere la neve, differenziandosi per sfaccettature microscopiche. Come si potrebbe tradurre diversamente se non con una frase che cerchi di spiegare questo concetto? La traduzione ha bisogno di non essere persa: la parola tradotta deve essere comunicata a prescindere dal linguaggio, al fine di mantenere la stessa percezione originale. Il linguaggio di qualsiasi genere ha il potere di modellare, rafforzare e cambiare le nostre percezioni sul mondo.
+
+#### Keywords:
+linguaggio, intraducibilità, comunicazione, geografia, lingua, cultura
 
 #### References
 - _Platone e il mito della caverna_ [+](https://www.studenti.it/platone-mito-della-caverna-simbologia-significato-allegoria.html) 
+- _The Noun Project_, 2011 [+](thenounproject.com)
+- _Found in Translation_, 2021, TheGreenEyl [+](https://www.creativeapplications.net/environment/found-in-translation-experiencing-the-process-of-machine-translation/)
+[...coming soon...]
 
+Noun Project (2011) ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
+
+Found in Translation (2021) è un'installazione interattiva dove i visitatori sperimentano visceralmente il processo di traduzione automatica. Le visualizzazioni mostrano come il modello di apprendimento automatico raggruppa le parole di lingue diverse in base alla somiglianza semantica e le traduzioni vengono presentate in modo tipografico e acustico in 24 lingue.
 
 ### 2# Rendere visibili/udibili dei luoghi, farli vivere a delle persone non vedenti/udenti
 Molte volte mi è capitato di soffermarmi sulle persone con delle incapacità fisiche, sia a livello visivo che uditivo. Questo perché pur non vivendo in prima persona la cosa, ho intorno a me delle persone che in un modo o nell’altro sono molto vicini a questo argomento.
@@ -18,9 +31,21 @@ Come possono le persone con disabilità uditiva ascoltare un suono, o quelle con
 Grazie alla tecnologia assistiva è stato possibile includere la partecipazione di queste persone nella vita sociale. Lo scopo principale, infatti, dei prodotti di assistenza è quello di migliorare e mantenere il funzionamento e l’indipendenza di un individuo, promuovendone così il benessere. 
 Nonostante la necessità globale, i prodotti di assistenza rimangono limitati e non sempre attuati.
 
+#### Update
+[...coming soon...]
+
+#### Keywords:
+linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazioni
+
 #### References
-- _Neil Harbisson_ [+](https://www.youtube.com/watch?v=ygRNoieAnzI&t=5s) 
-- _Doug Schepers_ [+](https://medium.com/nightingale/accessibility-is-at-the-heart-of-data-visualization-64a38d6c505b)
+- _Cyborg Project_, Neil Harbisson [+](https://www.youtube.com/watch?v=ygRNoieAnzI&t=5s) [+](https://cyborgproject.com/)
+- _Fizz Studio_, Doug Schepers [+](https://medium.com/nightingale/accessibility-is-at-the-heart-of-data-visualization-64a38d6c505b)
+- _Talking Hands_, 2016, Limix [+](http://www.limix.it/)
+[...coming soon...]
 
+Cyborg Project è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
 
+Fizz Studio è una startup di consulenza e sviluppo software che si concentra sul rendere la visualizzazione dei dati accessibile a tutte le persone, comprese le persone con disabilità visive. 
+
+Talking hands è un innovativo dispositivo indossabile per persone che non riescono a comunicare verbalmente, che permette la traduzione di segni in voce attraverso uno smartphone.
 
