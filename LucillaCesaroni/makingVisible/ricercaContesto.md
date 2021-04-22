@@ -19,12 +19,15 @@ linguaggio, intraducibilità, comunicazione, geografia, lingua, cultura
 #### References
 - _Platone e il mito della caverna_ [+](https://www.studenti.it/platone-mito-della-caverna-simbologia-significato-allegoria.html) 
 - _Untranslatable words_, The School of Life [+](https://www.theschooloflife.com/thebookoflife/untranslatable-words/)
+- _Gaining Perspective Through Untranslatable Words_, 2019, Steph [+](https://blog.stephsmith.io/untranslatable-words/)
 - _The Noun Project_, 2011 [+](thenounproject.com)
 - _Found in Translation_, 2021, TheGreenEyl [+](https://www.creativeapplications.net/environment/found-in-translation-experiencing-the-process-of-machine-translation/)
-- _Untranslation_, 2017,Sam Furness [+](https://samfurness.onfabrik.com/portfolio/untranslation) [+](https://www.instagram.com/untranslation/?hl=en)
+- _Untranslation_, 2017, Sam Furness [+](https://samfurness.onfabrik.com/portfolio/untranslation) [+](https://www.instagram.com/untranslation/?hl=en)
 
 _Untranslatable words_, è un set di 20 carte che spiegano il significato di parole intraducibili da tutto il mondo.
 La School of Life ha raccolto le loro parole preferite dalle lingue del mondo e le ha sposate con immagini complementari per creare carte che mettono a fuoco alcuni dei nostri sentimenti più importanti. The School of Life produce prodotti stimolanti progettati per sviluppare la nostra intelligenza emotiva, mettendo alla prova le nostre opinioni sul mondo e ci consentono di conoscere noi stessi e le altre persone in un modo completamente nuovo. 
+
+_Gaining Perspective Through Untranslatable Words_ è un articolo che parla di acquisire prospettiva attraverso le parole intraducibili. “ciascuna di queste parole offre una finestra per comprendere culture diverse, che possono influenzare qualsiasi cosa, dal modo in cui prendi le decisioni alle abitudini che prendi.”
 
 _Noun Project_, ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
 
@@ -32,14 +35,20 @@ _Found in Translation_, è un'installazione interattiva dove i visitatori sperim
 
 _Untranslation_, è un'installazione che esplora e celebra le tante lingue parlate a Brixton, cha ha 'obiettivo  di offrire una prospettiva su come le diverse culture vedono e interpretano il mondo. 
 
-### 2# Rendere visibili/udibili dei luoghi, farli vivere a delle persone non vedenti/udenti
-Molte volte mi è capitato di soffermarmi sulle persone con delle incapacità fisiche, sia a livello visivo che uditivo. Questo perché pur non vivendo in prima persona la cosa, ho intorno a me delle persone che in un modo o nell’altro sono molto vicini a questo argomento.
+### 2# Vivere l'invisibile della disabilità
+//Assistive technology per la disabilità.
+Molte volte mi è capitato di soffermarmi sulle persone con delle incapacità fisiche, sia a livello visivo che uditivo. Questo perché, pur non vivendo in prima persona la cosa, ho intorno a me delle persone che in un modo o nell’altro sono molto vicini a questo argomento.
 Come possono le persone con disabilità uditiva ascoltare un suono, o quelle con disabilità visiva vedere il mondo?
 Grazie alla tecnologia assistiva è stato possibile includere la partecipazione di queste persone nella vita sociale. Lo scopo principale, infatti, dei prodotti di assistenza è quello di migliorare e mantenere il funzionamento e l’indipendenza di un individuo, promuovendone così il benessere. 
 Nonostante la necessità globale, i prodotti di assistenza rimangono limitati e non sempre attuati.
 
 #### Update
-[...coming soon...]
+//Rendere invisibili parte delle nostre capacità, al fine di rendere visibile il mondo delle persone con disabilità.
+E se provassimo a ribaltare la cosa? Invece di "normalizzare" una condizione di un certo tipo perchè la percepiamo come "non", perchè non fare il ragionamento opposto?
+Non si deve cercare di visualizzare le cose che chi ha delle disabilità non può vedere o sentire, perchè non cercare di provare a far immaginare a chi non ha idea di quella condizione, mostrando come vede o come sente quella persona con disabilità? Io come posso percepirla allo stesso modo? 
+Come posso avvicinare una persona che non ha questi problemi? Come posso mettere in comunicazione questi due mondi? Cosa significa, cosa potrebbe significare progettare qualcosa che è nel mezzo di quella conversazione?
+Ultimamente si parla anche a livello politico di cos'è la disabilità e del fatto che la disabilità non esiste, ma la inventiamo noi come società nel momento in cui creiamo una normalità e quindi tutto ciò che non rientra in questa normalità diventa anormale e quindi disabile. L'abile com'è? Forse una persona che rispecchia i diversi canoni che dà la società? Se questi canoni fossero più inclusivi, esisterebbe la disabilità? Ad esempio: l'essere miope in un mondo in cui mi impediscono di avere gli occhiali, sarebbe una disabilità perchè non si potrebbe vedere.
+Si potrebbe pensare ad uno strumento per ripensare ai diversi punti di vista con cui si vede una determinata cosa, oppure, come sarebbe trovarsi nei loro panni e vivere la loro condizione?
 
 #### Keywords:
 linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazioni
@@ -48,13 +57,16 @@ linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazio
 - _Cyborg Project_, Neil Harbisson [+](https://www.youtube.com/watch?v=ygRNoieAnzI&t=5s) [+](https://cyborgproject.com/)
 - _Fizz Studio_, Doug Schepers [+](https://medium.com/nightingale/accessibility-is-at-the-heart-of-data-visualization-64a38d6c505b)
 - _Talking Hands_, 2016, Limix [+](http://www.limix.it/)
-- _Philip Barlow_
-[...coming soon...]
+- _Philip Barlow_ [+](https://www.philipbarlow.com/)
+- _Silenc_, 2012, CIID [+](http://ciid.dk/education/portfolio/idp12/courses/data-visualisation/projects/silenc/)
 
-_Cyborg Project_ è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
+_Cyborg Project_, è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
 
-_Fizz Studio_ è una startup di consulenza e sviluppo software che si concentra sul rendere la visualizzazione dei dati accessibile a tutte le persone, comprese le persone con disabilità visive. 
+_Fizz Studio_, è una startup di consulenza e sviluppo software che si concentra sul rendere la visualizzazione dei dati accessibile a tutte le persone, comprese le persone con disabilità visive. 
 
-_Talking hands_, 2016, è un innovativo dispositivo indossabile per persone che non riescono a comunicare verbalmente, che permette la traduzione di segni in voce attraverso uno smartphone.
+_Talking hands_, è un innovativo dispositivo indossabile per persone che non riescono a comunicare verbalmente, che permette la traduzione di segni in voce attraverso uno smartphone.
 
-_Philip Barlow_
+_Philip Barlow_, l'artista ci parla delle diverse percezioni della realtà, mostrando a chi ha una visione perfetta, cosa vuol dire convivere con la miopia. Egli si focalizza sul com'è vedere veramente il mondo da questa categoria, andandando un po' oltre il limitato aggettivo sfocato che le persone miopi usano per spiegare la propria condizione.
+
+_Silenc_, è un progetto nel quale viene esplorato quanto una lingua sia silenziosa.
+Tutte le lettere silenziose sono inserite in un testo rosso. Se visualizzate con un filtro a luce rossa, queste lettere scompaiono, lasciando solo il testo pronunciato.
