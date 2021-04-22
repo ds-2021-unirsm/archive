@@ -59,6 +59,8 @@ linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazio
 - _Talking Hands_, 2016, Limix [+](http://www.limix.it/)
 - _Philip Barlow_ [+](https://www.philipbarlow.com/)
 - _Silenc_, 2012, CIID [+](http://ciid.dk/education/portfolio/idp12/courses/data-visualisation/projects/silenc/)
+- _Tactile Picture Book for Blind Children_, 2016, Zrinka Horvat [+](https://www.behance.net/gallery/30101433/Tactile-Picture-Book-for-Blind-Children)
+- _Please Touch the Art_,2018, Sasaki [+](https://www.sasaki.com/voices/inclusive-design-is-human-design/)
 
 _Cyborg Project_, è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
 
@@ -70,3 +72,7 @@ _Philip Barlow_, l'artista ci parla delle diverse percezioni della realtà, most
 
 _Silenc_, è un progetto nel quale viene esplorato quanto una lingua sia silenziosa.
 Tutte le lettere silenziose sono inserite in un testo rosso. Se visualizzate con un filtro a luce rossa, queste lettere scompaiono, lasciando solo il testo pronunciato.
+
+_Tactile Picture Book for Blind Children_, libro illustrato tattile con lo scopo di rappresentare le cose in modo che non si basano solo su una memoria visiva, ma piuttosto sulle interazioni tattili e sulle loro associazioni con gli oggetti esistenti.
+
+_Please Touch the Art_, “Inclusive Design is Human Design”. La mostra ci rende consapevoli del doppio significato del sentimento: sia in termini di tatto ma anche in termini di emozione.
