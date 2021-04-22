@@ -20,7 +20,7 @@ linguaggio, intraducibilità, comunicazione, geografia, lingua, cultura
 - _Platone e il mito della caverna_ [+](https://www.studenti.it/platone-mito-della-caverna-simbologia-significato-allegoria.html) 
 - _Untranslatable words_, The School of Life [+](https://www.theschooloflife.com/thebookoflife/untranslatable-words/)
 - _Gaining Perspective Through Untranslatable Words_, 2019, Steph [+](https://blog.stephsmith.io/untranslatable-words/)
-- _The Noun Project_, 2011 [+](thenounproject.com)
+- _The Noun Project_, 2011 [+](https://thenounproject.com/about/)
 - _Found in Translation_, 2021, TheGreenEyl [+](https://www.creativeapplications.net/environment/found-in-translation-experiencing-the-process-of-machine-translation/)
 - _Untranslation_, 2017, Sam Furness [+](https://samfurness.onfabrik.com/portfolio/untranslation) [+](https://www.instagram.com/untranslation/?hl=en)
 
@@ -60,7 +60,7 @@ linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazio
 - _Philip Barlow_ [+](https://www.philipbarlow.com/)
 - _Silenc_, 2012, CIID [+](http://ciid.dk/education/portfolio/idp12/courses/data-visualisation/projects/silenc/)
 - _Tactile Picture Book for Blind Children_, 2016, Zrinka Horvat [+](https://www.behance.net/gallery/30101433/Tactile-Picture-Book-for-Blind-Children)
-- _Please Touch the Art_,2018, Sasaki [+](https://www.sasaki.com/voices/inclusive-design-is-human-design/)
+- _Please Touch the Art_, 2018, Sasaki [+](https://www.sasaki.com/voices/inclusive-design-is-human-design/)
 
 _Cyborg Project_, è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
 
