@@ -21,9 +21,9 @@ linguaggio, intraducibilità, comunicazione, geografia, lingua, cultura
 - _Found in Translation_, 2021, TheGreenEyl [+](https://www.creativeapplications.net/environment/found-in-translation-experiencing-the-process-of-machine-translation/)
 [...coming soon...]
 
-Noun Project (2011) ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
+_Noun Project_ (2011) ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
 
-Found in Translation (2021) è un'installazione interattiva dove i visitatori sperimentano visceralmente il processo di traduzione automatica. Le visualizzazioni mostrano come il modello di apprendimento automatico raggruppa le parole di lingue diverse in base alla somiglianza semantica e le traduzioni vengono presentate in modo tipografico e acustico in 24 lingue.
+_Found in Translation_ (2021) è un'installazione interattiva dove i visitatori sperimentano visceralmente il processo di traduzione automatica. Le visualizzazioni mostrano come il modello di apprendimento automatico raggruppa le parole di lingue diverse in base alla somiglianza semantica e le traduzioni vengono presentate in modo tipografico e acustico in 24 lingue.
 
 ### 2# Rendere visibili/udibili dei luoghi, farli vivere a delle persone non vedenti/udenti
 Molte volte mi è capitato di soffermarmi sulle persone con delle incapacità fisiche, sia a livello visivo che uditivo. Questo perché pur non vivendo in prima persona la cosa, ho intorno a me delle persone che in un modo o nell’altro sono molto vicini a questo argomento.
@@ -41,11 +41,13 @@ linguaggio, comunicazione, disabilità, sensibilizzazione, inclusione, limitazio
 - _Cyborg Project_, Neil Harbisson [+](https://www.youtube.com/watch?v=ygRNoieAnzI&t=5s) [+](https://cyborgproject.com/)
 - _Fizz Studio_, Doug Schepers [+](https://medium.com/nightingale/accessibility-is-at-the-heart-of-data-visualization-64a38d6c505b)
 - _Talking Hands_, 2016, Limix [+](http://www.limix.it/)
+- _Philip Barlow_
 [...coming soon...]
 
-Cyborg Project è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
+_Cyborg Project_ è un'esperienza multipiattaforma con l'intento di ricreare in modi diversi, utilizzando la tecnologia, l'esperienza di non percepire i colori.
 
-Fizz Studio è una startup di consulenza e sviluppo software che si concentra sul rendere la visualizzazione dei dati accessibile a tutte le persone, comprese le persone con disabilità visive. 
+_Fizz Studio_ è una startup di consulenza e sviluppo software che si concentra sul rendere la visualizzazione dei dati accessibile a tutte le persone, comprese le persone con disabilità visive. 
 
-Talking hands è un innovativo dispositivo indossabile per persone che non riescono a comunicare verbalmente, che permette la traduzione di segni in voce attraverso uno smartphone.
+_Talking hands_ è un innovativo dispositivo indossabile per persone che non riescono a comunicare verbalmente, che permette la traduzione di segni in voce attraverso uno smartphone.
 
+_Philip Barlow_
