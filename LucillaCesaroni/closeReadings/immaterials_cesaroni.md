@@ -19,3 +19,4 @@ Cosa succederebbe se queste aste fossero sempre presenti nei luoghi pubblici di 
 
 ### Reference
 - _Immaterials: Light painting WiFi_, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen [+](http://yourban.no/2011/02/22/immaterials-light-painting-wifi/)
+- _Architecture of Radio_, 2016, Richard Vijgen [+](http://www.architectureofradio.com/)
