@@ -25,42 +25,42 @@ Ci sono poche esperienze che ci danno un divertimento paragonabile a quello di u
 A volte il divertimento è collegato anche alla **ripetizione**: “puoi sempre scoprire qualcosa di nuovo”.
 
 
-PROGETTO
+**PROGETTO**
 
-Che cos’è?
+**Che cos’è?**
 
 È un dispositivo che trasforma i lavori di casa in un momento ludico e piacevole tramite l’imposizione di alcuni limiti.
 
-Come funziona?
+**Come funziona?**
 
 L’utente comunica al dispositivo una serie di informazioni inerenti all’attività domestica che sta per compiere, come per esempio di quale si tratta e il suo livello di gradimento che di solito prova nel compierla, ed altre personali sulle attività che gli piace svolgere nel tempo libero.
 Il dispositivo lo aiuterà a svolgere l’attività in modo ludico attraverso i suoi interessi.
 
-Che cosa significa?
+**Che cosa significa?**
 
 L’idea riprende i concetti esposti da Ian Bogost nel suo libro “Play Anything”, dove sostiene che dovremmo rendere tutte le attività presenti nella nostra vita un gioco, come per esempio i lavori di casa, e non svolgerle solo per ricompensarsi col tempo libero.
 Non è nel fare ciò che vogliamo senza limiti che noi ci divertiamo ma è tramite le regole che ci auto imponiamo, come nei giochi sportivi.
 
-Che cosa succederebbe se?
+**Che cosa succederebbe se?**
 
 Che cosa succederebbe se le attività dal quale non possiamo astenerci e che noi riteniamo noiose diventassero un momento di divertimento?
 
-Tecnologia utilizzata
+**Tecnologia utilizzata**
 
 Da definire.
 
 
-RISATA_02
+**RISATA_02**
 
-REFERENCE
+**REFERENCE**
 
-Teatreneu
+**Teatreneu**
 
 Vai a teatro? Paghi in base a quanto ridi. I membri di Teatreneu, una compagnia teatrale di Barcellona, hanno posizionato dei tublet con un sistema di riconoscimento facciale davanti ad ogni poltrona del teatro: ogni volta che uno spettatore ride durante uno spettacolo il sistema rileva la risata e aggiunge 0.30 centesimi, il costo finale del biglietto sarà la somma delle risate.
 
 https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/
 
 
-PROGETTO
+**PROGETTO**
 
 Tramite il rilevamento della risata ottengo o restituisco qualcosa.
