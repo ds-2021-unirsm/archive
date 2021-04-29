@@ -6,6 +6,8 @@
 
 https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/
 
+![095709789-hq-168-80](https://user-images.githubusercontent.com/79698027/116561384-8e751a80-a902-11eb-9459-9bffafe62961.jpg)
+
 Ian Bogost è un game designer e autore del libro “Play Anything”.
 
 “Giocare è un’attività che associamo alla libertà, con la possibilità di fare tutto ciò che vogliamo”, spiega. Ma non è questa la sua vera essenza: la vera libertà non è tanto “una fuga dalle restrizioni imposte”, quanto la possibilità “di agire all’interno di limiti autoimposti”.
