@@ -58,3 +58,8 @@ Con il movimento del mouse è possibile gestire la rotazione dei wolkers intorno
 >I camminatori indipendenti di spazi tridimensionali sono intrappolati all'interno di un cubo e subiscono cambiamenti di colore e forma ad ogni collisione con gli altri.
 
 ![Anteprime sketch_Tavola disegno 1 copia 5](https://user-images.githubusercontent.com/76455356/114689722-4a84f180-9d16-11eb-98fa-49701f3151f3.png)
+
+### Creature Connesse [+](https://editor.p5js.org/RobertoAlesi/full/pOekNB1uq)
+>I walker sono collegati tra loro da linee perpendicolari, delle forme frenetiche li collegano, come se fossero intrappolati nella rete geometrica.
+
+![Anteprime sketch_Tavola disegno 1 copia 8](https://user-images.githubusercontent.com/76455356/116569401-a3a17780-a909-11eb-9e2a-ab773b19d7a4.png)
