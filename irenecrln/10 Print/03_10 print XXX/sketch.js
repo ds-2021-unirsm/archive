@@ -1,13 +1,13 @@
-//╔════════════           ════════════╗
-    //UNIRSM 
-    //Corso di Laurea Magistrale in Design
-    //Anno Accademico 2020/21
-    //Corso di Design dei sistemi
-    //Prof. Daniele Tabellini
-    //Studentessa: Irene Carlino
-//╚════════════           ════════════╝
-
-//CLICK ANCORA DA SISTEMARE
+/*╔════════════               ════════════╗
+    
+     ✹ UNIRSM 
+     ✹ Corso di Design dei sistemi
+     ✹ Studentessa: Irene Carlino
+     ✹ Prof. Daniele Tabellini
+     ✹ Corso di Laurea Magistrale in Design
+     ✹ Anno Accademico 2020/21
+     
+//╚════════════               ════════════╝*/
 
 x = 0;
 y = 0;
@@ -34,11 +34,13 @@ function preload() {
 
 
 function setup() {
+  randomSeed(millis());//il randomseed mi da una serie di numeri casuali sempre diversa perchè sennò ci sarebbe un alta probabilità che esca lo stesso seed, così invece lo prende ogni millisecondo 
   let c= createCanvas(636, 855);
   
 }
 
 function draw() {
+  
   //background(foto);
   image(foto, 0, 0, 636, 855);
   rectMode(CENTER);
@@ -49,7 +51,11 @@ function draw() {
         //se esce un numero minore di 1 stampa una stella  
         noStroke();
         fill(0);
-        star(x + i, y + j, 8, 14, 9);
+        
+        //let punte_stelle=[4,9] //da sistemare 
+        //star (x + i, y + j, 5, 14, floor(random (punte_stelle)));
+        
+        star (x + i, y + j, 5, 14, 4);
 
       } else if (r < 2) {
         //se esce un numero minire di 2 stampa un rettangolo
@@ -77,10 +83,15 @@ function draw() {
     endShape(CLOSE);
   }
 
+  
+/////////////////////////////
+//NUOVO POSTER AL CLICK/////
+///////////////////////////
 }
 function mousePressed() {
   clear();
   redraw();
+  preload();
 }
 
 
