@@ -60,6 +60,7 @@ Vai a teatro? Paghi in base a quanto ridi. I membri di Teatreneu, una compagnia 
 
 https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/
 
+![teatro](https://user-images.githubusercontent.com/79698027/116561116-4b1aac00-a902-11eb-8932-db0ee26f822c.JPG)
 
 **PROGETTO**
 
