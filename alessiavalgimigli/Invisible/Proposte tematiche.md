@@ -48,20 +48,25 @@ Il progetto potrebbe servire quindi per far convergere la tematica della cartogr
 #### Close reading
 
 ##### Che cos'è?
-Si tratta di uno strumento che permette al progettista di creare dataset senza pregiudizi.
+Una problematica rilevante legata alla generazione di bias nei sistemi tecnologici risiede nei dataset che vengono utilizzati 
+per allenare le macchine. Questi spesso diventano il riflesso della nostra società, ricca di pregiudizi e discriminazioni. 
+Il progetto vuole cercare di fornire uno strumento che aiuti i progettisti ad evitare bias nella creazione di dataset, 
+spesso fortemente radicati nella nostra cultura tanto da non poter essere riconosciuti come tali.  
+
+------------------------------
+
 ##### Come funziona?
-Lo strumento è allenato su dataset contenenti bias. 
-##### Cosa significa? 
-L'obiettivo è quello di riuscire a creare dataset senza alcun tipo di bias.
+Lo strumento si sviluppa attraverso una mappa, che serve come metafora per orientarsi nella tematica dei pregiudizi 
+in modo oggettivo. All’interno della mappa i bias creano dei veri e propri luoghi, raggruppati per tematiche o per importanza.
 
-#### Tecnologie
-- machine learning
-
-/*
-##### Che cos'è?
-Una mappatura dei bias presenti online
-##### Come funziona?
+------------------------------
 
 ##### Cosa significa? 
-L'obiettivo è quello di mappare i bias contenuti nella rete.
-*/
+Creare dei dataset che non siano influenzati da alcun tipo di bias permette di realizzare tecnologie e tools accessibili 
+a chiunque, senza escusioni e discriminazioni. 
+Attraverso la programmazione di servizi e strumenti abbiamo la possibilità di portare una maggior equità nella nostra società, 
+ma questo può avvenire solo se i programmatori fanno del cambiamento sociale una loro priorità.
+> Why we code matters. We've used tools of computational creation to unlock immense wealth. We now have the opportunity to unlock even greater equality if we make social change a priority and not an afterthought.
+> - Joy Boulamwini (TEDx)
+
+------------------------------
