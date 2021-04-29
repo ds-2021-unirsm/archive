@@ -16,11 +16,13 @@ In secondo luogo, analizzando il titolo dell'istallazione si può giungere al si
 
 Questo ci porta alla seconda parte del titolo: "*if it bleeds, it leads*”, riferito alla sensazione di forte attesa che il meccanismo crea nello spettatore: esso non vede l’ora di veder cadere una nuova pallina, anche solo per capire “meglio” come funziona il meccanismo, per vedere il pavimento riempirsi, per avere una pallina in più con cui giocare. Questa attitudine, dettata dalla curiosità, si potrebbe tradurre nell’accettazione, forse inconsapevole, delle morti che ogni giorno si verificano nel mondo, e di cui ne percepiamo una minima parte.
 
+
 Probabilmente possiamo trovare anche un riferimento alla tendenza sensazionalista che i giornali hanno nel riportare determinate notizie in determinati modi solo per attirare più pubblico possibile. 
 
 Inoltre, il vero significato dell'opera non viene rivelato subito al pubblico, così da portarlo a riflettere poi, in un secondo momento, sulla propria attitudine verso l'opera stessa.
 
 ### What if..?
+
 Se uno degli obiettivi dell'opera sta nel creare attesa e interesse nello spettatore, si potrebbe cercare di spettacolarizzare ancora di più la caduta delle palline. Ad esempio, utilizzando dei colori diversi per indicare etnie, religioni o provenienze; questo creerebbe una *data-visualization* "in tempo reale" su quanto le proprie origini possono influenzare il nostro destino. Infine, sostituirei le palline con delle caramelle.
 
 In “*Take A Bullet for The City*”, l’artista Luke Dubois propone una linea di pensiero simile: in questa istallazione vediamo su un supporto una pistola che spara a salve e verso il soffitto ogni volta che l’algoritmo che la gestisce rileva una sparatoria nella città di New Orleans.
