@@ -1,5 +1,4 @@
 # RISATA_01 <h1>
-
 **REFERENCE**
 
 Ian Bogost _ Play Anything (2017)
