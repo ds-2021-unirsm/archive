@@ -1,20 +1,28 @@
-#RISATA_01 <h1>
+# RISATA_01 <h1>
   
-**REFERENCE**
+**REFERENCE** <h3>
 
-Ian Bogost _ Play Anything (2017)
+**Ian Bogost _ Play Anything (2017)**
 
 https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/
 
 Ian Bogost è un game designer e autore del libro “Play Anything”.
+
 “Giocare è un’attività che associamo alla libertà, con la possibilità di fare tutto ciò che vogliamo”, spiega. Ma non è questa la sua vera essenza: la vera libertà non è tanto “una fuga dalle restrizioni imposte”, quanto la possibilità “di agire all’interno di limiti autoimposti”.
-«Quando diciamo ai bambini di andare a giocare, come si comportano? Si inventano una serie di limiti e strutture. “Costruiamo un fortino con i nostri vestiti e una volta dentro il fortino, facciamo finta di essere dei prigionieri”, o qualcosa del genere. L’intera filosofia del gioco sta nel trovare, comprendere e poi lavorare con le costrizioni e i limiti naturali che trovi nel mondo».
+
+«Quando diciamo ai bambini di andare a giocare, come si comportano? Si inventano una serie di limiti e strutture. “Costruiamo un fortino con i nostri vestiti e una volta dentro il fortino, facciamo finta di essere dei prigionieri”, o qualcosa del genere. **L’intera filosofia del gioco sta nel trovare, comprendere e poi lavorare con le costrizioni e i limiti naturali che trovi nel mondo».**
+
 Nel nostro modo di vedere le cose, giocare è quello che facciamo quando abbiamo finito di lavorare.
+
 Ma nell’idea di Bogost, tutto è gioco, perché “il gioco diventa il processo con cui operiamo nel mondo, il modo attraverso cui manipoliamo le cose. È un’attività che riguarda la sperimentazione. È collegato al piacere, ma non viene definito da esso”.
+
 Se ci pensi, “lavorare diventa il processo attraverso cui scopri i materiali che hai a disposizione e tutte le possibilità che hai di creare con essi”.
-Possiamo guardare più profondamente a quello che facciamo, chiedendoci: “Quali nuove possibilità ho? Cosa posso fare con i miei colleghi? Quali nuove idee possono venir fuori?”.
+
+**Possiamo guardare più profondamente a quello che facciamo, chiedendoci: “Quali nuove possibilità ho? Cosa posso fare con i miei colleghi? Quali nuove idee possono venir fuori?”.**
+
 Ci sono poche esperienze che ci danno un divertimento paragonabile a quello di un viaggio. Lo stesso capita con gli sport: “Ti diverti malgrado tu debba lavorare duramente, malgrado a volte fallisca”, conclude Bogost.
-A volte il divertimento è collegato anche alla ripetizione: “puoi sempre scoprire qualcosa di nuovo”.
+
+A volte il divertimento è collegato anche alla **ripetizione**: “puoi sempre scoprire qualcosa di nuovo”.
 
 
 PROGETTO
