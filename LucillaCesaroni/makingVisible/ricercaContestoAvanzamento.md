@@ -27,7 +27,7 @@ Comunicazione, incomprensione, gap tra persone, luoghi, emozioni
 ## Dati / Tech
 Speech, comprensione del linguaggio [+](https://cloud.google.com/speech-to-text/docs/languages)
 
-Obj detector, per restituire un’immagine della cosa di cui si sta parlando / Three.js, per restituire un mondo della cosa di cui si sta parlando
+Obj detector, per restituire un’immagine della cosa di cui si sta parlando /  AR, realtà aumentata del mondo tradotto / Three.js, per restituire un mondo della cosa di cui si sta parlando
 
 Sentiment Analysis, comprensione dell’emozione provata nel momento in cui è stata detta [+](https://github.com/MilaNLProc/feel-it)
 
