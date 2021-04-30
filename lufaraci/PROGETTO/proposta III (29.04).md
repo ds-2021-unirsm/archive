@@ -28,8 +28,6 @@ Le etichette sono la prova tangibile del percorso che hanno subito i nostri abit
 sugli abiti che indossiamo: provenienza, materiali, come assicurarci il loro corretto mantenimento.
 
 ![et1](https://user-images.githubusercontent.com/63911437/116553789-ca0be680-a8fa-11eb-8282-e14fd91f922c.jpeg)
-![et2](https://user-images.githubusercontent.com/63911437/116553797-cc6e4080-a8fa-11eb-9f4b-e2df89aeeec2.jpeg)
-![et6](https://user-images.githubusercontent.com/63911437/116553810-ced09a80-a8fa-11eb-8906-b7281f62a752.jpeg)
 
 Circa il 60% dell'abbigliamento di oggi contiene [poliestere1](https://zerrin.com/wtf-what-the-fabric-polyester-explained/)[poliestere2](https://www.kleiderly.com/our-blog/fabric-series-all-about-polyester).
 Dal 2000 al 2016, l'uso del poliestere da parte dell'industria mondiale dell'abbigliamento è passato da 8,3 a 21,3 milioni di tonnellate all'anno. 
