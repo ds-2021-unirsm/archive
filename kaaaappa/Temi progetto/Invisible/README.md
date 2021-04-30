@@ -1,4 +1,4 @@
-#Il pudore
+# Il pudore
 
 Il pudore è un'attitudine restrittiva dell'individuo, che gli impedisce di dire o fare ciò che può contrastare con i codici sociali. 
 
