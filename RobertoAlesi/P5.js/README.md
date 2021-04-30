@@ -25,6 +25,16 @@
 
 ![Anteprime sketch_Tavola disegno 1 copia](https://user-images.githubusercontent.com/76455356/114795669-6a0c3080-9d8f-11eb-8889-03c7dfd90558.png)
 
+### 03. Fonte Sonora [+](https://editor.p5js.org/RobertoAlesi/full/uRUO9Axk3)
+>Primo test di audio direzionato, grazie al movimento nello spazio, con la presenza di una fonte sonora statica.
+>Ascoltando con le cuffie e muovendosi con il mouse sul canvas sarà possibile, regolare il volume verticalmente, e i canali R e L orizzontalmente.
+
+![Anteprime sketch_Tavola disegno 1 copia 9](https://user-images.githubusercontent.com/76455356/116573164-db5dee80-a90c-11eb-857d-713db5d76012.png)
+
+### 04. Onde Cubiche [+](https://editor.p5js.org/RobertoAlesi/full/4CiKxL7PB)
+
+![Anteprime sketch1_Tavola disegno 1 copia 9](https://user-images.githubusercontent.com/76455356/116577889-2bd74b00-a911-11eb-91fb-70d0cb56b6ac.png)
+
 
 # Variazioni 10Print
 ### 01. Generatore di città [+](https://editor.p5js.org/RobertoAlesi/full/SWTgiAhlq)
@@ -58,3 +68,8 @@ Con il movimento del mouse è possibile gestire la rotazione dei wolkers intorno
 >I camminatori indipendenti di spazi tridimensionali sono intrappolati all'interno di un cubo e subiscono cambiamenti di colore e forma ad ogni collisione con gli altri.
 
 ![Anteprime sketch_Tavola disegno 1 copia 5](https://user-images.githubusercontent.com/76455356/114689722-4a84f180-9d16-11eb-98fa-49701f3151f3.png)
+
+### Creature Connesse [+](https://editor.p5js.org/RobertoAlesi/full/pOekNB1uq)
+>I walker sono collegati tra loro da linee perpendicolari, delle forme frenetiche li collegano, come se fossero intrappolati nella rete geometrica.
+
+![Anteprime sketch_Tavola disegno 1 copia 8](https://user-images.githubusercontent.com/76455356/116569401-a3a17780-a909-11eb-9e2a-ab773b19d7a4.png)
