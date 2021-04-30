@@ -1,38 +1,20 @@
-# Il pudore
+# Il lato oscuro: pudore/vergogna/censura
 
-Il pudore è un'attitudine restrittiva dell'individuo, che gli impedisce di dire o fare ciò che può contrastare con i codici sociali. 
+Il pudore è un'attitudine restrittiva che condiziona l'individuo nel dire o nel fare ciò che può contrastare con i codici sociali. 
 
-Bolla prossemica, profumi, feromoni
-autorizzare a stare nella tua bolla prossemica? ascensore tram
+E se fosse la faccia  la cosa nuda di cui abbiamo vergogna? Filtro instagram
+Filtri che censurano?
+Come censura il machine learning? In maniera casuale. Censura con i fiori?
+Censurare su internet tutto ciò che è commerciale.
 
-Il punto di vista può essere una variabile, puoi darti dei parametri. Dispositivo che dica le distanze confidence
-Lo sguardo può bucare la bolla prossemica
 
-e se la faccia fosse la cosa nuda di cui abbiamo vergogna?
- 
-Filtro instagram
-
-Sei in imbarazzo solo se qualcuno ti guarda
-
-Per assurdo
+Ragionamento per assurdo
 Nudi corpo e faccia coperta??
 
-Faccia coperta con mascherina meno disagio, non mi faccio i baffetti
 
-Filtri che censurano
+Sei in imbarazzo solo se qualcuno ti guarda, fssare parti del corpo mette a disagio (piedi, mani ecc) codice di equilibrio di contatto visivo.
 
-Come censura mL
-
-Censurare su internet tutto ciò che è commerciale
-
-La faccia è parte identificativa, se ho la faccia scoperta come mi identificano?
-Leggi volto coperto
-
-
-Filtro che analizza i tuoi selfie o i filtri che usi e capisce cosa modifichi solitamente, diventi cosciente di cosa ti disagia e ti da dei feedback positivi.
-
-Fissare parti del corpo mette a disagio (piedi, mani ecc) codice di equilibrio di contatto visivo e non solo
-
-
-Macchina con pregiudizi e macchina senza che comunicano
+Macchina con senso del pudore e macchna senza, come comunicherebbero? 
+Può la macchina provare vergogna per noi? O viceversa.
  
+Filtro che analizza i tuoi selfie o i filtri che usi e capisce cosa modifichi solitamente, diventi cosciente di cosa ti disagia e ti da dei feedback positivi.
