@@ -1,4 +1,4 @@
-## Cos'è?
+## Cosa significa?
 Progetto che porta l'attenzione sui materiali che compongono gli abiti ponendo l'attenzione sui loro effettivi riscontri negativi sull'ambiente e sulle persone. 
 
 **-"Scientists have been warning us
@@ -31,7 +31,7 @@ sugli abiti che indossiamo: provenienza, materiali, come assicurarci il loro cor
 ![et2](https://user-images.githubusercontent.com/63911437/116553797-cc6e4080-a8fa-11eb-9f4b-e2df89aeeec2.jpeg)
 ![et6](https://user-images.githubusercontent.com/63911437/116553810-ced09a80-a8fa-11eb-8906-b7281f62a752.jpeg)
 
-Circa il 60% dell'abbigliamento di oggi contiene poliestere.
+Circa il 60% dell'abbigliamento di oggi contiene [poliestere1](https://zerrin.com/wtf-what-the-fabric-polyester-explained/)[poliestere2](https://www.kleiderly.com/our-blog/fabric-series-all-about-polyester).
 Dal 2000 al 2016, l'uso del poliestere da parte dell'industria mondiale dell'abbigliamento è passato da 8,3 a 21,3 milioni di tonnellate all'anno. 
 Allo stesso tempo la produzione totale mondiale di indumenti è più o meno raddoppiata, nel 2014 ha superato la soglia dei 100 miliardi di capi. 
 La quota di fibre sintetiche, soprattutto poliestere, è passata da meno del 50 a più del 60 per cento.
@@ -44,5 +44,5 @@ ogni anno. [Greenpeace 2017](https://www.greenpeace.de/sites/www.greenpeace.de/f
 
 Spesso non ci rendiamo conto di quello che indossiamo di com'è fatto o da dove proviene, le etichette sono però uno strumento che ci permette di creare una comunicazione diretta tra noi e ciò che indossiamo. 
 
-
- 
+## Come funziona?
+Grazie all'intellingenza artificiale è possibile riconoscere le tipologie di informazioni presenti nelle etichette. Relazionandole con serie di dataset è possibile calcolarne il loro immatto inquinante o quantitativo plastico, rielaborarlo e tradurlo in un dato visivo facile da interpretare dall'utente. Il risultato potrà essere più o meno scioccante a seconda dell'indumento indossato.
