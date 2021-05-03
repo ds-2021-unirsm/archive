@@ -35,3 +35,8 @@
 
 - ### Variazione 10PRINT con synth :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 <img width="1425" alt="Schermata 2021-04-12 alle 10 33 33" src="https://user-images.githubusercontent.com/76476647/114365379-b894b180-9b7a-11eb-8a06-230e40c73e74.png">
+
+- ### Pattern con modulo GUI :point_right: [+](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
+<img width="1440" alt="Schermata 2021-05-04 alle 00 02 46" src="https://user-images.githubusercontent.com/76476647/116939158-24df6e00-ac6c-11eb-95e0-189b4083ba41.png">
+
+
