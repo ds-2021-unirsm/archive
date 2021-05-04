@@ -11,7 +11,8 @@
 
 ![ezgif-6-78ee1e6931bc](https://user-images.githubusercontent.com/76455356/117033908-1c864200-ad03-11eb-9ac8-8b84151472e0.gif) ![ezgif-6-c80138b7d662](https://user-images.githubusercontent.com/76455356/117033898-1b551500-ad03-11eb-9d28-9bb1b01f8de1.gif) 
 
-![gen](https://user-images.githubusercontent.com/76455356/117040053-c072ec00-ad09-11eb-86f6-dada87539a4e.png)
+![gen_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/117040149-ded8e780-ad09-11eb-93e9-343818e44ef8.png)
+
 
 
 
