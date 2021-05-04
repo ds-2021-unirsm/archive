@@ -11,5 +11,10 @@
 
 ![ezgif-6-78ee1e6931bc](https://user-images.githubusercontent.com/76455356/117033908-1c864200-ad03-11eb-9ac8-8b84151472e0.gif) ![ezgif-6-c80138b7d662](https://user-images.githubusercontent.com/76455356/117033898-1b551500-ad03-11eb-9d28-9bb1b01f8de1.gif) 
 
+![general_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/117039053-9d940800-ad08-11eb-93c7-4cc50c1da98b.png)
+
+
+
+
 
 
