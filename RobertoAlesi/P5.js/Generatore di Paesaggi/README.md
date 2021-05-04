@@ -13,9 +13,8 @@
 ## 03. Generatore di Paesaggi + GUI [+](https://editor.p5js.org/RobertoAlesi/full/_CkIg-A9S)
 >
 
+![ezgif-3-bf775835cad9](https://user-images.githubusercontent.com/76455356/117050232-6d069b00-ad15-11eb-9cb4-5a3c97f6bf7c.gif)
 
-
-![DEFDEF](https://user-images.githubusercontent.com/76455356/117049542-8529ea80-ad14-11eb-8ec2-8618ae369984.gif)
 
 ![Terrain_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/117049253-32503300-ad14-11eb-8a1b-80f0a7cc2305.png)
 
