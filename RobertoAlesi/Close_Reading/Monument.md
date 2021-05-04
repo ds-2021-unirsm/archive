@@ -15,4 +15,5 @@ Il sottotitolo "If It Bleeds, It Leads" (Se sanguina, comanda) intende evidenzia
 
 ### What if
 >Se l'installazione, che ricava i dati dagli articoli riguardanti gli omicidi, fosse affiancata ad un'altra, che li ricava da quelle positive, sarebbe visibile la portata del problema grazie al confronto con un altro termine di paragone, facendo rendere conto l'utente della quantità di notizie negative alla quale veniamo sottoposti quotidianamente.
+
 >Se le palline gialle fossero associate agli animali che ogni giorno vengono abbattuti negli allevamenti intensivi sarebbe di grande impatto vedere il flusso di palline scendere senza sosta e probabilmente la stanza verrebbe riempita in pochissimo tempo, sensibilizzando notevolmente il visitatore.
