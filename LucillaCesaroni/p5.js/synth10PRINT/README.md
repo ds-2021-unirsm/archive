@@ -1,5 +1,5 @@
 # 10PRINT con synth
 
-<img width="1425" alt="Schermata 2021-04-12 alle 10 33 33" src="https://user-images.githubusercontent.com/76476647/114365294-a581e180-9b7a-11eb-82d7-d56044734290.png">
+[![10PrintSynth](https://user-images.githubusercontent.com/76476647/114365379-b894b180-9b7a-11eb-8a06-230e40c73e74.png "10PrintSynth")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 
 _Code here_ :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
