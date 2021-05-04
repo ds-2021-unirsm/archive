@@ -33,7 +33,7 @@ function setup() {
 
 function draw() {
   
-  muovi -= 0.001;
+  muovi -= 0;
 
   var yoff = muovi;
   for (var y = 0; y < righe; y++) {
@@ -51,6 +51,8 @@ function draw() {
 
   orbitControl();
   background(0);
+
+  
   translate(0, 50);
   rotateX(PI / 3);
 
@@ -60,38 +62,34 @@ function draw() {
   //creo la griglia del terrain
   for (var y = 0; y < righe-1; y++) {
     
-    beginShape(TRIANGLE_STRIP);
+    //beginShape(TRIANGLE_STRIP);
     
     for (var x = 0; x < colonne; x++) {
     
       
  noStroke();
    
-//   push();
-//       translate(x * scala, y * scala, terrain[x][y]);
-//       console.log(terrain[x][y])
-//         sphere(5);
-     
-//       if(this.terrain[x][y]<0){
-//         fill(0,0,255);
-//       }else{
-//         fill(0,255,0);
-//       }
-   
-//       pop();
+  push();
+      translate(x * scala, y * scala, terrain[x][y]);
+      console.log(this.terrain[x][y])
       
-      stroke(0);
-      strokeWeight(2);
-     fill(255);
+       if(this.terrain[x][y]<5){
+        specularMaterial(0,130,200);
+      }else {
+        ambientMaterial(50,200,0);
+      }
       
-      //crea dei poligoni per collegare i vertici, attivando begin/end Shape
+        box(scala,scala,scala);
+      
      vertex(x * scala, y * scala, terrain[x][y]);
-     vertex(x * scala, (y + 1) * scala, terrain[x][y + 1]);
+      vertex(x * scala, (y + 1) * scala, terrain[x][y + 1]);
+      pop();
+      
    
     
     }
-   endShape();
+    //endShape();
     
-     
+     // console.log(x * scala);
   }
 }
