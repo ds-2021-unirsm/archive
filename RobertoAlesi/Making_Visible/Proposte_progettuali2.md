@@ -17,7 +17,10 @@ Creare uno luogo di incontro virtuale nel quale una o più persone possano avvia
 
 ## Cosa succederebbe se...?
 Cosa succederebbe se la macchina o le piccole macchine riuscissero ad innescare ragionamenti e intuizioni che altrimenti non sarebbero potute esistere?
-La macchina creativa potrebbe essere uno strumento che potenzia le capacità e le visioni, di un team di lavoro, in fase di ideazione.
+La macchina creativa potrebbe essere uno strumento che potenzia le capacità e le visioni di un team di lavoro in fase di ideazione.
+
+Cosa succederebbe se grazie al Machine Learning venissero creati dei collegamenti tra le parole di un brainstorming in uno spazio tridimensionale?
+La macchina potrebbe creare associazioni tra le parole inserite da due o piu persone in uno spazio. Le parole si potrebbero disporre per colore, in base al tipo di collegamento, per posizione in base all'area tematica di quella parola, in altezza, in base al numero di associazioni.
 
 ## Tecnologie/ Dati
 ### Connettere le persone
@@ -33,14 +36,14 @@ Socket.io 4.0: https://socket.io/
 
 WSClient.js: https://editor.p5js.org/tigoe/sketches/rJDfv8N0 
 
-### Fase1. Riconoscimento/ raccolta dati
+### Fase1. Riconoscimento parole/ raccolta dati
 Le macchine raccoglieranno i dati relativi agli elementi presenti nello spazio, parole e forme disegnate, in modo da poterli usare per individuare collegamenti o riferimenti visivi:
 
 CharRNN: https://learn.ml5js.org/#/reference/charrnn
 
 Image Classifier: https://learn.ml5js.org/#/reference/image-classifier
 
-### Fase2. Interpretazione dei dati/ output visivi 
+### Fase2. Interpretazione dei dati 
 Le macchine dopo aver raccolto e classificato i dati, cerca collegamenti e associazioni visive che possano stimolare la creatività degli utenti:
 
 Quick Draw: https://quickdraw.withgoogle.com/
@@ -48,5 +51,9 @@ Quick Draw: https://quickdraw.withgoogle.com/
 Sketch RNN: https://learn.ml5js.org/#/reference/sketchrnn
 
 Word2Vec: https://learn.ml5js.org/#/reference/word2vec
+
+### Fase3. Visualizzazione dei dati
+Three.js
+WebGL
 
 
