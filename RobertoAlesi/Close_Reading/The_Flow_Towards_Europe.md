@@ -9,7 +9,9 @@ Lucify, 2015, Helsinki, Finlandia;
 
 ### How it works
 >**The Flow Towards Europe** è un sito che restituisce informazioni basate sui dati pubblicati dall'Agenzia delle Nazioni Unite per i rifugiati (UNHCR), che pubblica conteggi mensili dei nuovi richiedenti asilo per ciascun paese di origine e di destinazione.
+
 >La pagina è suddivisa in più grafici. Nel planisfero, ogni punto in movimento da un paese all'altro, rappresenta lo spostamento di 25 persone circa. Spostando il mouse sui singoli stati, è possibile isolare i flussi, mentre facendo clic su un paese viene isolata la visualizzazione della singola Nazione in modo da visualizzarli nel dettaglio nella sezione sottostante. Ogni destinazione-stato dei flussi migratori fa innalzare una barra che cresce all'aumentare dei migranti arrivati in quel paese fino a quel momento.
+>
 >Nella parte superiore, un linechart, permette di spostarci temporalmente e vedere come si sono evoluti i flussi migratori nel corso degli anni, dal 2012 al 2018.
 
 
