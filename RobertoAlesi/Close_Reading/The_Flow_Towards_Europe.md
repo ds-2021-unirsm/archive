@@ -24,10 +24,11 @@ Lo scopo secondario è stato quello di sperimentare il concetto di visualizzazio
 ### What if
 >Cosa succederebbe se si potesse _switchare_ la tipologia di spostamento?
 In futuro questo progetto potrebbe essere implementato con dati relativi ai flussi in altri contesti, come ad esempio le persone che lasciano il proprio paese per motivi lavorativi, in modo da capire quali sono i paesi arretrati che stanno subendo la "fuga di cervelli" e quali sono quelli che offrono più opportunità lavorative.  
+
 >_"A single death is a tragedy, a million deaths is a statistic" - Stalin, Washington Post, 20 Gennaio 1947_  
 Cosa succederebbe se ad ogni punto fosse legata una storia?
 
-
-
-In questa visualizzazione viene trasmesso molto efficaciemente lo spostamento di una quantità notevole di persone senza però fare riferimento alle storie che hanno causato questi spostamenti, non c'è empatia.
+>In questa visualizzazione viene trasmesso molto efficaciemente lo spostamento di una quantità notevole di persone senza però fare riferimento alle storie che hanno causato questi spostamenti, non c'è empatia.
 Potrebbe essere interessante, e di maggior impatto, conoscere le storie che si nascondono dietro ognuno di quei punti in movimento, in modo da capire i motivi che hanno portato quelle *persone* ad abbandonare la propria casa in cerca di maggior fortuna negli stati europei.
+
+**Aggiungi progetto Fragapane** Migranti, raccontare le storie dietro ad ogni linea
