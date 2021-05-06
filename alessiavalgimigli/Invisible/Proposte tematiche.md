@@ -1,5 +1,4 @@
-# Ecco le mie proposte per il tema del progetto d'esame
-
+# Ecco le mie proposte per il tema del progetto del corso
 ### TEMA 1
 ### _Le emozioni della città_
 Questo tema vuole analizzare la città attraverso le emozioni che provano i suoi cittadini. 
