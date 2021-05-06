@@ -44,3 +44,8 @@ Spesso non ci rendiamo conto di quello che indossiamo di com'è fatto o da dove 
 
 ## Come funziona?
 Grazie all’intelligenza artificiale è possibile riconoscere le tipologie di informazioni presenti nelle etichette. Relazionandole con serie di dataset è possibile calcolarne il loro impatto inquinante o quantitativo plastico, rielaborarlo e tradurlo in un dato visivo facile da interpretare dall'utente. Il risultato potrà essere più o meno scioccante a seconda dell'indumento indossato.
+
+## Esperimento GUI
+![myTshirt](https://user-images.githubusercontent.com/63911437/117277316-0e9a0380-ae60-11eb-9663-b37a7fe1cf65.png)
+
+[P5.js](https://editor.p5js.org/lfaraci/full/sZkfxaf8y)
