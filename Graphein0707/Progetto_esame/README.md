@@ -30,3 +30,22 @@ Quante volte guardando una fotografia nasce spontaneo il commento: “ha proprio
 Oggi più che mai, lo sguardo ha il compito di comunicare le nostre emozioni e sensazioni. La pandemia globale in cui siamo immersi, ci costringe a trascorrere gran parte della nostra giornata con indosso la mascherina che copre naso e bocca. Gli occhi sono l’unica parte del nostro viso che rimane scoperta ed è visibile a chi ci sta intorno. Proprio per questo da un anno a questa parte abbiamo dovuto imparare a comunicare con lo sguardo, a cercare un livello di contatto che non fosse più quello fisico, ma quello strettamente emotivo. Molto spesso però questo livello di comunicazione obbligata e restrittiva ci ha spogliati dalla nostra identità, dalla nostra fisionomia che ci rende unici e riconoscibili agli occhi degli altri. gli occhi sono lo specchio dell’anima, ma molti non riescono a coglierla. 
 
 *La tecnologia può aiutare le persone a comunicare e rendersi consapevoli delle emozioni degli altri semplicemente incrociando il loro sguardo?*
+
+<br/>
+<br/>
+
+## Readymade di gesti
+## Sguardo + Fotografia
+
+*Che cos’é?*<br/>
+L'essere umano è orientato visivamente e si fida più della propria vista che di altri sensi, lo sguardo è portatore di emozione ed è in grado di interpretare i comportamenti umani senza filtri o manipolazioni. L’idea è quella di concentrare l’attenzione sulla percezione degli sguardi e dei gesti all'interno del mondo del cinema e vedere come l'emozione viene tradotta visivamente in forma e colore.
+
+*Come funziona?*<br/>
+Le tecnologie come facemesh e body tracking potrebbero aiutare e estrapolare i gesti e le espressioni e a dar loro un nuovo contesto visivo.
+
+*Cosa significa?*<br/>
+Il progetto intende trasformare un tipo di comunicazione non verbale che si basa su delle espressioni facciali e gestuale tipico del linguaggio del corpo, e ricondurre la sfera visiva a un universo di significato altro che si basa sulle sensazioni e sulle intepretazioni. L'idea è di creare manifesti visivi caratterizzanti di scene famose e conosciute del mondo del cinema e di rendere emozionale il gesto oltre che decontestualizzato e isolato dal suo contesto originale. Questa operazione è utile a conservare e riconoscere la sfera emotiva messa in gioco nella costruzione della scena tramite geometrie visive importanti. 
+
+*Cosa succederebbe se...?*<br/>
+Cosa succederebbe se in termini di sensorialità e interpretazione, si potesse comunicare visivamente qualcosa che ha a che fare con un altro senso e attivare così la memoria dei sensi?
+
