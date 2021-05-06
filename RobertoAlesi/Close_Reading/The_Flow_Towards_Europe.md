@@ -4,13 +4,13 @@ Lucify, 2015, Helsinki, Finlandia;
 ![img1](https://github.com/RobertoAlesi/archive/blob/main/RobertoAlesi/Close_Reading/imgs/tfteurope.png)
 
 ### What is
->Il progetto mostra, grazie ad una mappa interattiva, il flusso dei richiedenti asilo presso i paesi Europei dal 2012 al 2018.
+>Il progetto, sviluppato da Juho Ojala e Ville Saarinen dello studio Lucify, mostra il flusso dei richiedenti asilo presso i paesi Europei dal 2012 al 2018, grazie ad una dataviz interattiva.
 
 
 ### How it works
->**The Flow Towards Europe** è un sito che restituisce informazioni basate sui dati pubblicati dall'Agenzia delle Nazioni Unite per i rifugiati (UNHCR), che pubblica conteggi mensili dei nuovi richiedenti 
-asilo per ciascun paese di origine e di destinazione.
-Ogni punto in movimento rappresenta lo spostamento di 25 persone. Spostando il mouse sui singoli stati, è possibile isolare i flussi, mentre facendo clic su un paese viene isolata la visualizzazione della singola Nazione in modo da visualizzarli nel dettaglio nella sezione sottostante.
+>**The Flow Towards Europe** è un sito che restituisce informazioni basate sui dati pubblicati dall'Agenzia delle Nazioni Unite per i rifugiati (UNHCR), che pubblica conteggi mensili dei nuovi richiedenti asilo per ciascun paese di origine e di destinazione.
+>La pagina è suddivisa in più grafici. Nel planisfero, ogni punto in movimento da un paese all'altro, rappresenta lo spostamento di 25 persone circa. Spostando il mouse sui singoli stati, è possibile isolare i flussi, mentre facendo clic su un paese viene isolata la visualizzazione della singola Nazione in modo da visualizzarli nel dettaglio nella sezione sottostante. Ogni destinazione-stato dei flussi migratori fa innalzare una barra che cresce all'aumentare dei migranti arrivati in quel paese fino a quel momento.
+>Nella parte superiore, un linechart, permette di spostarci temporalmente e vedere come si sono evoluti i flussi migratori nel corso degli anni, dal 2012 al 2018.
 
 
 ### What does it mean
