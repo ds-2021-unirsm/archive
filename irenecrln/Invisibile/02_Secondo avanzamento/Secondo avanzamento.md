@@ -25,3 +25,15 @@ ImageClassifier [+](https://learn.ml5js.org/#/reference/image-classifier)
 Stampante termica  
 
 ![ML](https://user-images.githubusercontent.com/79697764/116565517-3e985280-a906-11eb-8e86-a49b4c892228.png)
+
+## ImageClassifier_Video "LIMITI"
+
+- gli oggetti vanno presi singolarmente 
+- sfondo uniforme 
+- l'output è instabile, cambia frequentemente 
+- mettere gli oggetti molto vicini alla telecamera 
+
+
+![differenze](https://user-images.githubusercontent.com/79697764/117319521-a8c37100-ae8b-11eb-8275-d76c97cfcd4e.JPG)
+
+
