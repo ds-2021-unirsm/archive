@@ -1,5 +1,7 @@
+## Cos'è?
+Progetto che porta l'attenzione sui materiali che compongono gli abiti e sui loro possibili riscontri negativi sull'ambiente (e sulle persone ?). 
+
 ## Cosa significa?
-Progetto che porta l'attenzione sui materiali che compongono gli abiti ponendo l'attenzione sui loro effettivi riscontri negativi sull'ambiente e sulle persone. 
 
 **-"Scientists have been warning us
 that we're wreaking havoc on our planet.
@@ -42,8 +44,22 @@ ogni anno. [Greenpeace 2017](https://www.greenpeace.de/sites/www.greenpeace.de/f
 
 Spesso non ci rendiamo conto di quello che indossiamo di com'è fatto o da dove proviene, le etichette sono però uno strumento che ci permette di creare una comunicazione diretta tra noi e ciò che indossiamo. 
 
-## Come funziona?
+## Com'è fatto?
 Grazie all’intelligenza artificiale è possibile riconoscere le tipologie di informazioni presenti nelle etichette. Relazionandole con serie di dataset è possibile calcolarne il loro impatto inquinante o quantitativo plastico, rielaborarlo e tradurlo in un dato visivo facile da interpretare dall'utente. Il risultato potrà essere più o meno scioccante a seconda dell'indumento indossato.
+
+## Com'è fatto? (APPROFONDIMENTO TECNOLOGIA)
+
+1. OCR - Riconoscimento ottico dei caratteri --> applicabile alle etichette per leggerne i dati.
+2. Image Classify - Classificazione immagini / Object Detector - Riconoscimento di oggetti nello spazio --> identificare gli indumenti.
+3. BodyPix - utilizza TensorFlow.js identificare e sottolineare parti del corpo --> mi permette di posizionare degli elementi sul corpo.
+4. Spark AR. --> Applicazione di supporto per creare filri in realtà aumentata.
+5. CharRNN - Creare testo da testi analizzati in precedenza --> produrre testi di sensibilizzazione dei contenuti.
+
+Allenare un intelligenza di **Object Detector** per riconoscere le etichette dei capi oppure invitare direttamente l'utente ad inquadrarne una e attraverso **OCR** estrapolare le informazioni necessarie alla visualizzazione dei dati dei materiali(materiali naturali/eco sostenibili/di derivazione animale/conteneti plastica). Data la grande percentuale di indumenti contenenti poliestere, focalizzarsi su quest'ultimo e in maniera provocatoria creando un output che miri a sensibilizzare l'utente.
+Con **BodyPix** si potrebbero proiettare data-visualization direttamente su un indumento indossato in alternativa con **Spark AR** ottenere una rappresentazione in realtà aumentata del quantitativo di plastiche o della positività/negatività dell'indumento indossato. Infine si potrebbe allenare CHarnRNN per produrre testi di sensibilizzazione dei contenuti.
+
+## E se...
+Lo strumento realizzato permettesse di mettersi in contatto con un produttore fairtrade e creare un rapporto di fiducia?
 
 ## Esperimento GUI
 ![myTshirt](https://user-images.githubusercontent.com/63911437/117277316-0e9a0380-ae60-11eb-9663-b37a7fe1cf65.png)
