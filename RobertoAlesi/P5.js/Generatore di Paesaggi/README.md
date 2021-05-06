@@ -17,6 +17,11 @@
 
 ![Terrain_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/117049253-32503300-ad14-11eb-8a1b-80f0a7cc2305.png)
 
+## 04. EasyCam [+](https://editor.p5js.org/RobertoAlesi/full/GI5SX7wZD)
+>Lo sketch dei paesaggi generativi è stato implementato con P5.EasyCam, che genera due viste casuali del modello.
+>La gui è stata migliorata da quella precedente con l'aggiunta di 6 preset colore per i paesaggi generativi.
+
+![Terrain_Tavola disegno 1 copia](https://user-images.githubusercontent.com/76455356/117368082-5736d880-aec3-11eb-9387-0db4bfd053b0.png)
 
 
 
