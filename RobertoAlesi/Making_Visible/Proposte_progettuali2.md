@@ -17,7 +17,10 @@ Creare uno luogo di incontro virtuale nel quale una o più persone possano avvia
 
 ## Cosa succederebbe se...?
 Cosa succederebbe se la macchina o le piccole macchine riuscissero ad innescare ragionamenti e intuizioni che altrimenti non sarebbero potute esistere?
-La macchina creativa potrebbe essere uno strumento che potenzia le capacità e le visioni, di un team di lavoro, in fase di ideazione.
+La macchina creativa potrebbe essere uno strumento che potenzia le capacità e le visioni di un team di lavoro in fase di ideazione.
+
+Cosa succederebbe se grazie al Machine Learning venissero creati dei collegamenti tra le parole di un brainstorming in uno spazio tridimensionale?
+La macchina potrebbe creare associazioni tra le parole inserite da due o piu persone in uno spazio. Le parole si potrebbero disporre per colore, in base al tipo di collegamento, per posizione in base all'area tematica di quella parola, in altezza, in base al numero di associazioni.
 
 ## Tecnologie/ Dati
 ### Connettere le persone
