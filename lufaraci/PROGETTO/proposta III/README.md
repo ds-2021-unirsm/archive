@@ -56,7 +56,7 @@ Grazie all’intelligenza artificiale è possibile riconoscere le tipologie di i
 5. CharRNN - Creare testo da testi analizzati in precedenza --> produrre testi di sensibilizzazione dei contenuti.
 
 Allenare un intelligenza di **Object Detector** per riconoscere le etichette dei capi oppure invitare direttamente l'utente ad inquadrarne una e attraverso **OCR** estrapolare le informazioni necessarie alla visualizzazione dei dati dei materiali(materiali naturali/eco sostenibili/di derivazione animale/conteneti plastica). Data la grande percentuale di indumenti contenenti poliestere, focalizzarsi su quest'ultimo e in maniera provocatoria creando un output che miri a sensibilizzare l'utente.
-Con **BodyPix** si potrebbero proiettare data-visualization direttamente su un indumento indossato in alternativa con **Spark AR** ottenere una rappresentazione in realtà aumentata del quantitativo di plastiche o della positività/negatività dell'indumento indossato. Infine si potrebbe allenare CHarnRNN per produrre testi di sensibilizzazione dei contenuti.
+Con **BodyPix** si potrebbero proiettare data-visualization direttamente su un indumento indossato in alternativa con **Spark AR** ottenere una rappresentazione in realtà aumentata del quantitativo di plastiche o della positività/negatività dell'indumento indossato. Infine si potrebbe allenare **CHarnRNN** per produrre testi di sensibilizzazione dei contenuti.
 
 ## E se...
 Lo strumento realizzato permettesse di mettersi in contatto con un produttore fairtrade e creare un rapporto di fiducia?
