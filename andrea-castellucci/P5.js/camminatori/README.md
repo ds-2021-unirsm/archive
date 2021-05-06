@@ -22,7 +22,7 @@ https://editor.p5js.org/andrea-castellucci/full/YlyFB3HoE
 
 https://editor.p5js.org/andrea-castellucci/full/fwKOfxSWt
 
-![camminatori_mondi3](https://user-images.githubusercontent.com/75098849/114778693-78e5e980-9d75-11eb-928d-77504665a345.jpg)
+![camminatori_mondi3_](https://user-images.githubusercontent.com/75098849/117273323-51f27300-ae5c-11eb-872d-9eb002d4ade2.jpg)
 
 # Camminatori indipendenti 2 + GUI
 
