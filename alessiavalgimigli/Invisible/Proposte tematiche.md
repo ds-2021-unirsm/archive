@@ -34,39 +34,55 @@ Wealth Inequality (Xushan Li - Density Design) 👉🏻 [+](https://infopoetry.d
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### IPOTESI PROGETTUALI
+### IPOTESI PROGETTUALE
 ### Close reading, tecnologie e dati da utilizzare
+------------------------------
 
-Le cartine geografiche, per quanto possano essere frutto di una progettazione oggettiva, non sono mai inclusive. Escludono sempre qualcosa, poichè non vengono rappresentati tutti i dettagli di un determinato luogo, ma ne viene fatta sempre una selezione, in modo da rendere l’oggetto fruibile e comprensibile. Se una cartina raccogliesse tutti i dettagli di un luogo non sarebbe più una cartina, ma sarebbe una riproduzione 1:1 del luogo stesso, sottraendo quindi la funzione di navigazione e osservazione dall’alto. 
-
-Anche la rete, strumento nato per essere democratico, tende spesso ad escludere alcune categorie di persone. 
-La progettazione degli strumenti tecnologici che utilizziamo tutti i giorni è spesso condizionata dai pregiudizi che caratterizzano la nostra società. 
-
-Il progetto potrebbe servire quindi per far convergere la tematica della cartografia e quella dei data bias nel concetto di inclusività. 
-
-#### Close reading
-
-##### Che cos'è?
-Una problematica rilevante legata alla generazione di bias nei sistemi tecnologici risiede nei dataset che vengono utilizzati 
-per allenare le macchine. Questi spesso diventano il riflesso della nostra società, ricca di pregiudizi e discriminazioni. 
-Il progetto vuole cercare di fornire uno strumento che aiuti i progettisti ad evitare bias nella creazione di dataset, 
-spesso fortemente radicati nella nostra cultura tanto da non poter essere riconosciuti come tali.  
+### Che cos'è?
+L'hate speech è un fenomeno altamente diffuso, soprattutto nel mondo online, dove è più semplice esprimersi senza filtri e pudore. 
+Si tratta di espressioni violente o discriminatorie nei confronti di altre persone o gruppi di persone. Stando a quanto detto dal 
+Consiglio d'Europa nel 1997 ricadono nei discorsi d’odio quelle “espressioni che diffondono, incitano, promuovono o giustificano 
+l’odio razziale, la xenofobia, l’antisemitismo o altre forme di minaccia basate sull’intolleranza – inclusa l’intolleranza espressa 
+dal nazionalismo aggressivo e dall’etnocentrismo –, sulla discriminazione e sull’ostilità verso i minori, i migranti 
+e le persone di origine straniera”.
+Questo progetto vuole rendere visibile questo crescente fenomeno che dilaga sui social network, che denigra e ferisce sempre più 
+persone. Si tratta di una rappresentazione spaziale delle parole discriminatorie, che vengono raccolte in tempo reale dai social 
+network e rappresentate nello spazio come grandi macchie di petrolio in mare.
 
 ------------------------------
 
-##### Come funziona?
-Lo strumento si sviluppa attraverso una mappa, che serve come metafora per orientarsi nella tematica dei pregiudizi 
-in modo oggettivo. All’interno della mappa i bias creano dei veri e propri luoghi, raggruppati per tematiche o per importanza.
+### Come funziona?
+Attraverso un algoritmo vengono rilevate dai social network in tempo reale le parole che rientrano nelle categorie discriminatorie. 
+Le categorie vengono rappresentate visivamente come isole di petrolio, grandi macchie che al loro interno racchiudono gocce più o meno grandi. 
+Queaste gocce sono le parole singole raccolte dall'algoritmo e semanticamente coerenti con la categoria stessa. 
+Ad esempio, viene rilevata la parola "frocio": questa goccia di petrolio andrà ad unirsi all'isola dell'omofobia. In seguito viene rilevata 
+un'altra volta "frocio", questa goccia andrà ad unirsi a quella precedente, creando una goccia più grande all'interno della categoria omofobia. 
+Perciò le dimensioni delle gocce interne alle categorie variano a seconda della frequenza di rilevamento della stessa parola. 
 
 ------------------------------
 
-##### Cosa significa? 
-Creare dei dataset che non siano influenzati da alcun tipo di bias permette di realizzare tecnologie e tools accessibili 
-a chiunque, senza escusioni e discriminazioni. 
-Attraverso la programmazione di servizi e strumenti abbiamo la possibilità di portare una maggior equità nella nostra società, 
-ma questo può avvenire solo se i programmatori fanno del cambiamento sociale una loro priorità.
-> Why we code matters. We've used tools of computational creation to unlock immense wealth. We now have the opportunity to unlock even greater equality if we make social change a priority and not an afterthought.
-> - Joy Boulamwini (TEDx)
+### Cosa significa? 
+Il petrolio rilasciato in mare si allarga rapidamente in un'ampia chiazza, disponendosi in strati di vario spessore che le correnti 
+e i venti trasportano a grandi distanze. Le frazioni più volatili del petrolio evaporano nel giro di pochi giorni, perdendo in poche 
+ore una notevole porzione della propria massa. Alcune componenti però penetrano negli strati superiori dell'acqua, dove producono 
+effetti altamente nocivi sugli organismi marini. Le frazioni più pesanti vagano invece sulla superficie del mare, fino a formare 
+grumi difficilmente degradabili, che affondano lentamente fino a raggiungere il fondo marino. I tempi richiesti dal processo di
+degradazione variano a seconda delle condizioni del mare, dalle condizioni metereologiche, dalla temperatura e dal tipo di inquinante. 
+La metafora del petrolio va a sottolineare come l'hate speech diventi un peso enorme per le persone o per i gruppi che lo subiscono.
+Si allarga e si espande sulle proprie debolezze e vulnerabilità, diventando nocivo per la propria salute mentale e fisica. 
+Come per il petrolio, ci vuole tempo per riuscire a metabolizzare questo tipo di aggressione, e questo tempo varia a seconda della 
+persona che la subisce. In alcuni casi la ferita potrebbe non rimarginarsi mai più. 
 
 ------------------------------
+
+
+
+![collage_Tavola disegno 1_Tavola disegno 1](https://user-images.githubusercontent.com/79698172/117275440-f2916480-ae55-11eb-9dd7-4f4dcd5c0bd0.jpg)
+
+![IMG_0245](https://user-images.githubusercontent.com/79698172/117275819-57e55580-ae56-11eb-954b-51b5caac8e55.JPG)
+
+![IMG_0247](https://user-images.githubusercontent.com/79698172/117275835-5b78dc80-ae56-11eb-9ec3-efa10fbcf6c7.JPG) ![IMG_0248](https://user-images.githubusercontent.com/79698172/117275847-603d9080-ae56-11eb-91d4-ebfc786b1859.JPG)
