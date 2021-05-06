@@ -1,5 +1,5 @@
 # Generatore casuale di parole
 
-<img width="1437" alt="Schermata 2021-03-21 alle 12 29 03" src="https://user-images.githubusercontent.com/76476647/111903373-4b41a500-8a42-11eb-9b53-2ed42724fe33.png">
+[![GeneratoreParole](https://user-images.githubusercontent.com/76476647/112503727-74886b00-8d8b-11eb-9a1e-791ff23c865a.png "GeneratoreParole")](https://editor.p5js.org/Lucilla/full/UyXqNXNLw)
 
 _Code here_ :point_right: [+](https://editor.p5js.org/Lucilla/full/UyXqNXNLw)

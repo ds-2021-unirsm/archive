@@ -11,12 +11,11 @@
  * position x          : resolution
  *
  * KEYS
- * 1-4                 : load different images
- * 5                   : no color sorting
- * 6                   : sort colors on hue
- * 7                   : sort colors on saturation
- * 8                   : sort colors on brightness
- * 9                   : sort colors on greyscale (luminance)
+ * 1                   : null
+ * 2                   : sort colors on hue
+ * 3                   : sort colors on saturation
+ * 4                   : sort colors on brightness
+ * 5                   : sort colors on greyscale (luminance)
  * s                   : save png
  * c                   : save color palette
  */
