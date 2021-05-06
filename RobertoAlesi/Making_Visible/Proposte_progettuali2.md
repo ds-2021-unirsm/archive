@@ -36,14 +36,14 @@ Socket.io 4.0: https://socket.io/
 
 WSClient.js: https://editor.p5js.org/tigoe/sketches/rJDfv8N0 
 
-### Fase1. Riconoscimento/ raccolta dati
+### Fase1. Riconoscimento parole/ raccolta dati
 Le macchine raccoglieranno i dati relativi agli elementi presenti nello spazio, parole e forme disegnate, in modo da poterli usare per individuare collegamenti o riferimenti visivi:
 
 CharRNN: https://learn.ml5js.org/#/reference/charrnn
 
 Image Classifier: https://learn.ml5js.org/#/reference/image-classifier
 
-### Fase2. Interpretazione dei dati/ output visivi 
+### Fase2. Interpretazione dei dati 
 Le macchine dopo aver raccolto e classificato i dati, cerca collegamenti e associazioni visive che possano stimolare la creatività degli utenti:
 
 Quick Draw: https://quickdraw.withgoogle.com/
@@ -51,5 +51,9 @@ Quick Draw: https://quickdraw.withgoogle.com/
 Sketch RNN: https://learn.ml5js.org/#/reference/sketchrnn
 
 Word2Vec: https://learn.ml5js.org/#/reference/word2vec
+
+### Fase3. Visualizzazione dei dati
+Three.js
+WebGL
 
 
