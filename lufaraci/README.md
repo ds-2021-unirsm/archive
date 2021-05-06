@@ -6,6 +6,7 @@ questa cartella contiene:
    * camminatore
    * 2D Perlin noise
    * Combining_transformation_functions
+   * GUI
    * pop_push
    * pop_push_translate
    * I Programmare un generatore casuale di parole
@@ -20,3 +21,7 @@ questa cartella contiene:
 * CLOSE READING
 
 * PROGETTO
+  * proposta I
+  * proposta II
+  * poposta III
+    * sviluppo    
