@@ -83,6 +83,27 @@ persona che la subisce. In alcuni casi la ferita potrebbe non rimarginarsi mai p
 
 ![collage_Tavola disegno 1_Tavola disegno 1](https://user-images.githubusercontent.com/79698172/117275440-f2916480-ae55-11eb-9dd7-4f4dcd5c0bd0.jpg)
 
-![IMG_0245](https://user-images.githubusercontent.com/79698172/117275819-57e55580-ae56-11eb-954b-51b5caac8e55.JPG)
+![Risorsa 1](https://user-images.githubusercontent.com/79698172/117277157-7f88ed80-ae57-11eb-9bd5-3d4a0a0d7450.png)
 
-![IMG_0247](https://user-images.githubusercontent.com/79698172/117275835-5b78dc80-ae56-11eb-9ec3-efa10fbcf6c7.JPG) ![IMG_0248](https://user-images.githubusercontent.com/79698172/117275847-603d9080-ae56-11eb-91d4-ebfc786b1859.JPG)
+
+---------------------------
+
+### Raccolta dati
+Un'ipotesi sul processo di estrazione dei dati è quella di estrapolarli dai social network più utilizzati, come ad esempio Twitter, 
+Facebook e Instagram, in tempo reale, in modo da avere una visione di ciò che sta succedendo nel mondo online in un preciso istante. 
+
+### Riconoscimento delle parole d'odio
+Attraverso il machine learning viene programmato un algoritmo che memorizza le parole d'odio e le riconosce nei dati ricevuti dai social. 
+Il machine learning è utile poichè viene reso possibile anche il riconoscimento di parole con refusi, che con un semplice array di parole 
+non potrebbero essere riconosciuti, mentre sui social capita spesso di incontrare errori di battitura. 
+La lingua per l'allenamento della macchina sarà principalmente quella italiana, ma potrebbe diventare un modello estendibile ad altre lingue.
+
+-------
+
+### Casi studio
+* Personal Knowledge Database - Santiago Ortiz [+](http://intuitionanalytics.com/other/knowledgeDatabase/)
+![caso1](https://user-images.githubusercontent.com/79698172/117285530-06da5f00-ae60-11eb-8352-56bde203aab5.png)
+
+* Love Will Conquer - Experiments with Google [+](https://experiments.withgoogle.com/love-will-conquer)
+![caso2](https://user-images.githubusercontent.com/79698172/117286282-e52da780-ae60-11eb-8640-af4bb5b8be9c.png)
+
