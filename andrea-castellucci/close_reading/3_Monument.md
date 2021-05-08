@@ -30,3 +30,5 @@ Il pallino come incarnazione di una vittima potrebbe essere simbolo di svalorizz
    Senza modificare il probabile significato del progetto si darebbe un’ulteriore informazione rilevante ai fruitori.
    
    Cosa succederebbe se delle telecamere riprendessero come le persone interagiscono con i pallini e, una volta spiegato il significato dell'installazione, i visitatori potessero rivedere come loro stessi e le altre persone e hanno interagito con quegli elementi poco prima? Questo sviluppo potrebbe stimolare ulteriori riflessioni in chi guarda. Vedersi da fuori e con una consapevolezza diversa del progetto rafforzerebbe ancora di più la contraddizione dell'installazione che potrebbe essere ancora più d'impatto.
+   
+   #### References: [+](https://rhizome.org/editorial/2008/oct/01/computational-poetics/) [+](https://books.google.it/books?id=UgREV9O8sNAC&pg=PA178&lpg=PA178&dq=monument+caleb+larsen&source=bl&ots=gkBUhDHmLc&sig=ACfU3U1hTaHMR4ldXswFdeXrTMVSSabwlA&hl=it&sa=X&ved=2ahUKEwj5ycHRqbrwAhWPzaQKHWmcDBUQ6AEwE3oECBIQAw#v=onepage&q=monument%20caleb%20larsen&f=false) [+](http://classic.rhizome.org/discuss/view/22739/)
