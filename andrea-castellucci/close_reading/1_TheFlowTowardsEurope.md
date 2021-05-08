@@ -27,3 +27,6 @@
    ## Related Projects
    
 Global map of wind, weather, and ocean conditions. [+](http://www.bbc.com/earth/story/20161013-this-map-will-show-you-the-windiest-place-on-earth-right-now) [+](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-337.08,7.19,340/loc=13.505,42.512) 
+
+![TFTEU_related_projects1_Tavola disegno 1 copia 4](https://user-images.githubusercontent.com/75098849/117547583-a5b5b580-b030-11eb-8705-94feb96c6198.jpg)
+
