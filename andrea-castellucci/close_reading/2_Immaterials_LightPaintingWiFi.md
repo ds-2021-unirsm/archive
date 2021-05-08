@@ -26,3 +26,11 @@
    Le persone potrebbero percepirli come luoghi più puri, più incontaminati, più primitivi. 
    
    #### References: [+](https://www.designboom.com/design/immaterials-light-painting-wifi-by-timo-arnall-jorn-knutsen-einar-sneve-martinussen/) [+](http://yourban.no/2011/03/07/making-immaterials-light-painting-wifi/) [+](http://voyoslo.com/projects/immaterials-wifi-light-painting/) [+](https://concreteplayground.com/auckland/arts-entertainment/art/art-installation-maps-the-beauty-of-wifi)
+   
+   ## Related Projects
+   
+ Digital Ethereal, a creative exploration of wireless spectres. [+](http://digitalethereal.com/) [+](https://vimeo.com/81541763) [+](https://www.itsnicethat.com/articles/luis-hernan-digital-ethereal) 
+ 
+ ![copertinaRelatedProjects](https://user-images.githubusercontent.com/75098849/117554143-f390e480-b055-11eb-95a9-fa8df6ba0530.jpg)
+
+
