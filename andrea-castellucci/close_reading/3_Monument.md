@@ -28,3 +28,5 @@ Il pallino come incarnazione di una vittima potrebbe essere simbolo di svalorizz
    ## Cosa succederebbe se...?
    Cosa succederebbe se i pallini rilasciati potessero indicare il genere della persona uccisa, magari tramite un colore? Aggiungere una caratteristica simile all’installazione potrebbe evidenziare fenomeni che altrimenti non emergerebbero nell’opera, come ad esempio il femminicidio?
    Senza modificare il probabile significato del progetto si darebbe un’ulteriore informazione rilevante ai fruitori.
+   
+   Cosa succederebbe se delle telecamere riprendessero come le persone interagiscono con i pallini e, una volta spiegato il significato dell'installazione, i visitatori potessero rivedere come loro stessi e le altre persone e hanno interagito con quegli elementi poco prima? Questo sviluppo potrebbe stimolare ulteriori riflessioni in chi guarda. Vedersi da fuori e con una consapevolezza diversa del progetto rafforzerebbe ancora di più la contraddizione dell'installazione che potrebbe essere ancora più d'impatto.
