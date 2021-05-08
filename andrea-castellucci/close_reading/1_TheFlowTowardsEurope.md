@@ -16,7 +16,7 @@
  
    ## Cosa significa?
    Il significato di _The flow towards Europe_ è racchiuso nel voler comunicare e rendere chiaro e leggibile il fenomeno corrispondente alla grande crisi di rifugiati negli ultimi anni. Tale questione è molto complessa e comunicarne l’importanza è difficile poiché è una problematica poco tangibile ma di enorme portata.
-   Grazie alle visualizzazioni riportate è possibile informarsi sul tema in questione tramite una modalità esperienziale. Le dataviz sono progettate per fornire una comprensione rapida e intuitiva.
+   Grazie alle visualizzazioni riportate è possibile informarsi sul tema in questione tramite una modalità esperienziale. Le dataviz interattive sono progettate per fornire una comprensione rapida e intuitiva.
  
    ## Cosa succederebbe se...?  
    Cosa succerebbe se i dati visualizzati relativi ai flussi fossero messi in relazione con accadimenti storici relativi a quel periodo? Questa opportunità potrebbero arricchire l’esperienza di chi fruisce di tali informazioni. Fornire un contesto storico è sempre utile per condurre una lettura più corretta e consapevole delle informazioni.
