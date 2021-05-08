@@ -1,5 +1,6 @@
  # _Immaterials: Light painting WiFi_, 2011, Timo Arnall, Jørn Knutsen e Einar Sneve Martinussen
-  ![immaterials-light_painting](http://res.cloudinary.com/voyoslo/image/upload/c_fill,dpr_1.0,h_1430,q_60,w_2515/aho_wifi)
+![copertina_Immaterials](https://user-images.githubusercontent.com/75098849/117553455-102b1d80-b052-11eb-8f1b-8af87cb22044.jpg)
+
   
    ## Cos'è?
    _Immaterials: Light painting WiFi_ è un progetto cinematografico che esplora e rappresenta le qualità spaziali e materiali delle reti wireless visualizzandole nello spazio attraverso immagini fotografiche.
