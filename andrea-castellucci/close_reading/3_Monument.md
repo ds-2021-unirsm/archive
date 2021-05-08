@@ -1,5 +1,6 @@
 # _Monument, 2006, Caleb Larsen_
-![monument](https://user-images.githubusercontent.com/75098849/117533144-703aa900-afeb-11eb-8818-35b036467180.jpg)
+![coeprtinaMonument](https://user-images.githubusercontent.com/75098849/117553712-5f258280-b053-11eb-99d5-e14b6cd21d2e.jpg)
+
 
   
    ## Cos'è?
