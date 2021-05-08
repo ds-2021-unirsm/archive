@@ -1,5 +1,6 @@
 # _The flow towards Europe_, 2015, Lucify
- ![the-flow-towards-europe](https://i.postimg.cc/G2hBRRx8/the-flow-towards-europe.jpg)
+![copertina_TheFlowTowardsEurope](https://user-images.githubusercontent.com/75098849/117552863-48c8f800-b04e-11eb-9301-add9515ea6da.jpg)
+
  
    ## Cos'è?
    _The flow towards Europe_ è un progetto opensource che consiste in un sito web in cui è possibile consultare e interagire con visualizzazioni rappresentanti i flussi di richiedenti asilo verso i paesi europei nel tempo.
