@@ -23,3 +23,7 @@
    Cosa succederebbe se i dati visualizzati fossero accostati a pensieri o riflessioni delle persone che si sono spostate? Emergerebbe una componente sociale ed emozionale nel racconto del fenomeno. Introdurre una componente umana, più sensibile o viva, è sempre utile a rendere il racconto più immersivo per chi fruisce delle informazioni. In questo modo l’esperienza utente sarebbe molto più ricca e probabilmente l’impatto sul fruitore sarebbe più rilevante e coinvolgente.
    
    #### References: [+](https://www.lucify.com/the-flow-towards-europe/) [+](https://blog.lucify.com/a-novel-visualisation-of-the-refugee-crisis-565e40ab5a50) [+](http://www.takepart.com/article/2015/10/28/map-that-shows-how-huge-europes-refugee-crisis-really-is)
+   
+   ## Related Projects
+   
+Global map of wind, weather, and ocean conditions. [+](http://www.bbc.com/earth/story/20161013-this-map-will-show-you-the-windiest-place-on-earth-right-now) [+](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-337.08,7.19,340/loc=13.505,42.512) 
