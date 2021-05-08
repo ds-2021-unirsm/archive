@@ -23,3 +23,5 @@
    Cosa succederebbe se venissero mostrate mappature di spazi in cui il segnale è molto debole o quasi inesistente in contrapposizione con spazi in cui il segnale ha intensità molto alte? 
    Forse alcune aree potrebbero essere valorizzate meglio, o assumerebbero più semplicemente un fascino diverso. 
    Le persone potrebbero percepirli come luoghi più puri, più incontaminati, più primitivi. 
+   
+   #### References: [+](https://www.designboom.com/design/immaterials-light-painting-wifi-by-timo-arnall-jorn-knutsen-einar-sneve-martinussen/) [+](http://yourban.no/2011/03/07/making-immaterials-light-painting-wifi/) [+](http://voyoslo.com/projects/immaterials-wifi-light-painting/) [+](https://concreteplayground.com/auckland/arts-entertainment/art/art-installation-maps-the-beauty-of-wifi)
