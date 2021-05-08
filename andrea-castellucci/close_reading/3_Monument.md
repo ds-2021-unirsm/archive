@@ -8,9 +8,7 @@
    
    ## Come funziona?
    _Monument_ funziona tramite un software che analizza i titoli di 4 500 fonti di notizie online in lingua inglese, alla ricerca di omicidi. 
-   Ogni volta che viene preso in analisi un titolo, il programma, tramite un algoritmo, determina se sono presenti morti da omicidio e quanti sono, in caso positivo. 
-   Successivamente, tale software ordina a un apparecchio meccanico sintonizzato con esso e montato sul soffitto interno dello spazio espositivo, di rilasciare un pallino giallo di plastica per ogni vittima. 
-   Durante l’installazione i pallini si accumulano generando superfici stratificate di materiale che diventano un dato fisico rilevante e percepibile.
+   Ogni volta che viene preso in analisi un titolo, il programma, tramite un algoritmo, determina se sono presenti morti da omicidio e quanti sono, in caso positivo. Successivamente, tale software ordina a un apparecchio meccanico sintonizzato con esso e montato sul soffitto interno dello spazio espositivo, di rilasciare un pallino giallo di plastica per ogni vittima rilevata. Durante l'esposizione dell’installazione i pallini rilasciati occupano lo spazio fisico in cui si muovono i visitatori diventano un dato fisico rilevante e percepibile.
 
    ## Cosa significa?
 Il significato di _Monument_ si cela nella generazione in diretta dell’opera e nella relazione che si instaura con i fruitori di essa. 
