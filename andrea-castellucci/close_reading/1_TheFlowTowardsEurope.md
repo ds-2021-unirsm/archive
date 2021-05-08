@@ -19,6 +19,6 @@
    Grazie alle visualizzazioni riportate è possibile informarsi sul tema in questione tramite una modalità esperienziale. Le dataviz interattive sono progettate per fornire una comprensione rapida e intuitiva.
  
    ## Cosa succederebbe se...?  
-   Cosa succerebbe se i dati visualizzati relativi ai flussi fossero messi in relazione con accadimenti storici relativi a quel periodo? Questa opportunità potrebbero arricchire l’esperienza di chi fruisce di tali informazioni. Fornire un contesto storico è sempre utile per condurre una lettura più corretta e consapevole delle informazioni.
+   Cosa succerebbe se i dati visualizzati relativi ai flussi fossero messi in relazione con accadimenti storici relativi a quel periodo? Questa opportunità potrebbero arricchire l’esperienza di chi fruisce di tali informazioni. Fornire un contesto storico è sempre utile per condurre una lettura più completa e consapevole delle informazioni.
  
    Cosa succederebbe se i dati visualizzati fossero accostati a pensieri o riflessioni delle persone che si sono spostate? Emergerebbe una componente sociale ed emozionale nel racconto del fenomeno. Introdurre una componente umana, più sensibile o viva, è sempre utile a rendere il racconto più immersivo per chi fruisce delle informazioni. In questo modo l’esperienza utente sarebbe molto più ricca e probabilmente l’impatto sul fruitore sarebbe più rilevante e coinvolgente.
