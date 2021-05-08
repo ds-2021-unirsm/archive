@@ -3,12 +3,12 @@
   
    ## Cos'è?
    _Monument_ è un’installazione artistica che rappresenta fisicamente gli omicidi rilevati da numerose fonti online. 
-   Ogni omicidio corrisponde a un pallino di plastica gialla che viene rilasciato in uno spazio chiuso, delimitato da pannelli trasparenti. 
+   Ogni omicidio corrisponde a un pallino di plastica gialla che viene rilasciato in uno spazio. 
    
    ## Come funziona?
    _Monument_ funziona tramite un software che analizza i titoli di 4 500 fonti di notizie online in lingua inglese, alla ricerca di omicidi. 
    Ogni volta che viene preso in analisi un titolo, il programma, tramite un algoritmo, determina se sono presenti morti da omicidio e quanti sono, in caso positivo. 
-   Successivamente, tale software ordina a un apparecchio meccanico sintonizzato con esso e montato sul soffitto interno dello spazio espositivo, di rilasciare un pallino giallo di plastica per ogni omicidio rilevato. 
+   Successivamente, tale software ordina a un apparecchio meccanico sintonizzato con esso e montato sul soffitto interno dello spazio espositivo, di rilasciare un pallino giallo di plastica per ogni vittima. 
    Durante l’installazione i pallini si accumulano generando superfici stratificate di materiale che diventano un dato fisico rilevante e percepibile.
 
    ## Cosa significa?
@@ -20,10 +20,5 @@
    La contraddizione tra questi due fatti porta a riflettere sull’intangibilità e sulla svalorizzazione delle innumerevoli morti da omicidio che ci vengono raccontate ogni giorno dai giornali, dalle televisioni, dalle radio.
    
    ## Cosa succederebbe se...?
-   Cosa succederebbe se i pallini rilasciati potessero indicare il genere della persona uccisa, magari tramite un colore? Aggiungere una caratteristica simile all’installazione potrebbe evidenziare fenomeni che altrimenti non emergerebbero nell’opera, come ad esempio il femminicidio. 
+   Cosa succederebbe se i pallini rilasciati potessero indicare il genere della persona uccisa, magari tramite un colore? Aggiungere una caratteristica simile all’installazione potrebbe evidenziare fenomeni che altrimenti non emergerebbero nell’opera, come ad esempio il femminicidio?
    Senza modificare il probabile significato del progetto si darebbe un’ulteriore informazione rilevante ai fruitori.
-   
-   Cosa succederebbe se non ci fossero pareti e i pallini potessero rimbalzare tra le persone? Quale reazione potrebbe causare lo scontro di un pallino, di una vittima, contro un visitatore? 
-   Quale sensazione potrebbe nascere all’interno di una persona che pista o calcia un pallino per sbaglio? O ancora, una volta che la stanza sarà ricoperta di pallini, la fruizione dell’opera come potrebbe evolvere?
-   Un intervento simile renderebbe l’omicidio ancora più tangibile e più di impatto per i visitatori. Lo sviluppo dell’opera e la sua evoluzione nel tempo non sarebbero più confinate a uno spazio chiuso, quasi distaccato seppur delimitato da pannelli trasparenti. 
-   Considerare lo spazio aperto porterebbe le persone a interagire inevitabilmente con gli elementi dell’opera stessa e a relazionarsi direttamente con i fatti in questione.
