@@ -1,5 +1,6 @@
 # Variazione 10PRINT
 
-Variazione 1: https://editor.p5js.org/andrea-castellucci/full/Btia2h8Jc
+https://editor.p5js.org/andrea-castellucci/full/Btia2h8Jc
 
-![1_variazione10print](https://user-images.githubusercontent.com/75098849/111699071-f0d4f880-8837-11eb-97e1-3a1722ce311d.jpg)
+![10Print](https://user-images.githubusercontent.com/75098849/117973637-ec572880-b32c-11eb-9573-6a4cbb62eb21.jpg)
+
