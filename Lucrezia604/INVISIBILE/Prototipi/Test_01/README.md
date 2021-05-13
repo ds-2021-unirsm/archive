@@ -1,3 +1,5 @@
-**PROTOTIPI**
+# TEST 13/05/2021 <h1>
 
-Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzione del progetto finale.
+**Sorriso + Camminatore** Camminatori che disegnano attivati dal sorriso [FACEMESH].
+
+**riproduttore Giphy** Riproduttore di gif [GIPHY].
