@@ -8,6 +8,8 @@ Il programma si ferma quando si raggiunge il numero massimo di gif, ovvero 10.
 
 **Lo scopo è quello di sperimentare un metodo per far ridere l'utente.**
 
+
+
 **RIFLESSIONE PROGETTUALE**
 
 Le gif decontestualizzate non sono molto divertenti.
