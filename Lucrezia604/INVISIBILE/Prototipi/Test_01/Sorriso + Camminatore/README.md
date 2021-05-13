@@ -1,4 +1,4 @@
-* SORRISO + CAMMINATORE <h1>
+* SORRISO E CAMMINATORE <h1>
 
 https://editor.p5js.org/lucrezia1234/sketches/IsYHvOFyD
 
