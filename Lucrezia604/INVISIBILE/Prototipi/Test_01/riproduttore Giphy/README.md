@@ -2,15 +2,17 @@
 
 https://editor.p5js.org/lucrezia1234/sketches/lFuK-LeRp
 
-Prototipo realizzato a partire da Face Tracking (Facemesh) che disegna, in tempo reale, tramite dei camminatori attivati dal sorriso.
+Prototipo realizzato tramite Giphy grazie al quale, dopo un click sullo schermo, avviene una riproduzione random di gif animate.
 
-Il movimento dei camminatori si attiva con l'allontanamento dei due punti laterali della bocca.
+Il programma si ferma quando si raggiunge il numero massimo di gif, ovvero 10.
 
-**RIFLESSIONE**
+**Lo scopo è quello di sperimentare un metodo per far ridere l'utente.**
 
-Se si avvicina troppo il viso alla webcam ma non si sta sorridendo i due punti della bocca risultano comunque più lontani tra loro attivando, così, i camminatori.
+**RIFLESSIONE PROGETTUALE**
 
-Risolvere il problema impostando delle proporzioni tra la dimensione della bocca e quella del viso.
+Le gif decontestualizzate non sono molto divertenti.
+
+Realizzare delle librerie con immagini e video ironici (quantità prestabilita) in modo da avere un crescendo della risata.
 
 ![test 2](https://user-images.githubusercontent.com/79698027/118134673-7b824000-b402-11eb-82d7-23b8b797c870.JPG)
 
