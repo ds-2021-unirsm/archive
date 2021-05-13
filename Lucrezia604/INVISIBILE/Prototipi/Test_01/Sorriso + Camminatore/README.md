@@ -6,7 +6,9 @@ Prototipo realizzato a partire da Face Tracking (Facemesh) che disegna, in tempo
 
 Il movimento dei camminatori si attiva con l'allontanamento dei due punti laterali della bocca.
 
-**PROBLEMATICA**
+**Lo scopo è quello di sperimentare un metodo per rilevare la risata dell'utente e restituirne un output grafico/motion graphic.**
+
+**RIFLESSIONE PROGETTUALE**
 
 Se si avvicina troppo il viso alla webcam ma non si sta sorridendo i due punti della bocca risultano comunque più lontani tra loro attivando, così, i camminatori.
 
