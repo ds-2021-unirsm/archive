@@ -1,0 +1,5 @@
+Qui sono presenti i primi tentativi effettuati su p5.js utilizzando il machine learning:
+
+1. PoseNet + forme
+2. PoseNet + particelle
+3. Colori ed emozioni
