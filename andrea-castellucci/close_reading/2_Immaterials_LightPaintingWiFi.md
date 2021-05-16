@@ -35,4 +35,5 @@
  
  The Architecture of Radio. Visualizing the invisible architecture of networks. [+](http://www.architectureofradio.com/) [+](https://www.creativeapplications.net/js/three-js/the-architecture-of-radio-visualizing-the-invisible-architecture-of-networks/)
 
+![copertina](https://user-images.githubusercontent.com/75098849/118388833-10fe1980-b627-11eb-8c50-14792659edea.jpg)
 
