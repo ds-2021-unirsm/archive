@@ -40,3 +40,5 @@ New Worry Beads: Deaths from Terrorism. [+](http://dataphys.org/list/new-worry-b
  
 ![copertina_Monument_Related](https://user-images.githubusercontent.com/75098849/117555053-24741800-b05c-11eb-918b-90499e58797f.jpg)
 
+_“Untitled” (Portrait of Ross in L.A.)_, Felix Gonzalez-Torres [+](https://www.saic.edu/news/about-work-0) [+](https://publicdelivery.org/felix-gonzalez-torres-untitled-portrait-of-ross-in-l-a-1991/)
+
