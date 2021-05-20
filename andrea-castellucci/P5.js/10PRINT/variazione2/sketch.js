@@ -3,9 +3,17 @@
 // /    \/    / ) D ( )   / ) _) /    \
 // \_/\_/\_)__)(____/(__\_)(____)\_/\_/
 //
-
-// 10Print variazione 2
-// Andrea Castellucci
+// -
+// 10-print-3d-sphere by Andrea [sphere, 3d, planets]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Help:
+// [mouse] muovi il cursore per orientare il punto luce sulle sfere
+//
+// —
 
 var quanti = 30;
 var modulo;
