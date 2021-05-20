@@ -1,5 +1,14 @@
-// Generatore di pattern
-// Sketch di Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Circular-squares-pattern by Andrea [circle, module, pattern]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
 
 var quanti = 60;
 var modulo;
