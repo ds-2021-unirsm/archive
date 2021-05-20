@@ -1,5 +1,11 @@
-// camminatori che disegnano mondi, scappano
-// Lucilla Cesaroni
+// -
+//
+// Camminatori che disegnano mondi, scappano by Lucilla Cesaroni [mouse X, mouseY]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
 
 let w, h;
 let c = [];
