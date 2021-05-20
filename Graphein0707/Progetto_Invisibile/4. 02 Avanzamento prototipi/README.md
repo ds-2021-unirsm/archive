@@ -1,5 +1,5 @@
 # Avanzamento prototipi con Posenet 
-Primi prototipi di progetto ed esperimenti con integrazione di scene di film famosi e Posenet per la creazione di geometrie visive e tracciamento dei gesti
+Avanzamento dei prototipi di progetto basati su una famosa scena del film Shining
 <br>
 <br>
 ## Posenet_Shining_recording_frame
