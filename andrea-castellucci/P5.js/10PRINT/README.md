@@ -9,3 +9,9 @@ https://editor.p5js.org/andrea-castellucci/full/Btia2h8Jc
 https://editor.p5js.org/andrea-castellucci/full/dtd4LhkGL
 
 ![10PRINT_var1_GUI](https://user-images.githubusercontent.com/75098849/118009655-87142f00-b34e-11eb-88b7-394e7fdcc7ea.jpg)
+
+# Variazione2 10PRINT
+
+https://editor.p5js.org/andrea-castellucci/full/BaRSNSlHm
+
+![10PRINT_versione2](https://user-images.githubusercontent.com/75098849/118980742-ec34d980-b979-11eb-95e0-07ffbe6de596.jpg)
