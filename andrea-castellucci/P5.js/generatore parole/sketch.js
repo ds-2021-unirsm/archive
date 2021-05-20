@@ -1,13 +1,32 @@
-// Generatore di parole in lingua Andreana
-// Sketch di Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Generatore-parole-Andreano by Andrea [landscapes, horizon]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
+// The ABILITY lab, New York University for
+// http://ability.nyu.edu/p5.js-speech/
+// https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
+// original license: MIT License 2017
+// —
+//
+// Help:
+// [mouse.click] nuova parola
+//
+// —
 
-// Regole della lingua Andreana:
+// REGOLE DELLA LINGUA ANDREANA:
 //   - Tutte le parole devono iniziare con la "A" e finire con "A" o "E"
 //   - Esistono solo le seguenti consonanti: n,c --- d,b,p --- r,t
 //     le consonanti scelte derivano da somiglianza estetica alle consonanti "ndr"  
 //   - Esistono solo le vocali "a" o "e"
-
-// Sketch di Andrea Castellucci
 
 var array_vocali = ["a", "e"];
 var array_consonanti = ["n", "c", "d", "b", "p", "r", "t", "nd", "dr", "pr", "nt", "rd"];
@@ -27,7 +46,6 @@ function setup() {
 
   textSize(20);
   text("click per generare e ascoltare parole in Andreano", width / 2, height / 2);
-
 
   textSize(130);
   textStyle(BOLD);
