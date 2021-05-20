@@ -1,6 +1,14 @@
-// 10PRINT
-// Variazione 1
-// Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// 10-print-geometric-landscapes by Andrea [landscapes, horizon]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
 
 let x = 0;
 let y = 0;
@@ -54,4 +62,6 @@ function draw() {
     x=0;
     y+=modulo;
   }
+  
+  //y1+=0.5;
 }
