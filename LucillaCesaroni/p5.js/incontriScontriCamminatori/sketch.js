@@ -1,5 +1,17 @@
-// incontri/scontri tra camminatori che cambiano la via
-// Lucilla Cesaroni
+// -
+//
+// Incontri/scontri tra camminatori che cambiano la via by Lucilla Cesaroni [keyword1, keyword2]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
+//
+// Help:
+// [keypressed] cancella l'ultimo camminatore
+// [mouseX, mouseY] posiziona un nuovo camminatore nelle coordinate del mouse
+//
+// —
 
 var w, h;
 
@@ -70,7 +82,7 @@ function Walker(x, y) {
 
     this.col = color(0); // colore iniziale
 
-    // metodo interseca------------------------------------------------
+    // metodo interseca
     this.interseca = function (other) {
         this.d = dist(this.x, this.y, other.x, other.y); //Calculates the distance between two points
 
@@ -85,19 +97,19 @@ function Walker(x, y) {
         }
     }
 
-    // metodo cambiaColore------------------------------------------------
+    // metodo cambiaColore
     this.cambiaColore = function () {
         this.col = color(random(255), 20, random(255));
     }
 
-    // metodo display------------------------------------------------
+    // metodo display
     this.display = function () {
         noStroke();
         fill(this.col);
         ellipse(this.x, this.y, this.r * 2, this.r * 2);
     }
 
-    //metodo move------------------------------------------------
+    //metodo move
     this.move = function () {
 
         this.x = this.x + this.xspeed * noise(t);
@@ -111,7 +123,7 @@ function Walker(x, y) {
         }
     }
 
-    // metodo scontro------------------------------------------------
+    // metodo scontro
     this.scontro = function () {
         this.xspeed = this.xspeed * -1; // così torna indietro
         this.yspeed = this.yspeed * -1;
