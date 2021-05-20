@@ -1,8 +1,23 @@
-// Inspired by https://openprocessing.org/sketch/926914
+// -
 //
-// synth 10PRINT 
+// Synth 10PRINT by Lucilla Cesaroni [sound, mouseX, mouseY, click]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
 //
-// Lucilla Cesaroni
+// —
+//
+// Credits/Thanks to: 
+// @Yiting Liu yitingliu.com for https://openprocessing.org/sketch/926914
+//
+// —
+//
+// Help:
+// [c] save canvas
+// [mouseX, mouseY] stroke, color
+// [mouse] attiva/disattiva suono
+//
+// —
 
 let w, h;
 let x = 0;
