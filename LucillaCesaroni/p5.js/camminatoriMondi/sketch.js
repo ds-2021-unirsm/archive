@@ -6,6 +6,12 @@
 // Educational purposes, MIT License, 2021, San Marino
 //
 // —
+//
+// Help:
+// [mouseY] position
+// [mouseX] position
+//
+// —
 
 let w, h;
 let c = [];
