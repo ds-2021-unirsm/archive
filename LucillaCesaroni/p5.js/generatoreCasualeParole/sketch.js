@@ -13,9 +13,6 @@
 // http://ability.nyu.edu/p5.js-speech/
 // https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
 // original license: MIT License 2017
-// 
-// @nome2 (github.com/nome2) for https://www.altro indirizzolinkvarioogithub.pippo/gino/mino
-// original license: Tipo licenza
 //
 // —
 //
