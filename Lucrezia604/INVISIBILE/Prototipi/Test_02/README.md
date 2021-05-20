@@ -4,4 +4,4 @@
 
 **Filtri facciali** --> Vengono applicati dei filtri sul volto [clmtrackr].
 
-**riproduttore Giphy** --> Riproduttore di gif [GIPHY].
+**Distorsione vocale** --> La voce viene modificata [p5.sound library].
