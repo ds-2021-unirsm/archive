@@ -1,5 +1,7 @@
 # TEST 20/05/2021 <h1>
+  
+**INDURRE LA RISATA**
 
-**Sorriso + Camminatore** --> Camminatori che disegnano attivati dal sorriso [FACEMESH].
+**Filtri facciali** --> Vengono applicati dei filtri sul volto [clmtrackr].
 
 **riproduttore Giphy** --> Riproduttore di gif [GIPHY].
