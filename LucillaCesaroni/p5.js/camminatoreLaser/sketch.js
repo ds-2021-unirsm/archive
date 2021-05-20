@@ -1,5 +1,11 @@
-// camminatore laser
-// Lucilla Cesaroni
+// -
+//
+// Camminatore laser by Lucilla Cesaroni [keyword1, keyword2]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
 
 var w, h;
 var quanti = 10; // vertici
