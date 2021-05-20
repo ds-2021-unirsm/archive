@@ -12,13 +12,13 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 **INDURRE LA RISATA**
 
-**Filtri facciali** --> Vengono applicati dei filtri sul volto [clmtrackr].
+. Filtri facciali
 
-**Distorsione vocale** --> La voce viene modificata [p5.sound library].
+. Distorsione vocale
 
 **RICONOSCIMENTO DELLA RISATA**
 
-**Allenamento Macchina** --> La macchina viene allenata a distinguere la risata dal sorriso.
+Allenamento Macchina
 
 . Creazione Set Dati (JSON)
 
