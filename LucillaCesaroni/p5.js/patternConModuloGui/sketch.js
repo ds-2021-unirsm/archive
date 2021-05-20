@@ -1,11 +1,20 @@
 // -
-// pattern with module & simple UI interface [GUI]
-// 2021 ©Lucilla ©lllcsr & ©Luigi @MrJ4ckpot & ©Daniele @Fupete 
-// github.com/dsii-2019-unirsm + github.com/ds-2021-unirsm + github.com/fupete 
+//
+// Pattern con modulo & simple GUI interface 0.2 by Lucilla Cesaroni [GUI]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete & Luigi @MrJ4ckpot and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
 // Educational purposes, MIT License, 2021, San Marino
+//
 // —
+//
 // Credits/Thanks to: 
 // https://editor.p5js.org/fupete/sketches/WUY1jA4jn for original code
+//
+// —
+//
+// Help:
+// [c] save canvas
+//
 // —
 
 let parametri = {
