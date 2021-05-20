@@ -10,6 +10,16 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 **Test_02** 
 
-. Sorriso + Camminatore
+**INDURRE LA RISATA**
 
-. riproduttore Giphy
+**Filtri facciali** --> Vengono applicati dei filtri sul volto [clmtrackr].
+
+**Distorsione vocale** --> La voce viene modificata [p5.sound library].
+
+**RICONOSCIMENTO DELLA RISATA**
+
+**Allenamento Macchina** --> La macchina viene allenata a distinguere la risata dal sorriso.
+
+. Creazione Set Dati (JSON)
+
+. Riconoscimento Risata
