@@ -1,5 +1,21 @@
-// Camminatori Indipendenti 2
-// Sketch di Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Light-walkers by Andrea [light, walkers, relation]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Add Credits from https://openprocessing.org/ 
+// —
+//
+// Help:
+// [mouse.click] new walker
+//
+// —
 
 var circles = [];
 var quanti = 10;
@@ -22,7 +38,6 @@ function draw() {
   fill(0, 0, 0);
   strokeWeight(1);
 
-
   for (var i = circles.length - 1; i >= 0; i--) {
     if (circles[i].id <= circles[circles.length - 1].id - 30) {
       circles.splice(i, 1);
@@ -30,6 +45,7 @@ function draw() {
   }
 
   var noHit = true;
+  
   for (i = 0; i < circles.length; i++) {
     for (x = 0; x < circles.length; x++) {
       if (i != x && noHit) {
@@ -38,7 +54,6 @@ function draw() {
           circles[i].fill = color(random(200, 225), 76, 79);
           circles[x].fill = color(random(200, 225), 76, 79);
           
-
           noHit = false;
           
         } else {
@@ -54,7 +69,6 @@ function draw() {
     circles[i].show();
   }
 }
-
 
 function Circle(x, y) {
   this.x = x;
@@ -96,7 +110,6 @@ function Circle(x, y) {
     this.y += this.yVel;
   }
 }
-
 
 function mousePressed() {
   circles.push(new Circle(mouseX, mouseY));
