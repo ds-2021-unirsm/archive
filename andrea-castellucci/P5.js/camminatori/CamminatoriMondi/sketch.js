@@ -1,5 +1,19 @@
-// Camminatori che disegnano mondi
-// Sketch di Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Camminatori-mondi by Andrea [world, color, motion]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Help:
+// [mouse.click] change sphape ellipse/rect
+//
+// —
 
 var numeroCamminatori = 15;
 var c = []; // archivio camminatori
@@ -15,9 +29,9 @@ function setup() {
   background(0);
   noFill();
   rectMode(CENTER);
-  
+
   boolean = true;
-  
+
   for (let i = 0; i < numeroCamminatori; i++) {
     c.push(new Camminatore());
   }
@@ -40,14 +54,14 @@ function Camminatore() {
   this.opacity = random(5, 40);
 
   // metodo move
-  this.move = function() {
+  this.move = function () {
     this.x = random(5, 15) + noise(this.t + 40) * width;
     this.y = random(0, 10) + noise(this.t + 5) * height;
     this.t += 0.0019; // incremento per noise
-  }
+  };
 
   // metodo display
-  this.display = function() {
+  this.display = function () {
     if (boolean == true) {
       stroke(r, g, b, 70);
       strokeWeight(2);
@@ -55,15 +69,14 @@ function Camminatore() {
       r = 255 * noise(this.t + 5);
       g = 255 * noise(this.t + 20);
       b = 255 * noise(this.t + 10);
-    } else if (boolean == false){
+    } else if (boolean == false) {
       stroke(r, g, b, 70);
       rect(this.x, this.y, this.t);
       r = 255 * noise(this.t + 5);
       g = 255 * noise(this.t + 20);
       b = 255 * noise(this.t + 10);
     }
-
-  }
+  };
 }
 
 function mousePressed() {
