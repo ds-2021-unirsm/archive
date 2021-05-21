@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Inter Regular", monospace;
+  src: url("Inter-Regular.ttf") format("ttf");
+}
+
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
