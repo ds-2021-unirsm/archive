@@ -1,11 +1,19 @@
-//   __   __ _  ____  ____  ____   __  
+//   __   __ _  ____  ____  ____   __
 //  / _\ (  ( \(    \(  _ \(  __) / _\
 // /    \/    / ) D ( )   / ) _) /    \
 // \_/\_/\_)__)(____/(__\_)(____)\_/\_/
-//  
-
-// Incontri e Scontri tra Camminatori + GUI
-// Andrea Castellucci
+//
+// -
+// Camminatori-incontri-scontri-GUI by Andrea [transparency, liquid]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Help:
+// [mouse.click] new shape
+//
+// —
 
 var circles = [];
 var quanti = 30;
@@ -94,7 +102,6 @@ function draw() {
   }
 }
 
-
 function Circle(x, y) {
   this.x = x;
   this.y = y;
@@ -139,8 +146,6 @@ function Circle(x, y) {
   }
 }
 
-
 function mousePressed() {
   circles.push(new Circle(mouseX, mouseY));
-  print(circles);
 }
