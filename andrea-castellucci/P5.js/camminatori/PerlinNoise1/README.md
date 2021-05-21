@@ -1,6 +1,7 @@
 # Camminatore con Perlin Noise
 
-Variazione 1: https://editor.p5js.org/andrea-castellucci/full/W8z8fFAym
+https://editor.p5js.org/andrea-castellucci/full/W8z8fFAym
 
-![1_variazione](https://user-images.githubusercontent.com/75098849/111696217-5921db00-8834-11eb-8063-63398bd76cd0.jpg)
+![perlinnoise2](https://user-images.githubusercontent.com/75098849/119203378-2e9e0980-ba93-11eb-9281-8aaf9473204c.jpg)
+
 
