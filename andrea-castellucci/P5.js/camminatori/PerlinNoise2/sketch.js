@@ -1,6 +1,14 @@
-// RANDOM WALKER PERLING NOISE OOP
-// Variazione 2
-// Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Walker-perlin-noise2 by Andrea [geometry, noise, abstract]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
 
 var w, h;
 var quanti = 80;
@@ -10,7 +18,7 @@ var speedMax = 2;
 function setup() {
   createCanvas(w = windowWidth, h = windowHeight);
   strokeCap(SQUARE);
-  background(30);
+  background(20);
 
   // crea "n" oggetti di classe Camminatore
   for (var i = 0; i < quanti; i++) {
@@ -19,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-  background(30, 60);
+  background(20, 60);
 
   // per tutti i camminatori chiama i diversi metodi utili 
   for (var i = 0; i < quanti; i++) {
