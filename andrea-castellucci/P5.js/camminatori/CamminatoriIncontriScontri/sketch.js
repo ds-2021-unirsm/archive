@@ -1,8 +1,25 @@
-// Incontri e Scontri tra Camminatori
-// Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Camminatori-incontri-scontri by Andrea [circles, light, blurry]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Add Credits from https://openprocessing.org/ 
+// —
+//
+// Help:
+// [mouse.click] new walker
+//
+// —
 
 var circles = [];
 var quanti = 50;
+var circles = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -21,7 +38,6 @@ function draw() {
   fill(0, 0, 0);
   noStroke();
 
-
   for (var i = circles.length - 1; i >= 0; i--) {
     if (circles[i].id <= circles[circles.length - 1].id - 100) {
       circles.splice(i, 1);
@@ -33,14 +49,12 @@ function draw() {
     for (x = 0; x < circles.length; x++) {
       if (i != x && noHit) {
         if (circles[i].intersects(x) && circles[x].intersects(i)) {
-          circles[i].diameter += random(-10, 10);
           
+          circles[i].diameter += random(-10, 10);
           circles[i].fill = color(219, 76, 79);
           circles[x].fill = color(219, 76, 79);
-          
           circles[i].blurry += random(-8, 8);
           
-
           noHit = false;
           
         } else {
@@ -56,7 +70,6 @@ function draw() {
     circles[i].show();
   }
 }
-
 
 function Circle(x, y) {
   this.x = x;
@@ -98,8 +111,6 @@ function Circle(x, y) {
   }
 }
 
-
 function mousePressed() {
   circles.push(new Circle(mouseX, mouseY));
-  print(circles);
 }
