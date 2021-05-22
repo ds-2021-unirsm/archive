@@ -1,17 +1,19 @@
-//   __   __ _  ____  ____  ____   __  
+//   __   __ _  ____  ____  ____   __
 //  / _\ (  ( \(    \(  _ \(  __) / _\
 // /    \/    / ) D ( )   / ) _) /    \
 // \_/\_/\_)__)(____/(__\_)(____)\_/\_/
-//  
-
-// 10PRINT + GUI
-// Variazione 1 + GUI
-// Andrea Castellucci
+//
+// -
+// 10-print-noise-landscapes by Andrea [landscapes, horizon]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
 
 let x = 0;
 let y = 0;
 var y1 = 10;
-let incrementoColore = 60; // incrementa  il colore alla fine di ogni riga
+let incrementoColore = 60;
 let modulo = 40;
 
 // PARAMETRI GUI
@@ -46,7 +48,6 @@ function draw() {
   // definizione primo vertice della Shape
   noStroke();
   vertex(0,height);
-
   
   // generazione vertici della Shape
   // disegno punti che formano la curva bianca

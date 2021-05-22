@@ -1,8 +1,23 @@
-// Camminatori che disegnano mondi 2
-// Sketch di Andrea Castellucci 
-
-// Konstantin Makhmutov - Wobbly Swarm 
-// https://openprocessing.org/sketch/492096
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Camminatori-mondi-2 by Andrea [atom, pulse, attraction]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// Konstantin Makhmutov - Wobbly Swarm for https://openprocessing.org/sketch/492096
+// —
+//
+// Help:
+// [mouse.pressed] new walkers
+// [mouse.drag] new walkers
+//
+// —
 
 var mass = [];
 var positionX = [];

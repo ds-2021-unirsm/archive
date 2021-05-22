@@ -1,5 +1,20 @@
-// Camminatori che generano mondi 3
-// Sketch di Andrea Castellucci
+//   __   __ _  ____  ____  ____   __
+//  / _\ (  ( \(    \(  _ \(  __) / _\
+// /    \/    / ) D ( )   / ) _) /    \
+// \_/\_/\_)__)(____/(__\_)(____)\_/\_/
+//
+// -
+// Camminatori-mondi-3 by Andrea [torus, world, 3D]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Help:
+// [mouse.drag] orbitControl
+// [mouse.moveX] zoom
+//
+// —
 
 let world
 let quanti = 10;
@@ -8,7 +23,6 @@ var walkers=[];
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   background(0);
-
   world = 400;
   
   for (var i = 0; i < quanti; i++) {
@@ -26,7 +40,6 @@ function draw() {
     walkers[i].display();
     walkers[i].move();
   }
-
 }
 
 function Walker(_id) {

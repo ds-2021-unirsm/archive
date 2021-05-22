@@ -27,7 +27,10 @@
    
    ## Related Projects
    
+American DNA, population histories of the United States revealed through fine-scale migration and haplotype analysis. [+](https://senseable.mit.edu/american-dna/) [+](https://news.mit.edu/2020/historic-migration-patterns-americans-dna-0305) 
+
+![copertina](https://user-images.githubusercontent.com/75098849/118777818-c5977580-b889-11eb-8830-9046c05688e9.jpg)
+   
 Global map of wind, weather, and ocean conditions. [+](http://www.bbc.com/earth/story/20161013-this-map-will-show-you-the-windiest-place-on-earth-right-now) [+](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-337.08,7.19,340/loc=13.505,42.512) 
 
 ![TFTEU_related_projects1_Tavola disegno 1 copia 4](https://user-images.githubusercontent.com/75098849/117547583-a5b5b580-b030-11eb-8705-94feb96c6198.jpg)
-

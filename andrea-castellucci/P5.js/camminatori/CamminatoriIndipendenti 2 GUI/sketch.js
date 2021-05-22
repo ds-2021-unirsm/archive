@@ -1,11 +1,24 @@
-//   __   __ _  ____  ____  ____   __  
+//   __   __ _  ____  ____  ____   __
 //  / _\ (  ( \(    \(  _ \(  __) / _\
 // /    \/    / ) D ( )   / ) _) /    \
 // \_/\_/\_)__)(____/(__\_)(____)\_/\_/
-//  
-
-// Camminatori Indipendenti 2 + GUI
-// Sketch di Andrea Castellucci
+//
+// -
+// Fluid-blend-shape by Andrea [circle, intersections, light]
+// 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// © Luigi @MrJ4ckpot 
+// original license: MIT License
+// —
+//
+// Help:
+// [mouse.click] add rect/ellipse
+// [key.tap] remove rect/ellipse
+//
+// —
 
 var circles = [];
 var quanti = 10;
@@ -79,7 +92,6 @@ function draw() {
     circles[i].show();
   }
 }
-
 
 function Circle(x, y) {
   this.x = x;
