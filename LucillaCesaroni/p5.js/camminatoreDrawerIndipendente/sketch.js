@@ -1,6 +1,21 @@
-// inspired by https://openprocessing.org/sketch/94545
-// camminatore indipendente che disegna
-// Lucilla Cesaroni
+// -
+//
+// Camminatore indipendente che disegna by Lucilla Cesaroni [click, draw]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
+//
+// Credits/Thanks to: 
+// @Koło Imago for https://openprocessing.org/sketch/94545
+//
+// —
+//
+// Help:
+// [mouse] add drawer
+//
+// —
 
 var w, h;
 var d = 20; // diametro ellisse

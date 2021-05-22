@@ -1,5 +1,26 @@
-// generatore casuale di parole
-// Lucilla Cesaroni
+// -
+//
+// Generatore casuale di parole by Lucilla Cesaroni [words, random, speech]
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
+//
+// Credits/Thanks to: 
+// p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
+// The ABILITY lab, New York University for
+// http://ability.nyu.edu/p5.js-speech/
+// https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
+// original license: MIT License 2017
+//
+// —
+//
+// Help:
+// [c] saveCanvas
+// [mouse] refresh
+//
+// —
 
 let w, h;
 let x = 0;
