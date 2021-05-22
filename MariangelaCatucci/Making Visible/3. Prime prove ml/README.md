@@ -3,3 +3,4 @@ Qui sono presenti i primi tentativi effettuati su p5.js utilizzando il machine l
 1. PoseNet + forme
 2. PoseNet + particelle
 3. Colori ed emozioni
+4. Espressioni facciali con analisi dei sentimenti
