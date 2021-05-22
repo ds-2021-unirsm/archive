@@ -1,5 +1,12 @@
-//SHIFFMAN: 3D Terrain Generation
-//https://www.youtube.com/watch?v=IKB1hWWedMk&list=RDCMUCvjgXvBlbQiydffZU7m1_aw&index=3
+// -
+// Noise-grid 0.1 by Roberto [noise, grid]
+// 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// @daniel_shiffman for https://github.com/CodingTrain
+// —
 
 var colonne, righe;
 
