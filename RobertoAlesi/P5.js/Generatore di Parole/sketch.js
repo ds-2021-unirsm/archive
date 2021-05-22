@@ -1,3 +1,10 @@
+// -
+// Generatore_di_parole 0.1 by Roberto [generatore, parole]
+// 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 var consonanti = ["b", "c", "d", "f", "g", "h", "l", "m", "n", "p", "q", "r", "s", "t", "v", "z"];
 var vocali = ["a", "e", "i", "o", "u"];
 var estrazione;
