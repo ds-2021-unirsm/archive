@@ -1,4 +1,4 @@
-# Ecco le mie proposte per il tema del progetto del corso
+# Prime ipotesi
 ### TEMA 1
 ### _Le emozioni della città_
 Questo tema vuole analizzare la città attraverso le emozioni che provano i suoi cittadini. 
@@ -37,30 +37,29 @@ Wealth Inequality (Xushan Li - Density Design) 👉🏻 [+](https://infopoetry.d
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### IPOTESI PROGETTUALE
+# IPOTESI PROGETTUALE
 ### Close reading, tecnologie e dati da utilizzare
 ------------------------------
 
 ### Che cos'è?
-L'hate speech è un fenomeno altamente diffuso, soprattutto nel mondo online, dove è più semplice esprimersi senza filtri e pudore. 
-Si tratta di espressioni violente o discriminatorie nei confronti di altre persone o gruppi di persone. Stando a quanto detto dal 
-Consiglio d'Europa nel 1997 ricadono nei discorsi d’odio quelle “espressioni che diffondono, incitano, promuovono o giustificano 
+L'hate speech è un fenomeno altamente diffuso, soprattutto nel mondo online, dove è più semplice esprimersi senza filtri e senza paura di fare del male. 
+Si tratta di espressioni violente o discriminatorie nei confronti di altre persone e, più nello specifico, stando a quanto detto dal 
+Consiglio d'Europa nel 1997, ricadono nei discorsi d’odio quelle “espressioni che diffondono, incitano, promuovono o giustificano 
 l’odio razziale, la xenofobia, l’antisemitismo o altre forme di minaccia basate sull’intolleranza – inclusa l’intolleranza espressa 
 dal nazionalismo aggressivo e dall’etnocentrismo –, sulla discriminazione e sull’ostilità verso i minori, i migranti 
 e le persone di origine straniera”.
 Questo progetto vuole rendere visibile questo crescente fenomeno che dilaga sui social network, che denigra e ferisce sempre più 
 persone. Si tratta di una rappresentazione spaziale delle parole discriminatorie, che vengono raccolte in tempo reale dai social 
-network e rappresentate nello spazio come grandi macchie di petrolio in mare.
+network e rappresentate nello spazio come grandi macchie di petrolio, che soffocano e inquinano il mare.
 
 ------------------------------
 
 ### Come funziona?
-Attraverso un algoritmo vengono rilevate dai social network in tempo reale le parole che rientrano nelle categorie discriminatorie. 
-Le categorie vengono rappresentate visivamente come isole di petrolio, grandi macchie che al loro interno racchiudono gocce più o meno grandi. 
-Queaste gocce sono le parole singole raccolte dall'algoritmo e semanticamente coerenti con la categoria stessa. 
+Un algoritmo interroga Twitter in tempo reale attraverso le API, raccogliendo così gli ultimi tweet pubblicati contenenti parole discriminatorie. Le parole vengono analizzate e raggruppate in categorie, per poi essere rappresentate visivamente attraverso la metafora del petrolio. Le categorie discriminatorie sono delle grandi macchie olese, le quali a loro volta racchiudono gocce più o meno grandi. Queaste gocce rappresentano le singole parole raccolte dall'algoritmo e semanticamente coerenti con la categoria stessa. 
 Ad esempio, viene rilevata la parola "frocio": questa goccia di petrolio andrà ad unirsi all'isola dell'omofobia. In seguito viene rilevata 
-un'altra volta "frocio", questa goccia andrà ad unirsi a quella precedente, creando una goccia più grande all'interno della categoria omofobia. 
-Perciò le dimensioni delle gocce interne alle categorie variano a seconda della frequenza di rilevamento della stessa parola. 
+un'altra volta "frocio", questa goccia andrà ad unirsi a quella precedente, creando una goccia più grande all'interno della categoria. 
+Perciò le dimensioni delle gocce variano a seconda della frequenza di rilevamento della stessa parola. 
+Oltre alla visualizzazione grafica della rete di parole d'odio che si viene a creare su Twitter, il progetto prevede anche un'elaborazione dei tweet presi in considerazione dall'algoritmo precedente. Attraverso RiTa, una libreria javascript che propone strumenti per generare letteratura computazionale, le parole discriminatorie vengono sostituite con altre parole in rima, modificando o addirittura privando la frase del significato originale.  
 
 ------------------------------
 
@@ -72,30 +71,20 @@ effetti altamente nocivi sugli organismi marini. Le frazioni più pesanti vagano
 grumi difficilmente degradabili, che affondano lentamente fino a raggiungere il fondo marino. I tempi richiesti dal processo di
 degradazione variano a seconda delle condizioni del mare, dalle condizioni metereologiche, dalla temperatura e dal tipo di inquinante. 
 La metafora del petrolio va a sottolineare come l'hate speech diventi un peso enorme per le persone o per i gruppi che lo subiscono.
-Si allarga e si espande sulle proprie debolezze e vulnerabilità, diventando nocivo per la propria salute mentale e fisica. 
-Come per il petrolio, ci vuole tempo per riuscire a metabolizzare questo tipo di aggressione, e questo tempo varia a seconda della 
-persona che la subisce. In alcuni casi la ferita potrebbe non rimarginarsi mai più. 
+Si allarga e si espande sulle debolezze e vulnerabilità, diventando nocivo per la salute mentale e fisica. 
+Il progetto vuole evidenziare come la violenza e l'odio vengano amplificati dalle parole che usiamo e come sia importante misurare 
+e pesare il modo di esprimersi nei confronti delle altre persone.
 
 ------------------------------
 
+### Cosa succederebbe se? 
+Uno sviluppo futuro del progetto potrebbe essere l'implementazione di un sistema che, dopo aver analizzato e mappato il contenuto dei tweet discriminatori, generi anche delle risposte ai tweet, contestandone il contenuto o ribattendo con risposte alternative, come ad esempio attraverso delle rime o utilizzando alcune delle parole del post in una modalità diversa, generando un significato opposto. 
 
+------------------------------
 
 ![collage_Tavola disegno 1_Tavola disegno 1](https://user-images.githubusercontent.com/79698172/117275440-f2916480-ae55-11eb-9dd7-4f4dcd5c0bd0.jpg)
 
 ![Risorsa 1](https://user-images.githubusercontent.com/79698172/117277157-7f88ed80-ae57-11eb-9bd5-3d4a0a0d7450.png)
-
-
----------------------------
-
-### Raccolta dati
-Un'ipotesi sul processo di estrazione dei dati è quella di estrapolarli dai social network più utilizzati, come ad esempio Twitter, 
-Facebook e Instagram, in tempo reale, in modo da avere una visione di ciò che sta succedendo nel mondo online in un preciso istante. 
-
-### Riconoscimento delle parole d'odio
-Attraverso il machine learning viene programmato un algoritmo che memorizza le parole d'odio e le riconosce nei dati ricevuti dai social. 
-Il machine learning è utile poichè viene reso possibile anche il riconoscimento di parole con refusi, che con un semplice array di parole 
-non potrebbero essere riconosciuti, mentre sui social capita spesso di incontrare errori di battitura. 
-La lingua per l'allenamento della macchina sarà principalmente quella italiana, ma potrebbe diventare un modello estendibile ad altre lingue.
 
 -------
 
