@@ -1,4 +1,9 @@
 # ds-2021-unirsm
-_work in progress_
+2021 © Roberto Alesi *[@Ciunart](https://www.instagram.com/ciunart/)*, Daniele @Fupete and the course DSII2020 at DESIGN.
 
-*Roberto Alesi* aka *[Ciunart](https://www.instagram.com/ciunart/)*
+unirsm
+
+github.com/RobertoAlesi — github.com/fupete
+
+Educational purposes, MIT License, 2021, San Marino
+
