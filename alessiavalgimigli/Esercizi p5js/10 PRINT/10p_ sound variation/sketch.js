@@ -1,4 +1,12 @@
-// reference: https://openprocessing.org/sketch/926914
+// -
+// cerchi sonori 0.1 by Alessia Valgimigli [suono, slider]
+// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// @Yiting Liu (https://yitingliu.com/) for https://openprocessing.org/sketch/926914
+// —
 
 let x = 0;
 let y = 0;
