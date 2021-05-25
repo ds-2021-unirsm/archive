@@ -65,20 +65,3 @@ Guarda nell'editor [👾](https://editor.p5js.org/lfaraci/sketches/MYFGXIzRe)
 <img width="497" alt="Screenshot 2021-05-25 at 17 18 41" src="https://user-images.githubusercontent.com/63911437/119523813-5a640c80-bd7d-11eb-955a-17ffc86a0c8e.png">
 
 Guarda nell'editor [👾](https://editor.p5js.org/lfaraci/sketches/3TbJee8_K)
-
-## Visualizzare il noise
-
-<img width="397" alt="Screenshot 2021-05-25 at 17 38 07" src="https://user-images.githubusercontent.com/63911437/119526803-fe4eb780-bd7f-11eb-819b-000602cd11dd.png">
-
-Guarda nell'editor [👾](https://www.dropbox.com/s/pmy8w1hj8me9jgd/Screenshot%202021-05-25%20at%2017.36.04.png?dl=0)
-
-## Evidenziatore
-
-<img width="399" alt="Screenshot 2021-05-25 at 17 40 30" src="https://user-images.githubusercontent.com/63911437/119527488-a6648080-bd80-11eb-984d-e112f21d0d07.png">
-
-**Help:**
-MouseX = Aumenta o diminuisce la velocità della sfera
-
-Guarda nell'editor [👾](https://editor.p5js.org/lfaraci/sketches/Px9zyMd3x)
-
-
