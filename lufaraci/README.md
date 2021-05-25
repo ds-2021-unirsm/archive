@@ -5,7 +5,7 @@ questa cartella contiene:
 * P5
    * camminatore
    * Esercizi base P5 0.1
-   * Esercizi base P5 0.1
+   * Esercizi base P5 0.2
    * GUI
    * I Programmare un generatore casuale di parole
    * II Programmare un generatore di pattern usando la regolarità del modulo %
