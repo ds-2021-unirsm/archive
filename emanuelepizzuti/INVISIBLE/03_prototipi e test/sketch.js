@@ -1,3 +1,15 @@
+//  ____ ____
+// | ___|    |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// Entity Extraction + RiTa (enhanced) by emanuelepizzuti [keyword1, keyword2]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// ___________
+
 /*
 entities + RiTa (enhanced)
 All'algoritmo viene data in pasto una frase -> Dandelion ne estrae le entità -> RiTa cambia queste entità in modo che siano simili
