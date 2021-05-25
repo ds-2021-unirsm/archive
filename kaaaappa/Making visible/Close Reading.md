@@ -29,4 +29,8 @@ https://www.theguardian.com/books/2017/apr/10/pics-or-it-didnt-happen-reclaiming
 
 https://www.dazeddigital.com/artsandculture/article/24258/1/why-instagram-censored-this-image-of-an-artist-on-her-period
 
+Piattaforme prima di Instagram per artisti
+es DeviantArt
+In tal modo, DeviantArt ha creato modelli per i successivi siti social, implementando la possibilità di creare avatar e scrivere sui profili degli altri, l'ultimo dei quali sarebbe stato adottato da Myspace e Facebook.
+
 
