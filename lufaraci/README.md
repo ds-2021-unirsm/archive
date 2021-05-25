@@ -4,11 +4,9 @@ questa cartella contiene:
 
 * P5
    * camminatore
-   * 2D Perlin noise
-   * Combining_transformation_functions
+   * Esercizi base P5 0.1
+   * Esercizi base P5 0.1
    * GUI
-   * pop_push
-   * pop_push_translate
    * I Programmare un generatore casuale di parole
    * II Programmare un generatore di pattern usando la regolarità del modulo %
    * III Dotare i camminatori di indipendenza
