@@ -1,3 +1,10 @@
+// -
+// !0Print Linee 0.1 by AlessiaValgimigli [10Print, linee]
+// 2021 © AlessiaValgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 var x = 0;
 var y = 0;
 
