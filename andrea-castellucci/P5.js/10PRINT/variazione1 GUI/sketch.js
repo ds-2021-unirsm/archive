@@ -4,10 +4,14 @@
 // \_/\_/\_)__)(____/(__\_)(____)\_/\_/
 //
 // -
-// 10-print-noise-landscapes by Andrea [landscapes, horizon]
+// 10-print-noise-landscapes-GUI by Andrea [landscapes, horizon]
 // 2021 © Andrea @AndrCastellucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm — github.com/fupete — github.com/andrea-castellucci
 // Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// Luigi @MrJ4ckpot & Daniele @Fupete for github.com/dsii-2019-unirsm + github.com/fupete
+// original license: Educational purposes, MIT License, 2019, Crespina IT
 // —
 
 let x = 0;
