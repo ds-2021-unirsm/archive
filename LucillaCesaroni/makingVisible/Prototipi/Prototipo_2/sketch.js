@@ -1,6 +1,6 @@
 // -
 //
-// XXX by Lucilla Cesaroni [translations, images, words]
+// metamorfosi by Lucilla Cesaroni [comunicare, parole, icone, emozioni, inclusione]
 // 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni
 // Educational purposes, MIT License, 2021, San Marino
@@ -58,6 +58,11 @@ var imgsResolution = "640x480"; // risoluzione immagini
 let wImg = 150 / 2;
 let hImg = 100 / 2;
 
+// Per posizionare le img a fianco e non sopra i punti chiave
+let randomDist = 100;
+let randomX = [];
+let randomY = [];
+
 // Speech Object
 let speechRec;
 let recordingAvviato = false;
@@ -65,11 +70,13 @@ let recordingAvviato = false;
 // Speech racconto
 let racconto = "";
 
-// per mettere testo sopra img
+// Variabile che mi serve per registrare la "risposta" che mi viene da Dandelion
 let variabile;
+
+// Quante entità ho
 let contatoreEntita = 0;
 
-// bottoni
+// Bottoni
 let speakbutton;
 let pausebutton;
 let stopspeakbutton;
@@ -79,10 +86,10 @@ let cancellaspeakbutton;
 let tuttoProntoNoEntita = false;
 let tuttoPronto = false;
 
-// font
+// Font
 let myFont;
 
-//let sentimentColor;
+// Per la sentiment analysis
 let sentiment;
 let valoreMassimo;
 
@@ -291,6 +298,7 @@ function visualizzaRisposta(risposta) {
     noStroke();
     fill(0);
     text(racconto, 130, 250, 180);
+
     return;
   }
 
@@ -318,6 +326,10 @@ function visualizzaRisposta(risposta) {
 
 function salvaimmagine(img) {
   immagini.push(img);
+  // create random numbers for positions
+  // between -randomDist e randomDist
+  randomX.push(random() * 2 * randomDist - randomDist);
+  randomY.push(random() * 2 * randomDist - randomDist);
 
   console.log("Contatore entità: " + contatoreEntita);
   console.log("Contatore immagini: " + immagini.length);
@@ -442,9 +454,9 @@ function drawLandmarks(detections) {
     positions[0] = detections[i].parts.leftEyeBrow;
     positions[1] = detections[i].parts.rightEyeBrow;
     positions[2] = detections[i].parts.mouth;
-    positions[3] = detections[i].parts.nose;
-    positions[4] = detections[i].parts.leftEye;
-    positions[5] = detections[i].parts.rightEye;
+    //positions[3] = detections[i].parts.nose;
+    //positions[4] = detections[i].parts.leftEye;
+    //positions[5] = detections[i].parts.rightEye;
 
     if (tuttoProntoNoEntita == true) {
       //console.log("eccomi");
@@ -459,27 +471,18 @@ function drawLandmarks(detections) {
 
       for (let i = 0; i < immagini.length; i++) {
         // mi passo l'array delle immagini
-        drawPart(positions[i % 6], i); // ogni 6 ricomincia il giro perche 0 modulo 6 fa 0 e 6 modulo 6 fa 0 di nuovo
+        drawPart(positions[i % positions.length], i); // ogni 6 ricomincia il giro perche 0 modulo 6 fa 0 e 6 modulo 6 fa 0 di nuovo
       }
     }
   }
+
   function drawPart(feature, num) {
-    // ellipse(feature[3]._x, feature[3]._y, 10, 10);
-    let x = 0;
-    let y = 0;
-
-    // se le entita superano 6
-    if (num >= 6) {
-      x = -30;
-      y = 30;
-    }
-
     // console.log("feature: " + JSON.stringify(feature));
 
     image(
       immagini[num],
-      feature[3]._x + x - wImg / 2,
-      feature[3]._y + y - hImg / 2,
+      feature[3]._x + randomX[num] - wImg / 2,
+      feature[3]._y + randomY[num] - hImg / 2,
       wImg,
       hImg
     );
