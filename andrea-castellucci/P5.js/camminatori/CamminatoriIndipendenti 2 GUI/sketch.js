@@ -10,8 +10,8 @@
 // Educational purposes, MIT License, 2021, San Marino
 // —
 // Credits/Thanks to: 
-// © Luigi @MrJ4ckpot 
-// original license: MIT License
+// Luigi @MrJ4ckpot & Daniele @Fupete for github.com/dsii-2019-unirsm + github.com/fupete
+// original license: Educational purposes, MIT License, 2019, Crespina IT
 // —
 //
 // Help:
