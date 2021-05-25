@@ -42,3 +42,6 @@ _"Ocean Wave"_, Jiayu Liu. A real-time light-based installation that replicated 
 ![copertina](https://user-images.githubusercontent.com/75098849/119574260-bba7d200-bdb5-11eb-9611-9061efb0dbbd.jpg)
 
 History of Light Painting Photography. [+](https://lightpaintingphotography.com/light-painting-history/)
+
+![copertina](https://user-images.githubusercontent.com/75098849/119578194-5efbe580-bdbc-11eb-82ec-f2d6a0d282ff.jpg)
+
