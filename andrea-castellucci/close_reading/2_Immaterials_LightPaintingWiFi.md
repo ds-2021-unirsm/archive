@@ -38,3 +38,6 @@
 ![copertina](https://user-images.githubusercontent.com/75098849/118388833-10fe1980-b627-11eb-8c50-14792659edea.jpg)
 
 _"Ocean Wave"_, Jiayu Liu. A real-time light-based installation that replicated ocean waves hitting a shoreline. [+](https://www.vice.com/en/article/4xpnxp/light-installation-replicates-waves-breaking) [+](https://vimeo.com/204044022)
+
+![copertina](https://user-images.githubusercontent.com/75098849/119574260-bba7d200-bdb5-11eb-9611-9061efb0dbbd.jpg)
+
