@@ -20,6 +20,6 @@ Per il fotografo Olivia Bee
 Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico , oggi la nudità è cancellata dai pixel sulle foto di Instagram.
 
 https://www.artsy.net/article/artsy-editorial-photographs-womens-bodies-instagram-censored
-È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. 
+È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. Senza contare che è diventato uno strumento fondamentale, persino un mezzo, per tanti artisti. Oltre a ostacolare le libertà artistiche, Soda e Byström sostengono che queste politiche rafforzano gli stigmi dannosi contro i corpi delle donne. "Penso che il problema con Instagram stia solo rispecchiando un problema più grande all'interno della società, che è il modo in cui guardiamo i corpi e penso che sia lì che le cose devono davvero cambiare"
 
 
