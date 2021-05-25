@@ -1,3 +1,10 @@
+// -
+// 10Print con cerchi opachi 0.1 by Alessia Valgimigli [10Print, cerchi]
+// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 var x = 0;
 var y = 0;
 
