@@ -3,7 +3,7 @@
 
 <img width="397" alt="Screenshot 2021-05-25 at 17 38 07" src="https://user-images.githubusercontent.com/63911437/119526803-fe4eb780-bd7f-11eb-819b-000602cd11dd.png">
 
-Guarda nell'editor [👾](https://www.dropbox.com/s/pmy8w1hj8me9jgd/Screenshot%202021-05-25%20at%2017.36.04.png?dl=0)
+Guarda nell'editor [👾](https://editor.p5js.org/lfaraci/sketches/Fbhd8JyQr)
 
 ## Evidenziatore
 
