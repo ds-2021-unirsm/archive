@@ -45,3 +45,6 @@ _“Untitled” (Portrait of Ross in L.A.)_, Felix Gonzalez-Torres. [+](https://
 ![copertinaUntitled](https://user-images.githubusercontent.com/75098849/118565197-03a17600-b772-11eb-9ef9-028ac35ec862.jpg)
 
 _"Artificial Killing Machine"_ visualizing U.S. military drone strikes, Jonathan Fletcher Moore and Fabio Piparo. [+](https://www.polygonfuture.com/artificial-killing-machine) [+](https://www.creativeapplications.net/linux/artificial-killing-machine-visualizing-u-s-military-drone-strikes/)
+
+![copertina_AkM](https://user-images.githubusercontent.com/75098849/119575641-aa5fc500-bdb7-11eb-9ef3-78651e95d258.jpg)
+
