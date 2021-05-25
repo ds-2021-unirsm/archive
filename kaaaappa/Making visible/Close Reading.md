@@ -13,5 +13,13 @@ https://www.mic.com/articles/121678/chrissy-teigen-instagram-banned-photos
 https://www.artsy.net/article/artsy-editorial-photographers-fighting-instagrams-censorship-nude-bodies
 "Ma con le linee guida che insistono sul fatto che i corpi siano classificati come maschi o femmine, le politiche di Instagram escludono chiaramente gli individui non conformi e transessuali di genere. "Quello che vedo di più è la censura dei corpi trans", ha detto Flanagan. "Non tutti gli organismi dovrebbero o non rientrano in categorie in cui un algoritmo può essere addestrato."
 "il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
+"Le piattaforme devono essere oneste e affermare che la censura dei corpi nudi e della sessualità riguarda ciò che gli inserzionisti accetteranno e non accetteranno in termini di vicinanza alla pubblicità dei loro prodotti"
+
+Per il fotografo Olivia Bee
+"Le politiche di Instagram raggiungono una diffusa cultura della vergogna e della disconnessione fisica."
+Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico , oggi la nudità è cancellata dai pixel sulle foto di Instagram.
+
+https://www.artsy.net/article/artsy-editorial-photographs-womens-bodies-instagram-censored
+È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. 
 
 
