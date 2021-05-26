@@ -82,7 +82,7 @@ function dandelion() {
   );
 }
 
-function gotData(datatxt) {
+ function gotData(datatxt) {
   for (let i = 0; i < datatxt.annotations.length; i++) {
     entities.push(datatxt.annotations[i].spot);
   }
@@ -90,11 +90,11 @@ function gotData(datatxt) {
   keyword = datatxt.annotations[0].spot;
   console.log(keyword);
 
-  let imgCanvas = carica(keyword);
+  let imgCanvas =  carica(keyword);
   img.push(imgCanvas);
 }
 
-function carica(search) {
+ function carica(search) {
   var url =
     "https://source.unsplash.com/" +
     imgsResolution +
@@ -103,7 +103,7 @@ function carica(search) {
     "&" +
     random(5); // < un random per caricarne sempre una nuova anche sugli stessi temi
 
-  var img_Loading = loadImage(url);
+  var img_Loading =  loadImage(url);
   return img_Loading;
 }
 
@@ -119,6 +119,6 @@ function draw() {
   text(paragrafo, 50, 300, windowWidth / 2 - 50, 400);
 
   for (var i = 0; i < img.length; i++) {
-    image(img[0], windowWidth / 2, 70, 400, 400);
+    image(img[img.length-1], windowWidth / 2, 70, 400, 400);
   }
 }
