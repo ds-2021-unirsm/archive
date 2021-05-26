@@ -51,6 +51,10 @@ https://www.researchgate.net/publication/249767252_An_Algorithm_for_Nudity_Detec
 Testare se la foto è nudo
 https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/nudity-detection.html
 
+Codice
+https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/nudity-detection.html
+
+
 https://www.vox.com/recode/2019/10/27/20932915/instagram-free-the-nipple-photo-facebook-nudity-ban-art-reset-podcast
 Joanne Leah
 
