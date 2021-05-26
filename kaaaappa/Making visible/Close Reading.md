@@ -15,6 +15,8 @@ https://www.artsy.net/article/artsy-editorial-photographers-fighting-instagrams-
 "il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
 "Le piattaforme devono essere oneste e affermare che la censura dei corpi nudi e della sessualità riguarda ciò che gli inserzionisti accetteranno e non accetteranno in termini di vicinanza alla pubblicità dei loro prodotti"
 
+https://www.esquire.com/news-politics/a32316764/stay-apart-together-spencer-tunick-quarantine-nude-art/
+
 Per il fotografo Olivia Bee
 "Le politiche di Instagram raggiungono una diffusa cultura della vergogna e della disconnessione fisica."
 Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico , oggi la nudità è cancellata dai pixel sulle foto di Instagram.
