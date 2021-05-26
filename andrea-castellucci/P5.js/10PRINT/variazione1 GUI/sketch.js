@@ -25,6 +25,7 @@ let parametri = {
   variazioneNoise: 0.005,
   strokeWeight: 2,
   strokeColor: 255,
+  distaccoModuli: 0,
 };
 
 // FUNZIONE GUI
@@ -34,6 +35,7 @@ window.onload = function() {
   gui.add(parametri, 'variazioneNoise', 0, 0.1); 
   gui.add(parametri, 'strokeWeight', 0, 10); 
   gui.add(parametri, 'strokeColor', 0, 255);
+  gui.add(parametri, 'distaccoModuli', 0, 2);
 }
 
 function setup() {
@@ -76,4 +78,6 @@ function draw() {
     x=0;
     y+=modulo;
   }
+  
+  y1+=parametri.distaccoModuli;
 }
