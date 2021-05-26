@@ -34,3 +34,8 @@ es DeviantArt
 In tal modo, DeviantArt ha creato modelli per i successivi siti social, implementando la possibilità di creare avatar e scrivere sui profili degli altri, l'ultimo dei quali sarebbe stato adottato da Myspace e Facebook.
 
 
+How to?
+
+Reference https://www.1854.photography/2021/02/k-youngs-surreal-collages-of-contorted-bodies-explore-social-constructs-of-gender-roles-and-identity/
+
+
