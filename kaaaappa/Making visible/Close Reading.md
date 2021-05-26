@@ -1,5 +1,9 @@
 Work in progress
 
+La censura prima dei social
+https://www.artsy.net/article/artsy-editorial-fig-leaf-story-sin-censorship-catholic-church
+
+
 https://www.elle.com/it/magazine/women-in-society/a34549190/instagram-censura-corpi-plus-size-influencer/
 
 https://www.instagram.com/regards_coupables/?hl=it
