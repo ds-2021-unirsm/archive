@@ -56,7 +56,7 @@ https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/nudity
 
 
 https://www.vox.com/recode/2019/10/27/20932915/instagram-free-the-nipple-photo-facebook-nudity-ban-art-reset-podcast
-Joanne Leah
+Joanne Leah (suo profilo instagram https://www.instagram.com/twofacedkitten/)
 
 "They may be lying on the floor, covered in body paint. No undergarments, but their genitals and sometimes nipples are covered in some way. The reason is because I have to post my images on social media because I’m an artist and social media is very important for artists to be visible"
 
