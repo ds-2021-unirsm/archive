@@ -55,8 +55,8 @@ let token = "436c5baef9e54af1a0de6a370e4ade38";
 // Immagini
 let immagini = []; // array immagini da visualizzare
 var imgsResolution = "640x480"; // risoluzione immagini
-let wImg = 150 / 2;
-let hImg = 100 / 2;
+let wImg = 225 / 2;
+let hImg = 150 / 2;
 
 // Per posizionare le img a fianco e non sopra i punti chiave
 let randomDist = 100;
@@ -326,8 +326,8 @@ function visualizzaRisposta(risposta) {
 
 function salvaimmagine(img) {
   immagini.push(img);
-  // create random numbers for positions
-  // between -randomDist e randomDist
+  // crea un numero random per positions
+  // tra -randomDist e randomDist
   randomX.push(random() * 2 * randomDist - randomDist);
   randomY.push(random() * 2 * randomDist - randomDist);
 
@@ -428,21 +428,6 @@ function gotResults(err, result) {
   faceapi.detect(gotResults);
 }
 
-/*function drawBox(detections) {
-  for (let i = 0; i < detections.length; i++) {
-    const alignedRect = detections[i].alignedRect;
-    const x = alignedRect._box._x;
-    const y = alignedRect._box._y;
-    const boxWidth = alignedRect._box._width;
-    const boxHeight = alignedRect._box._height;
-
-    noFill();
-    stroke(161, 95, 251);
-    strokeWeight(1);
-    rect(x, y, boxWidth, boxHeight);
-  }
-}
-*/
 function drawLandmarks(detections) {
   //console.log("detections: "+ JSON.stringify(detections))
 
