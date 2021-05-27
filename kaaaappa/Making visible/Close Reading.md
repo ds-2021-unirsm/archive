@@ -27,15 +27,13 @@ Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressor
 
 
 #### Gli autocensurati (profili artisti)
-https://www.instagram.com/regards_coupables/?hl=it
+- Profili Instagram: [Regards_coupables](https://www.instagram.com/regards_coupables/?hl=it)
 
 
+- Testimonianza degli artisti che si autocensurano:
+"Ma con le linee guida che insistono sul fatto che i corpi siano classificati come maschi o femmine, le politiche di Instagram escludono chiaramente gli individui non conformi e transessuali di genere. "Quello che vedo di più è la censura dei corpi trans", ha detto Flanagan. "Non tutti gli organismi dovrebbero o non rientrano in categorie in cui un algoritmo può essere addestrato." "il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
+"*Le piattaforme devono essere oneste e affermare che la censura dei corpi nudi e della sessualità riguarda ciò che gli inserzionisti accetteranno e non accetteranno in termini di vicinanza alla pubblicità dei loro prodotti*" [+](https://www.artsy.net/article/artsy-editorial-photographers-fighting-instagrams-censorship-nude-bodies)
 
-
-https://www.artsy.net/article/artsy-editorial-photographers-fighting-instagrams-censorship-nude-bodies
-"Ma con le linee guida che insistono sul fatto che i corpi siano classificati come maschi o femmine, le politiche di Instagram escludono chiaramente gli individui non conformi e transessuali di genere. "Quello che vedo di più è la censura dei corpi trans", ha detto Flanagan. "Non tutti gli organismi dovrebbero o non rientrano in categorie in cui un algoritmo può essere addestrato."
-"il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
-"Le piattaforme devono essere oneste e affermare che la censura dei corpi nudi e della sessualità riguarda ciò che gli inserzionisti accetteranno e non accetteranno in termini di vicinanza alla pubblicità dei loro prodotti"
 
 https://www.esquire.com/news-politics/a32316764/stay-apart-together-spencer-tunick-quarantine-nude-art/
 
