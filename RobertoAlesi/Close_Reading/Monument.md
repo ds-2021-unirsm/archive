@@ -20,6 +20,6 @@ Il sottotitolo "If It Bleeds, It Leads" (Se sanguina, comanda) intende evidenzia
 
 ### Related Projects
 **Hostile Terrain 94, 2019, Undocumented Migration Project** [+](https://www.undocumentedmigrationproject.org/hostileterrain94)
-La mostra è composta da oltre 3.200 etichette scritte a mano che rappresentano i migranti che sono morti cercando di attraversare il deserto di Sonora dell'Arizona tra la metà degli anni '90 e il 2019. Queste etichette sono geolocalizzate su una mapp del deserto che mostra i luoghi esatti in cui sono stati trovati i resti.
+>La mostra è composta da oltre 3.200 etichette scritte a mano che rappresentano i migranti che sono morti cercando di attraversare il deserto di Sonora dell'Arizona tra la metà degli anni '90 e il 2019. Queste etichette sono geolocalizzate su una mapp del deserto che mostra i luoghi esatti in cui sono stati trovati i resti.
 
 ![Hostile Terrain](https://user-images.githubusercontent.com/76455356/119792686-2e0fd380-bed6-11eb-8b94-33ada369ea18.png)
