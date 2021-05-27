@@ -1,3 +1,10 @@
+// -
+// Generatore di parole 0.1 by Alessia Valgimigli [generatore, parole]
+// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 let dizionario = ["pallone", "astuccio", "penna", "bottiglia", "padella", "sale", "ciotola", "tavolo", "finestra", "casa", "cellulare", "bicchiere", "montagna", "tramonto", "codice", "università", "divano", "viola", "prato", "correre", "saltare", "inginocchiarsi", "lavare", "pulire", "studiare", "percorrere"];
 
 let lettere = [];
