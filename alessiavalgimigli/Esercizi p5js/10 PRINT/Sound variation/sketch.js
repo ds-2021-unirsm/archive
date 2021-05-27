@@ -1,44 +1,42 @@
 // -
-// sound variation 0.1 by Alessia Valgimigli [suono, slider]
-// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// cerchi sonori 0.1 by Alessia Valgimigli [suono, slider]
+// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
-// Credits/Thanks to: 
+// Credits/Thanks to:
 // @Yiting Liu (https://yitingliu.com/) for https://openprocessing.org/sketch/926914
 // —
 
+let gui = new UIL.Gui({ // interfaccia
+  css: 'right:0; top:0;',
+  bg: '#143CFF', // to update new version
+  w: 250
+});
+
 let x = 0;
 let y = 0;
-let spacing;
-let speed;
+let spacing=20; //diametro ellisse
+let speed=4;
+let transposeS=4;
 let polySynth;
+let pitches = ["C", "D", "E", "F", "G", "A", "B"];
+let octaves = [3, 4, 5];
+
 
 function setup() {
   createCanvas(400, 400);
+  background(19, 56, 240);
 
-  //slider speed
-  speed = createSlider(1, 200, 30, 2);
-  createDiv('speed').child(speed);
-
-  //slider transpose
-  transposeS = createSlider(0, 3, 1, 0.2);
-  createDiv('transpose').child(transposeS);
-
-  //slider spacing
-  spacing = createSlider(10, 300, 20, 5);
-  createDiv('spacing').child(spacing);
+  setupGui();
   
   //crea un array di suoni dalla libreria
   polySynth = new p5.PolySynth();
-
-  background(19, 56, 240);
-
 }
 
 function playSynth(freq) {
   userStartAudio();
-  
+
   // dur --> durata della nota
   let dur = 1;
   //time --> variabile che stabilisce quando il suono ha inizio
@@ -46,67 +44,90 @@ function playSynth(freq) {
   //vel --> velocity inteso come volume del suono da 0 a 1
   let vel = 0.1;
 
-  let octVal = 3;
-  let octave = (freq % 25) + 24 * octVal;
-  //transpose --> assume il valore dello slider transpose
-  let transpose = transposeS.value();
-  //pow moltiplica un numero per se stesso tante volte quanto viene indicato nel secondo valore
-  note = pow(2, (octave + transpose - 49) / 12) * 440;
-  
-  //**** il calcolo della variabile octave e quello di note devo ancora analizzarli per capirne il significato
-
-
-  //genera tre suoni con valori diversi
-  //polySynth.play(note, vol, time, dur);
-  polySynth.play(note / 3, vel, time += 1 / 3, dur / 2);
-  polySynth.play(note / 6, vel, time, dur / 8);
-  polySynth.play(note / 9, vel, time -= 1 / 3, dur / 4);
-
+  for (let i = 0; i < 4; i++) {
+    let note = random(pitches) + random(octaves) + transposeS;
+    polySynth.noteAttack(note, 0.1);
+  }
 }
 
-
 function draw() {
-  
-  frameRate(speed.value());
-  
+  frameRate(speed);
+
   //Mescola i pixel nella finestra di visualizzazione secondo la modalità definita --> ADD = somma di A (source pixel) e B (pixel già presenti nel canvas)
   blendMode(ADD);
-  let r = map(mouseX, 0, width, 30, 255);
-  let g = map(mouseY, 0, height, 30, 255);
+  let r = random(30, 255);
+  let g = random(30, 255);
   let b = (r + g) / random(1, 5);
 
-
   if (random(1) > 0.5) {
-    
-    strokeWeight(random(3))
+    strokeWeight(random(3));
     stroke(r, g, b);
     noFill();
-    ellipse(x, y, spacing.value());
-    playSynth(440 * x / spacing.value());
+    ellipse(x, y, spacing);
     
+    //la frequenza viene definita da 440 (frequenza che identifica il LA) moltiplicata dalla x dell'elemento, il tutto diviso dal valore dato dallo splider dello spazio
+    playSynth((440*x) / spacing);
   } else {
-    
     fill(r, g, b);
     strokeWeight(random(20));
     stroke(r, g, b, 50);
-    ellipse(x, y, spacing.value());
-    playSynth(440 * y / spacing.value());
+    ellipse(x, y, spacing);
+    playSynth((440 * y) / spacing);
+  }
 
-  }
-  
-  x += spacing.value();
-  
+  x += spacing;
+
   //se esce dalla larghezza della pagina rinizia una nuova linea
-  if (x > width) {    
+  if (x > width) {
     x = 0;
-    y += spacing.value();    
+    y += spacing;
   }
-  
+
   //se esce dalla lunghezza della pagina azzera e ricomincia dall'inizio
   if (y > height) {
     y = 0;
-    x = 0;  
+    x = 0;
     clear();
     background(19, 56, 240);
   }
+}
+
+function setupGui() {
+  
+    gui.add('slide', {
+    name: 'Speed',
+    value: 4,
+    min: 1,
+    max: 30,
+    callback: cambiaSpeed
+  });
+  
+    gui.add('slide', {
+    name: 'Transpose',
+    value: 4,
+    min: 1,
+    max: 30,
+    callback: cambiaTran
+  });
+  
+      gui.add('slide', {
+    name: 'Space',
+    value: 20,
+    min: 1,
+    max: 30,
+    callback: cambiaSpace
+  });
+  
+}
+
+let cambiaSpeed = function(valore) {
+  speed = valore;
+}
+
+let cambiaTran = function(valore) {
+  transposeS = valore;
+}
+
+let cambiaSpace = function(valore) {
+  spacing = valore;
 }
