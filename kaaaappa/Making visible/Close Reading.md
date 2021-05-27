@@ -22,6 +22,7 @@ https://www.researchgate.net/publication/249767252_An_Algorithm_for_Nudity_Detec
 - Libro che raccoglie foto censurate ma in norma: "*Pics or It Didn't Happen: Images Banned From Instagram*" by Arvida Byström and Molly Soda 
 Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressori della clausola senza capezzoli standard, ma piuttosto, fotografie che non includevano affatto nudità: un primo piano di una macchia di sudore sul suo inguine, gambe macchiate di sangue mestruale o peli pubici che spuntavano fuori. di biancheria intima tra di loro.
 "È legato alla vergogna e al modo in cui i corpi delle donne, o più corpi femminili, vengono sessualizzati", dice Soda. "*Quando Instagram decide di eliminare qualcosa, lo sessualizza immediatamente* [...]. Abbiamo iniziato a vedere schemi nei tipi di immagini che erano state sottoposte a censura". [+](https://www.dazeddigital.com/photography/gallery/23539/0/pics-or-it-didnt-happen) [+](https://www.theguardian.com/books/2017/apr/10/pics-or-it-didnt-happen-reclaiming-instagrams-censored-art)
+È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. Senza contare che è diventato uno strumento fondamentale, persino un mezzo, per tanti artisti. Oltre a ostacolare le libertà artistiche, Soda e Byström sostengono che queste politiche rafforzano gli stigmi dannosi contro i corpi delle donne. "Penso che il problema con Instagram stia solo rispecchiando un problema più grande all'interno della società, che è il modo in cui guardiamo i corpi e penso che sia lì che le cose devono davvero cambiare" [+](https://www.artsy.net/article/artsy-editorial-photographs-womens-bodies-instagram-censored)
 - Paragone tra foto censurate e non [+](https://www.mic.com/articles/121678/chrissy-teigen-instagram-banned-photos)
 
 
@@ -41,9 +42,6 @@ Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressor
 - Per il fotografo Olivia Bee
 "Le politiche di Instagram raggiungono una diffusa cultura della vergogna e della disconnessione fisica."
 Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico, oggi la nudità è cancellata dai pixel sulle foto di Instagram.
-
-https://www.artsy.net/article/artsy-editorial-photographs-womens-bodies-instagram-censored
-È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. Senza contare che è diventato uno strumento fondamentale, persino un mezzo, per tanti artisti. Oltre a ostacolare le libertà artistiche, Soda e Byström sostengono che queste politiche rafforzano gli stigmi dannosi contro i corpi delle donne. "Penso che il problema con Instagram stia solo rispecchiando un problema più grande all'interno della società, che è il modo in cui guardiamo i corpi e penso che sia lì che le cose devono davvero cambiare"
 
 - Arvidia Bystrom
 "Protestare contro il social che utilizza a proprio piacimento il corpo delle donne." [+](http://feministflash.altervista.org/arvida-bystrom/)
