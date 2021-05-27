@@ -53,7 +53,7 @@ Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforz
 
 #### How to?
 
-- Colage surreali [+](https://www.1854.photography/2021/02/k-youngs-surreal-collages-of-contorted-bodies-explore-social-constructs-of-gender-roles-and-identity/)
+- Collage surreali [+](https://www.1854.photography/2021/02/k-youngs-surreal-collages-of-contorted-bodies-explore-social-constructs-of-gender-roles-and-identity/)
 
 - Come coprire i capezzoli[+](https://www.vice.com/en/article/gyyneb/11-ways-to-post-nipples-on-instagram-without-getting-censored) [+](https://digg.com/video/pornhub-trickpics)
 
