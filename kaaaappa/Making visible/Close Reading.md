@@ -27,36 +27,33 @@ Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressor
 
 
 #### Gli autocensurati (profili artisti)
-- Profili Instagram: [Regards_coupables](https://www.instagram.com/regards_coupables/?hl=it)
-
+- Profili Instagram: 
+[Genderless Nipples](https://www.instagram.com/genderless_nipples/?hl=en)
+[Regards coupables](https://www.instagram.com/regards_coupables/?hl=it)
 
 - Testimonianza degli artisti che si autocensurano:
 "Ma con le linee guida che insistono sul fatto che i corpi siano classificati come maschi o femmine, le politiche di Instagram escludono chiaramente gli individui non conformi e transessuali di genere. "Quello che vedo di più è la censura dei corpi trans", ha detto Flanagan. "Non tutti gli organismi dovrebbero o non rientrano in categorie in cui un algoritmo può essere addestrato." "il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
 "*Le piattaforme devono essere oneste e affermare che la censura dei corpi nudi e della sessualità riguarda ciò che gli inserzionisti accetteranno e non accetteranno in termini di vicinanza alla pubblicità dei loro prodotti*" [+](https://www.artsy.net/article/artsy-editorial-photographers-fighting-instagrams-censorship-nude-bodies)
 
+- A New York la performance di Spencer Tunick 
+«Siamo qui per protestare contro le regole troppo severe contro la nudità e la censura», ha detto Tunick, suggerendo che Facebook e Instagram potrebbero seguire la modalità usata da YouTube, che ha attivato «Un processo di verifica per gli artisti, una piattaforma che consente loro di condividere il proprio lavoro». La scorsa primavera, Facebook ha pubblicato un aggiornamento che ha permesso la pubblicazione di immagini di dipinti e sculture che raffigurano soggetti nudi, tuttavia il lavoro artistico dei fotografi rimane vulnerabile. [+](https://www.exibart.com/speednews/nudi-contro-la-censura-dei-social-network-a-new-york-la-performance-di-spencer-tunick/)
 
-https://www.esquire.com/news-politics/a32316764/stay-apart-together-spencer-tunick-quarantine-nude-art/
-
-Per il fotografo Olivia Bee
+- Per il fotografo Olivia Bee
 "Le politiche di Instagram raggiungono una diffusa cultura della vergogna e della disconnessione fisica."
-Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico , oggi la nudità è cancellata dai pixel sulle foto di Instagram.
+Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforzi della Chiesa cattolica nel 1563 per nascondere i peni delle sculture rinascimentali con foglie di fico, oggi la nudità è cancellata dai pixel sulle foto di Instagram.
 
 https://www.artsy.net/article/artsy-editorial-photographs-womens-bodies-instagram-censored
 È un problema impegnativo per piattaforme come Instagram, che fondamentalmente è impegnata a promuovere la creatività e costruire comunità globali. Senza contare che è diventato uno strumento fondamentale, persino un mezzo, per tanti artisti. Oltre a ostacolare le libertà artistiche, Soda e Byström sostengono che queste politiche rafforzano gli stigmi dannosi contro i corpi delle donne. "Penso che il problema con Instagram stia solo rispecchiando un problema più grande all'interno della società, che è il modo in cui guardiamo i corpi e penso che sia lì che le cose devono davvero cambiare"
-"protestare contro il social che, per Arvida, utilizzerebbe a proprio piacimento il corpo delle donne."
-Arvidia Bystrom
-http://feministflash.altervista.org/arvida-bystrom/ 
+
+- Arvidia Bystrom
+"Protestare contro il social che utilizza a proprio piacimento il corpo delle donne." [+](http://feministflash.altervista.org/arvida-bystrom/)
 
 
-How to?
+#### How to?
 
-Reference https://www.1854.photography/2021/02/k-youngs-surreal-collages-of-contorted-bodies-explore-social-constructs-of-gender-roles-and-identity/
+- Colage surreali [+](https://www.1854.photography/2021/02/k-youngs-surreal-collages-of-contorted-bodies-explore-social-constructs-of-gender-roles-and-identity/)
 
-https://www.vice.com/en/article/gyyneb/11-ways-to-post-nipples-on-instagram-without-getting-censored
-
-https://digg.com/video/pornhub-trickpics
-
-https://www.instagram.com/genderless_nipples/?hl=en
+- Come coprire i capezzoli[+](https://www.vice.com/en/article/gyyneb/11-ways-to-post-nipples-on-instagram-without-getting-censored) [+](https://digg.com/video/pornhub-trickpics)
 
 
 
