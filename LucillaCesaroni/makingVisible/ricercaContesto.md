@@ -29,21 +29,21 @@ La School of Life ha raccolto le loro parole preferite dalle lingue del mondo e 
 
 _Gaining Perspective Through Untranslatable Words_ è un articolo che parla di acquisire prospettiva attraverso le parole intraducibili. “ciascuna di queste parole offre una finestra per comprendere culture diverse, che possono influenzare qualsiasi cosa, dal modo in cui prendi le decisioni alle abitudini che prendi.”
 
-_Noun Project_, ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
+_The Noun Project_, ha l'obiettivo di costruire un linguaggio visivo globale che ci unisce, con la responsabilità di dare un contributo positivo a una rappresentazione più equa e accurata.
 
 _Found in Translation_, è un'installazione interattiva dove i visitatori sperimentano visceralmente il processo di traduzione automatica. Le visualizzazioni mostrano come il modello di apprendimento automatico raggruppa le parole di lingue diverse in base alla somiglianza semantica e le traduzioni vengono presentate in modo tipografico e acustico in 24 lingue.
 
 _Untranslation_, è un'installazione che esplora e celebra le tante lingue parlate a Brixton, cha ha 'obiettivo  di offrire una prospettiva su come le diverse culture vedono e interpretano il mondo. 
 
 ### 2# Vivere l'invisibile della disabilità
-//Assistive technology per la disabilità.
+Assistive technology per la disabilità.
 Molte volte mi è capitato di soffermarmi sulle persone con delle incapacità fisiche, sia a livello visivo che uditivo. Questo perché, pur non vivendo in prima persona la cosa, ho intorno a me delle persone che in un modo o nell’altro sono molto vicini a questo argomento.
 Come possono le persone con disabilità uditiva ascoltare un suono, o quelle con disabilità visiva vedere il mondo?
 Grazie alla tecnologia assistiva è stato possibile includere la partecipazione di queste persone nella vita sociale. Lo scopo principale, infatti, dei prodotti di assistenza è quello di migliorare e mantenere il funzionamento e l’indipendenza di un individuo, promuovendone così il benessere. 
 Nonostante la necessità globale, i prodotti di assistenza rimangono limitati e non sempre attuati.
 
 #### Update
-//Rendere invisibili parte delle nostre capacità, al fine di rendere visibile il mondo delle persone con disabilità.
+Rendere invisibili parte delle nostre capacità, al fine di rendere visibile il mondo delle persone con disabilità.
 E se provassimo a ribaltare la cosa? Invece di "normalizzare" una condizione di un certo tipo perchè la percepiamo come "non", perchè non fare il ragionamento opposto?
 Non si deve cercare di visualizzare le cose che chi ha delle disabilità non può vedere o sentire, perchè non cercare di provare a far immaginare a chi non ha idea di quella condizione, mostrando come vede o come sente quella persona con disabilità? Io come posso percepirla allo stesso modo? 
 Come posso avvicinare una persona che non ha questi problemi? Come posso mettere in comunicazione questi due mondi? Cosa significa, cosa potrebbe significare progettare qualcosa che è nel mezzo di quella conversazione?
