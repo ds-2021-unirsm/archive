@@ -1,7 +1,10 @@
-// random walker OOP
+// CAMMINATORI INDIPENDENTI
+// perlinNoise per il movimento
+// sketch by emanuelepizzuti
+
 var w, h;
-var quanti = 100; // vertici
-var d = 2;
+var quanti = 50;
+var d = 6;
 var c = [];
 var speedMax = 0.2;
 
@@ -14,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 10);
+  background(0, 40);
   // per tutti i camminatori chiama i diversi metodi utili 
   for (var i = 0; i < quanti; i++) {
     c[i].move();
@@ -39,17 +42,16 @@ function Camminatore(_id) {
     // if (random(1) >= 0.5) this.dirY *= -1;
     this.x = noise(this.noiseX) * w
     this.y = noise(this.noiseY) * h
-    this.noiseX += 0.001 * this.speedX;
+    this.noiseX += 0.005 * this.speedX;
     this.noiseY += 0.005 * this.speedY;
   }
-
+  
   // metodo display
   this.display = function() {
-    noFill();
-    strokeWeight(2);
-    stroke(map(this.y, 0, h, 0, 255), map(this.y, 0, h, 50, 255), map(this.y, 0, h, 100, 255));
-    ellipseMode(CENTER);
-    ellipse(this.x, this.y, map(this.y, 0, h, 0.5, 50));
+    fill(255 * noise(this.noiseX), 255 * noise(this.noiseX + 10), 255 * noise(this.noiseX + 30));
+    noStroke();
+    rectMode(CENTER);
+    rect(this.x, this.y, d);
 
   }
 }
