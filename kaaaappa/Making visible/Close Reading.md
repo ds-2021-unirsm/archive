@@ -18,12 +18,12 @@ https://www.researchgate.net/publication/249767252_An_Algorithm_for_Nudity_Detec
 
 #### Contenuti in norma censurati
 - Corpi plus size [+](https://www.elle.com/it/magazine/women-in-society/a34549190/instagram-censura-corpi-plus-size-influencer/)
-- Period ban [+](https://www.mic.com/articles/121678/chrissy-teigen-instagram-banned-photos)
+- Period ban [+](https://www.dazeddigital.com/artsandculture/article/24258/1/why-instagram-censored-this-image-of-an-artist-on-her-period)
 - Libro che raccoglie foto censurate ma in norma: "*Pics or It Didn't Happen: Images Banned From Instagram*" by Arvida Byström and Molly Soda 
 Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressori della clausola senza capezzoli standard, ma piuttosto, fotografie che non includevano affatto nudità: un primo piano di una macchia di sudore sul suo inguine, gambe macchiate di sangue mestruale o peli pubici che spuntavano fuori. di biancheria intima tra di loro.
 "È legato alla vergogna e al modo in cui i corpi delle donne, o più corpi femminili, vengono sessualizzati", dice Soda. "*Quando Instagram decide di eliminare qualcosa, lo sessualizza immediatamente* [...]. Abbiamo iniziato a vedere schemi nei tipi di immagini che erano state sottoposte a censura". [+](https://www.dazeddigital.com/photography/gallery/23539/0/pics-or-it-didnt-happen) [+](https://www.theguardian.com/books/2017/apr/10/pics-or-it-didnt-happen-reclaiming-instagrams-censored-art)
+- Paragone tra foto censurate e non [+](https://www.mic.com/articles/121678/chrissy-teigen-instagram-banned-photos)
 
-https://www.dazeddigital.com/artsandculture/article/24258/1/why-instagram-censored-this-image-of-an-artist-on-her-period
 
 
 #### Gli autocensurati (profili artisti)
