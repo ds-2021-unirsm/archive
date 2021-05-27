@@ -1,3 +1,11 @@
+//         ___       ___  ___     
+//        |\  \     |\  \|\  \    
+//        \ \  \    \ \  \\\  \   
+//         \ \  \    \ \  \\\  \  
+//          \ \  \____\ \  \\\  \ 
+//           \ \_______\ \_______\
+//            \|_______|\|_______|
+                                  
 // -
 //
 // Incontri/scontri tra camminatori che cambiano la via by Lucilla Cesaroni [bouncing]
