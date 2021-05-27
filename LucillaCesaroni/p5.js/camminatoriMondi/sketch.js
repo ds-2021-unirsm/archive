@@ -1,3 +1,11 @@
+//         ___       ___  ___     
+//        |\  \     |\  \|\  \    
+//        \ \  \    \ \  \\\  \   
+//         \ \  \    \ \  \\\  \  
+//          \ \  \____\ \  \\\  \ 
+//           \ \_______\ \_______\
+//            \|_______|\|_______|
+                                  
 // -
 //
 // Camminatori che disegnano mondi, scappano by Lucilla Cesaroni [mouse X, mouseY]
