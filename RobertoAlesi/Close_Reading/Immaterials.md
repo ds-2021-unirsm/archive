@@ -18,3 +18,10 @@ Timo Arnall, Einar Sneve Martinussen, Jørn Knutsen, Jack Schulze and Matt Jones
 >Se il film mostrasse il traffico dei dati oltre alla potenza del segnale, sarebbe possibile visualizzare la dinamicità e la portata di tutte le azioni che compiamo online e i luoghi nei quali l'ambiente è totalmente saturo di informazioni.
 
 >Se si riuscisse a mappare in tempo reale la qualità del segnale in tutte le parti del mondo, verrebbe restituita una visualizzazione tridimensionale dei luoghi in cui c'è un maggior utilizzo delle reti WiFi, dove il segnale è più debole e come questo fattore influenzi i movimenti delle persone e come queste, ormai involontariamente, si spostino sulla base della possibilità di poter essere connessi con gli altri e alla rete.
+
+
+### Related Project
+**New York's Carbon Emissions, 2012, Adam Nieman e Chris Rabet** [+](https://www.youtube.com/watch?v=DtqSIplGXOA) [+](https://datavizblog.com/2013/11/06/infographic-new-yorks-carbon-emissions-in-real-time/)
+>La visualizzazione mostra i 54 milioni di tonnellate di anidride carbonica che hanno inghiottito New York City nel 2010. Ogni singola sfera blu, rappresenta una tonnellata di CO2.
+
+![NYCO2](https://user-images.githubusercontent.com/76455356/119795056-631d2580-bed8-11eb-9d51-8770b6629588.png)
