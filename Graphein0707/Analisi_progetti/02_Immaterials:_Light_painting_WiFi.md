@@ -1,5 +1,7 @@
 ## Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
 
+![immaterials](https://user-images.githubusercontent.com/76476654/119899834-f6d80b80-bf43-11eb-8725-49bf62ddfa4e.jpg)
+
 *Che cos’è?*
 <br/>L'installazione Immaterials: Light painting WiFi è frutto di un progetto chiamato Yourban, creato da Timo Arnall, Jørn Knutsen e Einar Sneve Martinussen. Il progetto consiste nella realizzazione di un’asta di misurazione Wifi che traccia la topografia di reti wireless e la restituisce sotto forma di grafici di luce che variano a seconda della loro posizione nello spazio. Necessitavano dell'oscurità per dipingere con la luce e questo rende Oslo in pieno inverno un'ottima location. Il progetto è evoluto poi in un film.
 
@@ -11,3 +13,21 @@
 
 *Cosa succederebbe se?*
 <br/>Cosa succederebbe se si potesse sfruttare la fisicità della rete wireless per creare degli spazi comunitari nuovi? La tecnologia trasforma gli spazi e li rende mobili e spesso temporanei, come si possono creare nuove interazioni basandosi sulla materializzazione di queste informazioni? Sarebbe altresì interessante se il colore e l’intensità delle luci mostrassero altre informazioni sulla qualità del segnale. 
+
+# Altri progetti
+
+![light](https://user-images.githubusercontent.com/76476654/119899542-816c3b00-bf43-11eb-9c79-de005852031f.jpg)
+<br>
+*Spettro di colori rivelato dalle vibrazioni delle corde accese*
+<br>
+[Discover it](https://mymodernmet.com/paul-friedlander-kinetic-light-sculptures/)
+
+<br>
+
+![pechino](https://user-images.githubusercontent.com/76476654/119899998-30a91200-bf44-11eb-8080-2cd495e6575f.jpg)
+<br>
+*Immaterial/Re-material. La storia dell’arte digitale in mostra a Pechino*
+<br>
+[Discover it](https://www.artribune.com/progettazione/new-media/2020/09/immaterial-re-material-arte-digitale-mostra-pechino/)
+
+
