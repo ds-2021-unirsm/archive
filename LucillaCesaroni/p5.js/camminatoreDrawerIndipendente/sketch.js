@@ -1,3 +1,11 @@
+//         ___       ___  ___     
+//        |\  \     |\  \|\  \    
+//        \ \  \    \ \  \\\  \   
+//         \ \  \    \ \  \\\  \  
+//          \ \  \____\ \  \\\  \ 
+//           \ \_______\ \_______\
+//            \|_______|\|_______|
+                                  
 // -
 //
 // Camminatore indipendente che disegna by Lucilla Cesaroni [click, draw]
