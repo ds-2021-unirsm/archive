@@ -4,11 +4,10 @@
 "La censura è una forma di controllo sociale che **limita la libertà di espressione e di accesso all’informazione**, basata sul principio secondo cui determinate informazioni, e le idee e le opinioni da esse generate, possono minare la stabilità dell’ordine sociale, politico e morale vigente." [+](https://www.treccani.it/enciclopedia/la-censura_%28Dizionario-di-Storia%29/)
 
 
-#### La censura prima dei social
-https://www.artsy.net/article/artsy-editorial-fig-leaf-story-sin-censorship-catholic-church
+#### La censura prima dei social [+](https://www.artsy.net/article/artsy-editorial-fig-leaf-story-sin-censorship-catholic-church)
 
 
-#### Le linee guida di Instagram
+#### Le linee guida di Instagram [+](https://www.facebook.com/communitystandards/adult_nudity_sexual_activity)
 Riguarda anche foto di capezzoli femminili, ma sono permesse foto nel contesto di allattamento al seno, parto e momenti successivi al parto, situazioni correlate alla salute (ad es. in seguito a una mastectomia, sensibilizzazione sul cancro al seno o chirurgia di conferma del genere) o atti di protesta. Sono inoltre consentite le fotografie di quadri e sculture raffiguranti dei nudi. Ad esempio, se da una parte limitiamo alcune immagini di seni femminili in cui i capezzoli sono visibili, possiamo consentire altre immagini, tra cui quelle che ritraggono atti di protesta, donne che allattano e foto di cicatrici causate da una mastectomia. Per le immagini che ritraggono genitali esposti o l'ano nel contesto del parto e nei momenti successivi o in situazioni correlate alla salute, inseriamo un'etichetta di avviso affinché le persone sappiano che i contenuti potrebbero urtare la loro sensibilità. È permessa anche la pubblicazione di fotografie di dipinti, sculture o altre forme d'arte che ritraggono figure nude.
 
 #### Come funziona l'algoritmo [+](https://www.researchgate.net/publication/249767252_An_Algorithm_for_Nudity_Detection#:~:text=The%20Nudity%20Detection%20Algorithm%20is,and%20635%20non%2Dnude%20images.&text=image%2C%20an%20image%20is%20classified%20nude%20or%20non%2Dnude.,-The%20skin%20color&text=421%20nude%20images%20and%20635%20non%2Dnude%20images.,-Keywords%3A%20pornography%2C%20nudity&text=objects%20found%20in%20the%20image)
@@ -61,6 +60,8 @@ Ma la censura dei corpi è una tradizione secolare. Non diversamente dagli sforz
 
 #### Testare se la foto è nudo (codice) [+](https://lizrush.gitbooks.io/algorithms-for-webdevs-ebook/content/chapters/nudity-detection.html)
 
+#### Concept
 
+#### Prototipi
 
-
+#### Esperimenti [+](https://www.instagram.com/deep.fool/)
