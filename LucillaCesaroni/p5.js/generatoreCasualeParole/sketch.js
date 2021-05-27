@@ -1,3 +1,11 @@
+//         ___       ___  ___     
+//        |\  \     |\  \|\  \    
+//        \ \  \    \ \  \\\  \   
+//         \ \  \    \ \  \\\  \  
+//          \ \  \____\ \  \\\  \ 
+//           \ \_______\ \_______\
+//            \|_______|\|_______|
+                                  
 // -
 //
 // Generatore casuale di parole by Lucilla Cesaroni [words, random, speech]
