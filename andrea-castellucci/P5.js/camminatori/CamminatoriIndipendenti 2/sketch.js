@@ -17,7 +17,6 @@
 //
 // —
 
-var circles = [];
 var quanti = 10;
 var circles = [];
 
@@ -38,16 +37,19 @@ function draw() {
   fill(0, 0, 0);
   strokeWeight(1);
 
-  for (var i = circles.length - 1; i >= 0; i--) {
-    if (circles[i].id <= circles[circles.length - 1].id - 30) {
-      circles.splice(i, 1);
+  // rimuove un elemento dall'array se sono più di 30 cerchi
+  for (var j = 0; j < circles.length; j++) {
+    if (circles[j].id == circles[circles.length - 1].id - 30) {
+      circles.splice(j, 1);
     }
   }
 
+  // variabile per regolare gli incontri
+  // senza di essa ogni camminatore si illumina ogni 2 incontri
   var noHit = true;
   
-  for (i = 0; i < circles.length; i++) {
-    for (x = 0; x < circles.length; x++) {
+  for (var i = 0; i < circles.length; i++) {
+    for (var x = 0; x < circles.length; x++) {
       if (i != x && noHit) {
         if (circles[i].intersects(x) && circles[x].intersects(i)) {
           
@@ -63,10 +65,11 @@ function draw() {
     }
     noHit = true;
   }
-  for (i = 0; i < circles.length; i++) {
-    circles[i].id = i;
-    circles[i].update();
-    circles[i].show();
+  
+  for (var k = 0; k < circles.length; k++) {
+    circles[k].id = k;
+    circles[k].update();
+    circles[k].show();
   }
 }
 
