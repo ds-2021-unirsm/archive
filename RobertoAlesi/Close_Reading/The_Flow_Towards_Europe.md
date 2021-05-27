@@ -32,7 +32,8 @@ Cosa succederebbe se ad ogni punto fosse legata una storia?
 Potrebbe essere interessante, e di maggior impatto, conoscere le storie che si nascondono dietro ognuno di quei punti in movimento, in modo da capire i motivi che hanno portato quelle *persone* ad abbandonare la propria casa in cerca di maggior fortuna negli stati europei.
 
 ### Related Projects
->
+> The Stories Behind a Line, 2018, Federica Fragapane 
+Nel 2016 Federica Fragapane ha intervistato un gruppo di richiedenti asilo arrivati in Italia, raccogliendo informazioni e dati sul loro viaggio, con l’obiettivo di visualizzare e condividere le loro esperienze su «The Stories Behind a Line», una narrativa visuale sulle rotte dei sei migranti.
 
 ![Fragapane](https://user-images.githubusercontent.com/76455356/119791305-feac9700-bed4-11eb-9e58-d8164b20ce23.gif)
 
