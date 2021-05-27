@@ -31,4 +31,8 @@ Cosa succederebbe se ad ogni punto fosse legata una storia?
 >In questa visualizzazione viene trasmesso molto efficaciemente lo spostamento di una quantità notevole di persone senza però fare riferimento alle storie che hanno causato questi spostamenti, non c'è empatia.
 Potrebbe essere interessante, e di maggior impatto, conoscere le storie che si nascondono dietro ognuno di quei punti in movimento, in modo da capire i motivi che hanno portato quelle *persone* ad abbandonare la propria casa in cerca di maggior fortuna negli stati europei.
 
-**Aggiungi progetto Fragapane** Migranti, raccontare le storie dietro ad ogni linea
+### Related Projects
+>
+
+![Fragapane](https://user-images.githubusercontent.com/76455356/119791305-feac9700-bed4-11eb-9e58-d8164b20ce23.gif)
+
