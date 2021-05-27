@@ -1,3 +1,11 @@
+//         ___       ___  ___     
+//        |\  \     |\  \|\  \    
+//        \ \  \    \ \  \\\  \   
+//         \ \  \    \ \  \\\  \  
+//          \ \  \____\ \  \\\  \ 
+//           \ \_______\ \_______\
+//            \|_______|\|_______|
+                                  
 // -
 //
 // metamorfosi by Lucilla Cesaroni [comunicare, parole, icone, emozioni, inclusione]
