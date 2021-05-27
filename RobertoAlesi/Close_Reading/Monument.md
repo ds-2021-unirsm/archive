@@ -19,3 +19,6 @@ Il sottotitolo "If It Bleeds, It Leads" (Se sanguina, comanda) intende evidenzia
 >Se le palline gialle fossero associate agli animali che ogni giorno vengono abbattuti negli allevamenti intensivi sarebbe di grande impatto vedere il flusso di palline scendere senza sosta e probabilmente la stanza verrebbe riempita in pochissimo tempo, sensibilizzando notevolmente il visitatore.
 
 ### Related Projects
+>Hostile Terrain 94, 2019, Undocumented Migration Project
+La mostra è composta da oltre 3.200 etichette scritte a mano che rappresentano i migranti che sono morti cercando di attraversare il deserto di Sonora dell'Arizona tra la metà degli anni '90 e il 2019. Queste etichette sono geolocalizzate su una mapp del deserto che mostra i luoghi esatti in cui sono stati trovati i resti.
+
