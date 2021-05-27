@@ -16,6 +16,13 @@ https://editor.p5js.org/andrea-castellucci/full/BaRSNSlHm
 
 ![10PRINT_versione2](https://user-images.githubusercontent.com/75098849/118980742-ec34d980-b979-11eb-95e0-07ffbe6de596.jpg)
 
+# Pattern
+
+https://editor.p5js.org/andrea-castellucci/full/N-fj-yfBe
+
+![pattern](https://user-images.githubusercontent.com/75098849/118982939-328b3800-b97c-11eb-88ea-a61ae56ad44e.jpg)
+
+
 # Camminatori indipendenti 2
 https://editor.p5js.org/andrea-castellucci/full/9DkZcpp4U
 
