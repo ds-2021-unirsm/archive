@@ -12,7 +12,10 @@
 <br/>Il progetto intende evidenziare come la connessione e la rete wireless in particolare, sia divenuta importante per la comunicazione all’interno del tessuto urbano e di come questo spazio immateriale prenda forma. Si intende mostrare come la connessione sia qualitativamente e quantitativamente diversa all’interno di una città e di come la rete descriva l’identità del luogo in cui è presente. Gli autori ci intendono mostrare come la portata e la diffusione della rete dipendano in modo preponderante dalla topografia di una città e come esse rappresentino una struttura urbana evoluta e creata principalmente dagli utenti che se la possono permettere e che ne usufruiscono. I tre artisti hanno reso visibile l'invisibile dando forma alle interazioni delle persone con i dispositivi e con la rete. 
 
 *Cosa succederebbe se?*
-<br/>Cosa succederebbe se si potesse sfruttare la fisicità della rete wireless per creare degli spazi comunitari nuovi? La tecnologia trasforma gli spazi e li rende mobili e spesso temporanei, come si possono creare nuove interazioni basandosi sulla materializzazione di queste informazioni? Sarebbe altresì interessante se il colore e l’intensità delle luci mostrassero altre informazioni sulla qualità del segnale. 
+<br/>Cosa succederebbe se si potesse sfruttare la fisicità della rete wireless per creare degli spazi comunitari nuovi? La tecnologia trasforma gli spazi e li rende mobili e spesso temporanei, come si possono creare nuove interazioni basandosi sulla materializzazione di queste informazioni? Sarebbe altresì interessante se il colore e l’intensità delle luci mostrassero altre informazioni sulla qualità del segnale.
+<br>
+<br>
+<br>
 
 # Altri progetti
 
