@@ -1,6 +1,6 @@
 **DOCUMENTAZIONE PROGETTO**
 
-In questa cartella è possibile consultare la documentazione progetto finale. Il file PDF è strutturato secondo il seguente indice:
+In questa cartella è possibile consultare la documentazione del progetto finale. Il file PDF è strutturato secondo il seguente indice:
 
 1. Abstract
 2. Introduzione
