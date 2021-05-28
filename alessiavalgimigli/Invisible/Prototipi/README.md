@@ -1,5 +1,7 @@
 ### Temboo + Processing
-Primi esperimenti di estrazione tweet attraverso API e visualizzazione attraverso Processing
+* Primi esperimenti di estrazione tweet attraverso API e visualizzazione attraverso Processing
+
+---
 
 ### Metaball_generator
 * Prototipo visualizzazione grafica
