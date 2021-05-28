@@ -71,4 +71,3 @@ Lo strumento realizzato permettesse di mettersi in contatto con un produttore fa
 <img width="317" alt="Screenshot 2021-05-25 at 15 58 11" src="https://user-images.githubusercontent.com/63911437/119511210-7ca45d00-bd72-11eb-851f-19d3bdc7a298.png">
 
 [P5.js](https://editor.p5js.org/lfaraci/sketches/oHbE6JVkQ)
-
