@@ -16,6 +16,14 @@
 
 # Altri progetti
 
+![datas](https://user-images.githubusercontent.com/76476654/119947983-a4750a00-bf98-11eb-9807-889547868f6d.jpg)
+<br>
+*datamatics, progetto artistico che esplora il potenziale per percepire l'invisibile multi-sostanza dei dati che permea il nostro mondo.*
+<br>
+[Discover it](https://www.ryojiikeda.com/project/datamatics/)
+
+<br>
+
 ![light](https://user-images.githubusercontent.com/76476654/119899542-816c3b00-bf43-11eb-9c79-de005852031f.jpg)
 <br>
 *Spettro di colori rivelato dalle vibrazioni delle corde accese*
@@ -29,5 +37,7 @@
 *Immaterial/Re-material. La storia dell’arte digitale in mostra a Pechino*
 <br>
 [Discover it](https://www.artribune.com/progettazione/new-media/2020/09/immaterial-re-material-arte-digitale-mostra-pechino/)
+
+
 
 
