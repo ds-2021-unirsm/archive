@@ -35,6 +35,7 @@ Quelle immagini che hanno stuzzicato l'interesse di Soda non erano i trasgressor
 "They may be lying on the floor, covered in body paint. No undergarments, but their genitals and sometimes nipples are covered in some way. The reason is because I have to post my images on social media because I’m an artist and social media is very important for artists to be visible"
 Articolo [+](https://www.vox.com/recode/2019/10/27/20932915/instagram-free-the-nipple-photo-facebook-nudity-ban-art-reset-podcast)
 Profilo Instagram [+](https://www.instagram.com/twofacedkitten/)
+Portfolio dedicato alle censure [+](http://www.joanneleah.com/censorship)
 
 - Testimonianza degli artisti che si autocensurano:
 "Ma con le linee guida che insistono sul fatto che i corpi siano classificati come maschi o femmine, le politiche di Instagram escludono chiaramente gli individui non conformi e transessuali di genere. "Quello che vedo di più è la censura dei corpi trans", ha detto Flanagan. "Non tutti gli organismi dovrebbero o non rientrano in categorie in cui un algoritmo può essere addestrato." "il processo di segnalazione dei contenuti della piattaforma consente agli utenti malintenzionati di prendere di mira corpi "odiati", riferendosi a un particolare account che fa vergognare il grasso che contrassegna gli account positivi per il corpo, quindi pubblica catture dello schermo."
