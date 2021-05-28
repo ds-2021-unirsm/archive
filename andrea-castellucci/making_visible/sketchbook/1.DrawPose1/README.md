@@ -1,3 +1,3 @@
 # DrawPose1
 
-Sperimentazione grafica con PoseNet
+Sperimentazione grafica utilizzando keypoints e skeleton di PoseNet
