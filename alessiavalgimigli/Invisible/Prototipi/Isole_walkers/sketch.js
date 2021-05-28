@@ -1,5 +1,5 @@
 // -
-// Isole di walkers 0.1 by Alessia Valgimigli [walkers, random]
+// Isole di walkers 0.2 by Alessia Valgimigli [walkers, random]
 // 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
@@ -30,7 +30,12 @@ function draw() {
   background(0);
   g.seek(createVector(width, height));
   g.update();
-  g.fdisplay();
+
+  if (g.estrazioneColori.levels[0] == 255) {
+    g.followPoint(0, 0);
+  } else if (g.estrazioneColori.levels[0] == 0){
+    g.followPoint(400, 400);
+  }
 
   for (let b=0; b<isola_a.length; b++){
     isola_a[b].move(); 
