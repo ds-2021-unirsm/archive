@@ -1,73 +1,67 @@
 class goccia {
-  constructor(x, y) {
-    this.location = createVector(x, y);
-    this.velocity = createVector(random(-3, 3), random(-3, 3));
-    this.acceleration = createVector(0, 0);
-    // Additional variable for size
+  constructor(x, y, angle = 0) {
+    this.x = x;
+    this.y = y;
     this.radius = 30;
-    this.maxforce = random(0.002, 0.1);
-    this.maxspeed = random(1, 3);
+    //orientamento macchinina
+    this.angle = angle; //utilizzare i radianti
+    this.speed = 1;
     this.rosso = color(255, 0, 0);
     this.verde = color(0, 255, 0);
     this.colori = [this.rosso, this.verde];
     this.estrazioneColori = random(this.colori);
   }
 
-  // Our standard “Euler integration” motion model
   update() {
-    this.velocity.add(this.acceleration);
-    this.velocity.limit(this.maxspeed);
-    this.location.add(this.velocity);
-    this.acceleration.mult(0);
-    // this.t = random(50) * 0.1;
-    //this.t2 = 0.001;
+    //trigonometria serve per lo spostamento orizzontale, se no va in diagonale
+    this.x += this.speed * cos(this.angle); 
+    this.y += this.speed * sin(this.angle);
 
-    if (
-      this.location.x < this.radius ||
-      this.location.x > width - this.radius
-    ) {
-      this.velocity.x *= -1;
+    if (this.x < this.radius || this.x > width - this.radius) {
+      this.speed *= -1;
       this.radius = 10;
-      //  this.location.x = map(noise(this.t), 0, 1, 300, 400);
-      // this.location.y = map(noise(this.t + 5), 0, 1, 300, 400);
     }
 
-    if (
-      this.location.y < this.radius ||
-      this.location.y > height - this.radius
-    ) {
-      this.velocity.y *= -1;
-      // this.location.x = map(noise(this.t), 0, 1, 300, 400);
-      // this.location.y = map(noise(this.t + 5), 0, 1, 300, 400);
+    if (this.y < this.radius || this.y > height - this.radius) {
+      this.speed *= -1;
     }
   }
 
-  // Newton’s second law; we could divide by mass if we wanted.
-  applyForce(force) {
-    this.acceleration.add(force);
+  followPoint(x, y) {
+    //creiamo il vettore del target
+    let dis = createVector(x, y);
+    //sottraiamo un nuovo vettore
+    dis.sub(createVector(this.x, this.y));
+    //normalizziamo il valore dato dalla differenza in modo da ricavare la direzione
+    dis.normalize();
+    g.applyForce(dis.x, dis.y);
   }
 
-  // Our seek steering force algorithm
-  seek(target) {
-    let desired = target.sub(this.location);
-    desired.normalize();
-    desired.mult(this.maxspeed);
-    let steer = desired.sub(this.velocity);
-    steer.limit(this.maxforce);
-    this.applyForce(steer);
+  //applichaimo una forza
+  applyForce(fx, fy) {
+    let xvel = this.speed * cos(this.angle) + fx;
+    let yvel = this.speed * cos(this.angle) + fy;
+    let vectVel = createVector(xvel, yvel);
+    this.angle = vectVel.heading();
+
+    // console.log(fx + " " + fy)
+    /* let vec = createVector(fx, fy);
+  let vectAngle = vec.heading();
+      if (this.angle - vecAngle > 0) {
+    this.angle -= 0.01;
+  } else if (this.angle - vecAngle < 0) {
+    this.angle += 0.01;
+  } */
   }
 
-  fdisplay() {
-    // Vehicle is a triangle pointing in
-    // the direction of velocity; since it is drawn
-    // pointing up, we rotate it an additional 90 degrees.
-    let theta = this.velocity.heading();
+  show() {
     noFill();
     stroke(this.estrazioneColori);
     push();
-    translate(this.location.x, this.location.y);
-    rotate(theta);
-    ellipseMode(CENTER);
+    translate(this.x, this.y);
+    rotate(this.angle);
+    //fill(200, 0, 200);
+    rectMode(CENTER);
     ellipse(0, 0, this.radius);
     pop();
   }
