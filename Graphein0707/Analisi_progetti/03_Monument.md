@@ -1,5 +1,7 @@
 ## Monument, 2006, Caleb Larsen
 
+![68747470733a2f2f692e696d6775722e636f6d2f4e6f56505a67742e6a7067](https://user-images.githubusercontent.com/76476654/119971921-de063f00-bfb1-11eb-92d3-9a9a195617ef.jpg)
+
 *Che cos’è?*
 <br/>Monument è un'installazione creata da Caleb Larsen e collocata per alcuni mesi nel Peacock Visual Arts di Aberdeen, che rappresenta in tempo reale, attraverso delle palline in plastica gialla, il numero di persone vittime di omicidi. 
 
@@ -12,3 +14,15 @@
 *Cosa succederebbe se?*
 <br/>Cosa succederebbe se l’installazione fosse ancora più dettagliata ed andasse ad evidenziare le cause di morte di queste persone? Le persone potrebbero prendere ancora più coscienza della gravità del tema trattato o ne sarebbero spaventate? 
 Le cause degli omicidi potrebbero essere inserite nell'installazione ed evidenziate attraverso il suono, nel momento in cui una pallina cade, un suono puntuale, legato alla causa di morte, viene liberato dentro alla stanza. La stimolazione uditiva accompagna quella visiva. 
+<br>
+<br>
+<br>
+
+# Altri progetti
+
+![bilal_wafaa_domestic-tension](https://user-images.githubusercontent.com/76476654/119971205-f4f86180-bfb0-11eb-81ff-a14c5dc3fbbe.jpg)
+<br>
+*Wafaa Bilal: Drone Imperialism, Necropolitics, and Empathy*
+<br>
+[Discover it](https://artmejo.com/wafaa-bilal-drone-imperialism-necropolitics-and-empathy/)
+

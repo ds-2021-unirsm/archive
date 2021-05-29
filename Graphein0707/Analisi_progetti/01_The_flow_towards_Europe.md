@@ -1,5 +1,7 @@
 ## The flow towards Europe, 2015, Lucify
 
+![flow](https://user-images.githubusercontent.com/76476654/119948425-1cdbcb00-bf99-11eb-93d7-6765a88edf63.jpg)
+
 *Che cos’è?*
 <br/>The flow towards Europe è una mappa interattiva e open source realizzata da Juho Ojala E Ville Saarinen, che mostra il numero di persone richiedenti asilo nel corso del tempo. L'idea di questo progetto è nata durante un pranzo di discussione tra Ville e Juho in un seminario sulla visualizzazione dei dati e gli artisti utilizzano i dati pubblici dell'Agenzia delle Nazioni Unite per i rifugiati (UNHCR).
 
@@ -11,4 +13,3 @@
 
 *Cosa succederebbe se…?*
 <br/>E se questa visualizzazione fosse integrata esplicando i motivi per cui queste persone hanno deciso di emigrare e perché hanno scelto un determinato paese? Forse le persone sarebbero ancora più consapevoli e sensibili nei confronti della problematica? Se fosse possibile esplicitare il genere o l'età della persona in questione quanto cambierebbe la percezione delle persone sul tema?  
-
