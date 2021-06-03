@@ -22,7 +22,7 @@ _Architecture of Radio_, 2016, Richard Vijgen [+](http://www.architectureofradio
 
 _Koyaanisqatsi_,	1982, Godfrey Reggio [+](https://www.rogerebert.com/reviews/koyaanisqatsi-1983) [+](https://www.criterion.com/films/28034-koyaanisqatsi)
 
-![Koyaanisqatsi,	1982, Godfrey Reggio](https://user-images.githubusercontent.com/76476647/120617996-ec91a200-c45a-11eb-8e75-9f92037e8965.jpeg)
+![Koyaanisqatsi,	1982, Godfrey Reggio](https://user-images.githubusercontent.com/76476647/120618672-95d89800-c45b-11eb-9dd7-0c02f6355f3d.jpeg)
 
 --- 
 
