@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript">
+		
+			var socket = io.connect();
+      var startTime = 0;
+			
+			socket.on('connect', function() {
+				console.log("Connected");
+			});
+
+			// Riceve i dati dal server
+			socket.on('generic_message', function (data) {
+				console.log(data);
+      	});
+      
+      socket.on('userid', function (id) {
+        console.log(id);
+      }
+			
+        window.addEventListener('load', function() {
+        document.body.addEventListener('mousedown', function() {
+          startTime = Date.now();
+        })
+        
+        document.body.addEventListener('mouseup', function() {
+          var downTime = Date.now() - startTime;
+          console.log("mouse was down: " + downTime);
+          socket.emit('generic_message',downTime)
+        })
+      });
+		</script>	
+	</head>
+ <body>
+ </body>
+</html>
