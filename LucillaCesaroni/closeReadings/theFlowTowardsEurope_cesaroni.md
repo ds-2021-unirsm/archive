@@ -20,6 +20,15 @@ Cosa succederebbe se ci fosse una sezione che permetta alle persone di confronta
 
 ![The Flow Towards Europe, 2015, Lucify](https://images.squarespace-cdn.com/content/5e284f5563e96b59f5f0e5d7/1599583094106-0DGLEBP8EK3REPXGNKUU/z.jpg?content-type=image%2Fjpeg)
 
+## Related projects
+_World Migration Map_, 2016, Max Galka [+](http://metrocosm.com/global-immigration-map/)
+
+![World Migration Map, 2016, Max Galka](https://user-images.githubusercontent.com/76476647/120570305-1f667680-c418-11eb-91d3-03d95ada8b96.png)
+
+_Migrations in Motions_, 2016, University of Washington e The Nature Conservancy [+](http://maps.tnc.org/migrations-in-motion/#3/74.75/-27.07) [+](https://www.audubon.org/news/these-amazing-maps-show-how-wildlife-will-migrate-survive-climate-change)
+
+![Migrations in Motions, 2016, University of Washington e The Nature Conservancy](https://user-images.githubusercontent.com/76476647/120570240-f514b900-c417-11eb-85f2-63012424de49.jpeg)
+
 --- 
 
 ### References
