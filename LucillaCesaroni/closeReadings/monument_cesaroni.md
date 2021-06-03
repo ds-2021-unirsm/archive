@@ -12,11 +12,14 @@ Numerosi sono i contrasti espressi nell’installazione. L’“attesa” della 
 ## What if?
 Cosa succederebbe se prima di entrare nella stanza dell'installazione, già si sapesse a cosa si andrebbe incontro? Cosa succederebbe se le palline non avessero questo colore ma fossero rosse? Potrebbero rendere più evidente la metafora al numero di vittime? Cosa succederebbe se si paragonassero gli articoli di cronaca nera di diversi paesi? Cosa succederebbe se si visualizzasse, non solo le vittime, ma anche le nascite? Cosa succederebbe se non fossero delle palline, bensì degli oggetti con superficie non sferica? Cosa succederebbe se le palline non fossero delle persone, bensì rappresentazioni di altre cose? 
 
-![Monument, 2006, Caleb Larsen](http://www.asquare.org/networkresearch/wp-content/uploads/2008/10/monument-bbs.jpg)
+![Monument, 2006, Caleb Larsen](https://user-images.githubusercontent.com/76476647/120568065-74ec5480-c413-11eb-8b00-2935ba84063f.jpg)
+
+## Related projects
+_Take a Bullet for the City_, 2014, R. Luke DuBois [+](http://sites.bxmc.poly.edu/~lukedubois/projects/index.html?id=gun) [+](http://www.digiart21.org/art/take-a-bullet-for-the-city)
+
+![Take a Bullet for the City, 2014, R. Luke DuBois](https://user-images.githubusercontent.com/76476647/120567349-d7dcec00-c411-11eb-9f93-46d26a5f5d8f.jpeg)
 
 --- 
 
 ### References
 - _Monument_, 2006, Caleb Larsen [+](https://we-make-money-not-art.com/monument_if_it/)[+](https://books.google.sm/books?id=UgREV9O8sNAC&pg=PA178&lpg=PA178&dq=Caleb+larsen+yellow&source=bl&ots=gkAZiBFlN6&sig=ACfU3U3x5l4MUhsGyDO2jULwAMIOPcr9Zw&hl=en&sa=X&ved=2ahUKEwj4ibK4iavvAhXK16QKHetKAGoQ6AEwEXoECBAQAw#v=onepage&q=Caleb%20larsen%20yellow&f=false)
-
-- _Take a Bullet for the City_, 2014, R. Luke DuBois [+](http://sites.bxmc.poly.edu/~lukedubois/projects/index.html?id=gun) [+](http://www.digiart21.org/art/take-a-bullet-for-the-city)
