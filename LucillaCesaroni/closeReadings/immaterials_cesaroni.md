@@ -17,10 +17,12 @@ Cosa succederebbe se queste aste fossero sempre presenti nei luoghi pubblici di 
 
 ## Related projects
 _Architecture of Radio_, 2016, Richard Vijgen [+](http://www.architectureofradio.com/)
+> É un'applicazione che visualizza la rete invisibile con cui interagiamo attraverso i nostri dispositivi e nasconde il visibile.
 
 ![Architecture of Radio, 2016, Richard Vijgen](https://user-images.githubusercontent.com/76476647/120566577-d4e0fc00-c40f-11eb-8e72-cf5aa84bb606.jpg)
 
 _Koyaanisqatsi_,	1982, Godfrey Reggio [+](https://www.rogerebert.com/reviews/koyaanisqatsi-1983) [+](https://www.criterion.com/films/28034-koyaanisqatsi)
+> É un film che mostra immagini di una natura incontaminata in contrapposizione ad altre che raffigurano la crescente dipendenza degli esseri umani dalla tecnologia.
 
 ![Koyaanisqatsi,	1982, Godfrey Reggio](https://user-images.githubusercontent.com/76476647/120618672-95d89800-c45b-11eb-9dd7-0c02f6355f3d.jpeg)
 
