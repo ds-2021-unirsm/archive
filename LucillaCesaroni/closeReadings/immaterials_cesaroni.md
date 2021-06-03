@@ -18,7 +18,7 @@ Cosa succederebbe se queste aste fossero sempre presenti nei luoghi pubblici di 
 ## Related projects
 _Architecture of Radio_, 2016, Richard Vijgen [+](http://www.architectureofradio.com/)
 
-![06vUpAslu4zfxpZeCLLsw0B-2 1569481559 fit_lim size_1050x591](https://user-images.githubusercontent.com/76476647/120566577-d4e0fc00-c40f-11eb-8e72-cf5aa84bb606.jpg)
+![Architecture of Radio, 2016, Richard Vijgen](https://user-images.githubusercontent.com/76476647/120566577-d4e0fc00-c40f-11eb-8e72-cf5aa84bb606.jpg)
 
 --- 
 
