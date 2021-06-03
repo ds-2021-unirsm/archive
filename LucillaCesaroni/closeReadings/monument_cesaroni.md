@@ -15,9 +15,13 @@ Cosa succederebbe se prima di entrare nella stanza dell'installazione, già si s
 ![Monument, 2006, Caleb Larsen](https://user-images.githubusercontent.com/76476647/120568065-74ec5480-c413-11eb-8b00-2935ba84063f.jpg)
 
 ## Related projects
-_Some/One_, 2001, Do Ho Suh [+](https://art21.org/read/do-ho-suh-some-one-and-the-korean-military/) [+](https://whitney.org/collection/works/16102)
+_Some/One_, 2001, Do Ho Suh [+](https://www.dezeen.com/2010/10/11/sunflower-seeds-2010-by-ai-weiwei/) [+](https://whitney.org/collection/works/16102)
 
 ![Some/One, 2001, Do Ho Suh](https://user-images.githubusercontent.com/76476647/120614543-a1c25b00-c457-11eb-9c5d-0679e6d3442b.jpeg)
+
+_Sunflowerseeds, 2010, Ai Wei Wei [+](https://www.tate.org.uk/whats-on/tate-modern/exhibition/unilever-series/unilever-series-ai-weiwei-sunflower-seeds) [+](https://www.tate.org.uk/art/artworks/ai-sunflower-seeds-t13408)
+
+![Sunflowerseeds, 2010, Ai Wei Wei](https://user-images.githubusercontent.com/76476647/120616326-6aed4480-c459-11eb-883e-a66e1de43454.jpeg)
 
 _Take a Bullet for the City_, 2014, R. Luke DuBois [+](http://sites.bxmc.poly.edu/~lukedubois/projects/index.html?id=gun) [+](http://www.digiart21.org/art/take-a-bullet-for-the-city)
 
