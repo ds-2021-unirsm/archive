@@ -1,11 +1,11 @@
-//         ___       ___  ___     
-//        |\  \     |\  \|\  \    
-//        \ \  \    \ \  \\\  \   
-//         \ \  \    \ \  \\\  \  
-//          \ \  \____\ \  \\\  \ 
+//         ___       ________
+//        |\  \     |\   ____\
+//        \ \  \    \ \  \___|
+//         \ \  \    \ \  \
+//          \ \  \____\ \  \____
 //           \ \_______\ \_______\
 //            \|_______|\|_______|
-                                  
+
 // -
 //
 // metamorfosi by Lucilla Cesaroni [comunicare, parole, icone, emozioni, inclusione]
@@ -53,6 +53,10 @@ let faceapi;
 let video;
 let detections;
 
+// per posizionare video al centro
+let origineX = 0;
+let origineY = 0;
+
 let val = []; // per il sentiment
 
 // Settings
@@ -63,11 +67,11 @@ let token = "436c5baef9e54af1a0de6a370e4ade38";
 // Immagini
 let immagini = []; // array immagini da visualizzare
 var imgsResolution = "640x480"; // risoluzione immagini
-let wImg = 225 / 2;
-let hImg = 150 / 2;
+let wImg = 90;
+let hImg = 60;
 
 // Per posizionare le img a fianco e non sopra i punti chiave
-let randomDist = 100;
+let randomDist = 80;
 let randomX = [];
 let randomY = [];
 
@@ -96,14 +100,18 @@ let tuttoPronto = false;
 
 // Font
 let myFont;
+let myFont2;
 
 // Per la sentiment analysis
 let sentiment;
+let saturation;
+let brightness;
 let valoreMassimo;
 
 function preload() {
   // Font per il testo
   myFont = loadFont("Inter-Regular.ttf");
+  myFont2 = loadFont("Inter-SemiBold.ttf");
 }
 
 // by default all options are set to true
@@ -113,7 +121,7 @@ const detection_options = {
 };
 
 function setup() {
-  createCanvas(360 * 2, 270 * 2);
+  createCanvas(windowWidth - 30, windowHeight); // guarda https://github.com/processing/p5.js-web-editor/issues/680
 
   textFont(myFont, 15);
 
@@ -125,8 +133,12 @@ function setup() {
 
   // load up your video
   video = createCapture(VIDEO);
-  video.size(width, height);
+
   video.hide(); // Hide the video element, and just show the canvas
+
+  origineX = windowWidth / 2 - video.width;
+  origineY = windowHeight / 2 - video.height;
+
   faceapi = ml5.faceApi(video, detection_options, modelReady);
 }
 
@@ -146,9 +158,9 @@ function modelReady() {
   speakbutton.style("padding-bottom", "6px");
   speakbutton.style("padding-left", "15px");
   speakbutton.style("padding-right", "15px");
-  speakbutton.mouseOver(onTop0).mouseOut(outside0);
+  speakbutton.mouseOver(inside0).mouseOut(outside0);
   speakbutton.mousePressed(startRec);
-  speakbutton.position(10, 600);
+  speakbutton.position(origineX + 5, windowHeight / 1.37);
 
   pausebutton = createButton("pause");
   pausebutton.style("background-color", "#ffffff");
@@ -160,9 +172,9 @@ function modelReady() {
   pausebutton.style("padding-bottom", "6px");
   pausebutton.style("padding-left", "15px");
   pausebutton.style("padding-right", "15px");
-  pausebutton.mouseOver(onTop1).mouseOut(outside1);
+  pausebutton.mouseOver(inside1).mouseOut(outside1);
   pausebutton.mousePressed(pauseRec);
-  pausebutton.position(80, 600);
+  pausebutton.position(origineX + 75, windowHeight / 1.37);
 
   stopspeakbutton = createButton("stop");
   stopspeakbutton.style("background-color", "#ffffff");
@@ -174,9 +186,9 @@ function modelReady() {
   stopspeakbutton.style("padding-bottom", "6px");
   stopspeakbutton.style("padding-left", "15px");
   stopspeakbutton.style("padding-right", "15px");
-  stopspeakbutton.mouseOver(onTop2).mouseOut(outside2);
+  stopspeakbutton.mouseOver(inside2).mouseOut(outside2);
   stopspeakbutton.mousePressed(stopRec);
-  stopspeakbutton.position(160, 600);
+  stopspeakbutton.position(origineX + 155, windowHeight / 1.37);
 
   cancellaspeakbutton = createButton("new");
   cancellaspeakbutton.style("background-color", "#ffffff");
@@ -188,11 +200,11 @@ function modelReady() {
   cancellaspeakbutton.style("padding-bottom", "6px");
   cancellaspeakbutton.style("padding-left", "15px");
   cancellaspeakbutton.style("padding-right", "15px");
-  cancellaspeakbutton.mouseOver(onTop3).mouseOut(outside3);
+  cancellaspeakbutton.mouseOver(inside3).mouseOut(outside3);
   cancellaspeakbutton.mousePressed(newRec);
-  cancellaspeakbutton.position(228, 600);
+  cancellaspeakbutton.position(origineX + 222, windowHeight / 1.37);
 
-  function onTop0() {
+  function inside0() {
     speakbutton.style("background-color", "#000000");
     speakbutton.style("color", "#ffffff");
   }
@@ -201,7 +213,7 @@ function modelReady() {
     speakbutton.style("color", "#000000");
   }
 
-  function onTop1() {
+  function inside1() {
     pausebutton.style("background-color", "#000000");
     pausebutton.style("color", "#ffffff");
   }
@@ -210,7 +222,7 @@ function modelReady() {
     pausebutton.style("color", "#000000");
   }
 
-  function onTop2() {
+  function inside2() {
     stopspeakbutton.style("background-color", "#000000");
     stopspeakbutton.style("color", "#ffffff");
   }
@@ -219,7 +231,7 @@ function modelReady() {
     stopspeakbutton.style("color", "#000000");
   }
 
-  function onTop3() {
+  function inside3() {
     cancellaspeakbutton.style("background-color", "#000000");
     cancellaspeakbutton.style("color", "#ffffff");
   }
@@ -303,10 +315,6 @@ function visualizzaRisposta(risposta) {
     console.log("Non sono state trovate entità");
     tuttoProntoNoEntita = true;
 
-    noStroke();
-    fill(0);
-    text(racconto, 130, 250, 180);
-
     return;
   }
 
@@ -336,8 +344,8 @@ function salvaimmagine(img) {
   immagini.push(img);
   // crea un numero random per positions
   // tra -randomDist e randomDist
-  randomX.push(random() * 2 * randomDist - randomDist);
-  randomY.push(random() * 2 * randomDist - randomDist);
+  randomX.push(random() * 2 * randomDist - randomDist - 15); // origineX - 15 perchè l'ho spostato al centro
+  randomY.push(random() * 2 * randomDist - randomDist + origineY - 100); // ho aggiunto + windowHeight / 2 - video.height / 2 - 100 perchè il video parte a tot px sulla y
 
   console.log("Contatore entità: " + contatoreEntita);
   console.log("Contatore immagini: " + immagini.length);
@@ -364,72 +372,112 @@ function gotResults(err, result) {
 
   background(255);
 
-  image(video, 0, 0, width, height);
+  // titolo
+  fill(0);
+  noStroke();
+  textAlign(LEFT, TOP);
+  let titolo = "metamorfosi";
+  textFont(myFont2, 34);
+  text(titolo, origineX, 105);
 
+  // istruzioni
+  textAlign(LEFT, TOP);
+  textFont(myFont, 17);
+  text(
+    "Premi il pulsante start e inizia a raccontare qualcosa. Premi il pulsante stop quando vuoi analizzare quello che hai detto. Premi il pulsante pausa quando devi pensare. Premi il pulsante new quando vuoi analizzare una nuova frase.",
+    origineX,
+    165,
+    video.width
+  );
+
+  // rettangolo sotto per sottotitolazione
+  fill(255);
+  strokeWeight(1);
+  stroke(0);
+  rect(
+    origineX,
+    windowHeight / 2 + video.height / 2 + 4 - 100,
+    video.width,
+    90
+  );
+
+  // video
+  // console.log("larghezza video: " + video.width);
+  image(video, origineX, windowHeight / 2 - video.height / 2 - 100);
   filter(GRAY);
 
   if (detections) {
-    const { expressions } = detections[0];
-
-    // console.log(expressions);
-
-    // console.log("val" + val);
-
-    let keys = Object.keys(expressions); // restituisce un array di nomi di proprietà enumerabili di un dato oggetto,
-    // ripetuti nello stesso ordine che farebbe un normale ciclo
-    //console.log(keys);
-    keys.forEach((item, idx) => {
-      // scritta
-      fill(255);
-      noStroke();
-      textSize(15);
-      text(`${item}`, 40, idx * 23 + 40);
-
-      // funzione che prende il valore
-      val[idx] = expressions[item];
-      let valore = map(expressions[item], 0, 1, 0, width / 4);
-      fill(255);
-      noStroke();
-      rect(130, idx * 23 + 32, valore, 6); // x y w h
-      stroke(255);
-      strokeWeight(1);
-      noFill();
-      rect(130, idx * 23 + 32, width / 4, 6);
-    });
-
-    valoreMassimo = max(val);
-
-    // per il colore prende il numero piu alto nell'array
-    if (valoreMassimo == val[0]) sentiment = 180;
-    else if (valoreMassimo == val[1]) sentiment = 60;
-    else if (valoreMassimo == val[2]) sentiment = 240;
-    else if (valoreMassimo == val[3]) sentiment = 0;
-    else if (valoreMassimo == val[4]) sentiment = 130;
-    else if (valoreMassimo == val[5]) sentiment = 270;
-    else if (valoreMassimo == val[6]) sentiment = 300;
-
-    val[0] = floor(map(val[0], 0, 1, 40, 38));
-    val[1] = floor(map(val[1], 0, 1, 200, 402));
-    val[2] = floor(map(val[2], 0, 1, 800, 650));
-    val[3] = floor(map(val[3], 0, 1, 30, 4));
-    val[4] = floor(map(val[4], 0, 1, 18, 48));
-    val[5] = floor(map(val[5], 0, 1, 55, 500));
-    val[6] = floor(map(val[6], 0, 1, 88, 150));
-
-    //var padding = width / (paragraph.length + 1);
-
-    //weightControl = sin(frameCount / 10.0) * 100 + 150;
-    // elt.style = Underlying
-    //paragraph.elt.style[
-    //  "font-variation-settings"
-    //] = ` "wght" ${val[0]}, "wdth" ${val[1]},"GRAD" ${val[6]},"XOPQ" ${val[5]},"YTUC" ${val[2]} `;
-    //paragraph.elt.style.color = "#ffffff";
-    //paragraph.elt.style.position = "CENTER";
-    //console.log(val);
-
     if (detections.length > 0) {
-      // console.log(detections)
-      //drawBox(detections);
+      const { expressions } = detections[0];
+
+      // console.log(expressions);
+
+      // console.log("val" + val);
+
+      let keys = Object.keys(expressions); // restituisce un array di nomi di proprietà enumerabili di un dato oggetto,
+      // ripetuti nello stesso ordine che farebbe un normale ciclo
+      //console.log(keys);
+      keys.forEach((item, idx) => {
+        // scritta
+        fill(0);
+        noStroke();
+        textFont(myFont, 17);
+        textAlign(LEFT, TOP);
+        text(`${item}`, origineX + 30, idx * 23 + 283);
+
+        // funzione che prende il valore
+        val[idx] = expressions[item];
+        let valore = map(expressions[item], 0, 1, 0, 200);
+        fill(0);
+        noStroke();
+        rect(origineX + 150, idx * 23 + 292, valore, 6); // x y w h
+        stroke(0);
+        strokeWeight(1);
+        noFill();
+        rect(origineX + 150, idx * 23 + 292, 200, 6);
+      });
+
+      valoreMassimo = max(val);
+
+      // per il colore prende il numero piu alto nell'array
+      if (valoreMassimo == val[0]) {
+        sentiment = 0; // NERO
+        saturation = 0;
+        brightness = 0;
+      } else if (valoreMassimo == val[1]) {
+        sentiment = 151; // VERDE
+        saturation = 100;
+        brightness = 97;
+      } else if (valoreMassimo == val[2]) {
+        sentiment = 206; // AZZURRO
+        saturation = 40;
+        brightness = 100;
+      } else if (valoreMassimo == val[3]) {
+        sentiment = 0; // ROSSO
+        saturation = 70;
+        brightness = 100;
+      } else if (valoreMassimo == val[4]) {
+        sentiment = 234; // BLU
+        saturation = 70;
+        brightness = 100;
+      } else if (valoreMassimo == val[5]) {
+        sentiment = 55; // VERDE BRUTTO
+        saturation = 57;
+        brightness = 80;
+      } else if (valoreMassimo == val[6]) {
+        sentiment = 272; // VIOLA
+        saturation = 55;
+        brightness = 100;
+      }
+
+      val[0] = floor(map(val[0], 0, 1, 40, 38));
+      val[1] = floor(map(val[1], 0, 1, 200, 402));
+      val[2] = floor(map(val[2], 0, 1, 800, 650));
+      val[3] = floor(map(val[3], 0, 1, 30, 4));
+      val[4] = floor(map(val[4], 0, 1, 18, 48));
+      val[5] = floor(map(val[5], 0, 1, 55, 500));
+      val[6] = floor(map(val[6], 0, 1, 88, 150));
+
       drawLandmarks(detections);
     }
   }
@@ -454,13 +502,29 @@ function drawLandmarks(detections) {
     if (tuttoProntoNoEntita == true) {
       //console.log("eccomi");
       noStroke();
-      fill(sentiment, 100, 100);
-      text(racconto, 130, 250, 180);
+      fill(sentiment, saturation, brightness);
+      textFont(myFont2, 17);
+      textAlign(CENTER, CENTER);
+      text(
+        racconto,
+        windowWidth / 2 - 250 + 15,
+        windowHeight / 2 + video.height / 2 - 100, // centro verticalmente rispetto rettangolo
+        500,
+        90
+      );
     } else if (tuttoPronto == true) {
       // console.log ("sto disegnando le img");
       noStroke();
-      fill(sentiment, 100, 100);
-      text(racconto, 130, 250, 180);
+      fill(sentiment, saturation, brightness);
+      textFont(myFont2, 17);
+      textAlign(CENTER, CENTER);
+      text(
+        racconto,
+        windowWidth / 2 - 250 + 15,
+        windowHeight / 2 + video.height / 2 - 100,
+        500,
+        90
+      );
 
       for (let i = 0; i < immagini.length; i++) {
         // mi passo l'array delle immagini
@@ -474,14 +538,22 @@ function drawLandmarks(detections) {
 
     image(
       immagini[num],
-      feature[3]._x + randomX[num] - wImg / 2,
+      feature[3]._x + randomX[num] + origineX - wImg / 2,
       feature[3]._y + randomY[num] - hImg / 2,
       wImg,
       hImg
     );
   }
 }
-/*
+
+// per il resize della canvas
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}*/
+  resizeCanvas(windowWidth - 30, windowHeight);
+  origineX = windowWidth / 2 - video.width / 2;
+  origineY = windowHeight / 2 - video.height / 2;
+
+  speakbutton.position(origineX + 5, windowHeight / 1.37);
+  pausebutton.position(origineX + 75, windowHeight / 1.37);
+  stopspeakbutton.position(origineX + 155, windowHeight / 1.37);
+  cancellaspeakbutton.position(origineX + 222, windowHeight / 1.37);
+}
