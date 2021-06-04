@@ -1,6 +1,14 @@
-// CAMMINATORI INDIPENDENTI
-// perlinNoise per il movimento
-// sketch by emanuelepizzuti
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// Camminatori Indipendenti by emanuelepizzuti [OOP]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// ___________
 
 var w, h;
 var quanti = 50;
