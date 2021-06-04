@@ -1,15 +1,21 @@
-// sketch by @emanuelepizzuti
-// from Shiffmans's tutorial --> https://www.youtube.com/watch?v=IKB1hWWedMk
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
 //
-// BEGIN SHAPE REF:
-// https://processing.org/reference/beginShape_.html
-
-// CREDITS FOR THE GUI:
-// -
-// simple UI interface example [GUI]
-// 2019 © Luigi @MrJ4ckpot & Daniele @Fupete 
-// github.com/dsii-2019-unirsm + github.com/fupete
-// Educational purposes, MIT License, 2019, Crespina IT
+// terrainGenerator + GUI by emanuelepizzuti [terrain, GUI]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// 2019 © Luigi @MrJ4ckpot & Daniele @Fupete for https://github.com/dsii-2019-unirsm + github.com/fupete
+// original license: Educational purposes, MIT License, 2019, Crespina IT
+// 
+// Daniel Shiffman @shiffman for https://www.youtube.com/watch?v=IKB1hWWedMk
+//
+// ___________
 
 // OGGETTO PARAMETRI
 let parametri = {
