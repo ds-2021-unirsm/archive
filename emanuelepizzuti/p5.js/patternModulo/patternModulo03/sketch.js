@@ -1,4 +1,22 @@
-// sketch by @emanuelepizzuti
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// STAR by emanuelepizzuti [patterns, mouse position]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// Generative Gestaltung – Creative Coding im Web (twitter.com/nome) for http://www.generative-gestaltung.de
+// original license: Apache License, Version 2.0 (the "License")
+// —
+//
+// Help:
+// [mouse] change mouse position to change the direction of triangles' growth
+// ___________
 
 let distancePoint;
 let shapeAngle = 0;
