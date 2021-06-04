@@ -1,7 +1,17 @@
-// CAMMINATORI CHE GENERANO MONDI
-// perlinNoise PER IL MOVIMENTO DEI CAMMINATORI
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// Mondo gassoso 01 by emanuelepizzuti [walkers, perlin noise, OOP]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Help:
 // ogni 40 secondi la tavola si resetta
-// sketch by emanuelepizzuti
+// ___________
 
 var w, h;
 var quanti = 2;
