@@ -1,4 +1,15 @@
-// random walker [lines connected] OOP
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// walkingRectangles by emanuelepizzuti [walkers, perling noise, OOP]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// ___________
+
 var w, h;
 var quanti = 10; // vertici
 var c = [];
