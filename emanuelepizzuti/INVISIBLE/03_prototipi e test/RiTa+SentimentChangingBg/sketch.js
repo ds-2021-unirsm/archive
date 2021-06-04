@@ -13,8 +13,7 @@
 // RiTa version 2.4 for https://rednoise.org/rita/
 // original license: GPL License
 //
-// Sentiment Analysis API & Entity Extraction, Dandelion API for
-// https://dandelion.eu
+// Sentiment Analysis API, Dandelion API for https://dandelion.eu
 // original license: v.2 - 02/Sep/2013
 // ___________
 
