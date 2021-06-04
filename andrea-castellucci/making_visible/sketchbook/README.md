@@ -15,3 +15,7 @@
 #### 4. EllipseControl [+](https://editor.p5js.org/andrea-castellucci/full/mwMM1mzma)
 
 ![HandSphere](https://user-images.githubusercontent.com/75098849/118894657-f5379380-b904-11eb-8a58-c4d196823c48.gif)
+
+#### 5. BackgroundColorMap
+
+![BackgroundColorMap](https://user-images.githubusercontent.com/75098849/120830311-a58cd500-c55e-11eb-9fc0-45ada902b38e.gif)
