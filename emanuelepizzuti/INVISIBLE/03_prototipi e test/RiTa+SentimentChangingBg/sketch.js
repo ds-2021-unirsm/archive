@@ -91,7 +91,7 @@ function draw() {
   background(coloreSentiment, 10, 100);
   // console.log(txt);
 
-  fill(150);
+  fill(50);
   textFont("Georgia");
   textSize(20);
   textAlign(LEFT);
