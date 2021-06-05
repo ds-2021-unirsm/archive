@@ -9,5 +9,5 @@ Per disegnare con il mouse e cambiare colore e dimensione con la voce
 - 2Drawing voice>> https://editor.p5js.org/RobertoAlesi/full/10i6_80eV  
 - 3Drawing voice>> https://editor.p5js.org/RobertoAlesi/full/QVRY-dw0v  
 
-Per disegnare utilizzando la mano e la voce (per vedere il disegno ottenuto è necessario aprire uno degli sketch precedenti)
-- 3Drawing speech + handpose>> https://editor.p5js.org/RobertoAlesi/full/wceyI7J_4  
+Per disegnare utilizzando la mano e la voce
+- 3Drawing speech + handpose>> https://editor.p5js.org/RobertoAlesi/full/xT-2_YTGo
