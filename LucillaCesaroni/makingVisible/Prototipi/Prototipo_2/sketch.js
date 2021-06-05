@@ -108,6 +108,8 @@ let saturation;
 let brightness;
 let valoreMassimo;
 
+let canvas;
+
 function preload() {
   // Font per il testo
   myFont = loadFont("Inter-Regular.ttf");
@@ -121,7 +123,7 @@ const detection_options = {
 };
 
 function setup() {
-  createCanvas(windowWidth-20 , windowHeight-20); // guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
+  canvas = createCanvas(windowWidth-20 , windowHeight-20); // guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
 
   textFont(myFont, 15);
 
@@ -260,7 +262,7 @@ function gotResults(err, result) {
   textAlign(LEFT, TOP);
   let titolo = "metamorfosi";
   textFont(myFont2, 34);
-  text(titolo, origineX, origineY - 170);
+  text(titolo, origineX, origineY - 180);
 
   // istruzioni
   textAlign(LEFT, TOP);
@@ -556,4 +558,9 @@ function windowResized() {
   pausebutton.position(origineX + 77, origineY + video.height + 125);
   stopspeakbutton.position(origineX + 157, origineY + video.height + 125);
   cancellaspeakbutton.position(origineX + 225, origineY + video.height + 125);
+}
+
+// premi "s", screen 
+function keyPressed() {
+  if (key == 's' || key == 'S') saveCanvas(canvas, 'MyImg', 'jpg');
 }
