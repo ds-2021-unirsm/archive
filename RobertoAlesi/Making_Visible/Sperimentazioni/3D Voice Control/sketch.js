@@ -1,16 +1,26 @@
-//  ______  ____  ___  _______  __________ ______ ____ ______________
-//  __/ _ \/ __ \/ _ )/ __/ _ \/_  __/ __ \ _/ _ |_/ /__/ __/ __/  _/
-//  _/ , _/ /_/ / _  / _// , _/ / / / /_/ / / __ |/ /__/ _/_\ \_/ /
-//  /_/|_|\____/____/___/_/|_| /_/  \____/ /_/ |_/____/___/___/___/
+//  ______  ____  ___  
+//  __/ _ \/ __ \/ _ )
+//  _/ , _/ /_/ / _  / 
+//  /_/|_|\____/____/ 
 //
-// -
+// —
 // Voice_Control 0.1 by Roberto [voice, control, cube, 3d, nointerface]
 // 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
 // Educational purposes, MIT License, 2021, San Marino
 // —
-// 
-// Say:
+//
+// Credits/Thanks to:
+// p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
+// The ABILITY lab, New York University for
+// https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
+// original license: MIT License 2017
+//
+// p5 speech example, piecesofuk for
+// https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
+// —
+//
+// Comandi vocali:
 // [sfera, cubo] -> cambia forma
 // [su, giu, destra, sinistra] -> si muove verso l'alto/il basso/dx/sx
 // [blu, rosso, viola, giallo] -> cambia colore
