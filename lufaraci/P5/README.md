@@ -1,4 +1,3 @@
-<img width="1259" alt="Screenshot 2021-06-08 at 23 05 12" src="https://user-images.githubusercontent.com/63911437/121258715-86b87680-c8af-11eb-8b07-8f6ca4bab6f3.png">
 ## camminatore
 
 ## Esercizi base P5 0.1
