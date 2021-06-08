@@ -1,3 +1,4 @@
+<img width="1259" alt="Screenshot 2021-06-08 at 23 05 12" src="https://user-images.githubusercontent.com/63911437/121258715-86b87680-c8af-11eb-8b07-8f6ca4bab6f3.png">
 ## camminatore
 
 ## Esercizi base P5 0.1
@@ -56,6 +57,6 @@ Guarda nell'[editor 👾](https://editor.p5js.org/lfaraci/full/xWg5pw0Ns)
 
 Space = stop
 
-<img width="577" alt="camminatori che disegnano mondi 2" src="https://user-images.githubusercontent.com/63911437/114778200-d9285b80-9d74-11eb-84be-737c1efc48ca.png">
+<img width="1259" alt="Screenshot 2021-06-08 at 23 05 12" src="https://user-images.githubusercontent.com/63911437/121258753-91730b80-c8af-11eb-8871-366e78a273cc.png">
 
 Guarda nell'[editor 👾](https://editor.p5js.org/lfaraci/full/fHumhReMU)
