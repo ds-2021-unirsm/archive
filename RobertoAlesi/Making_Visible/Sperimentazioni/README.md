@@ -16,9 +16,16 @@ Grande, base, piccolo -> per controllare la dimensione
 >Aperta/Rock -> per cambiare la forma da sfera in cubo  
 >Pugno -> per cambiare colore  
 >Pinch -> per cambiare la dimensione  
-    
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![ezgif-3-26f56a864e64](https://user-images.githubusercontent.com/76455356/119957006-fa01e480-bfa1-11eb-95b0-16d7449cf2c1.gif)
+
+
+
+
+## Socket.io + Three.js  [+](https://socket-three-due2.glitch.me)
+Più utenti si possono collegare all’interno di uno spazio 3D condiviso, muovere il proprio cubo identificativo utilizzando le frecce della tastiera e cambiare il colore di un elemento, posto al centro della scena, con un click del mouse.
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;![ezgif-4-2e46827d9407](https://user-images.githubusercontent.com/76455356/121268981-452fc780-c8bf-11eb-8804-f8f02f2cd5eb.gif)
 
 ## Word Map Dandelion 1 [+](https://editor.p5js.org/RobertoAlesi/full/LqkYVlppK)
 >Dandelion ricava le keywords di un testo di rifermiento e le posiziona casualmente nello spazio, la parola più frequente viene posizionata al centro.
