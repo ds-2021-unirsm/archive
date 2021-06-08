@@ -1,3 +1,21 @@
+//  ______  ____  ___  
+//  __/ _ \/ __ \/ _ )
+//  _/ , _/ /_/ / _  / 
+//  /_/|_|\____/____/ 
+//
+// -
+// WordCloud 0.1 by Roberto [word, cloud, 3d]
+// 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// Sentiment Analysis API & Entity Extraction, Dandelion API for
+// https://dandelion.eu
+// original license: v.2 - 02/Sep/2013
+// —
+// 
+
 var bonne;
 var input;
 var button;
