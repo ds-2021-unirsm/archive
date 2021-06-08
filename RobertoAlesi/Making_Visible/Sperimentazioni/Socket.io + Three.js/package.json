@@ -1,0 +1,19 @@
+{
+  "name": "socketp5",
+  "version": "1.0.0",
+  "description": "sockets example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rob",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^9.0.2",
+    "socket.io": "^4.1.2",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.1"
+  }
+}
