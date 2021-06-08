@@ -19,11 +19,13 @@ Grande, base, piccolo -> per controllare la dimensione
   
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![ezgif-3-26f56a864e64](https://user-images.githubusercontent.com/76455356/119957006-fa01e480-bfa1-11eb-95b0-16d7449cf2c1.gif)
 
+## Socket.io + Three.js + HandPose + Tensorflow.js [+](https://hand-pose.glitch.me)  
+>Con questa sperimentazione è stato testato l’hand tracking, utilizzando le libreria javascript Tensorflow unita a Three.js, per ottenere un riconoscimento più affidabile e lineare della mano per disegnare elementi tridimensionali nello spazio.  
 
-
+![photo5908976784651695548](https://user-images.githubusercontent.com/76455356/121269371-00f0f700-c8c0-11eb-9249-8c234b108080.jpg)
 
 ## Socket.io + Three.js  [+](https://socket-three-due2.glitch.me)
-Più utenti si possono collegare all’interno di uno spazio 3D condiviso, muovere il proprio cubo identificativo utilizzando le frecce della tastiera e cambiare il colore di un elemento, posto al centro della scena, con un click del mouse.
+>Più utenti si possono collegare all’interno di uno spazio 3D condiviso, muovere il proprio cubo identificativo utilizzando le frecce della tastiera e cambiare il colore di un elemento, posto al centro della scena, con un click del mouse.
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;![ezgif-4-2e46827d9407](https://user-images.githubusercontent.com/76455356/121268981-452fc780-c8bf-11eb-8804-f8f02f2cd5eb.gif)
 
