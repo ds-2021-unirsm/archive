@@ -1,6 +1,51 @@
-//Colori vocali: rosso, verde, blu, giallo, arancione, azzurro, marrone, bianco, nero, viola
-//Comandi vocali: disegna, stop
-//Gesture: pinch per ridimensionare la sfera, muovi la mano per disegnare
+//  ______  ____  ___  
+//  __/ _ \/ __ \/ _ )
+//  _/ , _/ /_/ / _  / 
+//  /_/|_|\____/____/ 
+//
+// —
+// Spatial_Being_3D 0.1 by Roberto [spatial, being, 3d, lessinterface, handpose, voicecontrols]
+// 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Credits/Thanks to:
+// Shared Canvas, Daniel Shiffman for
+// https://github.com/CodingTrain/website/tree/main/Node/sockets
+// https://www.youtube.com/watch?v=i6eP1Lw4gZk
+// original license: MIT License
+//
+// Agar.io, Daniel Shiffman for
+// https://thecodingtrain.com/CodingChallenges/032.2-agario-sockets.html
+// https://github.com/CodingTrain/website/tree/main/CodingChallenges/CC_032.2_agar.io_sockets
+// https://youtu.be/ZjVyKXp9hec
+// original license: MIT License
+//
+// Credits/Thanks to:
+// p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
+// The ABILITY lab, New York University for
+// https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
+// original license: MIT License 2017
+//
+// p5 speech example, piecesofuk for
+// https://editor.p5js.org/piecesofuk/sketches/SyBpNOJTb
+//
+// bomanimc (https://github.com/bomanimc) for https://learn.ml5js.org/#/reference/handpose
+// https://github.com/ml5js/ml5-library/tree/main/examples/p5js/Handpose
+// original license: MIT License
+// —
+//
+// Hand gesture:
+// [muovi la mano] -> disegna nello spazio
+// [pinch] -> controlla la dimensione
+//
+// Voice commands:
+// [rosso, verde, blu, giallo, arancione, azzurro, marrone, bianco, nero, viola] -> cambia colore
+// [disegna] -> inizia a disegnare muovendo la mano
+// [stop] -> ferma il disegno 
+// [salva] -> salva lo sketch sul dispositivo
+// —
 
 let bg;
 let w;
