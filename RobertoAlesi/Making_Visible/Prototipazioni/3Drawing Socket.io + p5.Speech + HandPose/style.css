@@ -1,0 +1,26 @@
+  
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+    font-family: Bonne;
+    src:local("\Bonne.ttf");
+}
+
+.titolo{
+  padding-top: 5px;
+  font-family: Bonne;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #00ffda;
+  text-align: center;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  background-color: #9a27ff;
+}

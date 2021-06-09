@@ -9,6 +9,11 @@
 // github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
 // Educational purposes, MIT License, 2021, San Marino
 // —
+// Credits/Thanks to: 
+// bomanimc (https://github.com/bomanimc) for https://learn.ml5js.org/#/reference/handpose
+// https://github.com/ml5js/ml5-library/tree/main/examples/p5js/Handpose
+// original license: MIT License
+// —
 // 
 // Hand gesture:
 // [rock] -> cambia forma in cubo
