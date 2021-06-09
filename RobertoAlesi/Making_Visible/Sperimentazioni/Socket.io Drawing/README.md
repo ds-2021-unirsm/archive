@@ -10,3 +10,6 @@
 ![photo5908976784651695608](https://user-images.githubusercontent.com/76455356/121272490-65af5000-c8c6-11eb-852d-68c4e1826c0a.jpg)
 
 ## 03. Glitch WebSocket Server [+](https://glitch.com/edit/#!/disegni-diversi)
+>Il server permette di inviare e ricevere dati per disegnare contemporaneamente nello stesso spazio  
+
+![ezgif-4-59684b72a30a](https://user-images.githubusercontent.com/76455356/121272567-a5763780-c8c6-11eb-91a3-0dc7f756ae29.gif)
