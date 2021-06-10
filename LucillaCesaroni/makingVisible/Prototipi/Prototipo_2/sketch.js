@@ -18,7 +18,6 @@
 // Credits/Thanks to:
 // p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
 // The ABILITY lab, New York University for
-// http://ability.nyu.edu/p5.js-speech/
 // https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
 // original license: MIT License 2017
 //
@@ -39,6 +38,10 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 // http://www.apache.org/licenses/LICENSE-2.0
+//
+// Simple GUI interface
+// Daniele @Fupete & Luigi @MrJ4ckpot
+// https://editor.p5js.org/fupete/sketches/WUY1jA4jn for original code
 //
 // —
 //
@@ -110,6 +113,28 @@ let valoreMassimo;
 
 let canvas;
 
+// per interfaccia GUI, per cambiare colore emozioni
+let parametri = {
+  felicita: 151, // Slider: valore all'avvio dello sketch
+  tristezza: 206,
+  arrabbiato: 0,
+  timoroso: 234,
+  disgustato: 55,
+  sorpreso: 272,
+};
+
+window.onload = function () {
+  var gui = new dat.GUI();
+
+  var f0 = gui.addFolder("Scegli colori emozioni");
+  f0.add(parametri, "felicita", 0, 360);
+  f0.add(parametri, "tristezza", 0, 360);
+  f0.add(parametri, "arrabbiato", 0, 360);
+  f0.add(parametri, "timoroso", 0, 360);
+  f0.add(parametri, "disgustato", 0, 360);
+  f0.add(parametri, "sorpreso", 0, 360);
+};
+
 function preload() {
   // Font per il testo
   myFont = loadFont("Inter-Regular.ttf");
@@ -123,17 +148,17 @@ const detection_options = {
 };
 
 function setup() {
-  canvas = createCanvas(windowWidth-20 , windowHeight-20); // guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
+  canvas = createCanvas(windowWidth - 20, windowHeight - 20); // guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
 
   textFont(myFont, 15);
 
-  background(255)
+  background(255);
 
   colorMode(HSB, 360, 100, 100);
 
   // load up your video
   video = createCapture(VIDEO);
-  
+
   video.hide(); // Hide the video element, and just show the canvas
 
   origineX = windowWidth / 2 - video.width - 35;
@@ -229,7 +254,7 @@ function salvaimmagine(img) {
   // crea un numero random per positions
   // tra -randomDist e randomDist
   randomX.push(random() * 2 * randomDist - randomDist - 10); // origineX - 10 perchè l'ho spostato al centro
-  randomY.push(random() * 2 * randomDist - randomDist - 10); 
+  randomY.push(random() * 2 * randomDist - randomDist - 10);
 
   console.log("Contatore entità: " + contatoreEntita);
   console.log("Contatore immagini: " + immagini.length);
@@ -252,7 +277,7 @@ function gotResults(err, result) {
   }
 
   detections = result;
-  //console.log("detections: "+JSON.stringify(detections))
+  // console.log("detections: " + JSON.stringify(detections));
 
   background(255);
 
@@ -324,38 +349,38 @@ function gotResults(err, result) {
         saturation = 0;
         brightness = 0;
       } else if (valoreMassimo == val[1]) {
-        sentiment = 151; // VERDE
+        sentiment = parametri.felicita; // VERDE
         saturation = 100;
         brightness = 97;
       } else if (valoreMassimo == val[2]) {
-        sentiment = 206; // AZZURRO
+        sentiment = parametri.tristezza; // AZZURRO
         saturation = 40;
         brightness = 100;
       } else if (valoreMassimo == val[3]) {
-        sentiment = 0; // ROSSO
+        sentiment = parametri.arrabbiato; // ROSSO
         saturation = 70;
         brightness = 100;
       } else if (valoreMassimo == val[4]) {
-        sentiment = 234; // BLU
+        sentiment = parametri.timoroso; // BLU
         saturation = 70;
         brightness = 100;
       } else if (valoreMassimo == val[5]) {
-        sentiment = 55; // VERDE BRUTTO
+        sentiment = parametri.disgusto; // VERDE BRUTTO
         saturation = 57;
         brightness = 80;
       } else if (valoreMassimo == val[6]) {
-        sentiment = 272; // VIOLA
+        sentiment = parametri.sorpreso; // VIOLA
         saturation = 55;
         brightness = 100;
       }
 
       val[0] = floor(map(val[0], 0, 1, 40, 38));
-      val[1] = floor(map(val[1], 0, 1, 200, 402));
-      val[2] = floor(map(val[2], 0, 1, 800, 650));
-      val[3] = floor(map(val[3], 0, 1, 30, 4));
-      val[4] = floor(map(val[4], 0, 1, 18, 48));
-      val[5] = floor(map(val[5], 0, 1, 55, 500));
-      val[6] = floor(map(val[6], 0, 1, 88, 150));
+      val[1] = floor(map(val[1], 0, 1, 200, 402)); // felicità
+      val[2] = floor(map(val[2], 0, 1, 800, 650)); // tristezza
+      val[3] = floor(map(val[3], 0, 1, 30, 4)); // rabbia
+      val[4] = floor(map(val[4], 0, 1, 18, 48)); // paura
+      val[5] = floor(map(val[5], 0, 1, 55, 500)); // disgusto
+      val[6] = floor(map(val[6], 0, 1, 88, 150)); // sorpresa
 
       drawLandmarks(detections);
     }
@@ -549,7 +574,7 @@ function drawLandmarks(detections) {
 
 // per il resize della canvas
 function windowResized() {
-  resizeCanvas(windowWidth - 20, windowHeight-20);
+  resizeCanvas(windowWidth - 20, windowHeight - 20);
   origineX = windowWidth / 2 - video.width / 2 - 10;
   origineY = windowHeight / 2 - video.height / 2;
   background(255);
@@ -560,7 +585,7 @@ function windowResized() {
   cancellaspeakbutton.position(origineX + 225, origineY + video.height + 125);
 }
 
-// premi "s", screen 
+// premi "s", screen
 function keyPressed() {
-  if (key == 's' || key == 'S') saveCanvas(canvas, 'MyImg', 'jpg');
+  if (key == "s" || key == "S") saveCanvas(canvas, "MyImg", "jpg");
 }
