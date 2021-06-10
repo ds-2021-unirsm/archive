@@ -1,14 +1,14 @@
-//         ___       ___  ___     
-//        |\  \     |\  \|\  \    
-//        \ \  \    \ \  \\\  \   
-//         \ \  \    \ \  \\\  \  
-//          \ \  \____\ \  \\\  \ 
+//         ___       ________     
+//        |\  \     |\   ____\    
+//        \ \  \    \ \  \___|    
+//         \ \  \    \ \  \       
+//          \ \  \____\ \  \____  
 //           \ \_______\ \_______\
 //            \|_______|\|_______|
                                   
 // -
 //
-// metamorfosi by Lucilla Cesaroni [translations, images, words]
+// Metamorfosi by Lucilla Cesaroni [translations, images, words]
 // 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
 // Educational purposes, MIT License, 2021, San Marino
@@ -18,7 +18,6 @@
 // Credits/Thanks to:
 // p5.speech.js Speech Recognition, Speech synthesis, R.Luke DuBois
 // The ABILITY lab, New York University for
-// http://ability.nyu.edu/p5.js-speech/
 // https://github.com/IDMNYU/p5.js-speech/blob/master/LICENSE
 // original license: MIT License 2017
 //
@@ -78,7 +77,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas((w = windowWidth - 20), (h = windowHeight));
+  createCanvas(w = windowWidth, (h = windowHeight-91)); // -91 altezza bottoni
 
   colorMode(HSB, 360, 100, 100);
 
@@ -306,8 +305,8 @@ function scriviFraseTradotta(variabile) {
 
 function draw() {}
 
-/*
+
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth-20, windowHeight);
 }
-*/
+
