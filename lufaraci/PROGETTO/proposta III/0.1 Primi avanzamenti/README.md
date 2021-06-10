@@ -68,6 +68,7 @@ Lo strumento realizzato permettesse di mettersi in contatto con un produttore fa
 
 ## Applicare i camminatori a PoseNet
 
-<img width="317" alt="Screenshot 2021-05-25 at 15 58 11" src="https://user-images.githubusercontent.com/63911437/119511210-7ca45d00-bd72-11eb-851f-19d3bdc7a298.png">
+<img width="1271" alt="Screenshot 2021-06-10 at 10 13 12" src="https://user-images.githubusercontent.com/63911437/121490106-02f8aa00-c9d5-11eb-80b3-bb4705cfe76d.png">
 
-[P5.js](https://editor.p5js.org/lfaraci/sketches/oHbE6JVkQ)
+
+[P5.js](https://editor.p5js.org/lfaraci/full/oHbE6JVkQ)
