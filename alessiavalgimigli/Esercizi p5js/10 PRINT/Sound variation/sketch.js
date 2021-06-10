@@ -12,7 +12,7 @@ let gui = new UIL.Gui({
   // interfaccia
   css: "right:0; top:0;",
   bg: "#143CFF", // to update new version
-  w: 250,
+  w: 200,
 });
 
 let x = 0;
