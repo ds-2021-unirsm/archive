@@ -31,7 +31,11 @@
 - ### Camminatore drawer indipendente :point_right: [+](https://editor.p5js.org/Lucilla/full/rLL64Eppv)
 > I camminatori si muovono indipendentemente, lasciando piccole scie di ellissi. Cliccando con il mouse è possibile aggiungere un camminatore. Se i camminatori saranno più di undici, verrà ripulita la canvas.
 
-[![CamminatoreIndipendente](https://user-images.githubusercontent.com/76476647/113505209-a349d280-953d-11eb-8be7-473a9037f637.png "CamminatoreIndipendente")](https://editor.p5js.org/Lucilla/full/rLL64Eppv)
+[![CamminatoreIndipendenteOld](https://user-images.githubusercontent.com/76476647/121541765-ddd15f00-ca07-11eb-85d9-63c6770e2663.png "CamminatoreIndipendenteOld")](https://editor.p5js.org/Lucilla/full/rLL64Eppv)
+
+> Ottimizzazione Camminatore drawer indipendente :point_right: [+](https://editor.p5js.org/Lucilla/full/04HMY0rpz)
+
+[![CamminatoreIndipendenteNew](https://user-images.githubusercontent.com/76476647/121542088-1ffaa080-ca08-11eb-8a96-25654f3b347a.jpg "CamminatoreIndipendenteNew")](https://editor.p5js.org/Lucilla/full/04HMY0rpz)
 
 - ### Incontri/scontri tra camminatori che cambiano la via :point_right: [+](https://editor.p5js.org/Lucilla/full/6DHJORxwr)
 > I camminatori scontrandosi cambiano colore e dimensione. Se il raggio è maggiore di venti, viene eliminato. Cliccando con il mouse è possibile aggiungere un camminatore, cliccando una lettera è possibile cancellarlo.
