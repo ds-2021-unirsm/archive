@@ -49,6 +49,7 @@
 // [webcam] expression
 // [speech] traduction
 // [click] buttons for activate start, pause, stop, new
+// [GUI] change colors
 //
 // —
 
