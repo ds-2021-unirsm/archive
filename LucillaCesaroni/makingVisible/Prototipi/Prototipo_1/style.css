@@ -1,15 +1,43 @@
-@font-face {
-  font-family: "Inter Regular", monospace;
-  src: url("Inter-Regular.ttf") format("ttf");
-}
-
 html,
-body,
-p {
+body {
   margin: 0;
   padding: 0;
+  background-color: #000040;
+  font-family: "Inter-Regular", sans-serif;
 }
 
-canvas {
-  display: block;
+p {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.btn {
+  margin-bottom: 5%;
+  background-color: white;
+  padding: 1.2%;
+  font-size: 1.2em;
+  border: 3px solid #00ffc2;
+  color: #000040;
+}
+
+.btn:hover {
+  transition-duration: 0.4s;
+  background-color: #00ffc2;
+}
+
+.btn:active {
+  text-decoration: underline;
+}
+
+#speakbutton {
+  margin-left: 5%;
+}
+
+#registrazione {
+  margin-left: 5%;
+  font-size: 1.2em;
+  color: white;
 }
