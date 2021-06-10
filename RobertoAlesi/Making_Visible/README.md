@@ -63,12 +63,13 @@ Il risultato finale permette, a più persone, di collegarsi su diversi sketch di
 
 ## Spatial Being 2D [+](https://editor.p5js.org/RobertoAlesi/full/bIxa6qOea)
 
-![SpatialBeing (1)](https://user-images.githubusercontent.com/76455356/121309497-8ac1b400-c902-11eb-8ea0-dd4fa64421b5.png)
+![Senza titolo-2_Tavola disegno 1 copia 2](https://user-images.githubusercontent.com/76455356/121460322-0d06b280-c9ad-11eb-85d6-cb5b08762022.png)
 
 
 ## Spatial Being 3D [+](https://editor.p5js.org/RobertoAlesi/full/0Tne-Js-i)
 
-![photo5902370038323721666](https://user-images.githubusercontent.com/76455356/121416968-b2983280-c969-11eb-8668-6a3bc22c15a7.jpg)  
+![Prototipi_Tavola disegno 1](https://user-images.githubusercontent.com/76455356/121460184-d2047f00-c9ac-11eb-9c7e-134efab14ba9.png)
+
 
 
 ## Users Map [+](https://editor.p5js.org/RobertoAlesi/full/8Iwd_t86o)  
