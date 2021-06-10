@@ -1,11 +1,11 @@
 ![Copertina](https://user-images.githubusercontent.com/76455356/121450001-30c0fd00-c99b-11eb-9fa9-27acaf03f537.png)
 
 # Spatial Being
-Spatial Being è un ambiente virtuale collaborativo nel quale l’utente è svincolato dalle interfacce.
+Spatial Being è un ambiente virtuale collaborativo nel quale l’utente è svincolato dalle interfacce.  
 Spatial Being offre la possibilità a più persone di vedersi e interagire nello stesso spazio, tra loro e con gli oggetti, utilizzando modalità naturali di comunicazione come la voce, i gesti e il movimento del corpo.
 
 ## Keywords:
-> Spazi, mondovirtuale, gesti, creatività, online, co-design, essere.
+> Spazi, virtuale, gesti, creatività, online, co-design, essere.
 
 ## Sperimentazioni
 Per sviluppare il progetto sono state individuate e analizzate le parti principali che lo costituiscono, in particolar modo: avviare una comunicazione bidirezionale server-client, riconoscere e usare i gesti delle mani e la voce per controllare gli oggetti all’interno di uno spazio virtuale.
