@@ -8,7 +8,10 @@ Spatial Being offre la possibilità a più persone di vedersi e interagire nello
 > Spazi, virtuale, gesti, creatività, online, co-design, essere.
 
 ## Sperimentazioni
-Per sviluppare il progetto sono state individuate e analizzate le parti principali che lo costituiscono, in particolar modo: avviare una comunicazione bidirezionale server-client, riconoscere e usare i gesti delle mani e la voce per controllare gli oggetti all’interno di uno spazio virtuale.
+Per sviluppare il progetto sono state individuate e analizzate le parti principali che lo costituiscono, in particolar modo: 
+- avviare una comunicazione bidirezionale server-client, 
+- riconoscere e usare i gesti delle mani per controllare gli oggetti all’interno di uno spazio virtuale,
+- identificare comandi vocali per modificare gli oggetti nello spazio o eseguire compiti.
 
 #### HandPose 3D Control [+](https://editor.p5js.org/RobertoAlesi/full/mFpSAsZWK)
 >Utilizzando HandPose di ml5, è possibile controllare e manipolare un elemento tridimensionale.  
