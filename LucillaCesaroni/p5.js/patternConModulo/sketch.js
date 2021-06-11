@@ -8,7 +8,7 @@
                                   
 // -
 //
-// Pattern con modulo 0.1 by Lucilla Cesaroni [mouseX, mouseY]
+// Pattern con modulo 0.1 by Lucilla Cesaroni [mouseX]
 // 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
 // Educational purposes, MIT License, 2021, San Marino
@@ -17,6 +17,7 @@
 //
 // Help:
 // [c] save canvas
+// [mouseX] rotate rect, change color and dimension of the ellipse
 //
 // —
 

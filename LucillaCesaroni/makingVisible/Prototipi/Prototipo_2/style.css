@@ -1,15 +1,5 @@
-@font-face {
-  font-family: "Inter Regular", sans-serif;
-  src: url("Inter-Regular.ttf") format("ttf");
-}
-
 html,
-body,
-p {
+body {
   margin: 0;
   padding: 0;
-}
-
-canvas {
-  display: block;
 }

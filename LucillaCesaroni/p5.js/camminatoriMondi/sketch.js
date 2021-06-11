@@ -1,16 +1,16 @@
-//         ___       ________     
-//        |\  \     |\   ____\    
-//        \ \  \    \ \  \___|    
-//         \ \  \    \ \  \       
-//          \ \  \____\ \  \____  
+//         ___       ________
+//        |\  \     |\   ____\
+//        \ \  \    \ \  \___|
+//         \ \  \    \ \  \
+//          \ \  \____\ \  \____
 //           \ \_______\ \_______\
 //            \|_______|\|_______|
-                                  
+
 // -
 //
 // Camminatori che disegnano mondi, scappano by Lucilla Cesaroni [mouse X, mouseY]
-// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
-// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni
 // Educational purposes, MIT License, 2021, San Marino
 //
 // —
@@ -24,9 +24,10 @@
 let w, h;
 let c = [];
 let quanti = 500;
+let randomDist = 31;
 
 function setup() {
-  createCanvas(w = windowWidth, h = windowHeight);
+  createCanvas((w = windowWidth), (h = windowHeight));
 
   for (var i = 0; i < quanti; i++) {
     c.push(new Camminatore(i));
@@ -55,8 +56,7 @@ function Camminatore(_id) {
   this.diametro = random(5, 10);
   this.colore = random(255);
 
-  this.move = function() {
-
+  this.move = function () {
     let xStep = random(-3, 3);
     let yStep = random(-3, 3);
     this.x += xStep;
@@ -64,17 +64,18 @@ function Camminatore(_id) {
 
     let d = dist(this.x, this.y, mouseX, mouseY);
 
-    if (d <= 30) { // scappano quando la distanza tra la pallina blu e i camminatori è < di 30
-      this.x += random(-40, 40); // si posizionano casualmente tra -40 e 40 nella x e nella y
-      this.y += random(-40, 40);
+    if (d <= 30) {
+      // scappano quando la distanza tra la pallina blu e i camminatori è < di 30
+      this.x += random() * randomDist - randomDist; // si posizionano casualmente intorno il cerchio blu
+      this.y += random() * randomDist - randomDist;
     }
-  }
+  };
 
-  this.display = function() {
+  this.display = function () {
     stroke(this.colore);
     noFill();
     ellipse(this.x, this.y, this.diametro, this.diametro);
-  }
+  };
 }
 
 function windowResized() {
