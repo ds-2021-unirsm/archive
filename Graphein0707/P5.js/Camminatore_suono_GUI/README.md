@@ -3,4 +3,4 @@ Camminatore che genera mondi tramite il suono, inserimento dell'interfaccia dat 
 
 ![camminatore](https://user-images.githubusercontent.com/76476654/117057352-a216eb80-ad1d-11eb-85a2-c67caef3f316.png)
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/nSyLuHDN6]
+[Get the code!](https://editor.p5js.org/Gaia/full/nSyLuHDN6)
