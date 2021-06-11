@@ -1,12 +1,13 @@
 // -
-// simple UI interface example [GUI]
-// 2019 © Luigi @MrJ4ckpot & Daniele @Fupete 
-// github.com/dsii-2019-unirsm + github.com/fupete
-// Educational purposes, MIT License, 2019, Crespina IT
+// Camminatore suono GUI 0.2 by GaiaAndruccioli [Camminatore, suono, GUI]
+// 2021 © GaiaAndruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
 // —
 // Credits/Thanks to: 
 // https://editor.p5js.org/fupete/sketches/WUY1jA4jn for original code
-// —
+// Educational purposes, MIT License, 2019, Crespina IT
+//
 
 let x, y;
 let t;
