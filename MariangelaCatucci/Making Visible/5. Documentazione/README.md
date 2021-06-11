@@ -3,12 +3,10 @@
 In questa cartella è possibile consultare la documentazione del progetto finale. Il file PDF è strutturato secondo il seguente indice:
 
 1. Abstract
-2. Introduzione
-3. References
-4. Concept
-5. Come funziona
-6. Prototipi
-7. Significato
-8. Miglioramenti
-9. Conclusioni
-10. Bibliografia / Sitografia
+2. Il nostro essere invisibile
+3. Complessità
+5. References
+6. Concept
+8. Prototipazione
+10. Sviluppi futuri
+12. Bibliografia / Sitografia
