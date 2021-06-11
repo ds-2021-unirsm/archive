@@ -1,3 +1,12 @@
+// —
+// 10Print - variazione 1 by lufaraci [10print, colorRandom]
+// 2021 © Lucrezia Faraci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/lufaraci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// —
+
 let w = 16; 
 let h = 16; 
 let index = 0;
@@ -5,19 +14,15 @@ let index = 0;
 function setup() {
       createCanvas(640, 384);
       background('#000000');
-      //background(#0000ff);
       strokeWeight(0);
-      //strokeWeight(5);
-      stroke(0);
-      //stroke(224);
-      strokeCap(SQUARE);
+      noStroke(0);
       smooth();
 }
 function draw() {
 let x1 = w*index; 
 let x2 = x1 + w; 
 let y1 = h*23; 
-
+strokeWeight(4);
    
 
       if (random(3) < 1) {

@@ -1,3 +1,12 @@
+// —
+// V - Camminatori che creano mondi .1 by lufaraci [walker, color,dist]
+// 2021 © Lucrezia Faraci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/lufaraci
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// —
+
 var t;
 
 function setup() {
