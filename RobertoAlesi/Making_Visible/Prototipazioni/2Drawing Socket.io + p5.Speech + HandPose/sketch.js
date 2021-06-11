@@ -4,7 +4,7 @@
 //  /_/|_|\____/____/ 
 //
 // —
-// Spatial_Being_2D 0.1 by Roberto [spatial, being, 2d, lessinterface, handpose, voicecontrols]
+// Spatial_Being 2D 0.1 by Roberto [spatial, being, 2d, lessinterface, handpose, voicecontrols]
 // 2021 © Roberto @ciunart, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm — github.com/fupete — github.com/RobertoAlesi
 // Educational purposes, MIT License, 2021, San Marino
@@ -47,7 +47,9 @@
 // [salva] -> salva lo sketch sul dispositivo
 // —
 
-let bg;
+
+
+let pg;
 let w;
 let h;
 let widthVideo = 640;
@@ -74,20 +76,27 @@ let r = 0;
 let parole = []
 let x = []
 let y = []
-let z = []
 let col = []
 let colore = [255,255,0];
 let d = []
 
 let disegna = false;
+let conta = 0;
+
+let imgHand1;
+let imgHand2;
+let imgHand3;
 
 //carico il font
-function preload() {bonne = loadFont('Bonne.ttf');}
+function preload() {bonne = loadFont('Bonne.ttf'); 
+                    imgHand3 = loadImage('Istruz3.png');
+                    imgHand2 = loadImage('Istruz2.png');
+                    imgHand1 = loadImage('Istruz1.png');}
 
 function setup() {
-  createCanvas(w = windowWidth, h =windowHeight, WEBGL);
-  bg = createGraphics(w, h, WEBGL);
-
+  createCanvas(w = windowWidth, h =windowHeight);
+  pg = createGraphics(w, h);
+  pg.clear();
 //impostazioni video / ml5
   video = createCapture(VIDEO);
   video.size(widthVideo, heightVideo);
@@ -99,13 +108,12 @@ function setup() {
   video.hide();
   
 // Connessione al server su Glitch.me    
-  socket = io.connect("https://disegni-diversi.glitch.me/");
+  socket = io.connect("https://spatial-being.glitch.me/");
   socket.on('connect', function() {console.log("Connected"); });
-  socket.on('userid', function (id) { console.log(id); });
-  
-
+//recupera l'id del socket
+  socket.on('userid', function (id) { console.log(id);});
     
-//comandi vocali per cambiare colore, disegnare e salvare l'immagine
+//comandi vocali
   var foo = new p5.Speech();
   speechRec = new p5.SpeechRec(gotSpeech);
   let continuous = true;
@@ -120,7 +128,7 @@ function setup() {
     if (speech.text.includes("giallo") || speech.text.includes("Giallo") ) coloreGiallo(speech.text);
     if (speech.text.includes("bianco") || speech.text.includes("Bianco")) coloreBianco(speech.text);
     if (speech.text.includes("nero") || speech.text.includes("Nero")) coloreNero(speech.text);
-    if (speech.text.includes("marrone") || speech.text.includes("Marrone")) coloreMarrone(speech.text);
+
     if (speech.text.includes("rosa") || speech.text.includes("Rosa")) coloreRosa(speech.text);
     if (speech.text.includes("azzurro") || speech.text.includes("Azzurro")) coloreAzzurro(speech.text);
     
@@ -140,142 +148,144 @@ function modelReady() {
 
 
 function draw() {
-  translate(-w/2,-h/2)
-
-  lights();
-  bg.background(0,255,217);
+ // translate(-w/2,-h/2)
+  background(64,255,218);
   
+ 
 //disegno lo scheletro e i keypoints della mano
+
   drawKeypoints();
   drawSkeleton();
+  //lights();
+
+    //se la mano è nella posizione corretta allora aumenta il conta
+  if(frameCount>400 && xpalm>w/2-100 && xpalm<w/2+100 && w/2-100<xindex && xindex<w/2+100){
+     conta+=0.1;
+ //   console.log("sto contando " + conta)
+   }  
+
 
 //quando viene detto "disegna" viene avviata la scena
  if (predictions.length > 0 && disegna==true){
-   drawScene();
-   }
-//altrimenti viene visualizzata solo la sfera sulla mano
- else if(predictions.length > 0 && disegna==false){
+  drawScene();
+    }
+ 
+else if(predictions.length > 0 && disegna==false){
     drawInit();
-   }
+ }
+  
+  
 
-//background, mano e sfera base
-   image(bg, 0, 0, w, h)
+image(pg, 0, 0, w, h)
+   
+image(video, w-200, windowHeight-150, 200, 150);
   
-//video in basso a destra
-   image(video, w-200, windowHeight-150, 200, 150);
-  
+
 // Viene ricevuto dal server
   socket.on('generic_message', function (data) {
 
 //viene creata una sfera con i dati ricevuti
-   push()
-    noStroke();
+   
+    stroke(0);
     fill(data.col);
-    translate(data.x, data.y, data.z);
-    sphere(d0/3);
-   pop()
-    
-  });  
+    ellipse(data.x, data.y, d0);
+  });
+  
+  
+ //il rettangolo viene rimosso dopo che la mano sblocca la scena
+    if(frameCount>=400 && conta<=11){
+    image(imgHand3, w/2-h*3/2,0, h*3, h);
+    textSize(32);
+    text(floor(conta),w/2,h/2+h/10 )
+    } else if(frameCount>=150 && conta<=11){
+       image(imgHand2, w/2-h*3/2,0, h*3, h);
+
+    }else if(frameCount>0 && conta<=11){
+       image(imgHand1, w/2-h*3/2,0, h*3, h);
+
+    }
+
  }
 
-//quando viene pronunciato un colore viene avviata la relativa funzione
    function coloreBlu() {colore = [0, 127, 255];}
    function coloreViola() {colore = [143, 0, 255];}
-   function coloreRosso() {colore = [220, 20, 60];}
-   function coloreGiallo() {colore = [255, 191, 0];}
+   function coloreRosso() {colore = [255, 20, 60];}
+   function coloreGiallo() {colore = [255, 255, 0];}
    function coloreArancione() {colore = [255, 102, 0];}
    function coloreVerde() {colore = [0, 255, 127];}
    function coloreBianco() {colore = [255, 255, 255];}
    function coloreNero() {colore = [55, 55, 55];}
-   function coloreMarrone() {colore = [184, 115, 51];}
    function coloreAzzurro() {colore = [8, 232, 222];}
    function coloreRosa() {colore = [255, 192, 203];}
 
-//Disegna i punti della mano
-//i punti sono stati mappati su tutto lo schermo
+//-disegna i punti della mano-//
 function drawKeypoints() {
-   bg.push();
-   bg.translate(-w/2,-h/2);
+ //  pg.push();
+   //pg.translate(-w/2,-h/2);
    if (predictions.length > 0){
      for (let i = 0; i < predictions.length; i += 1) {
        const prediction = predictions[i];
      for (let j = 0; j < prediction.landmarks.length; j += 1) {
        const keypoint = prediction.landmarks[j];
-         bg.fill(100, 0, 255);
-         bg.noStroke();
+
       let xmap = map(keypoint[0], 0, widthVideo, 0, windowWidth);
       let ymap = map(keypoint[1], 0, heightVideo, 0, windowHeight);
-         bg.push()
-         bg.translate(xmap, ymap)
-         bg.sphere(5);
-         bg.pop();
+         noStroke();
+         fill(100, 0, 255);
+         ellipse(xmap, ymap, 10);
+         
       }
      }
     }
-  bg.pop();
  }
 
-//Disegna lo scheletro della mano con delle linee che uniscono ogni punto
-//i punti sono stati mappati su tutto lo schermo
 function drawSkeleton() {
-  bg.push();
-  bg.translate(-w/2,-h/2);
- 
   if (predictions.length > 0){
     let annotations = predictions[0].annotations;
-    bg.stroke(159, 0, 255);
-    bg.strokeWeight(5)
-    
-//POLLICE
-    for (let j = 0; j < annotations.thumb.length - 1; j++) {  
-////mappatura pollice
+    stroke(159, 0, 255);
+    strokeWeight(5)
+    for (let j = 0; j < annotations.thumb.length - 1; j++) {    
+  ////mappatura
       let xth = map(annotations.thumb[j][0], 0, widthVideo, 0, windowWidth);
       let yth = map(annotations.thumb[j][1], 0, heightVideo, 0, windowHeight);
       let xth2 = map(annotations.thumb[j + 1][0], 0, widthVideo, 0, windowWidth);
       let yth2 = map(annotations.thumb[j + 1][1], 0, heightVideo, 0, windowHeight);
-      bg.line(xth, yth,xth2, yth2);
+      line(xth, yth,xth2, yth2);
 }
-    
-//INDICE
     for (let j = 0; j < annotations.indexFinger.length - 1; j++) {
-////mappatura indice
+  ////mappatura
       let xin = map(annotations.indexFinger[j][0], 0, widthVideo, 0, windowWidth);
       let yin = map(annotations.indexFinger[j][1], 0, heightVideo, 0, windowHeight);
       let xin2 = map(annotations.indexFinger[j + 1][0], 0, widthVideo, 0, windowWidth);
       let yin2 = map(annotations.indexFinger[j + 1][1], 0, heightVideo, 0, windowHeight);
-      bg.line(xin, yin, xin2, yin2);
+      line(xin, yin, xin2, yin2);
     }
-    
-//MEDIO
     for (let j = 0; j < annotations.middleFinger.length - 1; j++) {        
-////mappatura
+ 
+  ////mappatura
       let xmid = map(annotations.middleFinger[j][0], 0, widthVideo, 0, windowWidth);
       let ymid = map(annotations.middleFinger[j][1], 0, heightVideo, 0, windowHeight);
       let xmid2 = map(annotations.middleFinger[j + 1][0], 0, widthVideo, 0, windowWidth);
       let ymid2 = map(annotations.middleFinger[j + 1][1], 0, heightVideo, 0, windowHeight);
-      bg.line(xmid, ymid, xmid2, ymid2);
+      line(xmid, ymid, xmid2, ymid2);
     }
-    
-//ANULARE
     for (let j = 0; j < annotations.ringFinger.length - 1; j++) {
- ////mappatura anulare
+  
+  ////mappatura
       let xrin = map(annotations.ringFinger[j][0], 0, widthVideo, 0, windowWidth);
       let yrin = map(annotations.ringFinger[j][1], 0, heightVideo, 0, windowHeight);
       let xrin2 = map(annotations.ringFinger[j + 1][0], 0, widthVideo, 0, windowWidth);
       let yrin2 = map(annotations.ringFinger[j + 1][1], 0, heightVideo, 0, windowHeight);
-      bg.line(xrin, yrin, xrin2, yrin2);
+      line(xrin, yrin, xrin2, yrin2);
     }
-    
-//MIGNOLO
     for (let j = 0; j < annotations.pinky.length - 1; j++) {
      let xpin = map(annotations.pinky[j][0], 0, widthVideo, 0, windowWidth);
       let ypin = map(annotations.pinky[j][1], 0, heightVideo, 0, windowHeight);
       let xpin2 = map(annotations.pinky[j + 1][0], 0, widthVideo, 0, windowWidth);
       let ypin2 = map(annotations.pinky[j + 1][1], 0, heightVideo, 0, windowHeight);
-      bg.line(xpin, ypin, xpin2, ypin2);
+      line(xpin, ypin, xpin2, ypin2);
     }
-
-//PALMO
+    
       let xrinf = map(annotations.ringFinger[0][0], 0, widthVideo, 0, windowWidth);
       let yrinf = map(annotations.ringFinger[0][1], 0, heightVideo, 0, windowHeight);
       let xpinfi = map(annotations.pinky[0][0], 0, widthVideo, 0, windowWidth);
@@ -288,71 +298,64 @@ function drawSkeleton() {
       let ythf = map(annotations.thumb[0][1], 0, heightVideo, 0, windowHeight);
       xpalm = map(annotations.palmBase[0][0], 0, widthVideo, 0, windowWidth);
       ypalm = map(annotations.palmBase[0][1], 0, heightVideo, 0, windowHeight);
-       xindex = map(predictions[0].annotations.indexFinger[3][0], 0, widthVideo, 0, windowWidth);
-   yindex = map(predictions[0].annotations.indexFinger[3][1], 0, heightVideo, 0, windowHeight);
 
-    bg.line(xrinf, yrinf, xpinfi, ypinfi);
-    bg.line(xrinf, yrinf, xmidf, ymidf);
-    bg.line(xindf, yindf, xmidf, ymidf);
-    bg.line(xindf, yindf, xthf, ythf);
-    bg.line(xpalm, ypalm, xthf, ythf);
-    bg.line(xpalm, ypalm, xpinfi, ypinfi);
+    line(xrinf, yrinf, xpinfi, ypinfi);
+    line(xrinf, yrinf, xmidf, ymidf);
+    line(xindf, yindf, xmidf, ymidf);
+    line(xindf, yindf, xthf, ythf);
+    line(xpalm, ypalm, xthf, ythf);
+    line(xpalm, ypalm, xpinfi, ypinfi);
         
-    bg.stroke(10, 189, 189);
-    bg.strokeWeight(1);
-    bg.line(xpalm, ypalm, xindf, yindf);
-    bg.line(xpalm, ypalm, xmidf, ymidf);
-    bg.line(xpalm, ypalm, xrinf, yrinf);  
+    stroke(10, 189, 189);
+    strokeWeight(1);
+    line(xpalm, ypalm, xindf, yindf);
+    line(xpalm, ypalm, xmidf, ymidf);
+    line(xpalm, ypalm, xrinf, yrinf);  
    }
-bg.pop();
+//pg.pop();
 }
 
-//disegna la sfera base iniziale
 function drawInit() {
-  bg.push();
-  bg.translate(-w/2,-h/2);
+  //pg.push();
+  //pg.translate(-w/2,-h/2);
   if (predictions.length > 0){
-  bg.noStroke()
+  noStroke()
+   xindex = map(predictions[0].annotations.indexFinger[3][0], 0, widthVideo, 0, windowWidth);
+   yindex = map(predictions[0].annotations.indexFinger[3][1], 0, heightVideo, 0, windowHeight);
    xthumb = map(predictions[0].annotations.thumb[3][0], 0, widthVideo, 0, windowWidth);
    ythumb = map(predictions[0].annotations.thumb[3][1], 0, heightVideo, 0, windowHeight);
    xpinky = map(predictions[0].annotations.pinky[3][0], 0, widthVideo, 0, windowWidth);
    ypinky = map(predictions[0].annotations.pinky[3][1], 0, heightVideo, 0, windowHeight);
     
-   d0 = dist(predictions[0].annotations.indexFinger[3][0],      predictions[0].annotations.indexFinger[3][1], predictions[0].annotations.thumb[3][0], predictions[0].annotations.thumb[3][1]);
-    
- bg.fill(colore);
- bg.push()
-   bg.translate(xthumb,ythumb-d0/2, 0)
-   bg.sphere(d0);
- bg.pop()
+//calcolo la distanza tra indice e pollice
+   d0 = dist(xindex, yindex, xthumb, ythumb);
+ fill(colore);
+   ellipse(xthumb,ythumb-d0/2, d0);
   }
-  bg.pop();
 }
 
-//disegna una scia di sfere continue sul canvas
 function drawScene() {
 
 if (predictions.length > 0){
-  noStroke()
-
+  
+  pg.stroke(colore-50)
+  xindex = map(predictions[0].annotations.indexFinger[3][0], 0, widthVideo, 0, windowWidth);
+   yindex = map(predictions[0].annotations.indexFinger[3][1], 0, heightVideo, 0, windowHeight);
    xthumb = map(predictions[0].annotations.thumb[3][0], 0, widthVideo, 0, windowWidth);
    ythumb = map(predictions[0].annotations.thumb[3][1], 0, heightVideo, 0, windowHeight);
    xpinky = map(predictions[0].annotations.pinky[3][0], 0, widthVideo, 0, windowWidth);
    ypinky = map(predictions[0].annotations.pinky[3][1], 0, heightVideo, 0, windowHeight);
   
 //calcolo la distanza tra indice e pollice
-   d0 = dist(predictions[0].annotations.indexFinger[3][0],      predictions[0].annotations.indexFinger[3][1], predictions[0].annotations.thumb[3][0], predictions[0].annotations.thumb[3][1]);
+   d0 = dist(xindex, yindex, xthumb, ythumb);
 }
 ////////invia i dati agli altri  
 socket.emit("generic_message", {x: xthumb, y: ythumb-d0/2, col: colore, d: d0});
-  fill(colore);
- push()
-   translate(xthumb,ythumb-d0/2, 0)
-   sphere(d0);
- pop()
+  
+  pg.fill(colore);
+  pg.ellipse(xthumb,ythumb-d0/2,d0);
 }
 
-//salva un'immagine del canvas sul dispositivo
 function saveImage(){
-  save("myimage.png");
+  save("SpatialBeing.png");
 }

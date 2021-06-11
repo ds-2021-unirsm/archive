@@ -10,6 +10,7 @@
 // Educational purposes, MIT License, 2021, San Marino
 // —
 
+
 var w, h;
 var x = 0;
 var y = 0;
@@ -31,7 +32,9 @@ function draw() {
   //lights();
 translate(-30,0,0)
 rotateZ(2.5/5*PI);
+
   
+//Vengono generate "casualmente" delle sfere o delle linee oblique, per creare un cielo stellato
 push();
   translate(-w / 2 + 130, -h / 2 + 20)
   rotateY(1 / 4 * PI)
@@ -46,7 +49,8 @@ push();
     strokeWeight(noise(noisex, noisey, noisez) * 3);
     stroke(0, 50, 130);
     line(x, y + size, x + size, y);
-        
+
+//quando il random restituisce un valore maggiore o uguale a 0.9 viene posizionata una sfera trasparente sopra alla città, creando conformazioni di nuvole fluttuanti
     if (moneta >= 0.9) {
     push();
       noStroke();
@@ -62,7 +66,7 @@ push();
   }
   pop();
 
-  
+//in base al valore ottenuto dal random vengono generate le strade (rettangoli) o i palazzi della città (parallelepipedi di dimensioni differenti)
 push();
   translate(0, -h / 2, -h / 2 +50)
   rotateY(7/4 * PI)
@@ -74,11 +78,9 @@ push();
   } 
     
   else if (moneta > 0.5) {
-    
     strokeWeight(2); 
     stroke(255);
-    
-    ////////Parallelepipedi///////
+////////Parallelepipedi///////
     push();
      translate(x, y, 0);
      ambientMaterial(250);
@@ -91,7 +93,8 @@ push();
   z += size;
   noisex += 0.3;
 
-  // andare a capo
+
+// andare a capo
   if (x > w / 2) {
     x = 0;
     y += size;
