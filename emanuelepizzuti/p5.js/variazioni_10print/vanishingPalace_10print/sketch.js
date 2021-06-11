@@ -1,5 +1,5 @@
 //  ____ ____
-// | ___|    |
+// | ___|  _ |
 // | ___|  __|
 // |____|_|
 // ___________
@@ -8,9 +8,7 @@
 // 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
-//
 // —
-//
 // Help:
 // [mouseClicked] add a sphere to the composition
 // ___________
@@ -47,7 +45,9 @@ function draw() {
   var b = 255 * noise(0.004 * x, 0.004 * y + 20);
   
   translate(x-200, y-200, z-400);
-  fill(r, g, b);
+  stroke(r, g, b);
+  strokeWeight(0.8);
+  noFill();
 
   if (random(1) < 0.2) {
     box(noise(t) * molRaggio);
@@ -84,7 +84,10 @@ function mouseClicked() {
   var g = 25 * noise(0.004 * x, 0.004 * y + 15);
   var b = 225 * noise(0.004 * x, 0.004 * y + 20);
 
+  rotateX(90);
+  rotateZ(frameCount);
   fill(r, g, b);
+  stroke(r, g, b);
   sphere(noise(t) * 100);
   // prevent default
   return false;

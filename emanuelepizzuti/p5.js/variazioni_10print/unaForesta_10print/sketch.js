@@ -1,5 +1,14 @@
-// Variazione di 10print: una foresta
-// by emanuelepizzuti
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// Una Foresta by emanuelepizzuti [10print, WEBGL, perlin noise]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// ___________
 
 let t = 0;
 let tz = 0;
@@ -14,7 +23,7 @@ let incr = 40;
 let dim = 10;
 
 function setup() {
-  createCanvas(w, h, WEBGL);
+  createCanvas(w=windowWidth, h=windowHeight, WEBGL);
   angleMode(DEGREES);
   background(0);
   noStroke();

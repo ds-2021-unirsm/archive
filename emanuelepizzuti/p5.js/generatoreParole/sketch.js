@@ -1,8 +1,16 @@
-// GENERATORE DI PAROLE RANDOM
-// sketch by emanuelepizzuti
-
-// Guida:
-// [mouse] click per generare una nuova parola
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// wordGenerator by emanuelepizzuti [words]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// [mouse] click to generate a new word
+// ___________
 
 var w, h;
 let iniziale = ["a", "e", "i", "o", "u"];

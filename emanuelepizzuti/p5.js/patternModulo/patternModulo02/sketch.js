@@ -1,8 +1,17 @@
-// PATTERN CHE UTILIZZANO IL MODULO
-// sketch by emanuelepizzuti
-
-// Guida:
-// [mouse] al movimento cambiano i colori
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// waves by emanuelepizzuti [pattern]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Help:
+// [mouse] change position to change colors
+// ___________
 
 let w, h;
 let tx, ty;

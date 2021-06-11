@@ -1,9 +1,17 @@
-// LED WALL
-// Pattern con modulo + perlinNoise
-// sketch by emanuelepizzuti
-
-// Guida:
-// [mouse] cambia la definizione del pattern
+//  ____ ____
+// | ___|  _ |
+// | ___|  __|
+// |____|_|
+// ___________
+//
+// ledWall by emanuelepizzuti [patterns]
+// 2021 © emanuelepizzuti, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// -
+// Help:
+// [mouse] change position to change the wall definition
+// ___________
 
 let w, h;
 let tx, ty;

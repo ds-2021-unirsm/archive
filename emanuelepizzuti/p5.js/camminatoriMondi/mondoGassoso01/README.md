@@ -1,4 +1,4 @@
-# Camminatori che creano mondi
+# Mondo gassoso 01
 
 I camminatori vengono lasciati liberi di disegnare sulla tela
 
