@@ -5,4 +5,4 @@ Camminatore che genera mondi tramite il suono
 
 ![2](https://user-images.githubusercontent.com/76476654/114788502-dd0eaa80-9d81-11eb-9932-e23035862c81.png)
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/iPzF4Jk6S]
+[Get the code!](https://editor.p5js.org/Gaia/full/iPzF4Jk6S)
