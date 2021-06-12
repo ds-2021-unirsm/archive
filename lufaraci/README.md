@@ -13,6 +13,7 @@
 
 * 10 PRINT
    * variazione 1
+   * variazione 2
  
 * CLOSE READING
 
@@ -24,3 +25,5 @@
     * 0.2 Presentazione
     * 0.3 Indice e Menabò
     * 0.4 Bozza documentazione  
+    * 0.5 Prototipi
+    *
