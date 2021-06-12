@@ -22,4 +22,7 @@ questa cartella contiene:
   * proposta I
   * proposta II
   * poposta III
-    * sviluppo    
+    * 0.1 Primi avanzamenti
+    * 0.2 Presentazione
+    * 0.3 Indice e Menabò
+    * 0.4 Bozza documentazione  
