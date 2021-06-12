@@ -26,4 +26,3 @@
     * 0.3 Indice e Menabò
     * 0.4 Bozza documentazione  
     * 0.5 Prototipi
-    *
