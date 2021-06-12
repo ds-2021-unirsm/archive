@@ -1,6 +1,4 @@
-# ds-2021-unirsm test folder
-
-questa cartella contiene:
+# questa cartella contiene
 
 * P5
    * camminatore
