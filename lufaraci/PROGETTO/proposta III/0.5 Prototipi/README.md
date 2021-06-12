@@ -64,7 +64,7 @@ Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/zYt19L-rC)
 
 ## Prove interfaccia...
 
-https://user-images.githubusercontent.com/63911437/121783176-91c01f00-cbad-11eb-83e7-c1d578469131.mov
+https://user-images.githubusercontent.com/63911437/121783593-cdf47f00-cbaf-11eb-9552-758a54564bac.mov
 
 Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/lMJPJrkJy)
 
