@@ -9,4 +9,4 @@ _Prima versione camminatore
 
 _Seconda versione camminatore
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/TCZUDv2tI]
+[Get the code!](https://editor.p5js.org/Gaia/full/foSfIVf9E)

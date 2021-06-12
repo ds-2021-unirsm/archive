@@ -1,9 +1,15 @@
-// random walker OOP
-var w, h;
-var l = 10;
-var quadrati = 200;
-var camminatori = [];
-var speedMax = 4;
+// -
+// Camminatore quadrati noise 0.2 by GaiaAndruccioli [Camminatore, noise, quadrai]
+// 2021 © GaiaAndruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
+let w, h;
+let l = 10;
+let quadrati = 200;
+let camminatori = [];
+let speedMax = 4;
 
 
 function setup() {

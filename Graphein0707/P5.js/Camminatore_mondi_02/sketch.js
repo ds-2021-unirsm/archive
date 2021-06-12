@@ -1,3 +1,13 @@
+// -
+// Camminatore mondi 0.2 by GaiaAndruccioli [Camminatori, mondi, update]
+// 2021 © GaiaAndruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: Tim Sherbert
+// https://editor.p5js.org/TimSherbert/sketches/By8lyFaJ7
+//
+
 let c = [];
 let num = 1000;
 

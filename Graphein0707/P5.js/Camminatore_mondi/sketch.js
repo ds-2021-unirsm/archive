@@ -1,6 +1,15 @@
+// -
+// Camminatore mondi 0.1 by GaiaAndruccioli [Camminatori, mondi]
+// 2021 © GaiaAndruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: Nature fo Code
 //https://natureofcode.com/book/chapter-1-vectors/
-//ultimo esempio di camminatori che seguono il mouse con vettori 
-//codice portato su p5
+//
+// Help:
+// camminatore che segue il movimento del mouse
+//-
 
 let movers = [];
 let num = 5;
@@ -8,7 +17,7 @@ let d = 0.2;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  blendMode(SCREEN);
+  blendMode(ADD);
   
   smooth();
   background(0);
