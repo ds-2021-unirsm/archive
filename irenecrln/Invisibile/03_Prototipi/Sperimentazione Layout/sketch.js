@@ -188,22 +188,28 @@ function cerca(parole, x, y) {
           loadImage(categorie[3].img, img => {
             image(img, 200, 0, 200, 200) 
           })*/
-    for (let c of categorie) {
-        if (c.oggetti.includes(parole[i])) {
-          loadImage(c.img, function (img) {
-            image(img, 0+posx, 0+posy, 200, 200); 
-          posx += 200;
-   if(posx>=800)
-        {
-        posx=0;
-        posy=200;
-        }
-      
+    
+        if (categorie[1].oggetti.includes(parole[i])) {
+          loadImage(categorie[1].img, img => {
+            image(img, 0, 0, 200, 200); 
           });
-                    
+        }
+          else{
+            image(vuoto_img, 0, 0, 200, 200);
           }
+           
+           
+          if (categorie[7].oggetti.includes(parole[i])) {
+          loadImage(categorie[7].img, img => {
+            image(img, 400, 200, 200, 200); 
+          });
+          }
+          else{
+            image(vuoto_img, 400, 200, 200, 200);
+          }
+                    
+          break;
     }
-  }
 }
 
 function testo() {}
