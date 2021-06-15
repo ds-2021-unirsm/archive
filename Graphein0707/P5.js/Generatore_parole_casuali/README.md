@@ -7,5 +7,5 @@ Generatore casuale di parole con sillabe e lettere doppie
 
 ![3](https://user-images.githubusercontent.com/76476654/112218768-6c61eb80-8c24-11eb-9411-323478e10b38.png)
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/0jDObJ9x9]
+[Get the code!](https://editor.p5js.org/Gaia/full/0jDObJ9x9)
 
