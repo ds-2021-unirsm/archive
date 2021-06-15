@@ -7,7 +7,7 @@ let img_coco,
   sports_img,
   food_img,
   book_img,
-  electronic_img,posx=0,posy=0;
+  electronic_img;
 
 let img_poster = [];
 console.log(img_poster + "qui ci sono le img");
@@ -15,12 +15,14 @@ console.log(img_poster + "qui ci sono le img");
 let objects = [];
 let status;
 let parole = [];
+let categorie_trovate = [];
 
 var categorie = [
   {
     categoria: "travel",
     oggetti: ["car", "motorcycle", "airplane", "bus", "train"],
     img: "img_categorie/travel.png",
+    cit:"Travel"
   },
 
   {
@@ -41,12 +43,14 @@ var categorie = [
       "vase",
     ],
     img: "img_categorie/nature.png",
+    cit: "Nature"
   },
 
   {
     categoria: "fashion",
     oggetti: ["hat", "shoe", "suitcase", "tie", "handbag"],
     img: "img_categorie/moda.png",
+    cit: "Coco Chanel"
   },
 
   {
@@ -67,6 +71,7 @@ var categorie = [
       "couch",
     ],
     img: "img_categorie/sport.png",
+    cit: "Arnold Schwarzenegger"
   },
 
   {
@@ -91,25 +96,29 @@ var categorie = [
       "cake",
     ],
     img: "img_categorie/food.png",
+    cit: "Ratatouille"
   },
 
   {
     categoria: "book",
     oggetti: ["book"],
     img: "img_categorie/book.png",
+    cit:"Fahrenheit 451"
   },
 
   {
     categoria: "electronic",
     oggetti: ["tv", "laptop", "mouse", "remote", "keyboard", "cell phone"],
     img: "img_categorie/electronic.png",
+    cit:"IBM"
   },
-  
-    {
-    categoria: "mistery",
-    oggetti: ["teddy bear","fire hydrant","stop sign","street sign"],
+
+  {
+    categoria: "mystery",
+    oggetti: ["teddy bear", "fire hydrant", "stop sign", "street sign"],
     img: "img_categorie/mistery.png",
-  }
+    cit: "Mystery"
+  },
 ];
 
 function preload() {
@@ -125,18 +134,18 @@ function preload() {
   food_img = loadImage("img_categorie/food.png");
   book_img = loadImage("img_categorie/book.png");
   electronic_img = loadImage("img_categorie/electronic.png");
-  mistery_img = loadImage("img_categorie/mistery.png");
+  mystery_img = loadImage("img_categorie/mistery.png");
   vuoto_img = loadImage("img_categorie/vuoto.png");
 }
 
 function setup() {
   createCanvas(800, 600);
   background(252, 247, 242);
-  line(200,0,200,400);
-  line(400,0,400,400);
-  line(600,0,600,400);
-  line(0,200,800,200);
-  line(0,400,800,400);
+  line(200, 0, 200, 400);
+  line(400, 0, 400, 400);
+  line(600, 0, 600, 400);
+  line(0, 200, 800, 200);
+  line(0, 400, 800, 400);
 
   objectDetector = ml5.objectDetector("cocossd", modelReady);
   console.log(categorie);
@@ -163,73 +172,70 @@ function gotResult(err, results) {
     console.log(parole);
   }
 
-  cerca(parole, 0, 0, width / 2, height / 2);
-  /*cerca(parole, width / 2, 0, width / 2, height / 2);
-  cerca(parole, 0, height / 2, width / 2, height / 2);
-  cerca(parole, width / 2, height / 2, width / 2, height / 2);*/
+  cerca(parole);
 }
 
-function cerca(parole, x, y) {
+function cerca(parole) {
   for (let i = 0; i < parole.length; i++) {
-    
-     /*let c of categorie;
-    switch(parole[i]) {
-      case (c.oggetti.includes(parole[i]):
-              loadImage(c.img, function (img) {
-                 image(img, x, y, w, h)
-        })
+    // trova la prima categoria che contiene un oggetto utile
+    let categoria = categorie.find((c) => c.oggetti.includes(parole[i]));
+    console.log(parole[i] + " trovato nella categoria " + categoria.categoria);
+
+    // switchcase basato sulla categoria trovata
+    switch (categoria.categoria) {
+      case "travel":
+        loadImage(categorie[0].img, (img) => {
+          image(img, 0, 0, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
         break;
-      case "cat":
-          loadImage(categorie[1].img, img => {
-            image(img, 0, 0, 200, 200) 
-          })
+      case "nature":
+        loadImage(categorie[1].img, (img) => {
+          image(img, 200, 0, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
         break;
-      case "couch":
-          loadImage(categorie[3].img, img => {
-            image(img, 200, 0, 200, 200) 
-          })*/
-    
-        if (categorie[1].oggetti.includes(parole[i])) {
-          loadImage(categorie[1].img, img => {
-            image(img, 0, 0, 200, 200); 
-          });
-        }
-          else{
-            image(vuoto_img, 0, 0, 200, 200);
-          }
-           
-           
-          if (categorie[7].oggetti.includes(parole[i])) {
-          loadImage(categorie[7].img, img => {
-            image(img, 400, 200, 200, 200); 
-          });
-          }
-          else{
-            image(vuoto_img, 400, 200, 200, 200);
-          }
-                    
-          break;
+      case "fashion":
+        loadImage(categorie[2].img, (img) => {
+          image(img, 400, 0, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+      case "sports":
+        loadImage(categorie[3].img, (img) => {
+          image(img, 600, 0, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+      case "food":
+        loadImage(categorie[4].img, (img) => {
+          image(img, 0, 200, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+      case "book":
+        loadImage(categorie[5].img, (img) => {
+          image(img, 200, 200, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+      case "electronic":
+        loadImage(categorie[6].img, (img) => {
+          image(img, 400, 200, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+      case "mystery":
+        loadImage(categorie[7].img, (img) => {
+          image(img, 600, 200, 200, 200);
+        });
+        categorie_trovate.push(categoria.categoria);
+        break;
+
+      default:
+        break;
     }
+  }
+      console.log(categorie_trovate);
+  
 }
-
-function testo() {}
-
-/*function draw() {
-  if (status != undefined) {
-    image(img_coco, 0, 0);
-    //image(nature_img, 0, 0);
-    
-        for (let i = 0; i < objects.length; i++) {
-      
-        for (let k = 0; i < oggetti.length; k++){
-          if (objects[i].label == categorie[0].oggetti[k]){
-            image(travel_img, 0, 0);
-          }
-          
-          if (objects[i].label == categorie[1].oggetti[k]){
-            image(nature_img, 0, 0);
-          }
-          
-        }
-    }
-  }*/
