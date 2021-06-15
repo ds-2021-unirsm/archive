@@ -1,5 +1,5 @@
 ## Pattern generato con il modulo %
-Pattern di cerchi con il modulo % che controlla lo stroke() e anima così il pattern
+Pattern di cerchi generato con il modulo % che controlla lo stroke() e anima il pattern
 
 ![1](https://user-images.githubusercontent.com/76476654/112221045-412ccb80-8c27-11eb-82d2-4e00a5afc97c.png)
 
