@@ -32,8 +32,6 @@ let parametri = {
 };
 
 // FUNZIONE GUI
-// Inserire i parametri e il loro range se presente.
-// Si possono aggiungere sezioni nascoste dichiarandole con il metodo .addFolder();
 window.onload = function() {
   var gui = new dat.GUI();
 
@@ -49,13 +47,11 @@ function preload() {
   song = loadSound('song.mp3');
 }
 
-
 function setup() {
   song.loop();
   colorMode(HSB, 200, 10, 40, 2000);
   createCanvas(windowWidth, windowHeight);
   background(0);
-  //blendMode(ADD);
 
   //caricamento audio
   audio = new p5.AudioIn();
@@ -65,14 +61,11 @@ function setup() {
 }
 
 
-function draw() {
+function draw() {  
   let level = amplitude.getLevel();
-  if (level > 0.01 && !suono) {
+  if (level > 0.05 && !suono) {
     var pallino = new Walkers();
     walkers.push(pallino);
-  }
-  if (level < 0.05) {
-    suono = false;
   }
 
   for (var i = 0; i < walkers.length; i++) {
