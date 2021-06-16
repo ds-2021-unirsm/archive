@@ -1,6 +1,4 @@
-# ds-2021-unirsm test folder
-
-questa cartella contiene:
+# questa cartella contiene
 
 * P5
    * camminatore
@@ -15,6 +13,7 @@ questa cartella contiene:
 
 * 10 PRINT
    * variazione 1
+   * variazione 2
  
 * CLOSE READING
 
@@ -26,3 +25,4 @@ questa cartella contiene:
     * 0.2 Presentazione
     * 0.3 Indice e Menabò
     * 0.4 Bozza documentazione  
+    * 0.5 Prototipi
