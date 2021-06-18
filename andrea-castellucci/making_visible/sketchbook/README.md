@@ -30,7 +30,8 @@
 
 #### 8. SphereControl [+](https://editor.p5js.org/andrea-castellucci/full/fZ6g5uB93)
 
----add GIF
+![SphereControl](https://user-images.githubusercontent.com/75098849/122613613-7067a300-d085-11eb-98cd-9e476096d51e.gif)
+
 
 #### 9. ShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/K6JHMvilp)
 
