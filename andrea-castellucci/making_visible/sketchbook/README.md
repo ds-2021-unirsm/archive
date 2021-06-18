@@ -38,7 +38,8 @@
 
 #### 10. BodyShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/I0To7uDNE)
 
----add GIF
+![BodyShapeControl-TrainedModel](https://user-images.githubusercontent.com/75098849/122615685-34364180-d089-11eb-93bf-c3fe33ca4831.gif)
+
 
 #### 11. TextHead-Input [+](https://editor.p5js.org/andrea-castellucci/full/5M9Bzam14)
 
