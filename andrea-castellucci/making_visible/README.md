@@ -1,4 +1,4 @@
-# Riflessi
+# Riflessi [+](https://github.com/andrea-castellucci/archive/blob/main/andrea-castellucci/making_visible/documentazione/DS-2021_Andrea-Castellucci_Riflessi.pdf)
 ![copertina](https://user-images.githubusercontent.com/75098849/122579286-0b945480-d055-11eb-9edf-176f99ddec04.jpg)
 
 **Riflessi** è un applicativo per il disegno e la scrittura che permette di creare ed esportare rappresentazioni in cui emerge la natura dinamica dell’essere umani. 
