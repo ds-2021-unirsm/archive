@@ -1,6 +1,8 @@
 ✹ Rock Poem ✹
 ---
-Pesie dal tono selvaggio e ribelle generate utilizzando le catene di Markov della libreria RiTa.
+Poesie dal tono selvaggio e ribelle, generate utilizzando le catene di Markov della libreria RiTa. 
+
+Ad ogni click viene generata una nuova poesia.
 
 [It's Rock'n'Roll, baby 🔥](https://editor.p5js.org/irene.crln/full/7DameujTm)
 

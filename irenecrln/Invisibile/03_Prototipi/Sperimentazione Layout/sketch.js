@@ -4,7 +4,16 @@
 
 ////https://codepen.io/ahmady09/pen/PNejyN Esempio di WIKIQUOTE
 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace REPLACE
+//
+
+//variabili per l'object
 let objectDetector;
+
+let objects = [];
+let status;
+let parole = [];
+let categorie_trovate = [];
 
 let img_coco,
   travel_img,
@@ -15,16 +24,24 @@ let img_coco,
   book_img,
   electronic_img;
 
+//variabili per WIKIQUOTE
 let cit_trovate = [];
-let unique_cit=[];
+let unique_cit = [];
+let cit_pulita;
+let cit_per_mashup = [];
 
-let img_poster = [];
-console.log(img_poster + "qui ci sono le img");
+//var per RiTa
+let lines=[]
+let markov;
+let x = 200, y = 500;
 
-let objects = [];
-let status;
-let parole = [];
-let categorie_trovate = [];
+
+
+
+
+//////////////////////////////////
+/////// Creazione di categorie///
+////////////////////////////////
 
 var categorie = [
   {
@@ -129,12 +146,10 @@ var categorie = [
   },
 ];
 
+//precarico i pittogrammi
 function preload() {
   img_coco = loadImage("images/stanza_assoluta.jpg");
-
-  //for (let i = 0; i < categorie.length; i++) {
-  //img_poster = loadImage(categorie[i].img);
-  //}
+  
   travel_img = loadImage("img_categorie/travel.png");
   nature_img = loadImage("img_categorie/nature.png");
   fashion_img = loadImage("img_categorie/moda.png");
@@ -145,6 +160,11 @@ function preload() {
   mystery_img = loadImage("img_categorie/mistery.png");
   vuoto_img = loadImage("img_categorie/vuoto.png");
 }
+
+
+//////////////////////////////////
+//////////////////////// SETUP///
+////////////////////////////////
 
 function setup() {
   createCanvas(800, 600);
@@ -157,6 +177,13 @@ function setup() {
 
   objectDetector = ml5.objectDetector("cocossd", modelReady);
   console.log(categorie);
+  //scrittura mashup con RiTa
+  
+  // if (cit_per_mashup.length != 0){
+   //  mashup();
+  //} else{
+   // delay(100);
+ // }
 }
 
 // Change the status when the model loads.
@@ -182,7 +209,6 @@ function gotResult(err, results) {
 
   cerca(parole);
   getQuote();
-  
 }
 
 function cerca(parole) {
@@ -260,15 +286,15 @@ function cerca(parole) {
   }
   //console.log(categorie_trovate);
   console.log(cit_trovate + "FUORI switch");
-  
+
   //con il metodo filter elimino i doppioni delle categorie per non dare a Rita due citazioni della stessa categoria
   unique_cit = cit_trovate.filter((c, index) => {
-  return cit_trovate.indexOf(c) === index;
-});
-  
+    return cit_trovate.indexOf(c) === index;
+  });
+
   console.log(unique_cit + " sono unica cit");
 
-//if per fargli stampare la quadrettatura nel caso in cui non dovesse trovare le altre categorie che quindi rimangono nascoste   
+  //if per fargli stampare la quadrettatura nel caso in cui non dovesse trovare le altre categorie che quindi rimangono nascoste
   if (categorie_trovate.includes("travel")) {
   } else {
     image(vuoto_img, 0, 0, 200, 200);
@@ -303,239 +329,269 @@ function cerca(parole) {
   }
 }
 
-var Wikiquote = (function() {
+//////////////////////////
+/////// Ajax Wikiquote///
+////////////////////////
 
-    var wqa = {};
+var Wikiquote = (function () {
+  var wqa = {};
 
-    var API_URL = "https://en.wikiquote.org/w/api.php";
+  var API_URL = "https://en.wikiquote.org/w/api.php";
 
-    /**
-     * Query based on "titles" parameter and return page id.
-     * If multiple page ids are returned, choose the first one.
-     * Query includes "redirects" option to automatically traverse redirects.
-     * All words will be capitalized as this generally yields more consistent results.
-     */
-    wqa.queryTitles = function(titles, success, error) {
-        $.ajax({
-            url: API_URL,
-            dataType: "jsonp",
-            data: {
-                format: "json",
-                action: "query",
-                redirects: "",
-                titles: titles
-            },
+  /**
+   * Query based on "titles" parameter and return page id.
+   * If multiple page ids are returned, choose the first one.
+   * Query includes "redirects" option to automatically traverse redirects.
+   * All words will be capitalized as this generally yields more consistent results.
+   */
+  wqa.queryTitles = function (titles, success, error) {
+    $.ajax({
+      url: API_URL,
+      dataType: "jsonp",
+      data: {
+        format: "json",
+        action: "query",
+        redirects: "",
+        titles: titles,
+      },
 
-            success: function(result, status) {
-                var pages = result.query.pages;
-                var pageId = -1;
-                for(var p in pages) {
-                    var page = pages[p];
-                    // api can return invalid recrods, these are marked as "missing"
-                    if(!("missing" in page)) {
-                        pageId = page.pageid;
-                        break;
-                    }
-                }
-                if(pageId > 0) {
-                    success(pageId);
-                } else {
-                    error("No results");
-                }
-            },
-
-            error: function(xhr, result, status){
-                error("Error processing your query");
-            }
-        });
-    };
-
-    /**
-     * Get the sections for a given page.
-     * This makes parsing for quotes more manageable.
-     * Returns an array of all "1.x" sections as these usually contain the quotes.
-     * If no 1.x sections exists, returns section 1. Returns the titles that were used
-     * in case there is a redirect.
-     */
-    wqa.getSectionsForPage = function(pageId, success, error) {
-        $.ajax({
-            url: API_URL,
-            dataType: "jsonp",
-            data: {
-                format: "json",
-                action: "parse",
-                prop: "sections",
-                pageid: pageId
-            },
-
-            success: function(result, status){
-                var sectionArray = [];
-                var sections = result.parse.sections;
-                for(var s in sections) {
-                    var splitNum = sections[s].number.split('.');
-                    if(splitNum.length > 1 && splitNum[0] === "1") {
-                        sectionArray.push(sections[s].index);
-                    }
-                }
-                // Use section 1 if there are no "1.x" sections
-                if(sectionArray.length === 0) {
-                    sectionArray.push("1");
-                }
-                success({ titles: result.parse.title, sections: sectionArray });
-            },
-            error: function(xhr, result, status){
-                error("Error getting sections");
-            }
-        });
-    };
-
-    /**
-     * Get all quotes for a given section.  Most sections will be of the format:
-     * <h3> title </h3>
-     * <ul>
-     *   <li>
-     *     Quote text
-     *     <ul>
-     *       <li> additional info on the quote </li>
-     *     </ul>
-     *   </li>
-     * <ul>
-     * <ul> next quote etc... </ul>
-     *
-     * The quote may or may not contain sections inside <b /> tags.
-     *
-     * For quotes with bold sections, only the bold part is returned for brevity
-     * (usually the bold part is more well known).
-     * Otherwise the entire text is returned.  Returns the titles that were used
-     * in case there is a redirect.
-     */
-    wqa.getQuotesForSection = function(pageId, sectionIndex, success, error) {
-        $.ajax({
-            url: API_URL,
-            dataType: "jsonp",
-            data: {
-                format: "json",
-                action: "parse",
-                noimages: "",
-                pageid: pageId,
-                section: sectionIndex
-            },
-
-            success: function(result, status){
-                var quotes = result.parse.text["*"];
-                var quoteArray = []
-
-                // Find top level <li> only
-                var $lis = $(quotes).find('li:not(li li)');
-                $lis.each(function() {
-                    // Remove all children that aren't <b>
-                    $(this).children().remove(':not(b)');
-                    var $bolds = $(this).find('b');
-
-                    // If the section has bold text, use it.  Otherwise pull the plain text.
-                    if($bolds.length > 0) {
-                        quoteArray.push($bolds.html());
-                    } else {
-                        quoteArray.push($(this).html());
-                    }
-                });
-                success({ titles: result.parse.title, quotes: quoteArray });
-            },
-            error: function(xhr, result, status){
-                error("Error getting quotes");
-            }
-        });
-    };
-
-    /**
-     * Search using opensearch api.  Returns an array of search results.
-     */
-    wqa.openSearch = function(titles, success, error) {
-        $.ajax({
-            url: API_URL,
-            dataType: "jsonp",
-            data: {
-                format: "json",
-                action: "opensearch",
-                namespace: 0,
-                suggest: "",
-                search: titles
-            },
-
-            success: function(result, status){
-                success(result[1]);
-            },
-            error: function(xhr, result, status){
-                error("Error with opensearch for " + titles);
-            }
-        });
-    };
-
-    /**
-     * Get a random quote for the given title search.
-     * This function searches for a page id for the given title, chooses a random
-     * section from the list of sections for the page, and then chooses a random
-     * quote from that section.  Returns the titles that were used in case there
-     * is a redirect.
-     */
-    wqa.getRandomQuote = function(titles, success, error) {
-
-        var errorFunction = function(msg) {
-            error(msg);
-        };
-
-        var chooseQuote = function(quotes) {
-            var randomNum = Math.floor(Math.random()*quotes.quotes.length);
-            success({ titles: quotes.titles, quote: quotes.quotes[randomNum] });
-        };
-
-        var getQuotes = function(pageId, sections) {
-            var randomNum = Math.floor(Math.random()*sections.sections.length);
-            wqa.getQuotesForSection(pageId, sections.sections[randomNum], chooseQuote, errorFunction);
-        };
-
-        var getSections = function(pageId) {
-            wqa.getSectionsForPage(pageId, function(sections) { getQuotes(pageId, sections); }, errorFunction);
-        };
-
-        wqa.queryTitles(titles, getSections, errorFunction);
-    };
-
-    /**
-     * Capitalize the first letter of each word
-     */
-    wqa.capitalizeString = function(input) {
-        var inputArray = input.split(' ');
-        var output = [];
-        for(s in inputArray) {
-            output.push(inputArray[s].charAt(0).toUpperCase() + inputArray[s].slice(1));
+      success: function (result, status) {
+        var pages = result.query.pages;
+        var pageId = -1;
+        for (var p in pages) {
+          var page = pages[p];
+          // api can return invalid recrods, these are marked as "missing"
+          if (!("missing" in page)) {
+            pageId = page.pageid;
+            break;
+          }
         }
-        return output.join(' ');
-    };
+        if (pageId > 0) {
+          success(pageId);
+        } else {
+          error("No results");
+        }
+      },
 
-    return wqa;
-}());
-/* random qoutes from WikiQoutes api */
-// il mio script wiki 
+      error: function (xhr, result, status) {
+        error("Error processing your query");
+      },
+    });
+  };
 
+  /**
+   * Get the sections for a given page.
+   * This makes parsing for quotes more manageable.
+   * Returns an array of all "1.x" sections as these usually contain the quotes.
+   * If no 1.x sections exists, returns section 1. Returns the titles that were used
+   * in case there is a redirect.
+   */
+  wqa.getSectionsForPage = function (pageId, success, error) {
+    $.ajax({
+      url: API_URL,
+      dataType: "jsonp",
+      data: {
+        format: "json",
+        action: "parse",
+        prop: "sections",
+        pageid: pageId,
+      },
 
-  
-    randInt = function(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    },
- 
-   
+      success: function (result, status) {
+        var sectionArray = [];
+        var sections = result.parse.sections;
+        for (var s in sections) {
+          var splitNum = sections[s].number.split(".");
+          if (splitNum.length > 1 && splitNum[0] === "1") {
+            sectionArray.push(sections[s].index);
+          }
+        }
+        // Use section 1 if there are no "1.x" sections
+        if (sectionArray.length === 0) {
+          sectionArray.push("1");
+        }
+        success({ titles: result.parse.title, sections: sectionArray });
+      },
+      error: function (xhr, result, status) {
+        error("Error getting sections");
+      },
+    });
+  };
 
-    getQuote =  function() {     
-        Wikiquote.getRandomQuote(unique_cit[randInt(0,1)],
-            function (quote) {
-                console.log(quote.quote);
-            }, function (e) {
+  /**
+   * Get all quotes for a given section.  Most sections will be of the format:
+   * <h3> title </h3>
+   * <ul>
+   *   <li>
+   *     Quote text
+   *     <ul>
+   *       <li> additional info on the quote </li>
+   *     </ul>
+   *   </li>
+   * <ul>
+   * <ul> next quote etc... </ul>
+   *
+   * The quote may or may not contain sections inside <b /> tags.
+   *
+   * For quotes with bold sections, only the bold part is returned for brevity
+   * (usually the bold part is more well known).
+   * Otherwise the entire text is returned.  Returns the titles that were used
+   * in case there is a redirect.
+   */
+  wqa.getQuotesForSection = function (pageId, sectionIndex, success, error) {
+    $.ajax({
+      url: API_URL,
+      dataType: "jsonp",
+      data: {
+        format: "json",
+        action: "parse",
+        noimages: "",
+        pageid: pageId,
+        section: sectionIndex,
+      },
+
+      success: function (result, status) {
+        var quotes = result.parse.text["*"];
+        var quoteArray = [];
+
+        // Find top level <li> only
+        var $lis = $(quotes).find("li:not(li li)");
+        $lis.each(function () {
+          // Remove all children that aren't <b>
+          $(this).children().remove(":not(b)");
+          var $bolds = $(this).find("b");
+
+          // If the section has bold text, use it.  Otherwise pull the plain text.
+          if ($bolds.length > 0) {
+            quoteArray.push($bolds.html());
+          } else {
+            quoteArray.push($(this).html());
+          }
         });
+        success({ titles: result.parse.title, quotes: quoteArray });
+      },
+      error: function (xhr, result, status) {
+        error("Error getting quotes");
+      },
+    });
+  };
+
+  /**
+   * Search using opensearch api.  Returns an array of search results.
+   */
+  wqa.openSearch = function (titles, success, error) {
+    $.ajax({
+      url: API_URL,
+      dataType: "jsonp",
+      data: {
+        format: "json",
+        action: "opensearch",
+        namespace: 0,
+        suggest: "",
+        search: titles,
+      },
+
+      success: function (result, status) {
+        success(result[1]);
+      },
+      error: function (xhr, result, status) {
+        error("Error with opensearch for " + titles);
+      },
+    });
+  };
+
+  /**
+   * Get a random quote for the given title search.
+   * This function searches for a page id for the given title, chooses a random
+   * section from the list of sections for the page, and then chooses a random
+   * quote from that section.  Returns the titles that were used in case there
+   * is a redirect.
+   */
+  wqa.getRandomQuote = function (titles, success, error) {
+    var errorFunction = function (msg) {
+      error(msg);
     };
-let quote
-$(function() {
-    getQuote();
-    $('#new-quote').on('click', getQuote);
-});
+
+    var chooseQuote = function (quotes) {
+      var randomNum = Math.floor(Math.random() * quotes.quotes.length);
+      success({ titles: quotes.titles, quote: quotes.quotes[randomNum] });
+    };
+
+    var getQuotes = function (pageId, sections) {
+      var randomNum = Math.floor(Math.random() * sections.sections.length);
+      wqa.getQuotesForSection(
+        pageId,
+        sections.sections[randomNum],
+        chooseQuote,
+        errorFunction
+      );
+    };
+
+    var getSections = function (pageId) {
+      wqa.getSectionsForPage(
+        pageId,
+        function (sections) {
+          getQuotes(pageId, sections);
+        },
+        errorFunction
+      );
+    };
+
+    wqa.queryTitles(titles, getSections, errorFunction);
+  };
+
+  /**
+   * Capitalize the first letter of each word
+   */
+  wqa.capitalizeString = function (input) {
+    var inputArray = input.split(" ");
+    var output = [];
+    for (s in inputArray) {
+      output.push(
+        inputArray[s].charAt(0).toUpperCase() + inputArray[s].slice(1)
+      );
+    }
+    return output.join(" ");
+  };
+
+  return wqa;
+})();
+/* random qoutes from WikiQoutes api */
+// il mio script wiki
+
+(randInt = function (min, max) {
+  return Math.floor(Math.random() * (max - min) + min) + min;
+}),
+  (getQuote = function () {
+    for (j = 0; j < 2; j++) {
+      //faccio ripetere due volte l'estrazione della citazione per avere due cit diverse da dare a RiTa per il mashup
+      Wikiquote.getRandomQuote(
+        unique_cit[randInt(0, unique_cit.length - 1)],
+        
+        function (quote) {
+          //console.log(quote.quote);
+          cit_pulita = quote.quote.replace(/<[a-zA-Z/][^>]*>/g, ""); //uso il replace per pulire la stringa dai residui dell'html
+          //console.log(cit_pulita + " sono cit PULITA");
+          cit_per_mashup.push(cit_pulita);
+          console.log(cit_per_mashup + " sono cit PER RITA");    
+            mashup();
+        }
+      );
+    }
+  });
+let quote;
 // fine il mio script wiki
+
+
+function mashup() {
+  markov = RiTa.markov(2);
+  markov.addText(cit_per_mashup[0]); 
+  markov.addText(cit_per_mashup[1]);
+  lines = markov.generate(2); //n di linee
+  textFont('Roboto', 18);
+  text(lines.join(' '), x, y, 420, 440);
+  
+  lines = select("#testo");
+  splice(lines[1]);
+  console.log(lines + "sono MASHUP");
+}
