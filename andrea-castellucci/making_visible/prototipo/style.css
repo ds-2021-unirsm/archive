@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* bottone "start/stop detection" */
+#startstop{
+  font-size: 14.2px;
+  background-color: #555;
+  color: #e9e9e9;
+  border: none;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/* bottone "clear all" */
+#resetbutton{
+  font-size: 14.2px;
+  background-color: #555;
+  color: #e9e9e9;
+  border: none;
+  height: 25px;
+  position: absolute;
+  left: 149px;
+}
+
+/* bottone "save canvas" */
+#exportbutton{
+  font-size: 14px;
+  background-color: #555;
+  color: #e9e9e9;
+  border: none;
+  height: 24px;
+  width: 200px;
+  position: absolute;
+  left: 10px;
+}
+
+/* intestazione e link al progetto su Github */
+.intestazione{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  text-decoration: none;
+  
+  color: #777;
+  text-align: center;
+  
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+/* personalizzazione GUI */
+.dg.main.a {width: 200px !important;}
+.close-button.close-bottom{width: 200px !important;}
+.dg.a{
+  float: left;
+  margin-left: 10px;
+  margin-top: 195px;
+}
+.dg{font: 10px 'Lucida Grande', sans-serif;}
