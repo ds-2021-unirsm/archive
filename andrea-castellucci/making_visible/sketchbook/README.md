@@ -48,3 +48,7 @@
 #### 12. TextHead-SpeechRecognition [+](https://editor.p5js.org/andrea-castellucci/full/lDiwAXfT4)
 
 ---add GIF
+
+#### 13. TextHead-SR-ControlFontSize [+](https://editor.p5js.org/andrea-castellucci/full/fRgcEXCzB)
+
+---add GIF
