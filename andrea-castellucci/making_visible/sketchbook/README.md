@@ -32,11 +32,9 @@
 
 ![SphereControl](https://user-images.githubusercontent.com/75098849/122613613-7067a300-d085-11eb-98cd-9e476096d51e.gif)
 
-
 #### 9. ShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/K6JHMvilp)
 
-
----add GIF
+![ShapeControl-TrainedModel](https://user-images.githubusercontent.com/75098849/122614858-baea1f00-d087-11eb-9fa0-4bac11bd144a.gif)
 
 #### 10. BodyShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/I0To7uDNE)
 
