@@ -47,7 +47,7 @@
 
 #### 12. TextHead-SpeechRecognition [+](https://editor.p5js.org/andrea-castellucci/full/lDiwAXfT4)
 
-![ TextHead-SpeechRecognition](https://user-images.githubusercontent.com/75098849/122617021-c93a3a00-d08b-11eb-8d7b-d45109ae3aeb.gif)
+![TextHead-SpeechRecognition](https://user-images.githubusercontent.com/75098849/122619190-2637ef00-d090-11eb-8cb9-2b359347516d.gif)
 
 #### 13. TextHead-SR-ControlFontSize [+](https://editor.p5js.org/andrea-castellucci/full/fRgcEXCzB)
 
