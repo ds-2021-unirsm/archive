@@ -62,12 +62,21 @@ Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/FD8VLfVBC)
 
 Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/zYt19L-rC)
 
+
+
 ## Prove interfaccia...
 
 https://user-images.githubusercontent.com/63911437/121783593-cdf47f00-cbaf-11eb-9552-758a54564bac.mov
 
 Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/lMJPJrkJy)
 
+
+
+## Prove interfaccia seconda parte...
+
+<img width="1280" alt="Screenshot 2021-06-17 at 23 04 44" src="https://user-images.githubusercontent.com/63911437/122536142-842eed00-d024-11eb-85a5-1b1079addda7.png">
+
+Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/qf4aqvpR7)
 
 
 
