@@ -51,4 +51,4 @@
 
 #### 13. TextHead-SR-ControlFontSize [+](https://editor.p5js.org/andrea-castellucci/full/fRgcEXCzB)
 
----add GIF
+![TextHead-SR-ControlFontSize](https://user-images.githubusercontent.com/75098849/122618626-e4f30f80-d08e-11eb-858b-f4ef8dd069e0.gif)
