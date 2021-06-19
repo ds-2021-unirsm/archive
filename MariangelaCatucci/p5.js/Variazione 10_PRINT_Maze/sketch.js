@@ -1,3 +1,8 @@
+// Seconda variazione_10 print 0.1 by Mariangela Catucci [maze, ellipse]
+// 2021 © Mariangela @MariangelaCatucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
 
 var x = 0;
 var y = 0;
@@ -15,10 +20,8 @@ function draw() {
   if (random(1) > 0.5) {
     line(x, y, x+20, y+20);
     fill(r, g, b);
-    ellipse(x+10, y+10, 8, 8);
-    
-  } 
-  else {
+    ellipse(x+10, y+10, 8, 8);   
+  } else {
     line(x, y+20, x+20, y);
   }
 
