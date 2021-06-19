@@ -2,7 +2,7 @@
   
 **REFERENCE** 
 
-**Ian Bogost _ Play Anything (2017)** [+](https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/)
+**Ian Bogost _ Play Anything (2017)** ### [+](https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/)
 
 ![095709789-hq-168-80](https://user-images.githubusercontent.com/79698027/116561384-8e751a80-a902-11eb-9459-9bffafe62961.jpg)
 
