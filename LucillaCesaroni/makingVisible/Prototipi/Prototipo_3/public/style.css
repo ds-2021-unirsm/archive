@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#cartiglio {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top:0.7%;
+  padding-bottom:0.3%;
+  color: #5a4fcf;
+  background-color: white;
+  text-align: center;
+  font-family: "GTAmerica-Regular";
+  font-size: 13px;
+}
