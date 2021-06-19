@@ -7,16 +7,16 @@ Cartella contenente tutto ciò che riguarda il progetto finale, dalla ricerca in
 È possibile ridurre lo stress causato dal
 lavoro ridendo e trarne dei vantaggi
 concreti? Come sostiene Brendan
-Boyle, direttore del Play Lab di IDEO[1],
+Boyle, direttore del Play Lab di IDEO,
 i team di lavoro che ridono di più
 sono anche quelli maggiormante
 produttivi. Se grazie alla risata fossimo
 meno stressati potremmo migliorare
 le nostre prestazioni lavorative?
 Work Laughing è uno specchio che,
-tramite la realtà aumentata[2], è
+tramite la realtà aumentata, è
 in grado di posizionare sul volto
-dell’utente una grafica generativa[3]
+dell’utente una grafica generativa
 divertente con lo scopo di ridurne lo
 stress lavorativo tramite la risata.
 
