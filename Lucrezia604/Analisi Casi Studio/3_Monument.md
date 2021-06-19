@@ -1,4 +1,5 @@
 # MONUMENT [+](http://classic.rhizome.org/profile/caleblarsen/)
+![vbxdfb](https://user-images.githubusercontent.com/79698027/122649667-24713880-d12f-11eb-86a3-7223d9fdd475.jpg)
 
 ### WHAT IS?  
 È un'installazione che rappresenta in tempo reale il numero delle vittime di omicidi. È composta da un contenitore in plastica trasparente che contiene una pallina gialla per ogni vittima.
