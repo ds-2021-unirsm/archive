@@ -26,7 +26,7 @@
 // https://github.com/shiffman/A2Z-F18
 // original license: MIT License 2018
 //
-// Sentiment Analysis API & Entity Extraction, Dandelion API for
+// Entity Extraction, Dandelion API for
 // https://dandelion.eu
 // original license: v.2 - 02/Sep/2013
 //
@@ -110,8 +110,7 @@ let tuttoProntoNoEntita = false;
 let tuttoPronto = false;
 
 // Fonts
-let myFont;
-let myFont2;
+let myFont, myFont2;
 
 // Per la sentiment analysis
 let sentiment;
@@ -122,12 +121,12 @@ let valoreMassimo;
 // Per interfaccia GUI, per cambiare colore emozioni
 let parametri = {
   // Slider: valore all'avvio dello sketch
-  felicita: 151,
-  tristezza: 206,
-  arrabbiato: 0,
-  timoroso: 234,
-  disgustato: 55,
-  sorpreso: 272,
+  felice: 41,
+  triste: 229,
+  arrabbiato: 8,
+  impaurito: 276,
+  disgustato: 36,
+  sorpreso: 168,
 };
 
 window.onload = function () {
@@ -135,18 +134,18 @@ window.onload = function () {
   var gui = new dat.GUI();
 
   var f0 = gui.addFolder("Scegli colori emozioni");
-  f0.add(parametri, "felicita", 0, 360);
-  f0.add(parametri, "tristezza", 0, 360);
+  f0.add(parametri, "felice", 0, 360);
+  f0.add(parametri, "triste", 0, 360);
   f0.add(parametri, "arrabbiato", 0, 360);
-  f0.add(parametri, "timoroso", 0, 360);
+  f0.add(parametri, "impaurito", 0, 360);
   f0.add(parametri, "disgustato", 0, 360);
   f0.add(parametri, "sorpreso", 0, 360);
 };
 
 function preload() {
   // Fonts per il testo
-  myFont = loadFont("Inter-Regular.ttf");
-  myFont2 = loadFont("Inter-SemiBold.ttf");
+  myFont = loadFont("GTAmerica-Thin.otf");
+  myFont2 = loadFont("GTAmerica-Regular.otf");
 }
 
 // By default all options are set to true
@@ -156,7 +155,7 @@ const detection_options = {
 };
 
 function setup() {
-  canvas = createCanvas((w = windowWidth - 20), (h = windowHeight - 20)); // Guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
+  canvas = createCanvas((w = windowWidth), (h = windowHeight - 20)); // Guarda https://github.com/processing/p5.js-web-editor/issues/680 || per i bottoni
 
   background(255);
 
@@ -166,10 +165,10 @@ function setup() {
   video = createCapture(VIDEO);
 
   // Se la larghezza è maggiore dell'altezza allora
-  if (w > h) {
+  if (w >= h) {
     // Desktop
     // console.log("caso1");
-    let scala = 1.95;
+    let scala = 2;
 
     video.size((h * 1.3) / scala, h / scala);
   } else {
@@ -198,6 +197,31 @@ function modelReady() {
   faceapi.detect(gotResults);
 }
 
+function startRec() {
+  recordingAvviato = true;
+  console.log("Hai cliccato raccontami, inizia a raccontare...");
+
+  // Crea un'oggetto Speech Recognition con una callback
+  speechRec = new p5.SpeechRec("it-IT", gotSpeech);
+
+  // "Continuous recognition"
+  let continuous = true;
+  // Recognition parziale (più veloce, meno accurata)
+  let interimResults = false;
+
+  speechRec.start(continuous, interimResults);
+
+  // Evento Speech recognized
+  function gotSpeech() {
+    // console.log(speechRec);
+
+    if (speechRec.resultValue && recordingAvviato == true) {
+      racconto = racconto + speechRec.resultString + " "; // Salvo il racconto in una variabile
+      console.log("Racconto: " + racconto);
+    }
+  }
+}
+
 function pauseRec() {
   console.log("Hai cliccato pausa");
 
@@ -217,7 +241,7 @@ function stopRec() {
     let url =
       "https://api.dandelion.eu/datatxt/nex/v1/?lang=" +
       lang +
-      "&min_confidence=0.4&text=" +
+      "&min_confidence=0.1&text=" +
       racconto +
       "&token=" +
       token;
@@ -269,14 +293,16 @@ function visualizzaRisposta(risposta) {
       random(200),
     salvaimmagine
   );
+
   contatoreEntita += 1; // Incremento il contatore delle entità
 }
 
 function salvaimmagine(img) {
   immagini.push(img);
+
   // Crea un numero random per positions tra -randomDist e randomDist
-  randomX.push(random() * 2 * randomDist - randomDist - 10); // origineX - 10 perchè l'ho spostato al centro
-  randomY.push(random() * 2 * randomDist - randomDist - 10);
+  randomX.push(random() * 2 * randomDist - randomDist);
+  randomY.push(random() * 2 * randomDist - randomDist - 10); // origineY - 10 perchè l'ho spostato al centro
 
   console.log("Contatore entità: " + contatoreEntita);
   console.log("Contatore immagini: " + immagini.length);
@@ -303,17 +329,22 @@ function gotResults(err, result) {
 
   background(255);
 
+  // Video
+  // console.log("larghezza video: " + video.width);
+  image(video, origineX, origineY, video.width, video.height);
+  filter(GRAY);
+
   // Titolo
-  fill(0);
+  fill(245, 62, 81);
   noStroke();
   textAlign(LEFT, TOP);
-  let titolo = "metamorfosi";
-  textFont(myFont2, 34);
+  let titolo = "Metamorfosi";
+  textFont(myFont2, 36);
   text(titolo, origineX, (origineY * 0.5) / 5);
 
   // Istruzioni
   textAlign(LEFT, TOP);
-  textFont(myFont, 14);
+  textFont(myFont, 16);
   text(
     "Premi il pulsante start e inizia a raccontare qualcosa. Premi il pulsante stop quando vuoi analizzare quello che hai detto. Premi il pulsante pausa quando devi pensare. Premi il pulsante new quando vuoi analizzare una nuova frase.",
     origineX,
@@ -324,18 +355,14 @@ function gotResults(err, result) {
   // Rettangolo sotto per sottotitolazione
   fill(255);
   strokeWeight(1);
-  stroke(0);
+  stroke(245, 62, 81);
   rect(
     origineX,
     origineY + video.height + video.height / 60,
     video.width,
-    video.height / 4
+    video.height / 4,
+    2
   );
-
-  // Video
-  // console.log("larghezza video: " + video.width);
-  image(video, origineX, origineY, video.width, video.height);
-  filter(GRAY);
 
   if (detections) {
     if (detections.length > 0) {
@@ -351,9 +378,9 @@ function gotResults(err, result) {
       // console.log(keys);
       keys.forEach((item, idx) => {
         // Nomi emozioni
-        fill(0);
+        fill(245, 62, 81);
         noStroke();
-        textFont(myFont, 14);
+        textFont(myFont2, 15);
         textAlign(LEFT, TOP);
 
         // console.log(item);
@@ -385,14 +412,14 @@ function gotResults(err, result) {
         let valore = map(expressions[item], 0, 1, 0, video.width / 3);
 
         // Rettangoli emozioni
-        fill(0);
+        fill(245, 62, 81);
         noStroke();
-        rect(origineX + 100, idx * 18 + origineY + 16, valore, 6); // x y w h
+        rect(origineX + 100, idx * 18 + origineY + 16, valore, 6, 2); // x y w h
 
-        stroke(0);
+        stroke(245, 62, 81);
         strokeWeight(1);
         noFill();
-        rect(origineX + 100, idx * 18 + origineY + 16, video.width / 3, 6);
+        rect(origineX + 100, idx * 18 + origineY + 16, video.width / 3, 6, 2);
       });
 
       valoreMassimo = max(val);
@@ -403,29 +430,29 @@ function gotResults(err, result) {
         saturation = 0;
         brightness = 0;
       } else if (valoreMassimo == val[1]) {
-        sentiment = parametri.felicita; // VERDE
+        sentiment = parametri.felice; // VERDE
         saturation = 100;
-        brightness = 97;
+        brightness = 100;
       } else if (valoreMassimo == val[2]) {
-        sentiment = parametri.tristezza; // AZZURRO
-        saturation = 40;
+        sentiment = parametri.triste; // AZZURRO
+        saturation = 100;
         brightness = 100;
       } else if (valoreMassimo == val[3]) {
         sentiment = parametri.arrabbiato; // ROSSO
-        saturation = 70;
+        saturation = 100;
         brightness = 100;
       } else if (valoreMassimo == val[4]) {
-        sentiment = parametri.timoroso; // BLU
-        saturation = 70;
+        sentiment = parametri.impaurito; // BLU
+        saturation = 100;
         brightness = 100;
       } else if (valoreMassimo == val[5]) {
-        sentiment = parametri.disgusto; // VERDE BRUTTO
-        saturation = 57;
-        brightness = 80;
+        sentiment = parametri.disgustato; // VERDE BRUTTO
+        saturation = 0;
+        brightness = 36;
       } else if (valoreMassimo == val[6]) {
         sentiment = parametri.sorpreso; // VIOLA
-        saturation = 55;
-        brightness = 100;
+        saturation = 84;
+        brightness = 90;
       }
 
       val[0] = floor(map(val[0], 0, 1, 40, 38));
@@ -446,149 +473,134 @@ function disegnapulsanti() {
   // Bottoni
   speakbutton = createButton("start");
   speakbutton.style("background-color", "#ffffff");
-  speakbutton.style("color", "#000000");
-  speakbutton.style("border", "1px solid #000000");
-  speakbutton.style("font-family", "Inter-Regular");
-  speakbutton.style("font-size", "0.8em");
+  speakbutton.style("width", "100px");
+  speakbutton.style("color", "#5a4fcf");
+  speakbutton.style("border", "1px solid #5a4fcf");
+  speakbutton.style("font-family", "GTAmerica-Thin");
+  speakbutton.style("font-size", "16px");
   speakbutton.style("padding-top", "6px");
   speakbutton.style("padding-bottom", "6px");
-  speakbutton.style("padding-left", "15px");
-  speakbutton.style("padding-right", "15px");
+  speakbutton.style("border-radius", "50px 50px");
   speakbutton.mouseOver(inside0).mouseOut(outside0);
   speakbutton.mousePressed(startRec);
   speakbutton.position(
-    origineX + 7,
+    origineX,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
 
   pausebutton = createButton("pause");
   pausebutton.style("background-color", "#ffffff");
-  pausebutton.style("color", "#000000");
-  pausebutton.style("border", "1px solid #000000");
-  pausebutton.style("font-family", "Inter-Regular");
-  pausebutton.style("font-size", "0.8em");
+  pausebutton.style("width", "100px");
+  pausebutton.style("color", "#5a4fcf");
+  pausebutton.style("border", "1px solid #5a4fcf");
+  pausebutton.style("font-family", "GTAmerica-Thin");
+  pausebutton.style("font-size", "16px");
   pausebutton.style("padding-top", "6px");
   pausebutton.style("padding-bottom", "6px");
-  pausebutton.style("padding-left", "15px");
-  pausebutton.style("padding-right", "15px");
+  pausebutton.style("border-radius", "50px 50px");
   pausebutton.mouseOver(inside1).mouseOut(outside1);
   pausebutton.mousePressed(pauseRec);
   pausebutton.position(
-    origineX + 70,
+    w / 2 -
+      video.width / 4 +
+      (video.width / 4 - pausebutton.width) / 2 -
+      (video.width / 4 - pausebutton.width) / 9.2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
 
   stopspeakbutton = createButton("stop");
   stopspeakbutton.style("background-color", "#ffffff");
-  stopspeakbutton.style("color", "#000000");
-  stopspeakbutton.style("border", "1px solid #000000");
-  stopspeakbutton.style("font-family", "Inter-Regular");
-  stopspeakbutton.style("font-size", "0.8em");
+  stopspeakbutton.style("width", "100px");
+  stopspeakbutton.style("color", "#5a4fcf");
+  stopspeakbutton.style("border", "1px solid #5a4fcf");
+  stopspeakbutton.style("font-family", "GTAmerica-Thin");
+  stopspeakbutton.style("font-size", "16px");
   stopspeakbutton.style("padding-top", "6px");
   stopspeakbutton.style("padding-bottom", "6px");
-  stopspeakbutton.style("padding-left", "15px");
-  stopspeakbutton.style("padding-right", "15px");
+  stopspeakbutton.style("border-radius", "50px 50px");
   stopspeakbutton.mouseOver(inside2).mouseOut(outside2);
   stopspeakbutton.mousePressed(stopRec);
   stopspeakbutton.position(
-    origineX + 141.5,
+    w / 2 +
+      (video.width / 4 - stopspeakbutton.width) / 2 +
+      (video.width / 4 - pausebutton.width) / 9.2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
 
   cancellaspeakbutton = createButton("new");
   cancellaspeakbutton.style("background-color", "#ffffff");
-  cancellaspeakbutton.style("color", "#000000");
-  cancellaspeakbutton.style("border", "1px solid #000000");
-  cancellaspeakbutton.style("font-family", "Inter-Regular");
-  cancellaspeakbutton.style("font-size", "0.8em");
+  cancellaspeakbutton.style("width", "100px");
+  cancellaspeakbutton.style("color", "#5a4fcf");
+  cancellaspeakbutton.style("border", "1px solid #5a4fcf");
+  cancellaspeakbutton.style("font-family", "GTAmerica-Thin");
+  cancellaspeakbutton.style("font-size", "16px");
   cancellaspeakbutton.style("padding-top", "6px");
   cancellaspeakbutton.style("padding-bottom", "6px");
-  cancellaspeakbutton.style("padding-left", "15px");
-  cancellaspeakbutton.style("padding-right", "15px");
+  cancellaspeakbutton.style("border-radius", "50px 50px");
   cancellaspeakbutton.mouseOver(inside3).mouseOut(outside3);
   cancellaspeakbutton.mousePressed(newRec);
   cancellaspeakbutton.position(
-    origineX + 203,
+    origineX + video.width - cancellaspeakbutton.width - 2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
 
   function inside0() {
     speakbutton.style("transition-duration", "0.4s");
-    speakbutton.style("background-color", "#000000");
+    speakbutton.style("background-color", "#5a4fcf");
     speakbutton.style("color", "#ffffff");
   }
   function outside0() {
     speakbutton.style("transition-duration", "0.4s");
     speakbutton.style("background-color", "#ffffff");
-    speakbutton.style("color", "#000000");
+    speakbutton.style("color", "#5a4fcf");
   }
 
   function inside1() {
     pausebutton.style("transition-duration", "0.4s");
-    pausebutton.style("background-color", "#000000");
+    pausebutton.style("background-color", "#5a4fcf");
     pausebutton.style("color", "#ffffff");
   }
   function outside1() {
     pausebutton.style("transition-duration", "0.4s");
     pausebutton.style("background-color", "#ffffff");
-    pausebutton.style("color", "#000000");
+    pausebutton.style("color", "#5a4fcf");
   }
 
   function inside2() {
     stopspeakbutton.style("transition-duration", "0.4s");
-    stopspeakbutton.style("background-color", "#000000");
+    stopspeakbutton.style("background-color", "#5a4fcf");
     stopspeakbutton.style("color", "#ffffff");
   }
   function outside2() {
     stopspeakbutton.style("transition-duration", "0.4s");
     stopspeakbutton.style("background-color", "#ffffff");
-    stopspeakbutton.style("color", "#000000");
+    stopspeakbutton.style("color", "#5a4fcf");
   }
 
   function inside3() {
     cancellaspeakbutton.style("transition-duration", "0.4s");
-    cancellaspeakbutton.style("background-color", "#000000");
+    cancellaspeakbutton.style("background-color", "#5a4fcf");
     cancellaspeakbutton.style("color", "#ffffff");
   }
   function outside3() {
     cancellaspeakbutton.style("transition-duration", "0.4s");
     cancellaspeakbutton.style("background-color", "#ffffff");
-    cancellaspeakbutton.style("color", "#000000");
+    cancellaspeakbutton.style("color", "#5a4fcf");
   }
 }
 
-function startRec() {
-  recordingAvviato = true;
-  console.log("Hai cliccato raccontami, inizia a raccontare...");
-
-  // Crea un'oggetto Speech Recognition con una callback
-  speechRec = new p5.SpeechRec("it-IT", gotSpeech);
-
-  // "Continuous recognition"
-  let continuous = true;
-  // Recognition parziale (più veloce, meno accurata)
-  let interimResults = false;
-
-  speechRec.start(continuous, interimResults);
-
-  // Evento Speech recognized
-  function gotSpeech() {
-    // console.log(speechRec);
-
-    if (speechRec.resultValue && recordingAvviato == true) {
-      racconto = racconto + speechRec.resultString + " "; // Salvo il racconto in una variabile
-      console.log("Racconto: " + racconto);
-    }
-  }
-}
 function drawLandmarks(detections) {
   // console.log("detections: "+ JSON.stringify(detections))
 
@@ -609,8 +621,8 @@ function drawLandmarks(detections) {
       // console.log("eccomi");
       noStroke();
       fill(sentiment, saturation, brightness);
-      textFont(myFont2, 14);
       textAlign(CENTER, CENTER);
+      textFont(myFont2, 16);
       text(
         racconto,
         w / 2 - (video.width - 100) / 2,
@@ -622,8 +634,8 @@ function drawLandmarks(detections) {
       // console.log ("sto disegnando le img");
       noStroke();
       fill(sentiment, saturation, brightness);
-      textFont(myFont2, 14);
       textAlign(CENTER, CENTER);
+      textFont(myFont2, 16);
       text(
         racconto,
         w / 2 - (video.width - 100) / 2,
@@ -654,15 +666,15 @@ function drawLandmarks(detections) {
 
 // Per il resize della canvas
 function windowResized() {
-  canvas = resizeCanvas((w = windowWidth - 20), (h = windowHeight - 20));
+  canvas = resizeCanvas((w = windowWidth), (h = windowHeight - 20));
 
   video = createCapture(VIDEO);
 
   // Se la larghezza è maggiore dell'altezza allora
-  if (w > h) {
+  if (w >= h) {
     // Desktop
     // console.log("caso1");
-    let scala = 1.95;
+    let scala = 2;
 
     video.size((h * 1.3) / scala, h / scala);
   } else {
@@ -689,29 +701,40 @@ function windowResized() {
 
   // Bottoni
   speakbutton.position(
-    origineX + 7,
+    origineX,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
   pausebutton.position(
-    origineX + 70,
+    w / 2 -
+      video.width / 4 +
+      (video.width / 4 - pausebutton.width) / 2 -
+      (video.width / 4 - pausebutton.width) / 9.2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
   stopspeakbutton.position(
-    origineX + 141.5,
+    w / 2 +
+      (video.width / 4 - stopspeakbutton.width) / 2 +
+      (video.width / 4 - pausebutton.width) / 9.2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
   cancellaspeakbutton.position(
-    origineX + 203,
+    origineX + video.width - cancellaspeakbutton.width - 2,
     h -
-      ((origineY + video.height + video.height / 60 + video.height / 4) * 0.5) /
+      ((origineY + video.height + video.height / 60 + video.height / 4) *
+        0.45) /
         5
   );
+
+  video.hide(); // Hide the video element, and just show the canvas
 }
 
 // Premi "s", screen
