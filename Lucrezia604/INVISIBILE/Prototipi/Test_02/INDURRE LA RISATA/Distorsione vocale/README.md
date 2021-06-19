@@ -1,4 +1,4 @@
-# DISTORSIONE VOCALE [+](https://editor.p5js.org/lucrezia1234/sketches/_Tmim0KnK)
+# DISTORSIONE VOCALE [+](https://editor.p5js.org/lucrezia1234/full/_Tmim0KnK)
 
 Prototipo realizzato a partire dalle sound reference p5.js che permettono la registrazione e la distorsione del suono della voce.
 
