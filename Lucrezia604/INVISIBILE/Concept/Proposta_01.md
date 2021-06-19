@@ -58,7 +58,7 @@ Da definire.
 
 Vai a teatro? Paghi in base a quanto ridi. I membri di Teatreneu, una compagnia teatrale di Barcellona, hanno posizionato dei tublet con un sistema di riconoscimento facciale davanti ad ogni poltrona del teatro: ogni volta che uno spettatore ride durante uno spettacolo il sistema rileva la risata e aggiunge 0.30 centesimi, il costo finale del biglietto sarà la somma delle risate.
 
-https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/
+[+](https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/)
 
 ![teatro](https://user-images.githubusercontent.com/79698027/116561116-4b1aac00-a902-11eb-8932-db0ee26f822c.JPG)
 
