@@ -17,14 +17,18 @@ Nella prima fase è stato realizzato un algoritmo che utilizza l’API di Dandel
 Successivamente è stata sostituita la sentiment analysis di Dandelion con l’algoritmo di ml5 Face-Api per il riconoscimento del volto (e quindi il posizionamento nello spazio delle immagini) e l’analisi delle emozioni (visibile tramite il colore del testo e gli istogrammi indicanti la percentuale dello stato d’animo analizzato), ed è stata aggiunta un’interfaccia GUI per la personalizzazione dei colori.
 Infine, tramite node.js con il framework Express.js, è stato possibile fare richieste in locale in lingua inglese, per ricevere icone da Noun Project, in sostituzione delle immagini non facilmente accessibili per le persone con delle disabilità. Personalizzabili anche queste, tramite un’interfaccia GUI.
 
-### 1° prototipo Unsplash :point_right: [+](https://editor.p5js.org/Lucilla/sketches/QW6jw8g4U) 
+### 1° prototipo Unsplash :point_right: [+](https://editor.p5js.org/Lucilla/full/QW6jw8g4U) 
 ![Metamorfosi_prototipo1_Unsplash](https://user-images.githubusercontent.com/76476647/122623336-f262c680-d09b-11eb-8632-ee8f9d0bc26f.jpg)
 ![Metamorfosi_prototipo1_Unsplash](https://user-images.githubusercontent.com/76476647/122623144-44efb300-d09b-11eb-96e5-bed7b6831948.gif)
+
 ### 1° prototipo GIPHY :point_right:
 
-### 2° prototipo :point_right: [+](https://editor.p5js.org/Lucilla/sketches/GesR6MZmV)
+### 2° prototipo :point_right: [+](https://editor.p5js.org/Lucilla/full/GesR6MZmV)
+![Metamorfosi_prototipo2_Unsplash](https://user-images.githubusercontent.com/76476647/122635382-e7cc1f80-d0e3-11eb-99a1-c79f10f40529.jpg)
+![Metamorfosi_prototipo2_Unsplash]
 
 ### 3° prototipo :point_right: da eseguire in locale
+![Metamorfosi_prototipo2_NounProject](https://user-images.githubusercontent.com/76476647/122635368-c408d980-d0e3-11eb-82dc-d14d8abf64c5.jpg)
 
 ---
 
