@@ -8,5 +8,6 @@ Prototipo realizzato con Facemesh che realizza un file json con i dati del rilev
 
 Distinguere la risata dal sorriso.
 
-![json](https://user-images.githubusercontent.com/79698027/118976816-bee62c80-b975-11eb-932f-32cff1b6d36b.JPG)
+![dfb](https://user-images.githubusercontent.com/79698027/122655680-8db77280-d154-11eb-85c3-7f1262259660.JPG)
+
 
