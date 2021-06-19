@@ -1,3 +1,9 @@
+// Generatore di parole 0.1 by Mariangela Catucci [parole, colore, frasi]
+// 2021 © Mariangela @MariangelaCatucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 var button;
 
 function setup() {
