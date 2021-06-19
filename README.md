@@ -1,5 +1,5 @@
 # Cartella di Lucrezia Nediani
-2020 © Francesca Donati, Daniele @Fupete and the course DSII2020 at DESIGN.
+2020 © Lucrezia Nediani, Daniele @Fupete and the course DSII2021 at DESIGN.
 
 unirsm
 
