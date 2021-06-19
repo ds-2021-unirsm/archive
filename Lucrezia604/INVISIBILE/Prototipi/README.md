@@ -32,7 +32,8 @@ Allenamento Macchina
 
 ![dfb](https://user-images.githubusercontent.com/79698027/122655245-48de0c80-d151-11eb-9657-4615b84dab8f.JPG)
 
-. **Riconoscimento Risata [+](https://editor.p5js.org/lucrezia1234/sketches/Rosgw73sh)**
+. **Riconoscimento Risata [+](https://editor.p5js.org/lucrezia1234/full/Rosgw73sh)**
 
-![dhnxfn](https://user-images.githubusercontent.com/79698027/122655406-547e0300-d152-11eb-85db-31de130f27b0.JPG)
+![fdbxdb](https://user-images.githubusercontent.com/79698027/122655770-5bf2db80-d155-11eb-840e-f49875788339.JPG)
+
 
