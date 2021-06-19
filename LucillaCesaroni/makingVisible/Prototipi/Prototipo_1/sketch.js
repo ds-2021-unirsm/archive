@@ -1,16 +1,16 @@
-//         ___       ________     
-//        |\  \     |\   ____\    
-//        \ \  \    \ \  \___|    
-//         \ \  \    \ \  \       
-//          \ \  \____\ \  \____  
+//         ___       ________
+//        |\  \     |\   ____\
+//        \ \  \    \ \  \___|
+//         \ \  \    \ \  \
+//          \ \  \____\ \  \____
 //           \ \_______\ \_______\
 //            \|_______|\|_______|
-                                  
+
 // -
 //
 // Metamorfosi 0.1 by Lucilla Cesaroni [translations, images, words]
-// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
-// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
+// 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
+// github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni
 // Educational purposes, MIT License, 2021, San Marino
 //
 // -
@@ -41,6 +41,7 @@
 //
 // —
 
+let canvas;
 
 // Settings
 let w, h;
@@ -69,21 +70,22 @@ let raccontoSplittato = [];
 let variabile;
 let contatoreEntita = 0;
 
-let myFont;
+let myFont, myFont2;
 
 function preload() {
-  // Font per il testo
-  myFont = loadFont("Inter-Regular.ttf");
+  // Fonts per il testo
+  myFont = loadFont("GTAmerica-UltraLight.otf");
+  myFont2 = loadFont("GTAmerica-Regular.otf");
 }
 
 function setup() {
-  createCanvas(w = windowWidth, (h = windowHeight-91)); // -91 altezza bottoni
+  canvas = createCanvas((w = windowWidth), (h = windowHeight - 91)); // -91 altezza bottoni
 
   colorMode(HSB, 360, 100, 100);
 
-  textFont(myFont, 25);
+  textFont(myFont2, 30);
 
-  background(240, 100, 25);
+  //background(240, 100, 25);
 
   // Al click del bottone inizia la registrazione
   $("#speakbutton").on("click", function () {
@@ -116,13 +118,13 @@ function setup() {
   $("#cancellaspeakbutton").on("click", function () {
     console.log("Hai cliccato cancella tutto");
 
-    background(240, 100, 25);
+    background(60, 6, 100);
     contatoreEntita = 0;
     recordingAvviato = false;
     racconto = "";
     raccontoSplittato = [];
     immagini = [];
-    $("#registrazione").html(""); // Pulisci la frase sopra
+    //$("#registrazione").html(""); // Pulisci la frase sopra
   });
 }
 
@@ -148,7 +150,7 @@ function startRec() {
 
     if (speechRec.resultValue && recordingAvviato == true) {
       racconto = racconto + " " + speechRec.resultString; // Salvo il racconto in una variabile
-      output.html(racconto); // Visualizza nell'html
+      //output.html(racconto); // Visualizza nell'html
       console.log("Racconto: " + racconto);
       raccontoSplittato = racconto.split(" "); // metto nell'array raccontoSplittato le singole parole del racconto
       raccontoSplittato.splice(0, 1);
@@ -189,7 +191,7 @@ function analisi(racconto) {
   let url =
     "https://api.dandelion.eu/datatxt/nex/v1/?lang=" +
     lang +
-    "&min_confidence=0.4&text=" +
+    "&min_confidence=0.2&text=" +
     racconto +
     "&token=" +
     token;
@@ -219,6 +221,7 @@ function visualizzaRisposta(risposta) {
 
   var string = str.toLowerCase(); // Metto in minuscolo
 
+  //console.log("HEY:" + string);
   // Carico l'immagine
   loadImage(
     "https://source.unsplash.com/" +
@@ -229,6 +232,7 @@ function visualizzaRisposta(risposta) {
       random(200),
     salvaimmagine
   );
+
   contatoreEntita += 1; // Incremento il contatore delle entità
 }
 
@@ -254,7 +258,11 @@ function scriviFraseTradotta(variabile) {
 
   for (let conta = 0; conta < variabile.annotations.length; conta++) {
     entita.push(variabile.annotations[conta].spot); // Pusho dentro le entita
+    console.log("entita " + conta + ": " + variabile.annotations[conta].spot);
   }
+
+  console.log("numero img:" + immagini.length);
+  console.log("numero entita:" + entita.length);
 
   // Colore per il testo
   fill(sentimentColor, 100, 100);
@@ -262,7 +270,7 @@ function scriviFraseTradotta(variabile) {
   let x = 40;
   let y = 40;
 
-  // Larghezza dell'img
+  // Altezza e Larghezza delle img
   let hImg = 100;
   let wImg = 150;
 
@@ -274,19 +282,25 @@ function scriviFraseTradotta(variabile) {
 
   let spazio = textWidth(" "); // Larghezza spazio
 
-  for (let f = 0; f < raccontoSplittato.length; f++) {
+  let id_currentImage = 0;
 
+  for (let f = 0; f < raccontoSplittato.length; f++) {
     // Vado a capo ogni 9 parole
     if (f % 9 == 0 && f != 0) {
       y += 120;
       x = 40;
     }
 
-    if (raccontoSplittato[f] == entita[0]) {
-      console.log("Entita 0: " + JSON.stringify(entita[0]));
+    if (raccontoSplittato[f] == entita[id_currentImage]) {
+      console.log(
+        "inserita immagine di entita: " +
+          id_currentImage +
+          ": " +
+          JSON.stringify(entita[id_currentImage])
+      );
+      image(immagini[id_currentImage], x, y, wImg, hImg);
+      id_currentImage += 1;
 
-      image(immagini[0], x, y, wImg, hImg);
-      immagini.splice(0, 1); // Cancello la foto
       text(
         raccontoSplittato[f],
         x + wImg / 2 - textWidth(raccontoSplittato[f]) / 2,
@@ -294,8 +308,6 @@ function scriviFraseTradotta(variabile) {
       );
 
       x += wImg + spazio;
-
-      entita.splice(0, 1); // Rimuovo l'entita visto che l'ho inserita nella frase tramite l'immagine.
     } else {
       text(raccontoSplittato[f], x, y + 50);
       x += larghezza[f] + spazio;
@@ -303,10 +315,7 @@ function scriviFraseTradotta(variabile) {
   }
 }
 
-function draw() {}
-
-
-function windowResized() {
-  resizeCanvas(windowWidth-20, windowHeight);
+// Premi "s", screen
+function keyPressed() {
+  if (key == "s" || key == "S") saveCanvas(canvas, "Myimg", "jpg");
 }
-
