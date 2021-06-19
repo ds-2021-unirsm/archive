@@ -1,4 +1,4 @@
-RISATA
+# RISATA
 
 
 
@@ -16,7 +16,7 @@ Come il rilevamento della risata potrebbe aumentare la produttività di un team 
 
 
 
-MUSICA
+# MUSICA
 
 Può capitare di vedere un’immagine, una fotografia o una scena di vita quotidiana e pensare “sarebbe bello se quello che vedo fosse musica”. 
 Questo potrebbe avvenire con un processo di sonificazione attraverso il quale un insieme di dati di qualsiasi natura può essere trasformato in elementi acustici al fine di indagare la loro natura e le relazioni tra essi.
@@ -28,7 +28,7 @@ https://www.nasa.gov/mission_pages/chandra/news/data-sonification-sounds-from-ar
 
 
 
-ODORE
+# ODORE
 
 Amy Radcliffe, una laurea in Material Futures alla londinese Central Saint Martins, ha realizzato con il progetto Madeleine un’inedita “camera degli odori” che riesce a sintetizzare l’aroma degli oggetti che posizioniamo sotto una campana di vetro. Immaginiamo la portata emotiva di un archivio personale degli effluvi e degli olezzi che ci hanno accompagnato durante la vita.
 
