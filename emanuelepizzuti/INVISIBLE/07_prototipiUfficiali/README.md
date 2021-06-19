@@ -1,19 +1,3 @@
-# 📰  BROKEN NEWS! 📰
-
-![Screenshot 2021-06-19 at 13 08 34](https://user-images.githubusercontent.com/76455312/122640375-7d28dd00-d0ff-11eb-8fcf-b5ad27ec2392.png)
-
-La percezione di ciò che accade intorno a noi è fortemente influenzata da ciò che leggiamo o vediamo. Nei social media
-di oggi però, dove il giornalismo si fa sempre più politico ed emozionale, siamo sommersi da fatti e informazioni raccontati in modo da catturare la nostra attenzione, colpire le nostre credenze ed emozioni, portando così la reale notizia in secondo piano.
-
-BROKEN NEWS! è un applicativo che imita la manipolazione di una notizia, modificandone il testo e analizzando allo stesso tempo il modo in cui viene percepita. L’obiettivo è quello di mostrare come diverse modalità di racconto possano incidere sulla percezione delle cose.
-
----
-
-## 🗝  Keywords 🗝
-
-percezione, informazione, distorsione, giornalismo, social media
-
----
 ## 🧑‍💻 Prototipi 🧑‍💻
 I prototipi sviluppati permettono all’utente di cercare e visualizzare, inserendo una keyword
 nella barra di ricerca, una delle ultime notizie pubblicate dal New York Times. Per fare ciò sono
