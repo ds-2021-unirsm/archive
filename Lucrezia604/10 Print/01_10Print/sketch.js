@@ -1,23 +1,13 @@
 // -
-// Nomefile 0.1 by Nomestudente [keyword1, keyword2]
-// 2021 © Nomestudente, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
-// github.com/ds-2021-unirsm — github.com/fupete
+// Variazione 10Print 0.1 by Lucrezia Nediani [10 Print, mouse]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
-// Credits/Thanks to: 
-// @nome (twitter.com/nome) for https://www.indirizzolinkvarioogithub.pippo/gino/mino
-// original license: Tipo licenza
-// 
-// @nome2 (github.com/nome2) for https://www.altro indirizzolinkvarioogithub.pippo/gino/mino
-// original license: Tipo licenza
-// —
-//
 // Help:
-// [key] action
-// [key] action
-// [mouse] action
-//
+// [mouse] muovendo il mouse a destra e a sinistra aumenta o cala lo spessore della linea
 // —
+
 
 let w = 16;
 let h = 16;
