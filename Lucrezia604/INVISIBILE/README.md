@@ -30,5 +30,9 @@ stress lavorativo tramite la risata.
 
 ![P3](https://user-images.githubusercontent.com/79698027/122650844-59808980-d135-11eb-8212-86c50ea2712e.JPG)
 
+### DISTORSIONE VOCALE [+](https://editor.p5js.org/lucrezia1234/full/_Tmim0KnK)
+
+![suono](https://user-images.githubusercontent.com/79698027/118972124-7c6e2100-b970-11eb-9b25-80271d128b66.JPG)
+
 
 
