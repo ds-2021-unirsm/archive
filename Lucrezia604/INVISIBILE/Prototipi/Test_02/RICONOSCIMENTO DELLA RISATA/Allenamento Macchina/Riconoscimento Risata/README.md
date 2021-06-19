@@ -9,3 +9,6 @@ Prototipo realizzato con Facemesh che viene allenato tramite un data set (file j
 Distinguere la risata dal sorriso.
 
 **ATTUALMENTO NON FUNZIONA --> codice da rivedere**
+
+![dhnxfn](https://user-images.githubusercontent.com/79698027/122655689-99a33480-d154-11eb-9d58-7f5f58cb88af.JPG)
+
