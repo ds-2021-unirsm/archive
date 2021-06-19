@@ -10,7 +10,7 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 . **riproduttore Giphy [+](https://editor.p5js.org/lucrezia1234/full/lFuK-LeRp)**
 
-![gif](https://user-images.githubusercontent.com/79698027/122654430-93f52100-d14b-11eb-9121-a718a15b222e.JPG)
+![test 2](https://user-images.githubusercontent.com/79698027/122655010-76c25180-d14f-11eb-8d1b-25780058a344.JPG)
 
 ## Test_02
 
