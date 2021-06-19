@@ -1,8 +1,16 @@
-// Filtri facciali [clmtrackr]
-// Vengono applicati dei filtri sul volto
-// Laboratorio di Design dei Sistemi Interattivi, a.a. 2020/2021, prof. Daniele Tabellini, Design UNIRSM
-
-// From --> https://codepen.io/livecodestream/pen/rNxrMzp
+// -
+// Filtri facciali 0.1 by Lucrezia Nediani [Filtri, clmtrackr]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// @CODEPEN for https://codepen.io/livecodestream/pen/rNxrMzp
+// original license: MIT License
+// —
+// Help:
+// Vengono applicati dei filtri sul volto tramite clmtrackr
+// —
 
 
 let outputWidth;
