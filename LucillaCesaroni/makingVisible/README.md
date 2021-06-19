@@ -25,7 +25,7 @@ Infine, tramite node.js con il framework Express.js, è stato possibile fare ric
 
 ### 2° prototipo :point_right: [+](https://editor.p5js.org/Lucilla/full/GesR6MZmV)
 ![Metamorfosi_prototipo2_Unsplash](https://user-images.githubusercontent.com/76476647/122635382-e7cc1f80-d0e3-11eb-99a1-c79f10f40529.jpg)
-![Metamorfosi_prototipo2_Unsplash]
+![Metamorfosi_prototipo2_Unsplash](https://user-images.githubusercontent.com/76476647/122644427-64c3bd00-d115-11eb-8fb8-4693e5108495.gif)
 
 ### 3° prototipo :point_right: da eseguire in locale
 ![Metamorfosi_prototipo2_NounProject](https://user-images.githubusercontent.com/76476647/122635368-c408d980-d0e3-11eb-82dc-d14d8abf64c5.jpg)
