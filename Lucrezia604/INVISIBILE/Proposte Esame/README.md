@@ -5,7 +5,7 @@ Da tempo la scienza ha dimostrato che l'ottimismo e il buon umore sono un toccas
 
 Un team di ricercatori dell'Università di Basilea (Svizzera) ha verificato come ridere frequentemente riduca i sintomi psicologici e fisiologici scatenati dagli eventi stressanti della vita di tutti i giorni e che questo fenomeno non è all’intensità delle risate (bassa, media, alta). ### [+](https://www.focus.it/comportamento/psicologia/risate-antistress-frequenza-intensita)
 
-Inoltre ridere fa diminuire i livelli di cortisolo (l'ormone dello stress) che danneggia i neuroni del cervello e quindi la sua capacità di ricordare. Lo studio della Loma Linda University della California (Usa), invece, ha dimostrato che la risata giornaliera migliora la memoria a breve termine.### [+](https://www.focus.it/comportamento/scuola-e-universita/ridere-rinforza-la-memoria)
+Inoltre ridere fa diminuire i livelli di cortisolo (l'ormone dello stress) che danneggia i neuroni del cervello e quindi la sua capacità di ricordare. Lo studio della Loma Linda University della California (Usa), invece, ha dimostrato che la risata giornaliera migliora la memoria a breve termine. ### [+](https://www.focus.it/comportamento/scuola-e-universita/ridere-rinforza-la-memoria)
 
 Come il rilevamento della risata potrebbe aumentare la produttività di un team di lavoro o l’apprendimento di uno studente?
 
