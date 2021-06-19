@@ -240,7 +240,7 @@ function scriviFraseTradotta(variabile) {
   fill(sentimentColor, 100, 100);
 
   let x = 40;
-  let y = 90; 
+  let y = 90;
 
   // Altezza e Larghezza delle img
   let hImg = 100;
@@ -257,7 +257,7 @@ function scriviFraseTradotta(variabile) {
   for (let f = 0; f < raccontoSplittato.length; f++) {
     // Vado a capo ogni 9 parole
     if (f % 9 == 0 && f != 0) {
-      y += 170; 
+      y += 170;
       x = 40;
     }
 
@@ -272,7 +272,7 @@ function scriviFraseTradotta(variabile) {
       text(
         raccontoSplittato[f],
         x + wImg / 2 - textWidth(raccontoSplittato[f]) / 2,
-        y 
+        y - 15
       );
 
       let string = entita[id_currentImage];
@@ -301,7 +301,7 @@ function gotGiphy(giphy) {
   gif = createImg(giphy.data[0].images.original.url, "");
   gif.addClass("gif");
 
-  gif.position(xGif[contatoreGif], yGif[contatoreGif] + 265);
+  gif.position(xGif[contatoreGif], yGif[contatoreGif] + 235);
   gif.size(150, 100);
   contatoreGif += 1;
   console.log("sono gotgiphy");
