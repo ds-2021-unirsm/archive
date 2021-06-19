@@ -1,6 +1,4 @@
-# RIPRODUTTORE GIPHY <h1>
-
-https://editor.p5js.org/lucrezia1234/sketches/lFuK-LeRp
+# RIPRODUTTORE GIPHY [+](https://editor.p5js.org/lucrezia1234/full/lFuK-LeRp)
 
 Prototipo realizzato tramite Giphy grazie al quale, dopo un click sullo schermo, avviene una riproduzione random di gif animate.
 
