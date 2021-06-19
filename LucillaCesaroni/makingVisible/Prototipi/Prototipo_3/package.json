@@ -1,0 +1,23 @@
+{
+  "name": "metamorfosi",
+  "version": "1.0.0",
+  "description": "metamorfosi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "comunicare",
+    "parole",
+    "icone",
+    "emozioni",
+    "inclusione"
+  ],
+  "author": "lucilla cesaroni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "oauth": "^0.9.15",
+    "the-noun-project": "^2.1.0"
+  }
+}
