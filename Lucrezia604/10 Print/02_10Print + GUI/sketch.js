@@ -4,6 +4,10 @@
 // github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
+// Credits/Thanks to: 
+// @Debabrata Panigrahi (openprocessing.org) for https://openprocessing.org/sketch/850291
+// original license: Tipo licenza
+// —
 // Help:
 // [immagini] menù a tendina con "dimensioniImmagine" e "coloreImmagine"
 // [dimensioniImmagine] regola la dimensione delle figure
