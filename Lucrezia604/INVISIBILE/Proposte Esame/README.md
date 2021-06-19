@@ -17,7 +17,7 @@ Può capitare di vedere un’immagine, una fotografia o una scena di vita quotid
 Questo potrebbe avvenire con un processo di sonificazione attraverso il quale un insieme di dati di qualsiasi natura può essere trasformato in elementi acustici al fine di indagare la loro natura e le relazioni tra essi.
 Funge da esempio un video della Nasa dove l’audio non è altro che la trasposizione in suoni delle radiografie del centro della Via lattea, la nostra galassia, raccolte dal telescopio spaziale Chandra. Mentre il cursore si sposta attraverso l’immagine le coordinate e le intensità luminose degli oggetti che incontra prendono la forma di sonorità.
 
-## [+](https://www.nasa.gov/mission_pages/chandra/news/data-sonification-sounds-from-around-the-milky-way.html)
+### [+](https://www.nasa.gov/mission_pages/chandra/news/data-sonification-sounds-from-around-the-milky-way.html)
 ![Cattura](https://user-images.githubusercontent.com/79698027/122649913-71a1da00-d130-11eb-9bdc-81f46273dfaf.JPG) 
 
 È perciò possibile rendere le immagini musica attraverso il machine learning?
