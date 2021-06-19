@@ -1,6 +1,4 @@
-# CREAZIONE SET DATI (JSON) <h1>
-
-https://editor.p5js.org/lucrezia1234/sketches/aBD_e_EVm
+# CREAZIONE SET DATI (JSON) [+](https://editor.p5js.org/lucrezia1234/sketches/aBD_e_EVm)
 
 Prototipo realizzato con Facemesh che realizza un file json con i dati del rilevamento facciale.
 
