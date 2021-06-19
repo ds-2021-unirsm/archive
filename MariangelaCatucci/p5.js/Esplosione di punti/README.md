@@ -1,4 +1,4 @@
-**ESPLOSIONE DI PUNTI**
+**Esplosione di punti**
 
 ![5](https://user-images.githubusercontent.com/28058955/114743002-8b97f880-9d4c-11eb-8372-8784e5b8c9b4.PNG)
 
