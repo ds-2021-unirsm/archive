@@ -2,42 +2,46 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #000040;
-  font-family: "Inter-Regular", sans-serif;
+  background-color: #ffffef;
+  font-family: "GTAmerica-UltraLight", sans-serif;
 }
 
 p {
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 1.5em;
-  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #5a4fcf;
 }
 
 .btn {
-  margin-bottom: 5%;
-  background-color: white;
-  padding: 1.2%;
-  font-size: 1.2em;
-  border: 3px solid #00ffc2;
-  color: #000040;
+  margin-bottom: 30px;
+  background-color: #ffffef;
+  padding: 6px;
+  padding-top: 0px;
+  width: 100px;
+  font-size: 1.4em;
+  border: 1px solid #5a4fcf;
+  color: #5a4fcf;
+  border-radius: 50px 50px;
+  font-family: "GTAmerica-UltraLight", sans-serif;
+  margin-left: 23px;
 }
 
 .btn:hover {
   transition-duration: 0.4s;
-  background-color: #00ffc2;
+  background-color: #5a4fcf;
+  color: white;
 }
 
 .btn:active {
-  text-decoration: underline;
+  transform: scale(0.9);
 }
 
 #speakbutton {
-  margin-left: 5%;
+  margin-left: 40px;
 }
 
-#registrazione {
-  margin-left: 5%;
-  font-size: 1.2em;
-  color: white;
+hr {
+  border: 1px dotted #5a4fcf;
 }
