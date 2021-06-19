@@ -16,13 +16,21 @@ let parole = [];
 let categorie_trovate = [];
 
 let img_coco,
+    
   travel_img,
   nature_img,
   fashion_img,
   sports_img,
   food_img,
   book_img,
-  electronic_img;
+  electronic_img,
+  stanza1,
+  stanza2,
+  stanza3,
+  stanza4;
+
+let coco_img, troppo_vecchia_img;
+let  vecchia_img =2;
 
 //variabili per WIKIQUOTE
 let cit_trovate = [];
@@ -31,17 +39,14 @@ let cit_pulita;
 let cit_per_mashup = [];
 
 //var per RiTa
-let lines=[]
+let lines = [];
 let markov;
-let x = 200, y = 500;
+let x = 50,
+  y = 700;
 
-
-
-
-
-//////////////////////////////////
-/////// Creazione di categorie///
-////////////////////////////////
+/////////////////////
+/////// Categorie///
+///////////////////
 
 var categorie = [
   {
@@ -74,7 +79,7 @@ var categorie = [
 
   {
     categoria: "fashion",
-    oggetti: ["hat", "shoe", "suitcase", "tie", "handbag"],
+    oggetti: ["hat", "shoe", "suitcase", "tie", "handbag", "mirror"],
     img: "img_categorie/moda.png",
     cit: "Coco Chanel",
   },
@@ -119,6 +124,7 @@ var categorie = [
       "pizza",
       "donut",
       "cake",
+      "dining table",
     ],
     img: "img_categorie/food.png",
     cit: "Ratatouille",
@@ -126,21 +132,28 @@ var categorie = [
 
   {
     categoria: "book",
-    oggetti: ["book"],
+    oggetti: ["book", "bottle"],
     img: "img_categorie/book.png",
     cit: "Fahrenheit 451",
   },
 
   {
     categoria: "electronic",
-    oggetti: ["tv", "laptop", "mouse", "remote", "keyboard", "cell phone"],
+    oggetti: ["tv", "laptop", "mouse", "remote", "keyboard", "cell phone","chair"],
     img: "img_categorie/electronic.png",
     cit: "IBM",
   },
 
   {
     categoria: "mystery",
-    oggetti: ["teddy bear", "fire hydrant", "stop sign", "street sign"],
+    oggetti: [
+      "teddy bear",
+      "fire hydrant",
+      "stop sign",
+      "street sign",
+      "dining table",
+      "desk",
+    ],
     img: "img_categorie/mistery.png",
     cit: "Mystery",
   },
@@ -148,8 +161,12 @@ var categorie = [
 
 //precarico i pittogrammi
 function preload() {
-  img_coco = loadImage("images/stanza_assoluta.jpg");
-  
+  //img_coco = loadImage("images/stanza_assoluta.jpg");
+  stanza1 = loadImage("images/stanza_assoluta.jpg");
+  stanza2 = loadImage("images/desk_space.jpg");
+  stanza3 = loadImage("images/stanza3.jpg");
+  stanza4 = loadImage("images/desk_space2.jpg");
+
   travel_img = loadImage("img_categorie/travel.png");
   nature_img = loadImage("img_categorie/nature.png");
   fashion_img = loadImage("img_categorie/moda.png");
@@ -161,37 +178,110 @@ function preload() {
   vuoto_img = loadImage("img_categorie/vuoto.png");
 }
 
+///////////////
+/////// GUI///
+/////////////
+
+let parametri = {
+  foto: "Seleziona una foto", //Menù a tendina: inserire valore all'avvio dello sketch
+  Invia_a_Wunderkammer: function () {
+    troppo_vecchia_img=parametri.foto;
+        clear();
+      createCanvas(640, 840);
+  background(252, 247, 242);
+  line(20, 20, 20, 620);
+  line(220, 20, 220, 620);
+  line(420, 20, 420, 620);
+  line(620, 20, 620, 620);
+  line(20, 20, 620, 20);
+  line(20, 220, 620, 220);
+  line(20, 420, 620, 420);
+  line(20, 620, 620, 620);
+        textFont("Roboto", 22);
+  text("Wunderkammer", 50, 650, 420, 440);
+  },
+
+};
+
+window.onload = function gui() {
+  var gui = new dat.GUI();
+  var f1 = gui.addFolder("Scegli la stanza");
+  f1.add(parametri, "foto", [
+    "room1", // valore dentro la tendina
+    "room2",
+    "room3",
+    "room4",
+  ]);
+  gui.add(parametri, "Invia_a_Wunderkammer");
+};
 
 //////////////////////////////////
 //////////////////////// SETUP///
 ////////////////////////////////
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(640, 840);
   background(252, 247, 242);
-  line(200, 0, 200, 400);
-  line(400, 0, 400, 400);
-  line(600, 0, 600, 400);
-  line(0, 200, 800, 200);
-  line(0, 400, 800, 400);
+  line(20, 20, 20, 620);
+  line(220, 20, 220, 620);
+  line(420, 20, 420, 620);
+  line(620, 20, 620, 620);
+  line(20, 20, 620, 20);
+  line(20, 220, 620, 220);
+  line(20, 420, 620, 420);
+  line(20, 620, 620, 620);
+      textFont("Roboto", 22);
+  text("Wunderkammer", 50, 650, 420, 440);
 
-  objectDetector = ml5.objectDetector("cocossd", modelReady);
-  console.log(categorie);
-  //scrittura mashup con RiTa
-  
-  // if (cit_per_mashup.length != 0){
-   //  mashup();
-  //} else{
-   // delay(100);
- // }
+
+
+  //evento1.onFinishChange(function() {
+
+    //objectDetector = ml5.objectDetector("cocossd", modelReady);
+
+  //console.log(categorie);
 }
+
+
+
+
+function draw(){
+
+if (vecchia_img!= troppo_vecchia_img && vecchia_img!=parametri.foto && vecchia_img != undefined) {
+    vecchia_img = parametri.foto;
+    refresh_immagine();
+  }
+
+}
+
+
+
+function pronto(){
+  objectDetector = ml5.objectDetector("cocossd", modelReady);
+}
+
+function refresh_immagine() {
+  if (parametri.foto == "room1") {
+  coco_img = stanza1;
+    pronto();
+  }
+  else if (parametri.foto == "room2") {
+  coco_img = stanza3;
+    pronto();
+  }
+}
+
+
 
 // Change the status when the model loads.
 function modelReady() {
-  console.log("model Ready!");
-  status = true;
-  console.log("Detecting");
-  objectDetector.detect(img_coco, gotResult);
+  
+    console.log("model Ready!");
+    status = true;
+    console.log("Detecting");
+
+    objectDetector.detect(coco_img, gotResult);
+
 }
 
 // A function to run when we get any errors and the results
@@ -216,12 +306,12 @@ function cerca(parole) {
     // trova la prima categoria che contiene un oggetto utile
     let categoria = categorie.find((c) => c.oggetti.includes(parole[i]));
     console.log(parole[i] + " trovato nella categoria " + categoria.categoria); //dentro la var categoria metto l'oggetto in cui si trova la parola
-
+    image(vuoto_img, 420, 420, 200, 200);
     // switchcase basato sulla categoria trovata
     switch (categoria.categoria) {
       case "travel":
         loadImage(categorie[0].img, (img) => {
-          image(img, 0, 0, 200, 200);
+          image(img, 20, 20, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -229,7 +319,7 @@ function cerca(parole) {
 
       case "nature":
         loadImage(categorie[1].img, (img) => {
-          image(img, 200, 0, 200, 200);
+          image(img, 220, 20, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -237,7 +327,7 @@ function cerca(parole) {
 
       case "fashion":
         loadImage(categorie[2].img, (img) => {
-          image(img, 400, 0, 200, 200);
+          image(img, 420, 20, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -245,7 +335,7 @@ function cerca(parole) {
 
       case "sports":
         loadImage(categorie[3].img, (img) => {
-          image(img, 600, 0, 200, 200);
+          image(img, 20, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -253,7 +343,7 @@ function cerca(parole) {
 
       case "food":
         loadImage(categorie[4].img, (img) => {
-          image(img, 0, 200, 200, 200);
+          image(img, 220, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -261,7 +351,7 @@ function cerca(parole) {
 
       case "book":
         loadImage(categorie[5].img, (img) => {
-          image(img, 200, 200, 200, 200);
+          image(img, 420, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -269,7 +359,7 @@ function cerca(parole) {
 
       case "electronic":
         loadImage(categorie[6].img, (img) => {
-          image(img, 400, 200, 200, 200);
+          image(img, 20, 420, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -277,7 +367,7 @@ function cerca(parole) {
 
       case "mystery":
         loadImage(categorie[7].img, (img) => {
-          image(img, 600, 200, 200, 200);
+          image(img, 220, 420, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -297,36 +387,38 @@ function cerca(parole) {
   //if per fargli stampare la quadrettatura nel caso in cui non dovesse trovare le altre categorie che quindi rimangono nascoste
   if (categorie_trovate.includes("travel")) {
   } else {
-    image(vuoto_img, 0, 0, 200, 200);
+    image(vuoto_img, 20, 20, 200, 200);
   }
   if (categorie_trovate.includes("nature")) {
   } else {
-    image(vuoto_img, 200, 0, 200, 200);
+    image(vuoto_img, 220, 20, 200, 200);
   }
   if (categorie_trovate.includes("fashion")) {
   } else {
-    image(vuoto_img, 400, 0, 200, 200);
+    image(vuoto_img, 420, 20, 200, 200);
   }
   if (categorie_trovate.includes("sports")) {
   } else {
-    image(vuoto_img, 600, 0, 200, 200);
+    image(vuoto_img, 20, 220, 200, 200);
   }
   if (categorie_trovate.includes("food")) {
   } else {
-    image(vuoto_img, 0, 200, 200, 200);
+    image(vuoto_img, 220, 220, 200, 200);
   }
   if (categorie_trovate.includes("book")) {
   } else {
-    image(vuoto_img, 200, 200, 200, 200);
+    image(vuoto_img, 420, 220, 200, 200);
   }
   if (categorie_trovate.includes("electronic")) {
   } else {
-    image(vuoto_img, 400, 200, 200, 200);
+    image(vuoto_img, 20, 420, 200, 200);
   }
   if (categorie_trovate.includes("mystery")) {
   } else {
-    image(vuoto_img, 600, 200, 200, 200);
+    image(vuoto_img, 220, 420, 200, 200);
   }
+  
+
 }
 
 //////////////////////////
@@ -567,14 +659,17 @@ var Wikiquote = (function () {
       //faccio ripetere due volte l'estrazione della citazione per avere due cit diverse da dare a RiTa per il mashup
       Wikiquote.getRandomQuote(
         unique_cit[randInt(0, unique_cit.length - 1)],
-        
+
         function (quote) {
           //console.log(quote.quote);
           cit_pulita = quote.quote.replace(/<[a-zA-Z/][^>]*>/g, ""); //uso il replace per pulire la stringa dai residui dell'html
           //console.log(cit_pulita + " sono cit PULITA");
           cit_per_mashup.push(cit_pulita);
-          console.log(cit_per_mashup + " sono cit PER RITA");    
+          console.log(cit_per_mashup + " sono cit PER RITA");
+          if (cit_per_mashup.length === 2) {
             mashup();
+            cit_per_mashup.length =0;
+          }
         }
       );
     }
@@ -582,16 +677,17 @@ var Wikiquote = (function () {
 let quote;
 // fine il mio script wiki
 
-
 function mashup() {
   markov = RiTa.markov(2);
-  markov.addText(cit_per_mashup[0]); 
+  markov.addText(cit_per_mashup[0]);
   markov.addText(cit_per_mashup[1]);
   lines = markov.generate(2); //n di linee
-  textFont('Roboto', 18);
-  text(lines.join(' '), x, y, 420, 440);
-  
-  lines = select("#testo");
-  splice(lines[1]);
+  textFont("Roboto", 18);
+   text(lines.join(" "), x, y, 420, 440);
   console.log(lines + "sono MASHUP");
+  lines = [""];
+  objects.length=0;
+parole.length=0;
+                categorie_trovate.length=0;
+ 
 }
