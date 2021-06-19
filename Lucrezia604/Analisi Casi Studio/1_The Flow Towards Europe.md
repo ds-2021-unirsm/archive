@@ -1,7 +1,8 @@
 # THE FLOW TOWARDS EUROPE, 2015, Lucify [+](https://dublin.sciencegallery.com/trauma-exhibits/the-flow-towards-europe)
 ![flow-towards-europe](https://user-images.githubusercontent.com/79698027/122647304-e884a600-d123-11eb-82e1-0a65d8128b27.png)
 
-### WHAT IS?   È una mappa interattiva che mostra il flusso di richiedenti asilo verso i paesi europei nel tempo.
+### WHAT IS?   
+È una mappa interattiva che mostra il flusso di richiedenti asilo verso i paesi europei nel tempo.
 
 ### WHAT DOES IT MEAN?    
 L'Europa sta attualmente vivendo la più grande crisi di rifugiati dalla seconda guerra mondiale. Ogni giorno i media pubblicano numeri enormi. Ma che aspetto ha veramente mezzo milione di richiedenti asilo? L'obiettivo di questo progetto è trasmettere l'entità della crisi in modo intuitivo. Gli artisti utilizzano i dati pubblici dell'Agenzia delle Nazioni Unite per i rifugiati (UNHCR).
