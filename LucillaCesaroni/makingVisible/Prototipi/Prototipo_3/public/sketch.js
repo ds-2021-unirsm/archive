@@ -386,7 +386,7 @@ function gotResults(err, result) {
       // console.log(keys);
       keys.forEach((item, idx) => {
         // Nomi emozioni
-        fill(0);
+        fill(245, 62, 81);
         noStroke();
         textFont(myFont, 14);
         textAlign(LEFT, TOP);
