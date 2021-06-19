@@ -14,16 +14,25 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 ## Test_02
 
-**INDURRE LA RISATA**
+### INDURRE LA RISATA
 
-. Filtri facciali
+. **Filtri facciali [+](https://editor.p5js.org/lucrezia1234/full/yT8KWfZ6b)**
 
-. Distorsione vocale
+![filtro](https://user-images.githubusercontent.com/79698027/122655096-416a3380-d150-11eb-9ae3-63e78183c056.JPG)
 
-**RICONOSCIMENTO DELLA RISATA**
+. **Distorsione vocale [+](https://editor.p5js.org/lucrezia1234/full/_Tmim0KnK)**
+
+![suono](https://user-images.githubusercontent.com/79698027/122655200-06b4cb00-d151-11eb-9d3e-2b096963e428.JPG)
+
+### RICONOSCIMENTO DELLA RISATA**
 
 Allenamento Macchina
 
-. Creazione Set Dati (JSON)
+. **Creazione Set Dati (JSON) [+](https://editor.p5js.org/lucrezia1234/sketches/aBD_e_EVm)**
 
-. Riconoscimento Risata
+![dfb](https://user-images.githubusercontent.com/79698027/122655245-48de0c80-d151-11eb-9657-4615b84dab8f.JPG)
+
+. **Riconoscimento Risata [+](https://editor.p5js.org/lucrezia1234/sketches/Rosgw73sh)**
+
+![dhnxfn](https://user-images.githubusercontent.com/79698027/122655406-547e0300-d152-11eb-85db-31de130f27b0.JPG)
+
