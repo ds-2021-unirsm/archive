@@ -4,7 +4,7 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 ## Test_01 
 
-. **Sorriso + Camminatore [+](https://editor.p5js.org/lucrezia1234/full/IsYHvOFyD)
+. **Sorriso + Camminatore [+](https://editor.p5js.org/lucrezia1234/full/IsYHvOFyD)**
 
 ![test 1](https://user-images.githubusercontent.com/79698027/122654351-ed108500-d14a-11eb-8d6c-d468b0dd0d3c.JPG)
 
