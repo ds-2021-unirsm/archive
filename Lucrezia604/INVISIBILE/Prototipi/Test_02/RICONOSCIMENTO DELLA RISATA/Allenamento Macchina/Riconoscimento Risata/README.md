@@ -1,6 +1,4 @@
-# RICONOSCIMENTO RISATA <h1>
-
-https://editor.p5js.org/lucrezia1234/sketches/lRWItdRLN
+# RICONOSCIMENTO RISATA [+](https://editor.p5js.org/lucrezia1234/sketches/lRWItdRLN)
 
 Prototipo realizzato con Facemesh che viene allenato tramite un data set (file json).
 
