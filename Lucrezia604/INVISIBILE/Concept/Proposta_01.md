@@ -2,7 +2,7 @@
   
 **REFERENCE** 
 
-**Ian Bogost _ Play Anything (2017)** ### [+](https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/)
+**Ian Bogost _ Play Anything (2017)** [+](https://mgmtmagazine.com/un-game-designer-ci-spiega-in-un-libro-come-trasformare-tutto-in-un-gioco-anche-il-lavoro-10777879/)
 
 ![095709789-hq-168-80](https://user-images.githubusercontent.com/79698027/116561384-8e751a80-a902-11eb-9459-9bffafe62961.jpg)
 
@@ -50,7 +50,7 @@ Che cosa succederebbe se le attività dal quale non possiamo astenerci e che noi
 Da definire.
 
 
-# RISATA_02 <h1>
+# RISATA_02 
 
 **REFERENCE**
 
@@ -58,7 +58,7 @@ Da definire.
 
 Vai a teatro? Paghi in base a quanto ridi. I membri di Teatreneu, una compagnia teatrale di Barcellona, hanno posizionato dei tublet con un sistema di riconoscimento facciale davanti ad ogni poltrona del teatro: ogni volta che uno spettatore ride durante uno spettacolo il sistema rileva la risata e aggiunge 0.30 centesimi, il costo finale del biglietto sarà la somma delle risate.
 
-[+](https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/)
+### [+](https://www.wired.it/attualita/tech/2014/12/04/teatro-paghi-in-base-quanto-ridi/)
 
 ![teatro](https://user-images.githubusercontent.com/79698027/116561116-4b1aac00-a902-11eb-8932-db0ee26f822c.JPG)
 
