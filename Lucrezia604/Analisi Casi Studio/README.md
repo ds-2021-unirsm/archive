@@ -1,6 +1,6 @@
 # Analisi Casi Studio
 La cartella contiene l'analisi dei seguenti progetti:
-## 1. The Flow Towards Europe
+## 1. The Flow Towards Europe https://github.com/Lucrezia604/archive/blob/main/Lucrezia604/Analisi%20Casi%20Studio/1_The%20Flow%20Towards%20Europe.md - automatic!
 Lucify, 2015;
 ![flow-towards-europe](https://user-images.githubusercontent.com/79698027/122646190-3c8c8c00-d11e-11eb-9de2-26775fa843c5.png)
 ## 2. Immaterials: Light Painting WIFI
