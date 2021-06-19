@@ -1,4 +1,4 @@
-# SORRISO + CAMMINATORE [+](https://editor.p5js.org/lucrezia1234/full/IsYHvOFyD)**
+# SORRISO + CAMMINATORE [+](https://editor.p5js.org/lucrezia1234/full/IsYHvOFyD)
 
 Prototipo realizzato a partire da Face Tracking (Facemesh) che disegna, in tempo reale, tramite dei camminatori attivati dal sorriso.
 
