@@ -1,8 +1,12 @@
 # Analisi Casi Studio
 La cartella contiene l'analisi dei seguenti progetti:
 ## 1. The Flow Towards Europe
-Greyworld, 2003, Londra;
+Lucify, 2015;
+![flow-towards-europe](https://user-images.githubusercontent.com/79698027/122646190-3c8c8c00-d11e-11eb-9de2-26775fa843c5.png)
 ## 2. Immaterials: Light Painting WIFI
 Timo Arnall, Einar Sneve Martinussen, Jorn Knutsen, Jack Schulze and Matt Jones, 2013, Brighton;
+![immaterials](https://user-images.githubusercontent.com/79698027/122646221-5f1ea500-d11e-11eb-9bfc-e6238d6a0a67.jpg)
 ## 3. Monument
 Caleb Larsen, 2006;
+![0jauneu](https://user-images.githubusercontent.com/79698027/122646284-a9a02180-d11e-11eb-9d03-013262cb4840.jpg)
+
