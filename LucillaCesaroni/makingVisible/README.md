@@ -29,6 +29,7 @@ Infine, tramite node.js con il framework Express.js, è stato possibile fare ric
 
 ### 3° prototipo :point_right: da eseguire in locale
 ![Metamorfosi_prototipo2_NounProject](https://user-images.githubusercontent.com/76476647/122635368-c408d980-d0e3-11eb-82dc-d14d8abf64c5.jpg)
+![Metamorfosi_prototipo2_NounProject](https://user-images.githubusercontent.com/76476647/122646079-bf611700-d11d-11eb-8d6f-e898241d3978.gif)
 
 ---
 
