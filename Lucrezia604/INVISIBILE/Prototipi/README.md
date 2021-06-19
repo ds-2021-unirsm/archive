@@ -28,7 +28,7 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 Allenamento Macchina
 
-. **Creazione Set Dati (JSON) [+](https://editor.p5js.org/lucrezia1234/sketches/aBD_e_EVm)**
+. **Creazione Set Dati (JSON) [+](https://editor.p5js.org/lucrezia1234/full/aBD_e_EVm)**
 
 ![dfb](https://user-images.githubusercontent.com/79698027/122655245-48de0c80-d151-11eb-9657-4615b84dab8f.JPG)
 
