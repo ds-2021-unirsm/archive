@@ -24,7 +24,7 @@ Cartella contenente tutti i prototipi e le prove realizzate con p5.js in funzion
 
 ![suono](https://user-images.githubusercontent.com/79698027/122655200-06b4cb00-d151-11eb-9d3e-2b096963e428.JPG)
 
-### RICONOSCIMENTO DELLA RISATA**
+### RICONOSCIMENTO DELLA RISATA
 
 Allenamento Macchina
 
