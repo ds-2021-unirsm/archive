@@ -1,6 +1,6 @@
 # Variazioni 10 PRINT 
 
-*"I programmi possono essere divertenti, divertenti, utili o inutili, purché rientrino in 40
+*"I programmi possono essere divertenti, utili o inutili, purché rientrino in 40
 colonne o meno."*
 <br> Levida, 1984 per la rivista Commodore RUN
 
