@@ -8,7 +8,14 @@ Il progetto è stato sviluppato da Juho Ojala e Ville Saarinen dello studio Luci
 L'Europa sta attualmente vivendo la più grande crisi di rifugiati dalla seconda guerra mondiale. Ogni giorno i media pubblicano numeri enormi. Ma che aspetto ha veramente mezzo milione di richiedenti asilo? L'obiettivo di questo progetto è trasmettere l'entità della crisi in modo intuitivo. Gli artisti utilizzano i dati pubblici dell'Agenzia delle Nazioni Unite per i rifugiati (UNHCR).
 
 ### HOW IT WORKS?  
-Questo progetto è iniziato con la sensazione che visualizzare ogni rifugiato come un punto in movimento su una mappa come mezzo potente per trasmettere l'entità della crisi. Il fulcro del progetto è una mappa interattiva open source che mostra i richiedenti asilo che arrivano nei paesi europei, una mappa che consente allo spettatore di osservare i cambiamenti nel tempo e scavare più a fondo nei luoghi e nei momenti che li sorprendono. Il progetto aumenta o diminuisce a seconda del contesto dello spettatore: una mappa interattiva semplificata su dispositivi mobili, un video quando l'interazione non è necessaria o immagini fisse quando è necessaria solo un'istantanea.
+Questo progetto è iniziato con l'idea che visualizzare ogni rifugiato come un punto in movimento su una mappa fosse un mezzo potente per trasmettere l'entità della crisi. Il fulcro del progetto è una mappa interattiva open source la quale mostra i richiedenti asilo che arrivano nei paesi europei, una mappa che consente allo spettatore di osservare i cambiamenti nel tempo e scavare più a fondo nei luoghi. La mappa si modifica in base al dispositivo utilizzato dall'utente per leggerla.
 
 ### WHAT IF?  Cosa succederebbe se?
-Cosa succederebbe se l’immigrazione fosse vista e vissuta come una ricchezza e non come un ostacolo? 
+Cosa succederebbe se l’immigrazione fosse vista e vissuta come una ricchezza e non come un ostacolo? I luoghi e paesi che accolgono i migranti potrebbero trarre vantaggi sia culturali sia commerciali da questi spostamenti.
+
+### CASO STUDIO [+](https://web.northeastern.edu/naturalizing-immigration-dataviz/download/portfolio-camera-ready.pdf) [+](https://www.quantitas.it/it/immigrazione_us_dataviz/)
+Il progetto è prodotto da Pedro M. Cruz e John Wihbey, insieme ad altri collaboratori, riguardante il fenomeno dell’immigrazione negli Stati Uniti avvenuta tra il 1830 e il 2015. In questa Visualization è presente quindi la componente temporale attraverso i vari anelli che indicano i vari decenni, è presente la componente geografica di provenienza attraverso i diversi colori delle caselle e non per ultimo è presente una idea di visualizzazione coerente e funzionale al fenomeno rappresentato.
+
+![ndghmgh](https://user-images.githubusercontent.com/79698027/122673640-a74acf80-d1d1-11eb-8a11-5b94281d2f1f.JPG)
+
+
