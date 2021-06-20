@@ -63,7 +63,8 @@
 - ### Una comunicazione incessante :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 > 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina attraverso delle parole di avvio e stop. Potrà anche modificare il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo la lettera "c" si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con un'interfaccia GUI si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte. Questo 10PRINT mostra la continua interazione uomo-macchina, una comunicazione incessante.
 
-[![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122671676-220eed00-d1c8-11eb-88b4-2824919b41e2.jpg "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
+[![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122673627-8e421e80-d1d1-11eb-9ccc-515ea7349587.jpg
+ "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 [![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122671779-8b8efb80-d1c8-11eb-9932-837a91ee46d0.png "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 
 - ### Pattern con modulo GUI :point_right: [+](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
