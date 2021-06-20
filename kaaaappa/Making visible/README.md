@@ -17,16 +17,19 @@ Per aumentare la consapevolezza sulla gamma di opere d’arte censurate da Insta
 Nella prima fase di ricerca il concept si poneval’obiettivo di indagare su questioni quali il pudore e come questo muta in base al contesto culturale e sociale in cui ci troviamo a vivere. Successivamente ho ristretto il campo parlando di morale e di censura nel contesto del social Instagram. In seguito alle testimonianze e ai casi rinvenuti trovo che bandire dai social media tutte le immagini fotografiche del corpo nudo forzi un regime anacronistico che pone limiti all’espressione di artisti, i quali sono costretti ad autocensurarsi.
 
 ## Prototipi
+- PoseNet
+- BodyPix
+- Interfaccia GUI
+
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
 [verisione sketch senza BodyPix che rallenta il caricamento della foto](https://editor.p5js.org/kaappa/full/yoEy-JMX0)
 [![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)]
 ![Foto02](https://user-images.githubusercontent.com/60677625/122682014-6665b180-d1f7-11eb-86c2-5ae9891d57bc.jpg)
 
-### - DeepFool per video_WebCam [+](https://editor.p5js.org/kaappa/full/M3Euzb-gV)
-![WebCam](https://user-images.githubusercontent.com/60677625/122682045-94e38c80-d1f7-11eb-9de3-192deb01c58f.jpg)
+### - DeepFool per video_WebCam [+](https://editor.p5js.org/kaappa/full/M3Euzb-gV) e mobile [+](https://editor.p5js.org/kaappa/full/r20UfuKeB)
+![Risorsa 1](https://user-images.githubusercontent.com/60677625/122682255-a9745480-d1f8-11eb-81e1-7f55617353e5.png)
 
-### - DeepFool per video_Mobile [+](https://editor.p5js.org/kaappa/full/r20UfuKeB)
-![Mobile](https://user-images.githubusercontent.com/60677625/122682098-d2481a00-d1f7-11eb-973f-623bf73a2972.jpg)
+
 
 
 
