@@ -18,7 +18,7 @@ Cosa succederebbe se fossero realizza più installazioni che rappresentino anche
 ### A deluge of death in northern Italy [+](https://graphics.reuters.com/HEALTH-CORONAVIRUS-LOMBARDY/0100B5LT46P/index.html)
 
 A deluge of death in northern Italy è un'inchiesta del sito Reuters sulle morti a Bergamo e in Lombardia durante la prima ondata di COVID-19.
-Esso dimostra come la buona data viz può anche emozionare, soprattutto se si va oltre i dati ufficiali e si analizzano “thick data” come le pagine dei necrologi dei quotidiani.
+Esso dimostra come la buona data viz può anche emozionare, soprattutto se si va oltre i dati ufficiali e si analizzano “thick data” (dati  qualitativi come osservazioni, sentimenti, reazioni) come le pagine dei necrologi dei quotidiani.
 
 ![Screenshot-2020-12-16-at-14 53 31](https://user-images.githubusercontent.com/79698027/122677023-bdac5780-d1e0-11eb-9e7a-ed99faf4ce0c.png)
 
