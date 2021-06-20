@@ -12,4 +12,13 @@
 <br/>L'obiettivo di questo progetto è trasmettere la portata della crisi di rifugiati in modo intuitivo, memorabile e coinvolgente tale da rendere le persone consapevoli e partecipi del problema trattato. Allo stesso tempo questi numeri migratori caratterizzano la storia di popoli e persone e mostrano come le guerre abbiano influenzato enormemente la loro vita, tanto da costringere loro a cambiarla.
 
 *Cosa succederebbe se…?*
-<br/>E se questa visualizzazione fosse integrata esplicando i motivi per cui queste persone hanno deciso di emigrare e perché hanno scelto un determinato paese? Forse le persone sarebbero ancora più consapevoli e sensibili nei confronti della problematica? Se fosse possibile esplicitare il genere o l'età della persona in questione quanto cambierebbe la percezione delle persone sul tema?  
+<br/>E se questa visualizzazione fosse integrata esplicando i motivi per cui queste persone hanno deciso di emigrare e perché hanno scelto un determinato paese? Forse le persone sarebbero ancora più consapevoli e sensibili nei confronti della problematica? Se fosse possibile esplicitare il genere o l'età della persona in questione quanto cambierebbe la percezione delle persone sul tema? 
+
+# Altri progetti
+
+![screen](https://user-images.githubusercontent.com/76476654/122670189-f6d4cf80-d1c0-11eb-8a0f-dc4a433ddddf.png)
+<br>
+*Underworlds, piattaforma di monitoraggio della salute urbana in tempo reale.*
+<br>
+[Discover it](http://senseable.mit.edu/uw-pilot-study/)
+
