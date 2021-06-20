@@ -1,6 +1,6 @@
 // -
-// 10 PRINT funny 0.1 by GaiaAndruccioli [10 PRINT, pattern, funny]
-// 2021 © GaiaAndruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// 10 PRINT funny 0.1 by Gaia Andruccioli [10 PRINT, pattern, funny]
+// 2021 © Gaia Andruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
 // github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
 // Educational purposes, MIT License, 2021, San Marino
 // —

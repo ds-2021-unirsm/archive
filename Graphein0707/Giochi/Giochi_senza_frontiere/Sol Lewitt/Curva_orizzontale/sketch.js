@@ -1,4 +1,10 @@
-//curva di Sol Lewitt
+// -
+// Curva di Sol Lewitt 0.1 by Gaia Andruccioli [curva, color, noise]
+// 2021 © Gaia Andruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
 
 function setup() {
   createCanvas(400, 400);

@@ -2,4 +2,4 @@
 
 ![dd](https://user-images.githubusercontent.com/76476654/111704686-dbfc6300-883f-11eb-88f5-8877524e0178.png)
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/MPC47_BE1]
+[Get the code!](https://editor.p5js.org/Gaia/full/MPC47_BE1)
