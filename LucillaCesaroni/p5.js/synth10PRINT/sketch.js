@@ -38,7 +38,7 @@ let speed;
 let polySynth;
 
 function setup() {
-  c = createCanvas(w = windowWidth, h = windowHeight);
+  c = createCanvas(w = windowWidth-10, h = windowHeight);
 
   rectMode(CENTER);
   ellipseMode(CENTER);
