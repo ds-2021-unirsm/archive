@@ -25,7 +25,7 @@
 // —
 //
 // Help:
-// [c] save canvas
+// [key] save canvas
 // [mouseX, mouseY] stroke, color
 // [mouse] attiva/disattiva suono
 // [speech] avvia ferma 10PRINT
