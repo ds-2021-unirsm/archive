@@ -1,6 +1,7 @@
 # Es.Camminatori indipendenti
-### I camminatori sono dei cerchi che si muovono nello spazio in direzioni diverse. Cliccando sulla canvas i cerchi si sovrappongo in corrispondenza delle coordinate del mouse. 
+I camminatori si muovono nello spazio in direzioni diverse. Cliccando sulla canvas i cerchi iniziano a muoversi in maniera energica e randomica, simulando una scossa di terremoto. 
 
-![1](https://user-images.githubusercontent.com/79698172/112370621-e86c3a00-8cdd-11eb-9114-3bcf01d2118c.png)
+![Earthquake](https://user-images.githubusercontent.com/79698172/122668029-16163180-d1ae-11eb-8987-1a5723a493fe.png)
 
-https://editor.p5js.org/Alessia97/full/FwrHtjbFt
+Code 👉🏻 [+](https://editor.p5js.org/Alessia97/full/FwrHtjbFt)
+
