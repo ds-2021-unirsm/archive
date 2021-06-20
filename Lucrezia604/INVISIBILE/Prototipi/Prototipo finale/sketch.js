@@ -4,6 +4,12 @@
 // github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
+// Credits/Thanks to: 
+// @ Daniel Shiffman (youtube.com/TheCodingTrain) for https://www.youtube.com/watch?v=EA3-k9mnLHs
+// MIT License
+// @ Ellen Nickles, Bomani Oseni McClendon (learn.ml5js.org/facemesh) for https://learn.ml5js.org/#/reference/facemesh?id=usage
+// MIT License
+// —
 // Help:
 // [movimento sopracciglia] cambio colore
 // [sorriso] regola la velocità di rotazione e il cambio delle forme
