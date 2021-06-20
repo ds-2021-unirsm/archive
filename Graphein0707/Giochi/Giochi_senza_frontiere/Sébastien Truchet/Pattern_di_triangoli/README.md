@@ -1,5 +1,5 @@
 ## Pattern di triangoli di Sébastien Truchet
 
-![dd](https://user-images.githubusercontent.com/76476654/112223464-44758680-8c2a-11eb-8912-fadf2b1aa8cc.png)
+![Cattura](https://user-images.githubusercontent.com/76476654/122671335-5da8b780-d1c6-11eb-8d9d-eb23a5b59a81.JPG)
 
-Link al progetto: [https://editor.p5js.org/Gaia/full/YT2DB-w_1]
+[Get the code!](https://editor.p5js.org/Gaia/full/mZ4IXp_a1)
