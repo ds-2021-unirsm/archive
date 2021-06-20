@@ -1,4 +1,4 @@
-## Immaterials: Light painting WiFi, 2012, imo Arnall, Jørn Knutsen and Einar Sneve Martinussen  
+## Immaterials: Light painting WiFi, 2012, Imo Arnall, Jørn Knutsen and Einar Sneve Martinussen  
 ![Catturam](https://user-images.githubusercontent.com/77029849/122667370-cd14ac00-d1b2-11eb-9e07-b7831b932628.JPG)
 
 **Cos'è**<br/>
