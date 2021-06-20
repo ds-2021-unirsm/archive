@@ -28,6 +28,11 @@
 
 [![PatternModulo](https://user-images.githubusercontent.com/76476647/112503441-3723dd80-8d8b-11eb-8a8e-8fa457fd8d88.png "PatternModulo")](https://editor.p5js.org/Lucilla/full/xZunQBMcj)
 
+- ### Pattern con modulo GUI :point_right: [+](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
+> Controlli con interfaccia GUI.
+
+[![PatternModuloGUI](https://user-images.githubusercontent.com/76476647/116939158-24df6e00-ac6c-11eb-95e0-189b4083ba41.png "PatternModuloGUI")](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
+
 - ### Camminatore drawer indipendente :point_right: [+](https://editor.p5js.org/Lucilla/full/rLL64Eppv)
 > I camminatori si muovono indipendentemente, lasciando piccole scie di ellissi. Cliccando con il mouse è possibile aggiungere un camminatore. Se i camminatori saranno più di dieci, verrà ripulita la canvas.
 
@@ -66,8 +71,3 @@
 [![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122673627-8e421e80-d1d1-11eb-9ccc-515ea7349587.jpg
  "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 [![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122671779-8b8efb80-d1c8-11eb-9932-837a91ee46d0.png "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
-
-- ### Pattern con modulo GUI :point_right: [+](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
-> Controlli con interfaccia GUI.
-
-[![PatternModuloGUI](https://user-images.githubusercontent.com/76476647/116939158-24df6e00-ac6c-11eb-95e0-189b4083ba41.png "PatternModuloGUI")](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
