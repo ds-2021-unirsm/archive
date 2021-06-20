@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* personalizzazione GUI */
+.dg.a{
+  margin-right: 8px;
+  margin-top: 10px;
+}
+.dg{font: 10px 'Lucida Grande', sans-serif;}

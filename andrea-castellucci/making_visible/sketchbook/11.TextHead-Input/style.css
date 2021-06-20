@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#indicazione{
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+#inputext{
+  margin: 0;
+  padding: 0;
+}

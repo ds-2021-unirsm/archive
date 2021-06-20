@@ -23,3 +23,32 @@
 #### 6. DetectionOn3dBox [+](https://editor.p5js.org/andrea-castellucci/full/FlBgjcVoA)
 
 ![BackgroundColorMap](https://user-images.githubusercontent.com/75098849/120834383-3a91cd00-c563-11eb-9ae6-f4f96a8b71be.gif)
+
+#### 7. DrawSphere [+](https://editor.p5js.org/andrea-castellucci/full/rnj_GTgZR)
+
+![DrawSphere](https://user-images.githubusercontent.com/75098849/122531544-e6392380-d01f-11eb-99eb-61da07e16f39.gif)
+
+#### 8. SphereControl [+](https://editor.p5js.org/andrea-castellucci/full/fZ6g5uB93)
+
+![SphereControl](https://user-images.githubusercontent.com/75098849/122613613-7067a300-d085-11eb-98cd-9e476096d51e.gif)
+
+#### 9. ShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/K6JHMvilp)
+
+![ShapeControl-TrainedModel](https://user-images.githubusercontent.com/75098849/122614858-baea1f00-d087-11eb-9fa0-4bac11bd144a.gif)
+
+#### 10. BodyShapeControl-TrainedModel [+](https://editor.p5js.org/andrea-castellucci/full/I0To7uDNE)
+
+![BodyShapeControl-TrainedModel](https://user-images.githubusercontent.com/75098849/122615685-34364180-d089-11eb-93bf-c3fe33ca4831.gif)
+
+
+#### 11. TextHead-Input [+](https://editor.p5js.org/andrea-castellucci/full/5M9Bzam14)
+
+![TextHead-Input](https://user-images.githubusercontent.com/75098849/122616118-13bab700-d08a-11eb-948f-526d7997cd77.gif)
+
+#### 12. TextHead-SpeechRecognition [+](https://editor.p5js.org/andrea-castellucci/full/lDiwAXfT4)
+
+![TextHead-SpeechRecognition](https://user-images.githubusercontent.com/75098849/122619190-2637ef00-d090-11eb-8cb9-2b359347516d.gif)
+
+#### 13. TextHead-SR-ControlFontSize [+](https://editor.p5js.org/andrea-castellucci/full/fRgcEXCzB)
+
+![TextHead-SR-ControlFontSize](https://user-images.githubusercontent.com/75098849/122618626-e4f30f80-d08e-11eb-858b-f4ef8dd069e0.gif)
