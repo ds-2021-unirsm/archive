@@ -26,13 +26,14 @@
 //
 // Help:
 // [movimenti del corpo] sistema di particelle che segue i movimenti del corpo
-//
+// [polsi vicini] cambia forma del sistema di particelle
 // —
 
 let video;
 let poseNet;
 let pose;
-let particella = [];
+let particella_ellipse = [];
+let particella_triangle = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -55,26 +56,60 @@ function modelLoaded() {
 
 function draw() {
   image(video, 0, 0,width,height);
-
+  
   if (pose) {
     let conta = 0;
-    for (let p of particella) {
+    for (let p of particella_ellipse) {
       p.update();
       p.disegna();
       if (p.vita <= 0) {
-        particella.splice(conta, 1);
+        particella_ellipse.splice(conta, 1);
       }
       conta++;
     }
-    
-    if (particella.length < 50) {
-      for (let i = 0; i < pose.keypoints.length; i++) {
-        let nuovaparticella = new particle(
+   part_ellipse();
+  }
+  
+  if (pose) {
+    let conta = 0;
+    for (let n of particella_triangle) {
+      n.update();
+      n.disegna();
+      if (n.vita <= 0) {
+        particella_triangle.splice(conta, 1);
+      }
+      conta++;
+    }
+   part_triangle();
+  }
+}
+
+//creo la funzione che gestisce le particelle che di base si creano sul corpo
+function part_ellipse(){  
+  if (particella_ellipse.length < 50) {
+    for (let i = 0; i < pose.keypoints.length; i++) {
+      if (pose.rightWrist.x - pose.leftWrist.x <= -150) {
+        let nuovo_ellipse = new particle_ellipse(
           pose.keypoints[i].position.x,
           pose.keypoints[i].position.y
         );
-        particella.push(nuovaparticella);
+        particella_ellipse.push(nuovo_ellipse);
       }
     }
-  }
+  } 
+}
+
+//verifico la vicinanza tra i polsi e creo un nuovo sistema di particelle
+function part_triangle(){ 
+  if (particella_triangle.length < 50) {
+    for (let i = 0; i < pose.keypoints.length; i++) {
+      if (pose.rightWrist.x - pose.leftWrist.x > -150) {
+        let nuovo_triangle = new particle_triangle(
+          pose.keypoints[i].position.x,
+          pose.keypoints[i].position.y
+        );
+        particella_triangle.push(nuovo_triangle);
+      }
+    }
+  } 
 }
