@@ -38,7 +38,7 @@ Grazie a PoseNet nel primo caso vengono rilevati gli occhi posizionati automatic
 
 ![Risorsa 1](https://user-images.githubusercontent.com/60677625/122682255-a9745480-d1f8-11eb-81e1-7f55617353e5.png)
 
-## Esperimento: deel.foop
+## Esperimento: [deel.foop](https://www.instagram.com/deel.foop/)
 Ho trovato interessante sperimentare direttamente sul campo con un profilo Instagram dedicato alle foto modificate dal software. Inizialmente il nome era deep.fool ma Instagram lo ha bannato prima che potessi caricare qualcosa. Ora il nome è deel.foop.
 
 ![Nudi4](https://user-images.githubusercontent.com/60677625/122683017-fe19ce80-d1fc-11eb-98f1-d4e6b3b64d04.png)
