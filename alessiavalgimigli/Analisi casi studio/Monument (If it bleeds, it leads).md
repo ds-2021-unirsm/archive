@@ -2,10 +2,8 @@
 
 ![yellow-mini-candy-balls-2-1-2lb-sixlets-53](https://user-images.githubusercontent.com/79698172/110754378-0d759d00-8248-11eb-98c5-3991e8664265.jpg)
 
-https://we-make-money-not-art.com/monument_if_it/
-
 ### Che cos’è? 
-Si tratta di un progetto di data physicalization che quantifica gli omicidi nel mondo utilizzando come references i titoli sempre aggiornati di 4500 fonti di notizie. 
+Si tratta di un progetto di data physicalization che quantifica gli omicidi nel mondo utilizzando come reference i titoli di 4500 fonti di notizie aggiornati in tempo reale.
 
 ### Come funziona?
 Un computer elabora in maniera continua tutti i titoli delle notizie e quando individua un omicidio, un algoritmo determina il numero di morti e attiva un meccanismo montato sul soffitto, che rilascia una pallina gialla per ogni persona uccisa. Si viene così a formare una sorta di monumento dedicato ai morti sconosciuti. 
@@ -18,10 +16,16 @@ Questo mette in discussione l’ingenuità e la leggerezza con cui spesso si fru
 ### What if?
 Potrebbero essere analizzate notizie da tutto il mondo e suddividere la caduta delle palline su più aree, una appartenente ad ogni continente. In questo modo il risultato sarebbe una visualizzazione della quantità di omicidi nel mondo. 
 
-#### Reference
+### Reference
 https://rhizome.org/editorial/2008/oct/01/computational-poetics/
 
 https://we-make-money-not-art.com/monument_if_it/
 
 https://books.google.sm/books?id=UgREV9O8sNAC&pg=PA178&lpg=PA178&dq=Monument,+2006,+Caleb+Larsen&source=bl&ots=gkA_evEmK9&sig=ACfU3U2LMY_ECjSL7M52LVC3VwkGao_Mww&hl=it&sa=X&ved=2ahUKEwiNwJHS4brvAhWKHewKHYuuCc0Q6AEwEXoECBIQAw#v=onepage&q&f=false
+
+### Progetti correlati
+Take a bullet for the city, Luke Dubois, 2014 [+](https://www.lukedubois.com/projects-2/takeabullet)
+
+Keywords: sparo, numero di morti
+
 
