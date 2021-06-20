@@ -7,14 +7,15 @@ La censura è una forma di controllo esercitata da un’autorità che limita la 
 ![Nudi](https://user-images.githubusercontent.com/60677625/122681590-433a0280-d1f5-11eb-83ed-8ce5298ed40d.jpg)
 
 ## La nudità
-Comune denominatore di tutto è la nudità, lacondizione biologica naturale dell’uomo scatena turbamento soprattutto quando il soggetto raffigura uncorpo femminile. Anche Instagram ha stilato una serie di [linee guida]((https://www.facebook.com/communitystandards/adult_nudity_sexual_activity) che vadano a definire quale sia il limite tra nudo lecito e nudo osceno. Testualmente sono vietate immagini con “capezzoli femminili in vista, tranne che nel contesto di allattamento al seno, parto, situazioni correlate alla salute o atto di protesta”.
+Comune denominatore di tutto è la nudità, lacondizione biologica naturale dell’uomo scatena turbamento soprattutto quando il soggetto raffigura uncorpo femminile. Anche Instagram ha stilato una serie di [linee guida](https://www.facebook.com/communitystandards/adult_nudity_sexual_activity) che vadano a definire quale sia il limite tra nudo lecito e nudo osceno. Testualmente sono vietate immagini con “capezzoli femminili in vista, tranne che nel contesto di allattamento al seno, parto, situazioni correlate alla salute o atto di protesta”.
 
+Per aumentare la consapevolezza sulla gamma di opere d’arte censurate da Instagram, l’artista Spencer Tunick, in collaborazione con la campagna "[Don't Delete](https://dontdelete.art/)" della National Coalition Against Censorship, ha capitanato una campagna di nude art action nel giugno 2019. 125 corpi nudi, armati di gigantografie di capezzoli genderless, hanno preso posizione per le strade di New York City contro la censura dell’arte sui social.
 
+![Nudi2](https://user-images.githubusercontent.com/60677625/122681872-b2fcbd00-d1f6-11eb-9026-b4c3c751f850.jpg)
 
+## Progetto/Concept
+Nella prima fase di ricerca il concept si poneval’obiettivo di indagare su questioni quali il pudore e come questo muta in base al contesto culturale e sociale in cui ci troviamo a vivere. Successivamente ho ristretto il campo parlando di morale e di censura nel contesto del social Instagram. In seguito alle testimonianze e ai casi rinvenuti trovo che bandire dai social media tutte le immagini fotografiche del corpo nudo forzi un regime anacronistico che pone limiti all’espressione di artisti, i quali sono costretti ad autocensurarsi.
 
-
-
-
-
-
+## Prototipi
+### DeepFool per foto
 [![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)](https://editor.p5js.org/kaappa/full/tlxHlf9u4)
