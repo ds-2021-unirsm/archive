@@ -25,4 +25,4 @@ L'archivio personale è suddiviso in tre cartelle principali, le quali contenton
 >9. Raggi che interagiscono con il mouse;
 >10. Scontri tra camminatori;
 >11. Variazione 10PRINT + GUI;
->12. Variazione 10PRINT Maze
+>12. Variazione 10PRINT Maze.
