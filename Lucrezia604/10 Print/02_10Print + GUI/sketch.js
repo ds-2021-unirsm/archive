@@ -19,9 +19,10 @@
 
 let w;  //grandezza x della linea corrente
 let h;  //grandezza y della linea corrente
-let index = 0;  //indice del simbolo della riga
+let index_X= 0;  //indice del simbolo della riga
+let Pos_Y= 0;  //posizione della riga
 
-let pallete = ["#F2C7A7","#F46F40","#DE1E0F","#0684CF","#090909","#4D261F","#D7BC9F"];
+let palette = ["#F2C7A7","#F46F40","#DE1E0F","#0684CF","#090909","#4D261F","#D7BC9F"];
 
 let MaxDim = 35; //max slider dimensione
 let MinDim = 15;  //min slider dimensione
@@ -37,7 +38,8 @@ let parametri = {
 
   reset: function() { 
     background("#F2C7A7");
-    index = 0;
+    index_X = 0;
+    Pos_Y= 0;
     y = 0;
   },
 
@@ -83,29 +85,32 @@ function draw() {
   //Variabile d'appoggio per mischiare i colori della palette con quello del parametro
   let CCC = [];  
   
-  let x1 = w*index;  //posizione del simbolo
-  let y1 = 0;  //posizione della riga in basso
+  let x1 = w*index_X;  //posizione del simbolo
+  let y1 = Pos_Y;  //posizione della riga in basso
   
-  let pallete_copy = pallete.concat(); //copio la palette per non modificarla
-  let bgNum = int(random(pallete_copy.length)); //scelgo un colore a caso
-  pallete_copy.splice(bgNum,1); //mischio la palette
+  let palette_copy = palette.concat(); //copio la palette per non modificarla
+  let bgNum = int(random(palette_copy.length)); //scelgo un colore a caso
+  palette_copy.splice(bgNum,1); //mischio la palette
   
-  for(i = 0; i < pallete_copy.length;i++)
+  for(i = 0; i < palette_copy.length;i++)
     {
       //mischio i colori della palette con il colore parametro
-      CCC[i] = lerpColor(color(pallete_copy[i]), color(parametri.coloreImmagine), 0.5);
+      CCC[i] = lerpColor(color(palette_copy[i]), color(parametri.coloreImmagine), 0.5);
     }
   
-  push();
-  translate(x1 + (w/2), y1 + (h/2));  //stampo al centro
-  rotate(int(random(4)) * 360 / 4);  //ruoto casualmente l'immagine
-  drawGradientArc (-(w/2), -(h/2), w*2, 0, 90, CCC);  //stampo l'immagine
-  pop();
-  
-  index++; //passo al simbolo successivo
-  
+  //farma l'esecuzione se siamo arrivati a fine altezza dello schermo
+  if((Pos_Y < windowHeight))
+    {
+      push();
+      translate(x1 + (w/2), y1 + (h/2));  //stampo al centro
+      rotate(int(random(4)) * 360 / 4);  //ruoto casualmente l'immagine
+      drawGradientArc (-(w/2), -(h/2), w*2, 0, 90, CCC);  //stampo l'immagine
+      pop();
+      index_X++; //passo al simbolo successivo      
+    }
+ 
   //se la riga è finita e premi"cattura" scarica l'immagine
-  if (index >= windowWidth/(w)) {
+  if ((index_X >= windowWidth/(w)) && (Pos_Y < windowHeight)) {
 
     if(Catturaimmagine == 1)
       {
@@ -113,20 +118,23 @@ function draw() {
         Catturaimmagine = 0;
       }
     
+    //scendo di riga
+    Pos_Y = Pos_Y + h;
+    
     //aggiorno i parametri per la nuova riga
     rapporto = windowHeight/(round(parametri.dimensioniImmagine));
     w = h = (round(parametri.dimensioniImmagine));
     
-    //copia un area del canvas per spostare le immagini di volta in volta
-    p = get(0, 0, windowWidth, h*(rapporto-1) - 2); 
-    
-    background("#F2C7A7");  //resetto il canvas al colore base
-    
-    set(0, h, p);  //ristampo le immagini già stampate
-    
-    index=0; //reset della linea
+    index_X=0; //reset della linea
   }
-  
+  else if((Pos_Y >= windowHeight))  //permette la cattura dell'immagine a fine esecuzione
+    {
+      if(Catturaimmagine == 1)
+        {
+          saveCanvas(idcanvas, 'myCanvas', 'jpg');
+          Catturaimmagine = 0;
+        }
+    }
 }
 
 //disegna la forma base
