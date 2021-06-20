@@ -16,7 +16,7 @@
 // —
 //
 // Help:
-// [c] save canvas
+// [keypressed] save canvas
 // [mouseX] rotate rect, change color and dimension of the ellipse
 //
 // —
