@@ -50,4 +50,17 @@ Posenet applicato a una scena di Shining, in questo esempio viene disegnato lo s
 ![storyboard_2](https://user-images.githubusercontent.com/76476654/118962423-a837d980-b965-11eb-9855-b027cfe1345b.png)
 Stesso procedimento applicato a un altro video e un'altra compisizione grafica
 
+<br>
+
+***
+
+<br>
+
+## Posenet_Grease_blur 
+Posenet applicato a una scena di Grease, in questo esempio si tiene traccia dei gesti degli attori e si applica il filtro blur per la resa del movimento <br>
+
+![grease](https://user-images.githubusercontent.com/76476654/122673159-7ff30300-d1cf-11eb-8290-46aa0f141808.png)
+
+[Get the code!](https://editor.p5js.org/Gaia/full/d3ziT9xz4)
+
 
