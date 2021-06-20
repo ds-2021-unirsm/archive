@@ -13,9 +13,9 @@ Questo progetto è iniziato con l'idea che visualizzare ogni rifugiato come un p
 ### WHAT IF?  Cosa succederebbe se?
 Cosa succederebbe se l’immigrazione fosse vista e vissuta come una ricchezza e non come un ostacolo? I luoghi e paesi che accolgono i migranti potrebbero trarre vantaggi sia culturali sia commerciali da questi spostamenti.
 
-### CASI STUDIO 
+## CASI STUDIO 
 
-## PROCESS OF SIMULATING TREE RINGS FOR IMMIGRATION IN THE U.S. [+](https://web.northeastern.edu/naturalizing-immigration-dataviz/download/portfolio-camera-ready.pdf) [+](https://www.quantitas.it/it/immigrazione_us_dataviz/)
+### PROCESS OF SIMULATING TREE RINGS FOR IMMIGRATION IN THE U.S. [+](https://web.northeastern.edu/naturalizing-immigration-dataviz/download/portfolio-camera-ready.pdf) [+](https://www.quantitas.it/it/immigrazione_us_dataviz/)
 Il progetto è prodotto da Pedro M. Cruz e John Wihbey, insieme ad altri collaboratori, riguardante il fenomeno dell’immigrazione negli Stati Uniti avvenuta tra il 1830 e il 2015. In questa Visualization è presente quindi la componente temporale attraverso i vari anelli che indicano i vari decenni, è presente la componente geografica di provenienza attraverso i diversi colori delle caselle e non per ultimo è presente una idea di visualizzazione coerente e funzionale al fenomeno rappresentato.
 
 ![ndghmgh](https://user-images.githubusercontent.com/79698027/122673640-a74acf80-d1d1-11eb-8a11-5b94281d2f1f.JPG)
