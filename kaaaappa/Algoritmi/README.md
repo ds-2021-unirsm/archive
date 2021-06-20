@@ -1,6 +1,7 @@
 # Trippy Box
 
-[![Texture 3D Box!](https://user-images.githubusercontent.com/60677625/119848766-6205eb80-bf0c-11eb-9b01-346f6b845d4b.png)](https://editor.p5js.org/kaappa/full/UVgjWaLnf)
+[![Trippy Box!](https://user-images.githubusercontent.com/60677625/122686633-6b842a00-d212-11eb-909e-aa2ac97ff7fa.png)](https://editor.p5js.org/kaappa/full/wkIOy5GOw)
+
 
 
 # Perlin Hair Noise
