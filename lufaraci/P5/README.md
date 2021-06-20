@@ -1,10 +1,10 @@
-## camminatore - variazione 1
+## camminatore - variazione 1 (ENTER TO SEE MORE)
 
 <img width="507" alt="Schermata 2021-03-21 alle 12 00 23" src="https://user-images.githubusercontent.com/63911437/111902344-65c54f80-8a3d-11eb-9916-437d61eb3232.png">
 
 Guarda nell'editor [👾](https://editor.p5js.org/lfaraci/full/w2WsAGYqx)
 
-## Esercizi base P5 0.1 - Pop_push
+## Esercizi base P5 0.1 - Pop_push (ENTER TO SEE MORE)
 
 <img width="401" alt="Screenshot 2021-05-25 at 16 39 39" src="https://user-images.githubusercontent.com/63911437/119517428-e4a97200-bd77-11eb-80ba-daaf2bf4255d.png">
 
@@ -13,7 +13,7 @@ MouseX = ingrandisci i raggi.
 
 Guarda nell'[editor 👾](https://editor.p5js.org/lfaraci/sketches/ptfAqngUS)
 
-## Esercizi base P5 0.2 - Evidenziatore
+## Esercizi base P5 0.2 - Evidenziatore (ENTER TO SEE MORE)
 
 <img width="399" alt="Screenshot 2021-05-25 at 17 40 30" src="https://user-images.githubusercontent.com/63911437/119527488-a6648080-bd80-11eb-984d-e112f21d0d07.png">
 
