@@ -20,7 +20,7 @@ Il progetto è prodotto da Pedro M. Cruz e John Wihbey, insieme ad altri collabo
 
 ![ndghmgh](https://user-images.githubusercontent.com/79698027/122673640-a74acf80-d1d1-11eb-8a11-5b94281d2f1f.JPG)
 
-### Country-to-country net migration (2010-2015)
+### Country-to-country net migration (2010-2015) [+](http://metrocosm.com/global-immigration-map/)
 Questa visualizzazione animata mostra l'immigrazione netta stimata tra i vari paesi su scala mondiale dal 2010 al 2015. Passa il puntatore del mouse sui cerchi per vedere i valori totali di immigrazione netta: i cerchi blu indicano un flusso migratorio positivo con persone in ingresso, mentre i cerchi rossi indicano un flusso negativo con persone che lasciano il paese. Facendo clic sui punti dati si attiva il filtro per la migrazione da e verso un dato paese. Per una maggiore analisi, l'autore esamina anche i punti dati di immigrazione rispetto alle notizie attuali.
 
 La mappa è stata realizzata in Javascript utilizzando D3 , three.js e MapboxGL da Max Galka.
