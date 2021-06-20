@@ -1,5 +1,7 @@
-## Archivio personale del corso DS-2021-unirsm
+# **Archivio di Mariangela Catucci nel corso DS-2021 Unirsm**
 
-### **Mariangela Catucci**
+2021 Mariangela @MariangelaCatucci, Daniele @Fupete and the course DS-2021 at design.unirsm.
 
-Educational purpose, MIT License, 2021 San Marino
+github.com/MariangelaCatucci — github.com/fupete
+
+Educational purposes, MIT License, 2021, San Marino
