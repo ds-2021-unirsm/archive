@@ -1,8 +1,15 @@
-// Distorsione vocale [sound reference p5.js]
-// La voce viene modificata
-// Laboratorio di Design dei Sistemi Interattivi, a.a. 2020/2021, prof. Daniele Tabellini, Design UNIRSM
-
-// From --> 
+// -
+// Distorsione vocale 0.1 by Lucrezia Nediani [Distorsione, voce]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Help:
+// [tasto "Registra"] avvio registrazione vocale
+// [tasto "Stop Registrazione"] stop registrazione vocale
+// [tato "Riproduci"] avvio riproduzione distorsione vocale
+// [tato "Ferma riproduci"] stop riproduzione distorsione vocale
+// —
 
 
 let mic;

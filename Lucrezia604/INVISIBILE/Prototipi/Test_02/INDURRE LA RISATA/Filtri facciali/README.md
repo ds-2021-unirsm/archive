@@ -1,6 +1,4 @@
-# FILTRI FACCIALI <h1>
-
-https://editor.p5js.org/lucrezia1234/sketches/yT8KWfZ6b
+# FILTRI FACCIALI [+](https://editor.p5js.org/lucrezia1234/full/yT8KWfZ6b)
 
 Prototipo realizzato a partire da clmtrackr che traccia i punti principali del viso e vi posiziona i filtri.
 

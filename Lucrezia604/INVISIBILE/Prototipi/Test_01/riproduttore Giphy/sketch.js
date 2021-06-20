@@ -1,6 +1,16 @@
-// Riproduttore di gif animate [Giphy]
+// -
+// Random Giphy Gif 0.1 by Lucrezia Nediani [Gif, Estrazione random]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Credits/Thanks to: 
+// @aferriss for https://editor.p5js.org/aferriss/sketches/HJgbT8UpM
+// original license: MIT License
+// —
+// Help:
 // Vengono riprodotte cliccando sullo schermo fino ad un massimo di 10
-// Laboratorio di Design dei Sistemi Interattivi, a.a. 2020/2021, prof. Daniele Tabellini, Design UNIRSM
+// —
 
 
 //url api sito giphy

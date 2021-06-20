@@ -1,3 +1,10 @@
+// -
+// Generatore_Pattern 0.1 by Lucrezia Nediani [Pattern, Modulo]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
 function setup() { 
   createCanvas(500, 500);
   //frequenza dei fotogrammi (velocità di ingrandimento quadrati)

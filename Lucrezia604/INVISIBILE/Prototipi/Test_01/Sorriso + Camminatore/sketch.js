@@ -1,6 +1,12 @@
-// Rilevamento del sorriso tramite il FaceTraking [Facemesh]
-// Sorriso come attivatore di movimento di Camminatori che disegnano
-// Laboratorio di Design dei Sistemi Interattivi, a.a. 2020/2021, prof. Daniele Tabellini, Design UNIRSM
+// -
+// Rilevamento del sorriso tramite il FaceTraking 0.1 by Lucrezia Nediani [FaceTraking, Camminatori]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Help:
+// Sorriso come attivatore di movimento di Camminatori che disegnano [FaceMesh]
+// -
 
 
 let facemesh;  //Variabile facemesh

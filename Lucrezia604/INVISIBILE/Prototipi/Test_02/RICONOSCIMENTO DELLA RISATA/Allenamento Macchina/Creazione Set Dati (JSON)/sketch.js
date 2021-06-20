@@ -1,6 +1,14 @@
-// Webcam Carichimento Dati [Facemesh]
+// -
+// Webcam Carichimento Dati [Facemesh] 0.1 by Lucrezia Nediani [Sorriso, JSON]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+// Help:
 // Realizza un file json con i dati del rilevamento facciale
-// Laboratorio di Design dei Sistemi Interattivi, a.a. 2020/2021, prof. Daniele Tabellini, Design UNIRSM
+// [tasto "Salva pos"] salva posizione del sorriso
+// [tato "Salva dato"] salva dato del sorriso
+// —
 
 let facemesh;
 let video;
