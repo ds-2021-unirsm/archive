@@ -21,7 +21,7 @@
 // —
 //
 // Help:
-// [keypressed] save canvas
+// [keypressed] saveCanvas
 // [mouseX, mouseY] stroke, color
 // [mouse] attiva/disattiva suono
 //
