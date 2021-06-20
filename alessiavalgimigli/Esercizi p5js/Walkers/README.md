@@ -8,6 +8,11 @@
 
 -
 
+## Scontri sonori
+![scontri](https://user-images.githubusercontent.com/79698172/122668875-20d2c580-d1b2-11eb-9890-a8a49502d122.png)
+
+-
+
 ## Earthquake
 ![Earthquake](https://user-images.githubusercontent.com/79698172/122668125-8a50d500-d1ae-11eb-8553-478737c511b1.png)
 
