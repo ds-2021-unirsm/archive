@@ -38,6 +38,9 @@ Grazie a PoseNet nel primo caso vengono rilevati gli occhi posizionati automatic
 
 ![Risorsa 1](https://user-images.githubusercontent.com/60677625/122682255-a9745480-d1f8-11eb-81e1-7f55617353e5.png)
 
+## Esperimento: deel.foop
+Ho trovato interessante sperimentare direttamente sul campo con un profilo Instagram dedicato alle
+
 
 
 
