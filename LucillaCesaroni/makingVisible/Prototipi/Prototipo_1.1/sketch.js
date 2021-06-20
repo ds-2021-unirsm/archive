@@ -38,7 +38,7 @@
 // Help:
 // [speech] traduction
 // [click] buttons for activate start, pause, stop, new
-// [s] savecanvas
+// [s] saveCanvas
 //
 // —
 
