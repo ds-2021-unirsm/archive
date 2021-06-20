@@ -17,8 +17,8 @@ Per aumentare la consapevolezza sulla gamma di opere d’arte censurate da Insta
 Nella prima fase di ricerca il concept si poneval’obiettivo di indagare su questioni quali il pudore e come questo muta in base al contesto culturale e sociale in cui ci troviamo a vivere. Successivamente ho ristretto il campo parlando di morale e di censura nel contesto del social Instagram. In seguito alle testimonianze e ai casi rinvenuti trovo che bandire dai social media tutte le immagini fotografiche del corpo nudo forzi un regime anacronistico che pone limiti all’espressione di artisti, i quali sono costretti ad autocensurarsi.
 
 ## Prototipi
-- PoseNet
-- BodyPix
+- PoseNet [+](https://learn.ml5js.org/#/reference/posenet)
+- BodyPix [+](https://learn.ml5js.org/#/reference/bodypix)
 - Interfaccia GUI
 
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
