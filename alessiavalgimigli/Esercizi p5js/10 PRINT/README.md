@@ -8,7 +8,7 @@
 
 -
 
-## Geometrie
+## Linee
 ![variazione1_b](https://user-images.githubusercontent.com/79698172/122672956-2934fb80-d1c6-11eb-871f-cec9ad562af3.png)
 
 -
