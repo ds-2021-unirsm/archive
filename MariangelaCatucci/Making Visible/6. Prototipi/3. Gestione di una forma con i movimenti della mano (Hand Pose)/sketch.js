@@ -1,8 +1,15 @@
-// Modifica forma con interazione mano 0.1 by Mariangela Catucci [mano, forma, vertici, deformazione, handtracking]
+// Modifica forma con interazione mano 0.1 by Mariangela Catucci [Handpose, mano, forma, vertici, deformazione, handtracking]
 // 2021 © Mariangela @MariangelaCatucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
+//
+// Credits to:
+// Handpose by E. Nickles, B.O. McClendon
+// @Ellen Nickles (ellennickles.site/)
+// @bxmani (https://twitter.com/bxmani)
+// for (https://github.com/tensorflow/tfjs-models/tree/master/handpose)
+// original license: MIT License 2020
 //
 // Credits to:
 // @yining_shi (twitter.com/yining_shi) for https://github.com/yining1023
