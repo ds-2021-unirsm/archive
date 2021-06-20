@@ -4,6 +4,9 @@
 // github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
 // —
+// Credits/Thanks to: 
+// @Gene Kogan (genekogan.com) for https://genekogan.com/code/p5js-perlin-noise/
+// —
 
 
 var t;
