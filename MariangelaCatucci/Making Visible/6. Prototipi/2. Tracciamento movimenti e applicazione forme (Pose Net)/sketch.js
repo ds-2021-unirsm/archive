@@ -5,7 +5,20 @@
 //
 // —
 //
-// Credits: 
+// Credits to:
+// PoseNet by E. Nickles, C. Valenzuela, M. Man, D. Oved
+// @EllenNickles (ellennickles.site/)
+// @oveddan (twitter.com/oveddan)
+// @c_valenzuelab (twitter.com/c_valenzuelab)
+// @mayaonthenet (twitter.com/mayaonthenet)
+// in collaboration with Google Researchers 
+// for (github.com/oveddan)
+// for (github.com/tensorflow/tfjs-models)
+// for (github.com/cvalenzuela)
+// for (https://github.com/mayaman)
+// original license: MIT License 2018
+//
+// Credits to: 
 // @shiffman (twitter.com/shiffman) for https://thecodingtrain.com/
 // original license: MIT License 2019
 //
