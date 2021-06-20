@@ -11,7 +11,8 @@
 // @leejoeyk (twitter.com/leejoeyk)
 // for (https://github.com/justadudewhohacks)
 // for (https://github.com/joeyklee)
-// 
+// original license: MIT License 2018
+//
 // Credits to: 
 // @_stc (twitter.com/_stc) for https://github.com/stc/face-tracking-p5js
 // original license: MIT License 2018
