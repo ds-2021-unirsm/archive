@@ -1,0 +1,36 @@
+body {
+  background-color: pink;
+}
+
+
+h1 {
+  marg-top: 20px;
+  font-family: "Bebas Neue";
+}
+
+a {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  color: black;
+  text-decoration: none;
+}
+
+#status {
+  font-size: 40px;
+  font-family: "Shadows Into Light", cursive;
+  margin-top: 5px;
+  margin-left: 30px;
+  color: #CC7D9E;
+}
+
+
+#logo {
+  margin-top: 15px;
+  widthh: 65px;
+  height: 65px;
+  margin-left: 20px;
+  float:left;
+  
+}
