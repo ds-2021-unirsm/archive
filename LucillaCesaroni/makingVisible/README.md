@@ -22,7 +22,7 @@ Infine, tramite node.js con il framework Express.js, è stato possibile fare ric
 ![Metamorfosi_prototipo1_Unsplash](https://user-images.githubusercontent.com/76476647/122623144-44efb300-d09b-11eb-96e5-bed7b6831948.gif)
 
 ### 1° prototipo GIPHY :point_right: [+](https://editor.p5js.org/Lucilla/full/aWv9jYQXi)
-![Metamorfosi_prototipo1.1_Giphy](https://user-images.githubusercontent.com/76476647/122650720-c5aebd80-d134-11eb-9cc0-32cdb171daa4.jpg)
+![Metamorfosi_prototipo1.1_Giphy](https://user-images.githubusercontent.com/76476647/122665715-1e1fa280-d1a9-11eb-88cb-21cac4cfbf54.jpg)
 ![Metamorfosi_prototipo1.1_Giphy](https://user-images.githubusercontent.com/76476647/122650305-6bacf880-d132-11eb-860b-3a224ccf35f5.gif)
 
 ### 2° prototipo :point_right: [+](https://editor.p5js.org/Lucilla/full/GesR6MZmV)
