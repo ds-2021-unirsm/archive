@@ -50,7 +50,7 @@
 // [speech] traduction
 // [click] buttons for activate start, pause, stop, new
 // [GUI] change colors
-// [s] savecanvas
+// [s] saveCanvas
 //
 // —
 
