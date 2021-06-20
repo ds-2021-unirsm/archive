@@ -1,3 +1,11 @@
+// -
+// Camminatori_Indipendeti 0.1 by Lucrezia Nediani [Camminatori, Indipendeti]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
+
 let Palline = []; // < array di linee
 let n = 20; // < numero linee iniziali
 let xoff1 = 30;
