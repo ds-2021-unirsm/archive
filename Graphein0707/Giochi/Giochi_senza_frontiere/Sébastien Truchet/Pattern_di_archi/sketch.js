@@ -1,4 +1,10 @@
-//cerchi di Sébastien Truchet
+// -
+// Cerchi di Sébastien Truchet 0.1 by Gaia Andruccioli [cerchi, 10 print]
+// 2021 © Gaia Andruccioli, Daniele @Fupete, Irene @iretrtr and the course DS-2021 at DESIGN.unirsm,
+// github.com/ds-2021-unirsm — github.com/fupete - github.com/Graphein0707
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
 
 var x = 0;
 var y = 0;
