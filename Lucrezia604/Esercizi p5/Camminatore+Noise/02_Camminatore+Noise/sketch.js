@@ -1,3 +1,11 @@
+// -
+// Camminatore+Noise 0.2 by Lucrezia Nediani [Camminatore, Noise]
+// 2021 © Lucrezia Nediani, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/Lucrezia604 — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
+
 let Palline = []; 
 let n = 10; 
 let xoff1 = 300;
