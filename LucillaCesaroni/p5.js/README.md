@@ -16,7 +16,7 @@
 [![10PRINT](https://user-images.githubusercontent.com/76476647/112503773-7eaa6980-8d8b-11eb-9d09-dbb64431b527.png "10PRINT")](https://editor.p5js.org/Lucilla/full/mbTFJkmko)
 
 - ### Generatore casuale di parole :point_right: [+](https://editor.p5js.org/Lucilla/full/UyXqNXNLw)
-> Generatore casuale di parole che vengono lette tramite lo speech. Premendo la lettera "c" si può salvare la canvas e un click del mouse permette di ricaricarla.
+> Generatore casuale di parole che vengono lette tramite lo speech. Premendo una lettera si può salvare la canvas e un click del mouse permette di ricaricarla.
 
 [![GeneratoreParole](https://user-images.githubusercontent.com/76476647/112503727-74886b00-8d8b-11eb-9a1e-791ff23c865a.png "GeneratoreParole")](https://editor.p5js.org/Lucilla/full/UyXqNXNLw)
 
@@ -24,7 +24,7 @@
 [![RandomDigits](https://user-images.githubusercontent.com/76476647/112503643-64708b80-8d8b-11eb-8a0a-68d57ee78493.png "RandomDigits")](https://editor.p5js.org/Lucilla/full/876zEWnEo)
 
 - ### Pattern con modulo :point_right: [+](https://editor.p5js.org/Lucilla/full/xZunQBMcj)
-> Generatore di pattern usando la regolarità del modulo. La X del mouse permette di ruotare i quadrati, cambiare colore e dimensione dell'ellisse. Premendo la lettera "c" si può salvare la canvas.
+> Generatore di pattern usando la regolarità del modulo. La X del mouse permette di ruotare i quadrati, cambiare colore e dimensione dell'ellisse. Premendo una lettera si può salvare la canvas.
 
 [![PatternModulo](https://user-images.githubusercontent.com/76476647/112503441-3723dd80-8d8b-11eb-8a8e-8fa457fd8d88.png "PatternModulo")](https://editor.p5js.org/Lucilla/full/xZunQBMcj)
 
@@ -56,12 +56,12 @@
 [![CamminatoriMondi](https://user-images.githubusercontent.com/76476647/114245668-36956480-9991-11eb-8c9e-8e89750cdc4c.png "CamminatoriMondi")](https://editor.p5js.org/Lucilla/full/gqLZYp3y5)
 
 - ### Variazione 10PRINT con synth :point_right: [+](https://editor.p5js.org/Lucilla/full/QVE9gxFyz)
-> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina modificando il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo la lettera "c" si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con degli slider si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte.
+> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina modificando il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo una lettera si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con degli slider si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte.
 
 [![10PRINTSynth](https://user-images.githubusercontent.com/76476647/114365379-b894b180-9b7a-11eb-8a06-230e40c73e74.png "10PRINTSynth")](https://editor.p5js.org/Lucilla/full/QVE9gxFyz)
 
 - ### Una comunicazione incessante :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
-> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina attraverso delle parole di avvio e stop. Potrà anche modificare il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo la lettera "c" si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con un'interfaccia GUI si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte. Questo 10PRINT mostra la continua interazione uomo-macchina, una comunicazione incessante.
+> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina attraverso delle parole di avvio e stop. Potrà anche modificare il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo una lettera si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con un'interfaccia GUI si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte. Questo 10PRINT mostra la continua interazione uomo-macchina, una comunicazione incessante.
 
 [![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122673627-8e421e80-d1d1-11eb-9ccc-515ea7349587.jpg
  "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
