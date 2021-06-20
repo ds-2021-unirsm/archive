@@ -3,6 +3,11 @@
 
 -
 
+## Camminatore mondi
+![trittico mondi](https://user-images.githubusercontent.com/79698172/122668366-925d4480-d1af-11eb-9919-c2f6e2e147b1.png)
+
+-
+
 ## Earthquake
 ![Earthquake](https://user-images.githubusercontent.com/79698172/122668125-8a50d500-d1ae-11eb-8553-478737c511b1.png)
 
