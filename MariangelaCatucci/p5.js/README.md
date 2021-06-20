@@ -35,7 +35,7 @@
 
 ![pattern_cerchi](https://user-images.githubusercontent.com/28058955/122656036-8e9dd380-d157-11eb-9948-935233768530.PNG)
 
-9. *Raggi ingerazione con mouse* [💻](https://editor.p5js.org/MariangelaC/full/BL2YRI-jt)
+9. *Raggi interazione con mouse* [💻](https://editor.p5js.org/MariangelaC/full/BL2YRI-jt)
 
 ![4](https://user-images.githubusercontent.com/28058955/114742196-c6e5f780-9d4b-11eb-8e44-a96e28ee4a7d.PNG)
 
@@ -50,5 +50,3 @@
 12. *Variazione 10_PRINT_Maze* [💻](https://editor.p5js.org/MariangelaC/full/PuO53ULmP)
 
 ![1](https://user-images.githubusercontent.com/28058955/122656059-b725cd80-d157-11eb-85d3-0ca98d51878f.PNG)
-
-
