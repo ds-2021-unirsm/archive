@@ -1,4 +1,13 @@
- var t;
+ // -
+// Pennello punta rettangolare 0.1 by Alessia Valgimigli [walkers, noise]
+// 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+
+
+
+var t;
  var t2;
  var camminatori = [];
  var totaleCamminatori = 10
