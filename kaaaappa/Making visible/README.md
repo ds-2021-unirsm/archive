@@ -11,11 +11,23 @@ Comune denominatore di tutto è la nudità, lacondizione biologica naturale dell
 
 Per aumentare la consapevolezza sulla gamma di opere d’arte censurate da Instagram, l’artista Spencer Tunick, in collaborazione con la campagna "[Don't Delete](https://dontdelete.art/)" della National Coalition Against Censorship, ha capitanato una campagna di nude art action nel giugno 2019. 125 corpi nudi, armati di gigantografie di capezzoli genderless, hanno preso posizione per le strade di New York City contro la censura dell’arte sui social.
 
-![Nudi2](https://user-images.githubusercontent.com/60677625/122681872-b2fcbd00-d1f6-11eb-9026-b4c3c751f850.jpg)
+![Nudi2](https://user-images.githubusercontent.com/60677625/122681969-2d2d4180-d1f7-11eb-841a-6a56b8a5dd81.jpg)
 
 ## Progetto/Concept
 Nella prima fase di ricerca il concept si poneval’obiettivo di indagare su questioni quali il pudore e come questo muta in base al contesto culturale e sociale in cui ci troviamo a vivere. Successivamente ho ristretto il campo parlando di morale e di censura nel contesto del social Instagram. In seguito alle testimonianze e ai casi rinvenuti trovo che bandire dai social media tutte le immagini fotografiche del corpo nudo forzi un regime anacronistico che pone limiti all’espressione di artisti, i quali sono costretti ad autocensurarsi.
 
 ## Prototipi
-### DeepFool per foto
-[![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)](https://editor.p5js.org/kaappa/full/tlxHlf9u4)
+### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) [per la verisione senza BodyPix che rallenta il caricamento della foto](https://editor.p5js.org/kaappa/full/yoEy-JMX0)
+[![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)]
+![Foto02](https://user-images.githubusercontent.com/60677625/122682014-6665b180-d1f7-11eb-86c2-5ae9891d57bc.jpg)
+
+### - DeepFool per video_WebCam [+](https://editor.p5js.org/kaappa/full/M3Euzb-gV)
+![WebCam](https://user-images.githubusercontent.com/60677625/122682045-94e38c80-d1f7-11eb-9de3-192deb01c58f.jpg)
+
+### - DeepFool per video_Mobile [+](https://editor.p5js.org/kaappa/full/r20UfuKeB)
+![Mobile](https://user-images.githubusercontent.com/60677625/122682098-d2481a00-d1f7-11eb-973f-623bf73a2972.jpg)
+
+
+
+
+
