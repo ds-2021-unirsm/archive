@@ -1,5 +1,5 @@
 // -
-// Scontri sonori 0.1 by Alessia Valgimigli [walkers, sound]
+// Scontri sonori 0.2 by Alessia Valgimigli [walkers, sound]
 // 2021 © Alessia Valgimigli, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm — github.com/fupete
 // Educational purposes, MIT License, 2021, San Marino
@@ -7,7 +7,7 @@
 
 let camminatore = [];
 let position;
-let num = 10;
+let num = 20;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
