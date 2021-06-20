@@ -8,8 +8,6 @@ Posenet applicato a una scena di Shining, in questo esempio il gesti disegnano s
 ![foto_01](https://user-images.githubusercontent.com/76476654/118959763-ea135080-b962-11eb-8af9-653c497eae84.png)
 
 [Get the code!](https://editor.p5js.org/Gaia/full/uGemqMtXq)
-<br>
-*work in progress*
 
 <br>
 
@@ -23,8 +21,6 @@ Posenet applicato a una scena di Shining, in questo esempio sono state applicate
 ![foto_02](https://user-images.githubusercontent.com/76476654/118959811-f3042200-b962-11eb-9500-e8b50e99b4d7.png)
 
 [Get the code!](https://editor.p5js.org/Gaia/full/vvd0xNn-s)
-<br>
-*work in progress*
 
 <br>
 
