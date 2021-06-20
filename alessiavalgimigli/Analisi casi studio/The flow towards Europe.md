@@ -2,10 +2,8 @@
 
 ![Immagine 2021-03-11 084704](https://user-images.githubusercontent.com/79698172/110753535-fb472f00-8246-11eb-829f-87a67463cee6.png)
 
-https://www.lucify.com/the-flow-towards-europe/
-
 ### Che cos’è? 
-Il progetto si sviluppa all’interno di una pagina web dove vengono mostrate diverse data visualization relative ai flussi migratori di richiedenti asilo nei paesi europei. 
+Il progetto tratta il tema dei flussi migratori dei rifugiati in Europa e si sviluppa all’interno di una pagina web, dove è presente una mappa interattiva open source, attraverso la quale viene descritto visivamente il fenomeno. Di seguito, la tematica viene approfondita attraverso ulteriori data visualization, che analizzano il fenomeno da un punto di vista più quantitativo. 
 
 ### Come funziona?
 I dati vengono mostrati attraverso tre diverse visualizzazioni. 
@@ -17,12 +15,22 @@ La terza parte di questa visualizzazione dati invece sfrutta la metafora della g
 In seguito, vengono mostrati i campi da calcio che occuperebbero i cinque milioni di rifugiati siriani sparsi in Turchia, Libano, Giordania, Iraq, Egitto e Nord Africa. 
 
 ### Cosa significa?
-Il progetto vuole trasmettere la grandezza di una delle più importanti crisi di rifugiati che l’Europa abbia mai sperimentato dalla Seconda Guerra Mondiale.
+Il progetto vuole trasmettere la grandezza di una delle più importanti crisi di rifugiati che l’Europa abbia mai sperimentato dalla Seconda Guerra Mondiale e per farlo cerca di rappresentare ogni rifugiato come un singolo punto in movimento. Non visualizza semplicemente un insieme di persone, ma evidenzia anche ogni singolo, umanizzando i dati ed enfatizzando il loro significato. 
 
 ### What if?
-Sarebbe interessante poter vedere tutti i continenti in modo da avere una visione globale del fenomeno e non solamente a livello Europeo. 
+Cosa succederebbe se all’interno della pagina web, oltre alle diverse visualizzazioni di dati, ci fossero le testimonianze di chi quei dati li rappresenta? Oppure dei volontari che li hanno aiutati o delle strutture che li hanno accolti. Questo riuscirebbe ad innalzare maggiormente il valore di quei punti che si muovono all’interno dello spazio: non sarebbero più solo pallini che rappresentano persone, ma diventerebbero vere e proprie vite. Si riuscirebbe ad empatizzare con la visualizzazione e a creare una forte componente emozionale nella fruizione della pagina web.
 
 #### Reference
 https://www.lucify.com/the-flow-towards-europe/
+
 https://dublin.sciencegallery.com/trauma-exhibits/the-flow-towards-europe
+
+#### Progetti correlati
+- Melting Pot Project, Tekja, 2014 [+](https://tekja.com/portfolio/melting_pot_project/)
+![melting pot](https://user-images.githubusercontent.com/79698172/122680468-3e6e5200-d1e7-11eb-98c4-b8b1395395ed.png)
+Keywords: singolo individuo, visualizzazione d’insieme 
+
+- A Good Life for All, Federica Fragapane, 2018 [+](https://www.behance.net/gallery/73567253/A-Good-Life-for-All-Scientific-American)
+![a good time for all](https://user-images.githubusercontent.com/79698172/122680533-83928400-d1e7-11eb-9910-a313639d128b.png)
+Keywords: umanizzazione dei dati, organicità
 
