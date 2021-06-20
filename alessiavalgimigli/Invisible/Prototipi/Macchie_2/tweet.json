@@ -1,0 +1,370 @@
+{
+  "tweet": [
+    {
+      "statuses": [
+        {
+          "created_at": "Mon Jun 14 09:22:11 +0000 2021",
+          "id": 1404368562509299700,
+          "id_str": "1404368562509299719",
+          "text": "@Bluefidel47 @ancoranna Quella zoccola annasse a fa'bucchin in Africa mortacci sua e tutti sti accoglioni",
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+          }
+        }
+      ],
+      "search_metadata": {
+        "completed_in": 0.018,
+        "max_id": 1404368562509299700,
+        "max_id_str": "1404368562509299719",
+        "next_results": "?max_id=1404368562509299718&q=zoccola&count=1&include_entities=1",
+        "query": "zoccola",
+        "refresh_url": "?since_id=1404368562509299719&q=zoccola&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    {
+      "statuses": [
+        {
+          "created_at": "Mon Jun 14 09:12:24 +0000 2021",
+          "id": 1404366097961435100,
+          "id_str": "1404366097961435137",
+          "text": "@UpdateHLD che handicappato louis",
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+          }
+        }
+        ],
+        
+      "search_metadata": {
+        "completed_in": 0.026,
+        "max_id": 1404366097961435100,
+        "max_id_str": "1404366097961435137",
+        "next_results": "?max_id=1404366097961435136&q=handicappato&count=1&include_entities=1",
+        "query": "handicappato",
+        "refresh_url": "?since_id=1404366097961435137&q=handicappato&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    
+    {
+      "statuses": [
+        {
+          "created_at": "Sun Jun 13 16:17:53 +0000 2021",
+          "id": 1404110787166314500,
+          "id_str": "1404110787166314496",
+          "text": "@SamueleEsse @KimmichMerd4 Sisi assolutamente anche maggior bocchinaro del gioco del calcio",
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+          }
+        }
+        ],
+      "search_metadata": {
+        "completed_in": 0.034,
+        "max_id": 1404110787166314500,
+        "max_id_str": "1404110787166314496",
+        "next_results": "?max_id=1404110787166314495&q=bocchinaro&count=1&include_entities=1",
+        "query": "bocchinaro",
+        "refresh_url": "?since_id=1404110787166314496&q=bocchinaro&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    {
+      "statuses": [
+        {
+          "created_at": "Mon Jun 14 08:41:00 +0000 2021",
+          "id": 1404358195758481400,
+          "id_str": "1404358195758481411",
+          "text": "RT @PadroneLuca: Basta che commentiate il post e vi invio foto di frocio cesso, per farvi due risate e capire la fortuna a non essere come…",
+          "truncated": false,
+          "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+          }
+        }
+        ],
+      "search_metadata": {
+        "completed_in": 0.044,
+        "max_id": 1404358195758481400,
+        "max_id_str": "1404358195758481411",
+        "next_results": "?max_id=1404358195758481410&q=frocio&count=1&include_entities=1",
+        "query": "frocio",
+        "refresh_url": "?since_id=1404358195758481411&q=frocio&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    {
+      "statuses": [
+        {
+          "created_at": "Mon Jun 14 08:46:55 +0000 2021",
+          "id": 1404359686061703200,
+          "id_str": "1404359686061703169",
+          "text": "@LegaSalvini Voi della lega ladri e fiji di una gran mignotta avete solo rotto i belin \nARIDATECI I 49 MILIONI. Las… https://t.co/p5UDDTeWLw",
+          "truncated": true,
+          "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+          }
+        }
+        ],
+      "search_metadata": {
+        "completed_in": 0.016,
+        "max_id": 1404359686061703200,
+        "max_id_str": "1404359686061703169",
+        "next_results": "?max_id=1404359686061703168&q=mignotta&count=1&include_entities=1",
+        "query": "mignotta",
+        "refresh_url": "?since_id=1404359686061703169&q=mignotta&include_entities=1",
+        "count": 1,
+        "since_id": 0,
+        "since_id_str": "0"
+      }
+    },
+    {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 13:19:09 +0000 2021",
+               "id":1404790582023704580,
+               "id_str":"1404790582023704580",
+               "text":"Ma certo.\nVa ascoltato con grande attenzione, il fottuto storpio nazistoide. https:\/\/t.co\/TM7O8G0o3S",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.02,
+            "max_id":1404790582023704580,
+            "max_id_str":"1404790582023704580",
+            "next_results":"?max_id=1404790582023704579&q=storpio&count=1&include_entities=1",
+            "query":"storpio",
+            "refresh_url":"?since_id=1404790582023704580&q=storpio&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 15:48:53 +0000 2021",
+               "id":1404828263822901254,
+               "id_str":"1404828263822901254",
+               "text":"@TheLegion1012 @NewsProClub1 @NewsProclub @rumors_pro @ILOVEPROCLUB1 @RT_PROCLUB è un handicappato però ha le mani\nCONSIGLIATO",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.018,
+            "max_id":1404828263822901254,
+            "max_id_str":"1404828263822901254",
+            "next_results":"?max_id=1404828263822901253&q=handicappato&count=1&include_entities=1",
+            "query":"handicappato",
+            "refresh_url":"?since_id=1404828263822901254&q=handicappato&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 15:51:33 +0000 2021",
+               "id":1404828936719245317,
+               "id_str":"1404828936719245317",
+               "text":"@CalcioFinanza un uomo uno zingaro un buffone.",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.022,
+            "max_id":1404828936719245317,
+            "max_id_str":"1404828936719245317",
+            "next_results":"?max_id=1404828936719245316&q=zingaro&count=1&include_entities=1",
+            "query":"zingaro",
+            "refresh_url":"?since_id=1404828936719245317&q=zingaro&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+    {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 16:10:10 +0000 2021",
+               "id":1404833622008475648,
+               "id_str":"1404833622008475648",
+               "text":"@CORVL1NE @91CVROLINA @tomlnsfairy mignotta",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.016,
+            "max_id":1404833622008475648,
+            "max_id_str":"1404833622008475648",
+            "next_results":"?max_id=1404833622008475647&q=mignotta&count=1&include_entities=1",
+            "query":"mignotta",
+            "refresh_url":"?since_id=1404833622008475648&q=mignotta&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Wed Jun 16 06:57:34 +0000 2021",
+               "id":1405056941852930050,
+               "id_str":"1405056941852930050",
+               "text":"@franper81 @Luana_m89 @LucoLuca2 @CatiaMamone Deponi le armi, terrone ?",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.015,
+            "max_id":1405056941852930050,
+            "max_id_str":"1405056941852930050",
+            "next_results":"?max_id=1405056941852930049&q=terrone&count=1&include_entities=1",
+            "query":"terrone",
+            "refresh_url":"?since_id=1405056941852930050&q=terrone&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Wed Jun 16 06:25:12 +0000 2021",
+               "id":1405048796724273152,
+               "id_str":"1405048796724273152",
+               "text":"@serafinehogws tre settimane di rifornimento per poi fare la @ zoccola come si deve",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.016,
+            "max_id":1405048796724273152,
+            "max_id_str":"1405048796724273152",
+            "next_results":"?max_id=1405048796724273151&q=zoccola&count=1&include_entities=1",
+            "query":"zoccola",
+            "refresh_url":"?since_id=1405048796724273152&q=zoccola&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 21:30:32 +0000 2021",
+               "id":1404914244110454791,
+               "id_str":"1404914244110454791",
+               "text":"@pozzzzzzz boh ma sei spastico pozz",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.018,
+            "max_id":1404914244110454791,
+            "max_id_str":"1404914244110454791",
+            "next_results":"?max_id=1404914244110454790&q=spastico&count=1&include_entities=1",
+            "query":"spastico",
+            "refresh_url":"?since_id=1404914244110454791&q=spastico&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Wed Jun 16 06:49:40 +0000 2021",
+               "id":1405054953123725313,
+               "id_str":"1405054953123725313",
+               "text":"@_Carabinieri_ Su questo disgraziato impreparato pure ma handicappato de rosa Pietro ammazzare ora a basilicanova invivibile",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.018,
+            "max_id":1405054953123725313,
+            "max_id_str":"1405054953123725313",
+            "next_results":"?max_id=1405054953123725312&q=handicappato&count=1&include_entities=1",
+            "query":"handicappato",
+            "refresh_url":"?since_id=1405054953123725313&q=handicappato&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      },
+      {
+         "statuses":[
+            {
+               "created_at":"Tue Jun 15 22:11:34 +0000 2021",
+               "id":1404924572122632194,
+               "id_str":"1404924572122632194",
+               "text":"La mignotta cera una pezza sta sera cazzo",
+               "truncated":false,
+               "metadata":{
+                  "iso_language_code":"it",
+                  "result_type":"recent"
+               }
+            }
+           ],
+         "search_metadata":{
+            "completed_in":0.016,
+            "max_id":1404924572122632194,
+            "max_id_str":"1404924572122632194",
+            "next_results":"?max_id=1404924572122632193&q=mignotta&count=1&include_entities=1",
+            "query":"mignotta",
+            "refresh_url":"?since_id=1404924572122632194&q=mignotta&include_entities=1",
+            "count":1,
+            "since_id":0,
+            "since_id_str":"0"
+         }
+      }
+  ]
+}
