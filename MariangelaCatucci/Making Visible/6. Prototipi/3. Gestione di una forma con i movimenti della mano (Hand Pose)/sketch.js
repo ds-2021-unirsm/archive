@@ -6,9 +6,10 @@
 //
 // Credits to:
 // Handpose by E. Nickles, B.O. McClendon
-// @Ellen Nickles (ellennickles.site/)
+// @EllenNickles (ellennickles.site/)
 // @bxmani (https://twitter.com/bxmani)
 // for (https://github.com/tensorflow/tfjs-models/tree/master/handpose)
+// for (https://bomani.rip/ml5js)
 // original license: MIT License 2020
 //
 // Credits to:
