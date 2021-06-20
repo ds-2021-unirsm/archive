@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/63911437/122681353-1cc79780-d1f4-11eb-80d5-a954aaa14c73.png)
+
+
 ## The flow towards Europe, 2015, Lucify
 *cos’è?*
 >Sito interattivo che illustra il flusso di richiedenti 
@@ -22,7 +25,11 @@
 >una visualizzazione molto simile anche se parlassimo 
 >di trasporto di merci.
 	
-	
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+![image](https://user-images.githubusercontent.com/63911437/122681125-23a1da80-d1f3-11eb-9242-76aee0b190ce.png)
+
 ## Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen
 
 *cos’è?*
@@ -59,7 +66,10 @@
 >l’esperimento fosse stato posizionato come un’istallazione 
 >in un luogo prestabilito? se ne sarebbe capito comunque 
 >il significato oppure no?
-	
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+![image](https://user-images.githubusercontent.com/63911437/122681388-60220600-d1f4-11eb-9b57-4480c8df3c22.png)
 	
 ## Monument, 2006, Caleb Larsen
 	

@@ -80,3 +80,17 @@ Guarda nell'[editor](https://editor.p5js.org/lfaraci/full/qf4aqvpR7)
 
 
 
+## Prove interfaccia definitiva
+DA PROVARE!:)
+Guarda nell'[editor](https://editor.p5js.org/lfaraci/present/LWB2ygM2K)
+
+
+
+## Mockup plugin
+
+https://user-images.githubusercontent.com/63911437/122671882-f809fa80-d1c8-11eb-84d1-ca85c7c5efbe.mov
+
+Guarda nell'[editor](https://editor.p5js.org/lfaraci/present/hS7Pd5d5R)
+
+
+
