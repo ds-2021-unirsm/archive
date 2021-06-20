@@ -11,9 +11,9 @@
 [![Laser](https://user-images.githubusercontent.com/76476647/112503808-84a04a80-8d8b-11eb-9f64-a4432f07ef3c.jpg "Laser")](https://editor.p5js.org/Lucilla/full/HXl3ijnZo)
 
 - ### Variazione 10PRINT :point_right: [+](https://editor.p5js.org/Lucilla/full/mbTFJkmko)
-> 10 print che genera labirinti. I valori tonalità, saturazione e luminosità dipendono dal noise, come anche lo spessore dello stroke.
+> 10PRINT che genera labirinti. I valori tonalità, saturazione e luminosità dipendono dal noise, come anche lo spessore dello stroke.
 
-[![10Print](https://user-images.githubusercontent.com/76476647/112503773-7eaa6980-8d8b-11eb-9d09-dbb64431b527.png "10Print")](https://editor.p5js.org/Lucilla/full/mbTFJkmko)
+[![10PRINT](https://user-images.githubusercontent.com/76476647/112503773-7eaa6980-8d8b-11eb-9d09-dbb64431b527.png "10PRINT")](https://editor.p5js.org/Lucilla/full/mbTFJkmko)
 
 - ### Generatore casuale di parole :point_right: [+](https://editor.p5js.org/Lucilla/full/UyXqNXNLw)
 > Generatore casuale di parole che vengono lette tramite lo speech. Premendo la lettera "c" si può salvare la canvas e un click del mouse permette di ricaricarla.
@@ -55,10 +55,16 @@
 
 [![CamminatoriMondi](https://user-images.githubusercontent.com/76476647/114245668-36956480-9991-11eb-8c9e-8e89750cdc4c.png "CamminatoriMondi")](https://editor.p5js.org/Lucilla/full/gqLZYp3y5)
 
-- ### Variazione 10PRINT con synth :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
-> 10 print che genera un pattern visivo e sonoro. Cliccando con il mouse si attiva o disattiva l'audio. Premendo la lettera "c" si può salvare la canvas. La X e la Y del mouse fanno variare lo stroke e il color degli elementi.
+- ### Variazione 10PRINT con synth :point_right: [+](https://editor.p5js.org/Lucilla/full/QVE9gxFyz)
+> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina modificando il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo la lettera "c" si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con degli slider si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte.
 
-[![10PrintSynth](https://user-images.githubusercontent.com/76476647/114365379-b894b180-9b7a-11eb-8a06-230e40c73e74.png "10PrintSynth")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
+[![10PRINTSynth](https://user-images.githubusercontent.com/76476647/114365379-b894b180-9b7a-11eb-8a06-230e40c73e74.png "10PRINTSynth")](https://editor.p5js.org/Lucilla/full/QVE9gxFyz)
+
+- ### Una comunicazione incessante :point_right: [+](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
+> 10PRINT che genera un pattern visivo e sonoro. L'utete potrà intereagire con la macchina attraverso delle parole di avvio e stop. Potrà anche modificare il suo aspetto: cliccando con il mouse si attiva o disattiva l'audio, premendo la lettera "c" si può salvare la canvas, la X e la Y del mouse fanno variare lo stroke e il colore degli elementi e, infine, con un'interfaccia GUI si può modificare la velocità di stampa, la dimensione dei cerchi e la tonalità delle note prodotte. Questo 10PRINT mostra la continua interazione uomo-macchina, una comunicazione incessante.
+
+[![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122671676-220eed00-d1c8-11eb-88b4-2824919b41e2.jpg "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
+[![Unacomunicazioneincessante](https://user-images.githubusercontent.com/76476647/122671779-8b8efb80-d1c8-11eb-9932-837a91ee46d0.png "Unacomunicazioneincessante")](https://editor.p5js.org/Lucilla/full/-YHXxTK7l)
 
 - ### Pattern con modulo GUI :point_right: [+](https://editor.p5js.org/Lucilla/full/oxfcPGMaN)
 > Controlli con interfaccia GUI.
