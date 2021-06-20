@@ -23,7 +23,9 @@ Nella prima fase di ricerca il concept si poneval’obiettivo di indagare su que
 
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
 [verisione sketch senza BodyPix che rallenta il caricamento della foto](https://editor.p5js.org/kaappa/full/yoEy-JMX0)
-[![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)]
+
+![Foto01](https://user-images.githubusercontent.com/60677625/122681002-7fb82f00-d1f2-11eb-8bdf-86d81c9d27dd.jpg)
+
 ![Foto02](https://user-images.githubusercontent.com/60677625/122682014-6665b180-d1f7-11eb-86c2-5ae9891d57bc.jpg)
 
 ### - DeepFool per video_WebCam [+](https://editor.p5js.org/kaappa/full/M3Euzb-gV) e mobile [+](https://editor.p5js.org/kaappa/full/r20UfuKeB)
