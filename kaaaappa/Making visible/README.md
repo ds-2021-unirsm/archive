@@ -1,5 +1,3 @@
-![Alt Text](https://cdn.dribbble.com/users/2192409/screenshots/4362827/boobs.gif)
-
 # DeepFool
 DeepFool nasce a sostegno di chi lavora nell’ambito del nudo artistico il quale, ancora oggi, è costretto a limitare la propria espressione a causa delle linee guida di Instagram. Il progetto, associabile ad un software di photo editing, permette di individuare e mascherare le parti censurabili di una foto di nudo, con lo scopo di ingannare l’algoritmo di Instagram.
 
