@@ -72,19 +72,21 @@ function setup() {
   rectMode(CENTER);
   ellipseMode(CENTER);
 
-  divCentrale = createDiv("Pronuncia <b>inizia</b> per avviare / <b>fermati</b> per bloccare")
+  divCentrale = createDiv(
+    "Pronuncia <b>inizia</b> per avviare / <b>fermati</b> per bloccare"
+  )
+    .addClass("avviso")
     .style("width", "100%")
     .style("position", "absolute")
     .style("text-align", "center")
-  .style("animation", "shake 0.82s cubic-bezier(.36,.07,.19,.97) both")
+    .style("animation", "shake 0.82s cubic-bezier(.36,.07,.19,.97) both")
 
     .position(w / 2, h / 2);
 
   immagine = createImg("speak.png", "comunicazione")
     .addClass("img")
-    .style("width", "5%")
     .style("position", "absolute")
-    .position(w / 2, h / 1.7);
+    .position(w / 2, h / 1.6);
 
   // Crea un'oggetto Speech Recognition con una callback
   speechRec = new p5.SpeechRec("it-IT", gotSpeech);
@@ -162,7 +164,7 @@ function draw() {
   if (speech == "Inizia" || speech == "inizia") {
     divCentrale.remove();
     immagine.remove();
-    
+
     if (random(1) > 0.5) {
       strokeWeight(map(mouseY, 0, h, 0.5, 2));
       stroke(r, g, b);
