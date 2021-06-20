@@ -5,11 +5,18 @@
 //
 // —
 //
-// Credits: 
+// Credits to:
+// FaceApi by V. Mühler, J. Lee
+// @muehler.v (medium.com/@muehler.v)
+// @leejoeyk (twitter.com/leejoeyk)
+// for (https://github.com/justadudewhohacks)
+// for (https://github.com/joeyklee)
+// 
+// Credits to: 
 // @_stc (twitter.com/_stc) for https://github.com/stc/face-tracking-p5js
 // original license: MIT License 2018
 //
-// Thanks to:
+// Credits to:
 // @Guillaume_Slize (twitter.com/guillaume_slize) 
 // original license: MIT License 2019
 //
