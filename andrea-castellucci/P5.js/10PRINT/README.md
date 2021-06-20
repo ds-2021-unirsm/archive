@@ -20,4 +20,4 @@ https://editor.p5js.org/andrea-castellucci/full/BaRSNSlHm
 
 https://editor.p5js.org/andrea-castellucci/full/PCvfMsfWD
 
-![GenerativeHorizons](https://user-images.githubusercontent.com/75098849/122666301-ba977400-d1ac-11eb-948f-22512fb43427.jpg)
+![Generative-Horizons](https://user-images.githubusercontent.com/75098849/122666723-65109680-d1af-11eb-89ed-3a6c56ec6b86.jpg)
