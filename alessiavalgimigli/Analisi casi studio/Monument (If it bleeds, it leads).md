@@ -25,6 +25,7 @@ https://books.google.sm/books?id=UgREV9O8sNAC&pg=PA178&lpg=PA178&dq=Monument,+20
 
 ### Progetti correlati
 Take a bullet for the city, Luke Dubois, 2014 [+](https://www.lukedubois.com/projects-2/takeabullet)
+![bullet for the city](https://user-images.githubusercontent.com/79698172/122681660-5a74f200-d1ed-11eb-885c-b4240f689a6d.png)
 
 Keywords: sparo, numero di morti
 
