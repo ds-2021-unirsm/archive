@@ -8,7 +8,7 @@
                                   
 // -
 //
-// Synth 10PRINT by Lucilla Cesaroni [sound, mouseX, mouseY, click]
+// Synth 10PRINT 0.1 by Lucilla Cesaroni [sound, mouseX, mouseY, click]
 // 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
 // github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni 
 // Educational purposes, MIT License, 2021, San Marino
