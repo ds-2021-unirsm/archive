@@ -1,4 +1,4 @@
-**CAMMINATORE VARIAZIONE 2**
+**Camminatore con noise - seconda variazione**
 
 ![2](https://user-images.githubusercontent.com/28058955/114736089-16292980-9d46-11eb-8192-db312593b1a8.PNG)
 

@@ -1,3 +1,14 @@
+// Raggio e interazione mouse 0.1 by Mariangela Catucci [mouse, colors]
+// 2021 © Mariangela @MariangelaC, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+// —
+//
+// Help:
+// [mouse movement] variazione numero di raggi, spessore e colore
+//
+// —
+
 function setup() {
   createCanvas(w=windowWidth, h=windowHeight);
   t = 0;
