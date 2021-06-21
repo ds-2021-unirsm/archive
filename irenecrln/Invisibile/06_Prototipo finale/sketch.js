@@ -27,7 +27,8 @@ let img_coco,
   stanza1,
   stanza2,
   stanza3,
-  stanza4;
+  stanza4,
+    title;
 
 let coco_img, troppo_vecchia_img;
 let  vecchia_img =2;
@@ -80,7 +81,7 @@ var categorie = [
   {
     categoria: "fashion",
     oggetti: ["hat", "shoe", "suitcase", "tie", "handbag", "mirror"],
-    img: "img_categorie/moda.png",
+    img: "img_categorie/fashion.png",
     cit: "Coco Chanel",
   },
 
@@ -154,28 +155,33 @@ var categorie = [
       "dining table",
       "desk",
     ],
-    img: "img_categorie/mistery.png",
+    img: "img_categorie/mystery.png",
     cit: "Mystery",
   },
 ];
 
 //precarico i pittogrammi
 function preload() {
-  //img_coco = loadImage("images/stanza_assoluta.jpg");
-  stanza1 = loadImage("images/stanza_assoluta.jpg");
-  stanza2 = loadImage("images/desk_space.jpg");
-  stanza3 = loadImage("images/stanza3.jpg");
-  stanza4 = loadImage("images/desk_space2.jpg");
-
+  
+  //stanze
+  stanza1 = loadImage("images/desk_space1.jpg");
+  stanza2 = loadImage("images/desk_set2.jpg");
+  stanza3 = loadImage("images/desk_space3.jpg");
+  stanza4 = loadImage("images/desk_space4.jpg");
+  //pittogrammi
   travel_img = loadImage("img_categorie/travel.png");
   nature_img = loadImage("img_categorie/nature.png");
-  fashion_img = loadImage("img_categorie/moda.png");
+  fashion_img = loadImage("img_categorie/fashion.png");
   sports_img = loadImage("img_categorie/sport.png");
   food_img = loadImage("img_categorie/food.png");
   book_img = loadImage("img_categorie/book.png");
   electronic_img = loadImage("img_categorie/electronic.png");
-  mystery_img = loadImage("img_categorie/mistery.png");
+  mystery_img = loadImage("img_categorie/mystery.png");
   vuoto_img = loadImage("img_categorie/vuoto.png");
+  //font
+  title = loadFont('FontsFree-Net-Grobek-Bold.ttf');
+  
+  
 }
 
 ///////////////
@@ -197,7 +203,7 @@ let parametri = {
   line(20, 220, 620, 220);
   line(20, 420, 620, 420);
   line(20, 620, 620, 620);
-        textFont("Roboto", 22);
+        textFont(title, 28);
   text("Wunderkammer", 50, 650, 420, 440);
   },
 
@@ -230,7 +236,7 @@ function setup() {
   line(20, 220, 620, 220);
   line(20, 420, 620, 420);
   line(20, 620, 620, 620);
-      textFont("Roboto", 22);
+      textFont(title, 28);
   text("Wunderkammer", 50, 650, 420, 440);
 
 
@@ -243,7 +249,9 @@ function setup() {
 }
 
 
-
+/////////////////////////////////
+//////////////////////// DRAW///
+///////////////////////////////
 
 function draw(){
 
@@ -266,7 +274,15 @@ function refresh_immagine() {
     pronto();
   }
   else if (parametri.foto == "room2") {
+  coco_img = stanza2;
+    pronto();
+  }
+  else if (parametri.foto == "room3") {
   coco_img = stanza3;
+    pronto();
+  }
+  else if (parametri.foto == "room4") {
+  coco_img = stanza4;
     pronto();
   }
 }
@@ -319,7 +335,7 @@ function cerca(parole) {
 
       case "nature":
         loadImage(categorie[1].img, (img) => {
-          image(img, 220, 20, 200, 200);
+          image(img, 220, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -327,7 +343,7 @@ function cerca(parole) {
 
       case "fashion":
         loadImage(categorie[2].img, (img) => {
-          image(img, 420, 20, 200, 200);
+          image(img, 20, 420, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -335,7 +351,7 @@ function cerca(parole) {
 
       case "sports":
         loadImage(categorie[3].img, (img) => {
-          image(img, 20, 220, 200, 200);
+          image(img, 420, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -343,7 +359,7 @@ function cerca(parole) {
 
       case "food":
         loadImage(categorie[4].img, (img) => {
-          image(img, 220, 220, 200, 200);
+          image(img, 220, 420, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -351,7 +367,7 @@ function cerca(parole) {
 
       case "book":
         loadImage(categorie[5].img, (img) => {
-          image(img, 420, 220, 200, 200);
+          image(img, 20, 220, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -359,7 +375,7 @@ function cerca(parole) {
 
       case "electronic":
         loadImage(categorie[6].img, (img) => {
-          image(img, 20, 420, 200, 200);
+          image(img, 220, 20, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -367,7 +383,7 @@ function cerca(parole) {
 
       case "mystery":
         loadImage(categorie[7].img, (img) => {
-          image(img, 220, 420, 200, 200);
+          image(img, 420, 20, 200, 200);
         });
         categorie_trovate.push(categoria.categoria);
         cit_trovate.push(categoria.cit);
@@ -391,31 +407,31 @@ function cerca(parole) {
   }
   if (categorie_trovate.includes("nature")) {
   } else {
-    image(vuoto_img, 220, 20, 200, 200);
+    image(vuoto_img, 220, 220, 200, 200);
   }
   if (categorie_trovate.includes("fashion")) {
   } else {
-    image(vuoto_img, 420, 20, 200, 200);
+    image(vuoto_img, 20, 420, 200, 200);
   }
   if (categorie_trovate.includes("sports")) {
   } else {
-    image(vuoto_img, 20, 220, 200, 200);
+    image(vuoto_img, 420, 220, 200, 200);
   }
   if (categorie_trovate.includes("food")) {
   } else {
-    image(vuoto_img, 220, 220, 200, 200);
+    image(vuoto_img, 220, 420, 200, 200);
   }
   if (categorie_trovate.includes("book")) {
   } else {
-    image(vuoto_img, 420, 220, 200, 200);
+    image(vuoto_img, 20, 220, 200, 200);
   }
   if (categorie_trovate.includes("electronic")) {
   } else {
-    image(vuoto_img, 20, 420, 200, 200);
+    image(vuoto_img, 220, 20, 200, 200);
   }
   if (categorie_trovate.includes("mystery")) {
   } else {
-    image(vuoto_img, 220, 420, 200, 200);
+    image(vuoto_img, 420, 20, 200, 200);
   }
   
 
@@ -682,7 +698,7 @@ function mashup() {
   markov.addText(cit_per_mashup[0]);
   markov.addText(cit_per_mashup[1]);
   lines = markov.generate(2); //n di linee
-  textFont("Roboto", 18);
+  textFont('Poppins', 18);
    text(lines.join(" "), x, y, 420, 440);
   console.log(lines + "sono MASHUP");
   lines = [""];
@@ -690,4 +706,11 @@ function mashup() {
 parole.length=0;
                 categorie_trovate.length=0;
  
+}
+
+function keyPressed(){
+  if(key == 's'){
+    save('poster_Wunderkammer.png');
+  }
+  
 }

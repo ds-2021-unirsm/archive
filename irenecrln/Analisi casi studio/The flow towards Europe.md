@@ -1,6 +1,8 @@
 ✹ The flow towards Europe, 2015, Lucify ✹
 ---
 
+![68747470733a2f2f6173736574732e627762782e696f2f696d616765732f75736572732f69716a5748424664667849552f69764a4f6d49396c68566c6f2f76302f31383030782d312e706e67](https://user-images.githubusercontent.com/79697764/122692636-9bddbf80-d236-11eb-947e-0286bb7466a3.jpg)
+
 ## Cos'è
 The flow towards Europe è una data visualization realizzata dall’agenzia finlandese *Lucify* nel 2015 che, basandosi sui dati relativi ai richiedenti 
 asilo politico nei paesi europei, vuole mostrare gli spostamenti dei rifugiati dall’inizio del 2012 al 2018.
