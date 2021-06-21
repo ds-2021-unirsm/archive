@@ -25,7 +25,7 @@
 // —
 //
 // Help:
-// [c] saveCanvas
+// [keypressed] saveCanvas
 // [mouse] refresh
 //
 // —

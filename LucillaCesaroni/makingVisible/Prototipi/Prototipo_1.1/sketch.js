@@ -8,7 +8,7 @@
 
 // -
 //
-// Metamorfosi 0.1 by Lucilla Cesaroni [translations, images, words]
+// Metamorfosi 0.1.1 by Lucilla Cesaroni [translations, gif, words]
 // 2021 Lucilla @LucillaCesaroni, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm
 // github.com/ds-2021-unirsm - github.com/fupete - github.com/LucillaCesaroni
 // Educational purposes, MIT License, 2021, San Marino
@@ -30,8 +30,8 @@
 // https://dandelion.eu
 // original license: v.2 - 02/Sep/2013
 //
-// Photos from Unsplash for
-// https://unsplash.com
+// Gif from GIPHY for
+// https://support.giphy.com/hc/en-us
 //
 // —
 //
@@ -49,10 +49,6 @@ let w, h;
 let lang = "it";
 let token = "436c5baef9e54af1a0de6a370e4ade38";
 //  let token = "36f142c6e1824fabad5c1a76670c69c8";
-
-// Immagini
-let immagini = []; // array immagini da visualizzare
-var imgsResolution = "640x480"; // risoluzione immagini
 
 // Speech Object
 let speechRec;
@@ -72,6 +68,14 @@ let variabile;
 let contatoreEntita = 0;
 
 let myFont, myFont2;
+
+let entita = [];
+
+// Per le gif
+let gif;
+let xGif = [];
+let yGif = [];
+let contatoreGif = 0;
 
 function preload() {
   // Fonts per il testo
@@ -124,7 +128,8 @@ function setup() {
     recordingAvviato = false;
     racconto = "";
     raccontoSplittato = [];
-    immagini = [];
+    entita = [];
+    $(".gif").remove();
     //$("#registrazione").html(""); // Pulisci la frase sopra
   });
 }
@@ -192,14 +197,14 @@ function analisi(racconto) {
   let url =
     "https://api.dandelion.eu/datatxt/nex/v1/?lang=" +
     lang +
-    "&min_confidence=0.2&text=" +
+    "&min_confidence=0&text=" +
     racconto +
     "&token=" +
     token;
   loadJSON(url, visualizzaRisposta); // Callback visualizzaRisposta
 }
 
-// Immagini da unsplash
+// Immagini da Giphy
 function visualizzaRisposta(risposta) {
   console.log(
     "Risposta con il JSON con le entità: " + JSON.stringify(risposta)
@@ -215,61 +220,28 @@ function visualizzaRisposta(risposta) {
 
   variabile = risposta;
 
-  var i = risposta.annotations[contatoreEntita]; // chiamo visualizzarisposta e passo la singola risposta
-
-  var str = i.spot; // Salvo l'entità in una variabile locale
-  // Con spot pesco l'entità
-
-  var string = str.toLowerCase(); // Metto in minuscolo
-
-  //console.log("HEY:" + string);
-  // Carico l'immagine
-  loadImage(
-    "https://source.unsplash.com/" +
-      imgsResolution +
-      "/?" +
-      string +
-      "&" +
-      random(200),
-    salvaimmagine
-  );
-
-  contatoreEntita += 1; // Incremento il contatore delle entità
-}
-
-function salvaimmagine(img) {
-  immagini.push(img);
-  console.log("Contatore entità: " + contatoreEntita);
-  console.log("Contatore immagini: " + immagini.length);
-
-  if (contatoreEntita == variabile.annotations.length) {
-    console.log("Ho caricato tutte le foto");
-
-    contatoreEntita = 0;
-
-    scriviFraseTradotta(variabile); // mando la funzione che mi disegna e scrive il testo della frase pronunciata
-  } else {
-    visualizzaRisposta(variabile);
-  }
+  scriviFraseTradotta(variabile);
 }
 
 function scriviFraseTradotta(variabile) {
+  //console.log("giphy: " + JSON.stringify(giphy));
+
   // Nella variabile c'è il json con le entità
-  let entita = [];
+  let id_currentImage = 0;
 
   for (let conta = 0; conta < variabile.annotations.length; conta++) {
     entita.push(variabile.annotations[conta].spot); // Pusho dentro le entita
     console.log("entita " + conta + ": " + variabile.annotations[conta].spot);
   }
 
-  console.log("numero img:" + immagini.length);
+  console.log("QUALI SONO LE ENTITA " + JSON.stringify(entita));
   console.log("numero entita:" + entita.length);
 
   // Colore per il testo
   fill(sentimentColor, 100, 100);
 
   let x = 40;
-  let y = 40;
+  let y = 90;
 
   // Altezza e Larghezza delle img
   let hImg = 100;
@@ -283,12 +255,10 @@ function scriviFraseTradotta(variabile) {
 
   let spazio = textWidth(" "); // Larghezza spazio
 
-  let id_currentImage = 0;
-
   for (let f = 0; f < raccontoSplittato.length; f++) {
     // Vado a capo ogni 9 parole
     if (f % 9 == 0 && f != 0) {
-      y += 120;
+      y += 170;
       x = 40;
     }
 
@@ -299,21 +269,43 @@ function scriviFraseTradotta(variabile) {
           ": " +
           JSON.stringify(entita[id_currentImage])
       );
-      image(immagini[id_currentImage], x, y, wImg, hImg);
-      id_currentImage += 1;
 
       text(
         raccontoSplittato[f],
         x + wImg / 2 - textWidth(raccontoSplittato[f]) / 2,
-        y + 50
+        y - 15
       );
+
+      let string = entita[id_currentImage];
+      // Carico l'immagine
+      loadJSON(
+        "https://api.giphy.com/v1/gifs/search?&api_key=4Z4p9bNrbjlUhJIKVLK3YKGssOWPLi23&q=" +
+          string.replace(" ", ""),
+        gotGiphy
+      );
+
+      xGif.push(x); //salvo la x attuale
+      yGif.push(y); //salvo la y attyale
+
+      //console.log("ECCOMI: " + JSON.stringify(giphy));
+      id_currentImage += 1;
 
       x += wImg + spazio;
     } else {
-      text(raccontoSplittato[f], x, y + 50);
+      text(raccontoSplittato[f], x, y + 70);
       x += larghezza[f] + spazio;
     }
   }
+}
+
+function gotGiphy(giphy) {
+  gif = createImg(giphy.data[0].images.original.url, "");
+  gif.addClass("gif");
+
+  gif.position(xGif[contatoreGif], yGif[contatoreGif] + 235);
+  gif.size(150, 100);
+  contatoreGif += 1;
+  console.log("sono gotgiphy");
 }
 
 // Premi "s", screen
