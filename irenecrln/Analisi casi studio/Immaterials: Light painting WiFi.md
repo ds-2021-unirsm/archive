@@ -1,5 +1,7 @@
 ✹ Immaterials: Light painting WiFi, 2012, Timo Arnall, Jørn Knutsen and Einar Sneve Martinussen ✹
 ---
+![68747470733a2f2f6661726d362e7374617469632e666c69636b722e636f6d2f353039312f353438303036303036305f363062656562636438665f7a2e6a7067](https://user-images.githubusercontent.com/79697764/122692480-992e9a80-d235-11eb-973d-856e86dd38cb.jpg)
+
 ## Cos'è
 Immaterials è un lavoro di dataviz realizzato da *Timo Arnall , Jørn Knutsen e Einar Sneve Martinussen* nel 2012, ad Oslo. Lo strumento da loro utilizzato consiste in un'asta, alta 4 m. con 80 led, che funge da metro ma che trova la sua forma espressiva nella fotografia che viene utilizzata per visualizzare e disegnare la topografia delle reti wifi.
 
@@ -12,3 +14,6 @@ La mia mente, ormai deviata dalle teorie gibsoniane, ha interpretato questo lavo
 
 ## What if..
 Un elemento che potrebbe dare un ulteriore valore aggiunto a questa visualizzazione sarebbe la possibilità di vedere il numero di trasmettitori e, per comunicare la visibilità di questi, creare una scala di colori in cui ogni gradiente sta ad indicare il numero dei router registrati dall’antenna.
+
+
+
