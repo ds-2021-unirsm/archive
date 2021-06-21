@@ -1,17 +1,33 @@
-// Inspired by Generative Design
+// Esplosione di punti 0.1 by Mariangela Catucci [explosion, punti, color, change shape]
+// 2021 © Mariangela @MariangelaCatucci, Daniele @Fupete and the course DS-2021 at DESIGN.unirsm 
+// github.com/ds-2021-unirsm — github.com/fupete
+// Educational purposes, MIT License, 2021, San Marino
+//
+// —
+//
+// Credits/Thanks to: 
+// Benedikt Groß, Hartmut Bohnacker, Julia Laub, Claudius Lazzeroni
+// with contributions by Joey Lee and Niels Poldervaart for 
+// (http://www.generative-gestaltung.de)
+// original license: Apache License, Version 2.0, 2018
+//
+// —
+//
+// Help:
+// [keyPressed = s] salva immagine
+// [keyPressed = r] pulisce la canvas
+//
+// —
 
 var sketch = function(p) {
-
-  // An array with nodes
+  // Array con nodes
   var nodes = [];
-
   var nodeCount = 200;
 
   p.setup = function() {
     p.createCanvas(p.windowWidth, p.windowHeight);
     p.noStroke();
-
-    // Create nodes
+    // Crea la funzione Nodes()
     createNodes();
   };
   
@@ -26,14 +42,11 @@ var sketch = function(p) {
 
     p.fill(r, g, b);
     for (var i = 0; i < nodes.length; i++) {
-      // Let all nodes repel each other
       nodes[i].attractNodes(nodes);
-      // Apply velocity vector and update position
+      // Applica velocità
       nodes[i].update();
-      // Draw node
       p.ellipse(nodes[i].x, nodes[i].y, p.random(1, 20), p.random(1 ,20));
-    }
-    
+    }   
     t = t + 0.5;
   };
 
@@ -58,7 +71,6 @@ var sketch = function(p) {
       ));
     }
   }
-
 };
 
 var myp5 = new p5(sketch);
