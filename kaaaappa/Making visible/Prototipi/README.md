@@ -1,6 +1,7 @@
 ## Prototipi
 - PoseNet [+](https://learn.ml5js.org/#/reference/posenet)
 - BodyPix [+](https://learn.ml5js.org/#/reference/bodypix)
+- SoundClassifier [+](https://learn.ml5js.org/#/reference/sound-classifier)
 - Interfaccia GUI
 
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
