@@ -12,10 +12,18 @@ Il progetto punta ad esplorare diversi modi per far ridere i designer[1] che lav
 
 ## Prototipi 
 
-### GRAFICA GENERATIVA _ Risata [+](https://editor.p5js.org/lucrezia1234/full/CUx5fAWST)
+## PROTOTIPI
 
-![P3](https://user-images.githubusercontent.com/79698027/122650844-59808980-d135-11eb-8212-86c50ea2712e.JPG)
+### Cambio Cursore [+](https://editor.p5js.org/lucrezia1234/sketches/sIW0oY2mT)
 
-### DISTORSIONE VOCALE [+](https://editor.p5js.org/lucrezia1234/sketches/_Tmim0KnK)
+### Distorsore Vocale [+](https://editor.p5js.org/lucrezia1234/sketches/_I-P8XQeo)
 
-![suono](https://user-images.githubusercontent.com/79698027/118972124-7c6e2100-b970-11eb-9b25-80271d128b66.JPG)
+![Cattura 2](https://user-images.githubusercontent.com/79698027/132414306-82309422-cf99-436a-8054-efbfd4fd141b.JPG)
+
+### Filtro facciale [+](https://editor.p5js.org/lucrezia1234/sketches/qjBGNLpyM)
+
+![P3](https://user-images.githubusercontent.com/79698027/122657806-06272f00-d167-11eb-8b12-d9f69d128c76.JPG)
+
+### Inseguimento Cursore [+](https://editor.p5js.org/lucrezia1234/sketches/OFtba-8tv)
+
+![P3](https://user-images.githubusercontent.com/79698027/132418741-28b35c4f-37d1-45ec-b7ce-cac8ea34b032.JPG)
