@@ -6,7 +6,7 @@
 
 ### - DeepFool_ Voice Control [+](https://editor.p5js.org/kaappa/full/ay-e1mflZ) 
 Controllo vocale degli effetti e dello scatto
-![Uploading Immagine.png…]()
+![Immagine](https://user-images.githubusercontent.com/60677625/132384226-220b0f6a-e044-46d8-89c5-c6c8ea65eb09.png)
 
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
 Versione veloce senza BodyPix [+](https://editor.p5js.org/kaappa/full/yoEy-JMX0)
