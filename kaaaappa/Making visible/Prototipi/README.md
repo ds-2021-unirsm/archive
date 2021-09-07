@@ -5,6 +5,8 @@
 - Interfaccia GUI
 
 ### - DeepFool_ Voice Control [+](https://editor.p5js.org/kaappa/full/ay-e1mflZ) 
+
+Se non apre provare qui [+](https://editor.p5js.org/kaappa/sketches/ay-e1mflZ)
 Controllo vocale degli effetti e dello scatto
 
 ![Immagine](https://user-images.githubusercontent.com/60677625/132384226-220b0f6a-e044-46d8-89c5-c6c8ea65eb09.png)
