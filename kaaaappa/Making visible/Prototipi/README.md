@@ -4,7 +4,9 @@
 - SoundClassifier [+](https://learn.ml5js.org/#/reference/sound-classifier)
 - Interfaccia GUI
 
-# Aggiornamento ### - DeepFool_ Voice Control [+](https://editor.p5js.org/kaappa/full/ay-e1mflZ) 
+### - DeepFool_ Voice Control [+](https://editor.p5js.org/kaappa/full/ay-e1mflZ) 
+Controllo vocale degli effetti e dello scatto
+![Uploading Immagine.png…]()
 
 ### - DeepFool per foto [+](https://editor.p5js.org/kaappa/full/tlxHlf9u4) 
 Versione veloce senza BodyPix [+](https://editor.p5js.org/kaappa/full/yoEy-JMX0)
